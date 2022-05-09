@@ -28,7 +28,7 @@ title: SixSq | Welcome page
             </div>
         </div>
     </div>
-    <div class="container bg-primary section section-straddle" style="background: url(&quot;assets/img/bg-wave.png&quot;) right / cover no-repeat;">
+    <div class="container bg-primary section section-straddle" style="background: url(&quot;/assets/img/bg-wave.png&quot;) right / cover no-repeat;">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="text-light">The power of Edge</h2>
