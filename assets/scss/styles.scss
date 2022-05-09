@@ -287,7 +287,7 @@ form {
 }
 
 .btn.btn-link:after {
-  content: url("/assets/img/icon-cta-arrow.svg");
+  content: url("../../assets/img/icon-cta-arrow.svg");
   padding-left: 8px;
   transition: all 100ms linear, color 100ms linear, border 100ms linear !important;
 }
@@ -388,7 +388,7 @@ img.logo {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("/assets/img/icon-menu-toggle.svg");
+  background-image: url("../../assets/img/icon-menu-toggle.svg");
 }
 
 input[type="search"] {
@@ -463,7 +463,7 @@ header.header-active {
 
 .footer-cta {
   padding: 5rem 0;
-  background-image: url("/assets/img/bg-wave-2.png");
+  background-image: url("../../assets/img/bg-wave-2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -633,11 +633,11 @@ footer {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("/assets/img/icon-prev.svg");
+  background-image: url("../../assets/img/icon-prev.svg");
 }
 
 .carousel-control-next-icon {
-  background-image: url("/assets/img/icon-next.svg");
+  background-image: url("../../assets/img/icon-next.svg");
 }
 
 .testimonial-author {
