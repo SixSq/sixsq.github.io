@@ -319,7 +319,8 @@ header input[type="search"] {
   right: 100px;
   margin: 0;
   position: absolute;
-  background-color: transparent; }
+  background-color: transparent;
+  width: 180px; }
 
 @media (max-width: 991px) {
   header input[type="search"] {
@@ -357,6 +358,9 @@ header #results-container {
 
 #results-container li a:hover {
   color: rgba(0, 1, 5, 0.6); }
+
+#results-container ul:empty {
+  display: none; }
 
 @media (max-width: 991px) {
   .navbar-collapse {

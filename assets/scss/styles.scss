@@ -458,6 +458,7 @@ header input[type="search"] {
   margin: 0;
   position: absolute;
   background-color: transparent;
+  width: 180px;
 }
 
 @media (max-width: 991px) {
@@ -502,6 +503,9 @@ header #results-container {
 }
 #results-container li a:hover{
     color: $black-60;
+}
+#results-container ul:empty {
+  display: none;
 }
 
 @media (max-width: 991px) {
