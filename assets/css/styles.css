@@ -274,7 +274,8 @@ input[type="search"] {
   background-image: url("../../assets/img/icon-search.svg");
   background-repeat: no-repeat;
   background-position: center right;
-  border: none; }
+  border: none;
+  padding-right: 1.6rem; }
 
 header .btn {
   position: absolute;
