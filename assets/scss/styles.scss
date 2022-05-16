@@ -473,19 +473,22 @@ header #results-container {
    position: absolute;
    right: 101px;
    width: 178px;
-   padding: .8rem 1rem .8em 1.7rem;
    top: 4rem;
-   background-color: #fff;
-   box-shadow: 0 0 1rem $black-10 !important;
+
 }
 @media (max-width:991px) {
 header #results-container {
    position: relative;
    right: auto;
    width: 100%;
-   padding: .8rem 1rem .8em 1.7rem;
    top: 10px;
 }
+}
+#results-container ul{
+  padding: 0.8rem 1rem 0.8em 1.7rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  box-shadow: 0 0 1rem $black-10;
 }
 #results-container li{
     list-style: square;
