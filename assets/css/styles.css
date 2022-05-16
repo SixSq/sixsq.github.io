@@ -219,7 +219,7 @@ form {
   color: #ed2b2b; }
 
 .btn.btn-link:after {
-  content: url("icon-cta-arrow.svg");
+  content: url("../../assets/img/icon-cta-arrow.svg");
   padding-left: 8px;
   transition: all 100ms linear, color 100ms linear, border 100ms linear !important; }
 
@@ -295,10 +295,10 @@ img.logo {
   border: none; }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("icon-menu-toggle.svg"); }
+  background-image: url("../../assets/img/icon-menu-toggle.svg"); }
 
 input[type="search"] {
-  background-image: url("icon-search.svg");
+  background-image: url("../../assets/img/icon-search.svg");
   background-repeat: no-repeat;
   background-position: center right;
   border: none;
@@ -377,7 +377,7 @@ header.header-active {
     padding: 3rem 1.5rem !important; } }
 .footer-cta {
   padding: 5rem 0;
-  background-image: url("bg-wave-2.png");
+  background-image: url("../../assets/img/bg-wave-2.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -494,10 +494,10 @@ footer {
   margin-right: -10px; }
 
 .carousel-control-prev-icon {
-  background-image: url("icon-prev.svg"); }
+  background-image: url("../../assets/img/icon-prev.svg"); }
 
 .carousel-control-next-icon {
-  background-image: url("icon-next.svg"); }
+  background-image: url("../../assets/img/icon-next.svg"); }
 
 .testimonial-author {
   font-size: 1.2rem;
