@@ -3,19 +3,19 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FF1E1E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#ED2B2B;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
-		<path class="st0" d="M14.9,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7h0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l5.3-10.8"/>
-		<path class="st0" d="M26.3,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7h0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l3.2-10.8"/>
-		<path class="st0" d="M37.7,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7h0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l0.9-10.8"/>
-		<path class="st0" d="M49.1,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7h0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l-0.9-10.8"/>
-		<path class="st0" d="M45.9,13.9l3.2,10.8v1.4c0,3.1,2.5,5.7,5.7,5.7h0c3.1,0,5.7-2.5,5.7-5.7v-1.4l-5.3-10.8"/>
+		<path class="st0" d="M14.9,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7l0,0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l5.3-10.8"/>
+		<path class="st0" d="M26.3,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7l0,0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l3.2-10.8"/>
+		<path class="st0" d="M37.7,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7l0,0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l0.9-10.8"/>
+		<path class="st0" d="M49.1,24.7v1.4c0,3.1-2.5,5.7-5.7,5.7l0,0c-3.1,0-5.7-2.5-5.7-5.7v-1.4l-0.9-10.8"/>
+		<path class="st0" d="M45.9,13.9l3.2,10.8v1.4c0,3.1,2.5,5.7,5.7,5.7l0,0c3.1,0,5.7-2.5,5.7-5.7v-1.4l-5.3-10.8"/>
 	</g>
 	<path class="st0" d="M53.3,7.3H10.7c-1,0-1.9,0.8-1.9,1.9v4.7h46.3V9.1C55.2,8.1,54.3,7.3,53.3,7.3z"/>
 	<g>
-		<path class="st0" d="M55.3,31.8v24.4c0,0.3-0.2,0.5-0.5,0.5L9.1,56.7c-0.3,0-0.5-0.2-0.5-0.5V31.8"/>
+		<path class="st0" d="M55.3,31.8v24.4c0,0.3-0.2,0.5-0.5,0.5l-45.7,0c-0.3,0-0.5-0.2-0.5-0.5V31.8"/>
 		<rect x="13.3" y="37.9" class="st0" width="24.4" height="14.2"/>
 		<polyline class="st0" points="51,56.7 51,37.9 41.3,37.9 41.3,56.7 		"/>
 		<circle class="st0" cx="44.7" cy="46.3" r="1.2"/>

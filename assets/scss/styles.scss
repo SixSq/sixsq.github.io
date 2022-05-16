@@ -1,6 +1,6 @@
 /* variables start */
 
-$red-100: rgba(255,30,30,1);
+$red-100: rgba(237,43,43,1);
 
 $red-dark: rgba(207,15,19,1);
 
@@ -170,6 +170,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .8rem;
 }
 
+.title-seperation{
+  padding-top: 3rem;
+  margin-top: 4rem;
+  border-top: 2px solid $red-100;
+}
 .h3, h3 {
   font-size: calc(1rem + .4vw) !important;
 }
@@ -193,6 +198,8 @@ input, .form-control {
   padding: 0.4rem 0.8rem;
   margin: 8px 16px;
 }
+
+
 
 .input-group-submit .input-group-text {
   background-color: transparent;
@@ -223,11 +230,34 @@ form h2, form h3 {
 }
 
 form {
-  padding: 2rem 2rem;
+  padding: 2rem;
 }
+
 
 .btn[type="submit"] {
   margin: 16px 16px;
+}
+
+@media (max-width: 767px){
+  input, .form-control,
+  .input-group>.form-control, {
+      padding: 0.4rem 0.8rem;
+      margin: 10px 0 !important;
+      width: 100%;
+  }
+  form .input-group{
+display: block;
+  }
+  form h2, form h3 {
+    font-size: 1.4rem;
+    margin: 12px 0px 16px 0px;
+}
+.btn[type=submit] {
+    margin: 16px 0;
+}
+.input-group-text {
+    padding: 0.375rem 0;
+}
 }
 
 @media (max-width: 575px) {
@@ -287,7 +317,7 @@ form {
 }
 
 .btn.btn-link:after {
-  content: url("../../assets/img/icon-cta-arrow.svg");
+  content: url("icon-cta-arrow.svg");
   padding-left: 8px;
   transition: all 100ms linear, color 100ms linear, border 100ms linear !important;
 }
@@ -321,6 +351,20 @@ form {
 
 .logo-wrapper {
   margin: 30px 0;
+  text-align: center;
+}
+
+.logo-wrapper img {
+  width: 180px;
+  margin: 5px;
+  border: 1px solid $black-10;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+.logo-wrapper img {
+  width: 45%;
+  margin: 2.5%;
+}
 }
 
 /* General rules end */
@@ -332,15 +376,10 @@ img.logo {
   margin-right: 40px;
 }
 
-.logo-wrapper img {
-  width: 100%;
-  border: 1px solid $black-10;
-  background-color: #fff;
-}
 
-.logo-wrapper > div {
-  padding: 8px;
-}
+
+
+
 
 @media (max-width: 767px) {
   img.logo {
@@ -388,11 +427,11 @@ img.logo {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("../../assets/img/icon-menu-toggle.svg");
+  background-image: url("icon-menu-toggle.svg");
 }
 
 input[type="search"] {
-  background-image: url("../../assets/img/icon-search.svg");
+  background-image: url("icon-search.svg");
   background-repeat: no-repeat;
   background-position: center right;
   border: none;
@@ -415,7 +454,7 @@ header .btn {
 }
 
 header input[type="search"] {
-  right: 120px;
+  right: 100px;
   margin: 0;
   position: absolute;
   background-color: transparent;
@@ -428,6 +467,38 @@ header input[type="search"] {
     border: 1px solid $black-15;
     width: 100%;
   }
+}
+
+header #results-container {
+   position: absolute;
+   right: 101px;
+   width: 178px;
+   padding: .8rem 1rem .8em 1.7rem;
+   top: 4rem;
+   background-color: #fff;
+   box-shadow: 0 0 1rem $black-10 !important;
+}
+@media (max-width:991px) {
+header #results-container {
+   position: relative;
+   right: auto;
+   width: 100%;
+   padding: .8rem 1rem .8em 1.7rem;
+   top: 10px;
+}
+}
+#results-container li{
+    list-style: square;
+    line-height: 1rem;
+    font-size: .7rem;
+    padding: 0.1rem 0;
+    color: $red-100;
+}
+#results-container li a{
+    color: $black-100;
+}
+#results-container li a:hover{
+    color: $black-60;
 }
 
 @media (max-width: 991px) {
@@ -464,7 +535,7 @@ header.header-active {
 
 .footer-cta {
   padding: 5rem 0;
-  background-image: url("../../assets/img/bg-wave-2.png");
+  background-image: url("bg-wave-2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -634,11 +705,11 @@ footer {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("../../assets/img/icon-prev.svg");
+  background-image: url("icon-prev.svg");
 }
 
 .carousel-control-next-icon {
-  background-image: url("../../assets/img/icon-next.svg");
+  background-image: url("icon-next.svg");
 }
 
 .testimonial-author {
