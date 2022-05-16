@@ -3,7 +3,6 @@ layout: home
 title: SixSq | Welcome page
 ---
 
-<div>
     <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url(&quot;assets/img/bg-hero-home.jpg&quot;) center / cover no-repeat;">
         <div class="container hero hero-straddle">
             <div class="row">
@@ -36,16 +35,14 @@ title: SixSq | Welcome page
                 <div class="row row-col-2-side row-col-side">
                     <div class="col-lg-6 col-xl-5 offset-xl-1"><img src="assets/img/icon-edge-white.svg">
                         <h3 class="text-light">Edge knowledge base</h3>
-                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaining the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p>
-                        <a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
+                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaning the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
                     </div>
                     <div class="col-lg-6 col-xl-5"><img src="assets/img/icon-nuvla-white.svg">
                         <h3 class="text-light">Our solutions</h3>
-                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p>
-                        <a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
+                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
                     </div>
                 </div>
-                <h3 class="text-light">Discover Nuvla</h3>
+                <h3 class="text-light">Discover Nuvla.io</h3>
             </div>
         </div>
     </div>
@@ -78,16 +75,11 @@ title: SixSq | Welcome page
             </div>
         </div>
     </div>
-    <div class="container section text-center" style="padding-top: 0; padding-bottom: 6rem;">
+    <div class="container section text-center" style="padding-top: 0; padding-bottom: 3rem;">
         <h2>In strategic partnership with<br></h2>
-        <div class="row logo-wrapper">
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-hp.png"></div>
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-cancom.png"></div>
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-dell.png"></div>
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-exoscale.png"></div>
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-nagra.png"></div>
-            <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-lenovo.png"></div>
-        </div><a class="btn btn-primary" role="button" href="#" target="_blank">All partners</a>
+        <div class="logo-wrapper"><img src="assets/img/logo-hp.png"><img src="assets/img/logo-cancom.png"><img src="assets/img/logo-dell.png"><img src="assets/img/logo-exoscale.png"><img src="assets/img/logo-nagra.png"><img src="assets/img/logo-lenovo.png"></div><a class="btn btn-primary" role="button" href="#" target="_blank">All partners</a>
+        <h2 class="title-seperation">Our vendors<br></h2>
+        <div class="logo-wrapper"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"></div>
     </div>
     <div class="container-fluid bg-gradient-gray">
         <div class="container section text-center" style="padding-bottom: 0;">
@@ -111,18 +103,7 @@ title: SixSq | Welcome page
                 </div>
                 <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row logo-wrapper">
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-thales.png"></div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-eesa.png"></div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-elektron.png"></div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-gmv.png"></div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-un.png"></div>
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-2"><img src="assets/img/logo-efca.png"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="logo-wrapper"><img src="assets/img/logo-thales.png"><img src="assets/img/logo-eesa.png"><img src="assets/img/logo-elektron.png"><img src="assets/img/logo-gmv.png"><img src="assets/img/logo-un.png"><img src="assets/img/logo-efca.png"></div>
         </div>
     </div>
     <div class="container section">
@@ -161,18 +142,9 @@ title: SixSq | Welcome page
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 align-self-center cta-title">
-                    <h2 class="text-light">Start your own journey to the edge with Nuvla</h2>
+                    <h2 class="text-light">Start your own journey to the edge with Nuvla.io</h2>
                 </div>
-                <div class="col-lg-7 align-self-center cta-wrapper">
-                  <a class="btn btn-secondary" role="button" href="#" target="_blank">Start your free trial</a>
-                  <!-- Calendly link widget begin -->
-                  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                  <a class="btn btn-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sales-sixsq/free-demo-30min'});return false;">Request a demo</a>
-                  <!-- Calendly link widget end -->
-                  <a class="btn btn-primary" role="button" href="#" target="_blank">Contact us</a>
-                </div>
+                <div class="col-lg-7 align-self-center cta-wrapper"><a class="btn btn-secondary" role="button" href="#" target="_blank">Start your free trial</a><a class="btn btn-primary" role="button" href="#" target="_blank">Request a demo</a><a class="btn btn-primary" role="button" href="#" target="_blank">Contact us</a></div>
             </div>
         </div>
     </div>
-<div/>
