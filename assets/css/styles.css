@@ -380,7 +380,7 @@ header.header-active {
     padding: 3rem 1.5rem !important; } }
 .footer-cta {
   padding: 5rem 0;
-  background-image: url("bg-wave-2.png");
+  background-image: url("../img/bg-wave-2.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
