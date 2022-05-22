@@ -72,12 +72,11 @@
             {% include partner.html %}
           {% endfor %}
         </div>
-        <h2 class="title-seperation">Our vendors<br></h2>
+        <h2 class="title-seperation">Our app vendors<br></h2>
         <div class="logo-wrapper">
           {% for post in site.vendors %}
             {% include vendors.html %}
           {% endfor %}
-          <img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png">
         </div>
     </div>
     <div class="container-fluid bg-gradient-gray">
@@ -104,33 +103,9 @@
     <div class="container section">
         <h2 class="text-center">News and Activities<br></h2>
         <div class="row row-col-feature row-col-activities">
-            <div class="col-lg-4">
-                <div class="shadow">
-                    <div class="activities-image-wrapper"><img src="assets/img/featured-image-pr-ekinops.jpg"></div>
-                    <p class="activities-type">Press release</p>
-                    <p class="activities-title">SixSq acquired by Ekinops and secures fast growth in Edge Computing</p>
-                    <p class="activities-date">02 November 2021</p>
-                    <p class="activities-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a class="btn btn-link" role="button" href="https://nuvla.io/" target="_blank">Read news</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow">
-                    <div class="activities-image-wrapper"><img src="assets/img/featured-image-blog-liftoff.jpg"></div>
-                    <p class="activities-type">Blog</p>
-                    <p class="activities-title">Before lift-off: the parts required for excellent edge computing</p>
-                    <p class="activities-date">14 February 2022</p>
-                    <p class="activities-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a class="btn btn-link" role="button" href="https://nuvla.io/" target="_blank">Read blog</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow">
-                    <div class="activities-image-wrapper"><img src="assets/img/featured-image-blog-wings.jpg"></div>
-                    <p class="activities-type">Blog</p>
-                    <p class="activities-title">Taking off with edge computing? Don't clip your own wings</p>
-                    <p class="activities-date">07 February 2022</p>
-                    <p class="activities-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a class="btn btn-link" role="button" href="https://nuvla.io/" target="_blank">Read blog</a>
-                </div>
-            </div>
+            {% for post in site.posts limit:3 %}
+              {% include news-or-blog.html %}
+            {% endfor %}
         </div>
     </div>
     <div class="container-fluid footer-cta bg-primary section-straddle-top">

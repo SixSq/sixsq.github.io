@@ -1,0 +1,10 @@
+<div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="assets/img/{{ post.image }}"></div>
+        <p class="activities-type">{% if post.category == 'news' %}Press release{% else %}Blog{% endif %}</p>
+        <p class="activities-title">{{ post.title }}</p>
+        <p class="activities-date">{{ post.date | date: "%d %B %Y" }}</p>
+        <p class="activities-description">{{ post.summary }}</p>
+        <a class="btn btn-link" role="button" href="{{ post.url }}">Read {{ post.category }}</a>
+    </div>
+</div>
