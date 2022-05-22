@@ -29,25 +29,44 @@ url: "https://sixsq.com/sixsq-pages-new.github.io" # the base hostname & protoco
 twitter_username: sixsq
 
 collections:
-  - partners
-  - vendors
-  - customers
-  - news
-  - blogs
+  partners:
+    output: false
+  vendors:
+    output: false
+  customers:
+    output: false
+  news:
+    output: true
+  blog:
+    output: true
+  nuvlaedge:
+    output: false
 
 defaults:
   -
     scope:
       path: "news"
+      type: "posts"
     values:
-      type: "post"
       category: "news"
   -
     scope:
       path: "blog"
+      type: "posts"
     values:
-      type: "post"
       category: "blog"
+  -
+    scope:
+      path: "*/features"
+      type: "nuvlaedge"
+    values:
+      category: "feature"
+  -
+    scope:
+      path: "*/hardware"
+      type: "nuvlaedge"
+    values:
+      category: "hardware"
 
 # Build settings
 theme: minima
