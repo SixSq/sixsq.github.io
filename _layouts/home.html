@@ -12,18 +12,7 @@
                     <p>We deliver a future proof, application centric, cloud neutral and hardware agnostic platform, as a Service</p><a class="btn btn-link" role="button">Discover our solutions</a>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
-                    <form class="shadow bg-white">
-                        <h3>Start your free trial</h3>
-                        <div class="input-group"><input class="form-control" type="text" placeholder="First name" name="First name" required=""><input class="form-control" type="text" placeholder="Last name" name="Last name" required=""></div>
-                        <div class="input-group"><input class="form-control" type="text" placeholder="E-mail" name="E-mail" required=""></div>
-                        <div class="input-group"><input class="form-control" type="text" placeholder="Password" name="Password" required=""></div>
-                        <div class="input-group"><input class="form-control" type="text" placeholder="Confirm password" name="Confirm password" required=""></div>
-                        <div class="input-group input-group-submit"><button class="btn btn-secondary" type="submit">Sign up for Nuvla</button>
-                            <div class="input-group-text">
-                                <p>Sign up with<a href="#"><img src="assets/img/icon-github.svg"></a><a href="#"><img src="assets/img/icon-flux.svg"></a></p>
-                            </div>
-                        </div>
-                    </form>
+                  {% include start-free-trial.html %}
                 </div>
             </div>
         </div>
@@ -102,25 +91,14 @@
                         {% include customer-testimonial.html customerIndex = customerIndex %}
                       {% endif %}
                     {% endfor %}
-                    
-                    <!-- <div class="carousel-item active">
-                        <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="testimonial-author">Firstname Lastname</p>
-                            <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-lenovo-quote.png">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="testimonial-author">Firstname Lastname</p>
-                            <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-thales-quote.png">
-                        </div>
-                    </div> -->
                 </div>
                 <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
             </div>
-            <div class="logo-wrapper"><img src="assets/img/logo-thales.png"><img src="assets/img/logo-eesa.png"><img src="assets/img/logo-elektron.png"><img src="assets/img/logo-gmv.png"><img src="assets/img/logo-un.png"><img src="assets/img/logo-efca.png"></div>
+            <div class="logo-wrapper">
+              {% for post in site.customers %}
+                {% include customer.html %}
+              {% endfor %}
+            </div>
         </div>
     </div>
     <div class="container section">

@@ -1,5 +1,5 @@
 ---
-title: GMV
-logo: "logo-gmv.png"
-home_url: "https://gmv.com"
+title: ESA
+logo: "logo-esa.png"
+home_url: "https://esa.int"
 ---
