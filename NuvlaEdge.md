@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: plain
 title: SixSq | Products | NuvlaEdge
 ---
 

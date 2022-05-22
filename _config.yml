@@ -29,6 +29,28 @@ url: "https://sixsq.com/sixsq-pages-new.github.io" # the base hostname & protoco
 twitter_username: jekyllrb
 github_username:  jekyll
 
+defaults:
+  -
+    scope:
+      path: "partners" # an empty string here means all files in the project
+    values:
+      type: "post"
+  -
+    scope:
+      path: "vendors" # an empty string here means all files in the project
+    values:
+      type: "post"
+  -
+    scope:
+      path: "customers" # an empty string here means all files in the project
+    values:
+      type: "post"
+
+collections:
+  - partners
+  - vendors
+  - customers
+
 # Build settings
 theme: minima
 plugins:
