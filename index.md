@@ -35,11 +35,11 @@ title: SixSq | Welcome page
                 <div class="row row-col-2-side row-col-side">
                     <div class="col-lg-6 col-xl-5 offset-xl-1"><img src="assets/img/icon-edge-white.svg">
                         <h3 class="text-light">Edge knowledge base</h3>
-                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaning the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
+                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaning the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
                     </div>
                     <div class="col-lg-6 col-xl-5"><img src="assets/img/icon-nuvla-white.svg">
                         <h3 class="text-light">Our solutions</h3>
-                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
+                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p><a class="btn btn-primary" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
                     </div>
                 </div>
                 <h3 class="text-light">Discover Nuvla.io</h3>
@@ -88,14 +88,14 @@ title: SixSq | Welcome page
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <p class="testimonial-author">Firstname Lastname</p>
                             <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-lenovo-quote.png">
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <p class="testimonial-author">Firstname Lastname</p>
                             <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-thales-quote.png">
                         </div>
