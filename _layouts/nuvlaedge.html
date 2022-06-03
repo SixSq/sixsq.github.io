@@ -4,33 +4,23 @@
   <body data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}    
 
-    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url(&quot;assets/img/bg-hero-product.png&quot;) center / cover;">
-        <div class="container hero">
-            <div class="row">
-                <div class="col-lg-6 align-self-center hero-text">
-                    <p class="text-primary text-big">NulvaEdge</p>
-                    <h1>Secure and Intelligent Edge Computing Software</h1>
-                    <p>With NuvlaEdge, turn your hardware into a smart edge device.</p><a class="btn btn-link" role="button">Discover our solutions</a>
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                  {% include start-free-trial.html %}
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include top-form-section.html %}
     <div class="container-fluid sticky-top breadcrumb-wrapper">
-        <div class="container"><ol class="breadcrumb container">
-    <li class="breadcrumb-item"><a href="#"><span>Products</span></a></li>
-    <li class="breadcrumb-item"><span>NulvaEdge</span></li>
-</ol></div>
-        <div class="container text-center anchor-nav">
-            <ul class="nav nav-tabs" id="anchor-nav-menu">
-                <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
-                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                <li class="nav-item"><a class="nav-link" href="#techspecs">Tech specs</a></li>
-                <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <ol class="breadcrumb container">
+          <li class="breadcrumb-item"><a href="/"><span>Home</span></a></li>
+          <li class="breadcrumb-item"><a href="Products"><span>Products</span></a></li>
+          <li class="breadcrumb-item"><span>NuvlaEdge</span></li>
+        </ol>
+      </div>
+      <div class="container text-center anchor-nav">
+        <ul class="nav nav-tabs" id="anchor-nav-menu">
+            <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#techspecs">Tech specs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
+        </ul>
+      </div>
     </div>
     <div class="container bg-primary section-primary-box section-limited-width" style="background: url(&quot;assets/img/bg-wave.png&quot;) right / cover no-repeat; margin-bottom: 0;">
         <div id="overview" class="anchor-position"></div>
@@ -142,7 +132,6 @@
             </div>
         </div>
     </div>
-
 
     {% include footer.html %}
   </body>
