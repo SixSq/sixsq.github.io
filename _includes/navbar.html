@@ -1,0 +1,7 @@
+<div class="container text-center anchor-nav">
+    <ul class="nav nav-tabs" id="anchor-nav-menu">
+    {% for item in page.nav-items %}
+        <li class="nav-item"><a class="nav-link" href="#{{ item.anchor }}">{{ item.name }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

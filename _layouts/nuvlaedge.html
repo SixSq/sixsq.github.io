@@ -6,21 +6,8 @@
 
     {% include top-form-section.html %}
     <div class="container-fluid sticky-top breadcrumb-wrapper">
-      <div class="container">
-        <ol class="breadcrumb container">
-          <li class="breadcrumb-item"><a href="/"><span>Home</span></a></li>
-          <li class="breadcrumb-item"><a href="Products"><span>Products</span></a></li>
-          <li class="breadcrumb-item"><span>NuvlaEdge</span></li>
-        </ol>
-      </div>
-      <div class="container text-center anchor-nav">
-        <ul class="nav nav-tabs" id="anchor-nav-menu">
-            <li class="nav-item"><a class="nav-link active" href="#overview">Overview</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#techspecs">Tech specs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#hardware">Hardware</a></li>
-        </ul>
-      </div>
+        {% include breadcrumbs.html %}
+        {% include navbar.html %}
     </div>
     <div class="container bg-primary section-primary-box section-limited-width" style="background: url(&quot;assets/img/bg-wave.png&quot;) right / cover no-repeat; margin-bottom: 0;">
         <div id="overview" class="anchor-position"></div>
