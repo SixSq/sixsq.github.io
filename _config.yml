@@ -43,6 +43,8 @@ collections:
     output: false
   marketplace:
     output: false
+  platform:
+    output: false
 
 defaults:
   -
@@ -73,6 +75,12 @@ defaults:
     scope:
       path: "*/features"
       type: "marketplace"
+    values:
+      category: "feature"
+  -
+    scope:
+      path: "*/features"
+      type: "platform"
     values:
       category: "feature"
 

@@ -13,12 +13,12 @@
         <div id="overview" class="anchor-position"></div>
         <div class="row">
             <div class="col">
-                <h2 class="text-light"><strong>Here’s the open source software behind Nuvla.io</strong></h2>
-                <p class="text-light text-big">The Nuvla software is open source and maintained on&nbsp;<a href="https://github.com/nuvla/nuvla">Github</a>.</p>
+                <h2 class="text-light"><strong>Create your own edge-to-cloud solution in minutes with the Nuvla.io Platform</strong></h2>
+                <p class="text-light text-big">The platform is application centric, hardware agnostic, cloud neutral and container native.</p>
             </div>
         </div>
     </div>
-    <div class="container section text-center">
+    <!-- <div class="container section text-center">
         <h2><strong>Standing on the shoulders of giants</strong><br></h2>
         <p class="text-center subtitle">Nuvla builds on the important work of other open source projects. Here are the key technologies, tools and libraries we use to build Nuvla. This ensures a software which is scalable, easy to test and operate, as well as simple to extend and evolve.</p>
         <div class="row row-col-feature row-col-feature-logo">
@@ -143,119 +143,34 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-gray section-straddle">
+    </div> -->
+    <div class="container-fluid section-straddle">
         <div class="container section text-center">
             <div id="features" class="anchor-position"></div>
             <h2>Main features<br></h2>
             <div class="row row-col-feature">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-container.svg">
-                        <h3>Container Native<br></h3>
-                        <p>Nuvla is Docker container native. You can deploy into Docker, Docker Swarm and Kubernetes. We also support private registries, such that you keep control of your intellectual property. Nuvla will also automatically detect compatibility with the different container orchestration engines.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-security.svg">
-                        <h3>Security control<br></h3>
-                        <p>Nuvla enables end-to-end security controls from edge to cloud, and back, using VPN, identity and access management, as well as integrity enforcement. Nuvla can also integrate with enterprise authentication services and federated identity solutions.&nbsp;<a href="https://sixsq.com/products-and-services/nuvla-io/security">More security features</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-size.svg">
-                        <h3>Designed for Scale<br></h3>
-                        <p>Nuvla is built for scale and extensibility. Nuvla v2 is fully micro-service based, making it simple and straightforward to scale. Built on top of Elasticsearch and Zookeeper, the stateful part of the system also scales horizontally by adding more container resources. If your private cloud is not giving you all you need, but you don’t want to invest in more infrastructure, use Nuvla to scale out to a public cloud and get the best of both worlds. This is hybrid IT in action.</p>
-                    </div>
-                </div>
-            </div><button class="btn btn-primary btn-collapse collapsed" type="button" data-bs-target="#all-features" data-bs-toggle="collapse" aria-controls="all-features" aria-expanded="false" style="margin-top: 30px;"><span class="btn-collapse-open">Discover all features</span><span class="btn-collapse-close">Show main features</span></button>
+                {% for post in site.platform %}
+                  {% if post.category == 'feature' %}
+                    {% if post.main-feature == true %}
+                      {% include feature.html %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+            <button class="btn btn-primary btn-collapse collapsed" type="button" data-bs-target="#all-features" data-bs-toggle="collapse" aria-controls="all-features" aria-expanded="false" style="margin-top: 30px;">
+              <span class="btn-collapse-open">Discover all features</span>
+              <span class="btn-collapse-close">Show main features only</span>
+            </button>
             <div id="all-features" class="collapse" style="margin-top:2rem;">
                 <div class="row row-col-feature">
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-edge.svg">
-                            <h3>Enable your Edge<br></h3>
-                            <p>With the <a href="nuvlaedge">NuvlaEdge</a> software, create a complete edge-to-cloud solution, including secure registration, update, as well as monitoring and notifications. With choices from a wide range of x86 and ARM hardware platforms, the NuvlaEdge software connects automatically to your Nuvla account to extend your IT infrastructure with a fleet of edge devices.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-governance.svg">
-                            <h3>Governance<br></h3>
-                            <p>Control all aspects of application deployment, access and data management, including a clear audit trail and fine grain authentication and authorisation, as well as event notifications.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-api.svg">
-                            <h3>Powerful API<br></h3>
-                            <p>Nuvla.io exposes the powerful&nbsp;<a href="https://sixsq.com/products-and-services/nuvla/overview">Nuvla</a>&nbsp;REST API. The API allows developers to integrate Nuvla.io into third party systems, script it and even use it as&nbsp;<em>Infrastructure as Code</em>. We have put a lot of effort in&nbsp;<a href="https://docs.nuvla.io/">documenting Nuvla</a>. Go and explore!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-col-feature">
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-automation.svg">
-                            <h3>Automation<br></h3>
-                            <p>Repetitive, manual deployments are costing your organisation money. Introducing automation reduces expenditure and gives your people more time to be creative. Nuvla allows you to manage at scale apps deployed in the cloud and at the edge. Devices running the <a href="nuvlaedge">NuvlaEdge</a> software are also managed from the same platform, giving you a single pane of glass for your edge-to-cloud fleet.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-docker.svg">
-                            <h3>Docker Hub and registries<br></h3>
-                            <p>Take advantage of 1000s of existing Docker images, such as load balancers, databases, AI tools and more. But don’t stop there, you can extend these and create your own. You will need your own Docker Swarms or Kubernetes to deploy to. And again, all this from the comfort of an&nbsp;<em>as a Service</em>&nbsp;offering.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-arm.svg">
-                            <h3>Any edge hardware - ARM &amp; x86<br></h3>
-                            <p>Via the <a href="nuvlaedge">NuvlaEdge</a> software, Nuvla.io can manage edge devices based on both ARM and x86 hardware. This means you can choose the right hardware for the right application, and yet use the same management platform to simplify operations.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-col-feature">
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-swiss.svg">
-                            <h3>Made in Switzerland<br></h3>
-                            <p>The Nuvla.io service is operated and hosted in Switzelrand. The NuvlaEdge and Nuvla software is also designed Switzerland. Working closely with our hardware and distribution partners, we guarantee that the product is integrated and certified according to our highest standards. While an international team, we pride ourselves in our constant quest for precision and excellence.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-kubernetes.svg">
-                            <h3>Any container infrastructure<br></h3>
-                            <p>Nuvla supports Kubernetes, the de-facto standard for the orchestration of large container cluster. Simply capture your application deployment as a Kubernetes manifest and deploy it on any Kubernetes cluster, including your own, with Nuvla.io.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-cloud.svg">
-                            <h3>Cloud neutrality<br></h3>
-                            <p>Nuvla is container native. And since Docker is supported by virtually all public and private clouds, via Docker machine, this means we almost certainly already support the cloud(s) you use. Nuvla.io’s infrastructure neutrality means it isolates you from vendor lock-in, providing unprecedented flexibility in your choice of cloud solutions and edge hardware.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-col-feature">
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-on-demand-security.svg">
-                            <h3>On-demand Security<br></h3>
-                            <p>On-demand remote security gives you access to your devices and applications, as you need it and only when you need it. Including renew VPN and Docker credentials at the edge, remotely, from Nuvla.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-multi-cloud.svg">
-                            <h3>Multi-cloud and Infrastructures<br></h3>
-                            <p>Nuvla allows you to configure any number of Container as a Service (CaaS) (e.g. Docker Swarm now and Kubernetes soon) endpoints. This means you can mix and match public clouds, private clouds and infrastructure, as well as edge devices such as the NuvlaEdge. This enables a simple, yet effective, multi-cloud and infrastructure solution.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-download.svg">
-                            <h3>On premise installation<br></h3>
-                            <p>You can install Nuvla within your own walls or on a public cloud. You can also buy professional support from SixSq. You will find quick&nbsp;<a href="https://docs.nuvla.io/nuvla">installation instructions</a>&nbsp;to setup a simple Nuvla service. For production setups, we recommend you get in touch.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-col-feature">
-                    <div class="col-lg-4">
-                        <div class="shadow"><img src="assets/img/icon-opensource.svg">
-                            <h3>Open Source<br></h3>
-                            <p>Nuvla is fully open source software, and we ensure that the entire stack, including its dependencies, is Apache 2.0 compatible. This means that we leverage the latest innovations from the thriving open source communities, but also their maturity. From there, you are able to build your own edge-to-cloud journey, knowing that there is no lock-in.</p>
-                        </div>
-                    </div>
+                  {% for post in site.platform %}
+                    {% if post.category == 'feature' %}
+                      {% if post.main-feature == true %}
+                      {% else %}
+                        {% include feature.html %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
                 </div>
             </div>
         </div>
@@ -273,7 +188,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="container section">
             <h2 class="text-center">Become an Expert</h2>
             <p class="text-center subtitle">Created by this Cristóvão (Cris) Cordeiro, R&amp;D Project Manager at SixSq, this Youtube channel gives you all the detailed information needed to master Nuvla.io and created amazing edge-to-cloud solutions.</p>
@@ -282,31 +197,7 @@
                 <div class="col-md-6" style="padding: 0 2rem 2rem 2rem;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/s0NQjTgmaU0" class="video-frame" width="100%"></iframe></div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-gradient-gray">
-        <div class="container section text-center">
-            <h2>They trust us</h2>
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="testimonial-author">Firstname Lastname</p>
-                            <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-lenovo-quote.png">
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div>
-                            <p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p class="testimonial-author">Firstname Lastname</p>
-                            <p class="testimonial-jobtitle">Jobtitle</p><img class="testimonial-logo" src="assets/img/logo-thales-quote.png">
-                        </div>
-                    </div>
-                </div>
-                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-            </div>
-        </div>
-    </div>
+    </div> -->
     {% include footer.html %}
   </body>
 </html>
