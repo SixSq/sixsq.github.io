@@ -41,6 +41,8 @@ collections:
     output: true
   nuvlaedge:
     output: false
+  marketplace:
+    output: false
 
 defaults:
   -
@@ -67,6 +69,12 @@ defaults:
       type: "nuvlaedge"
     values:
       category: "hardware"
+  -
+    scope:
+      path: "*/features"
+      type: "marketplace"
+    values:
+      category: "feature"
 
 # Build settings
 theme: minima
