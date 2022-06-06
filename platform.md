@@ -6,6 +6,7 @@ product-title: B2B Edge and Container Management Service
 product-description: Manage any containerised application across a fleet of edge devices and container orchestration engines.
 product-next-text: Discover the platform
 product-next-target: overview
+product-background-img: bg-hero-product.png
 breadcrumbs:
  - name: Home
    target: /
