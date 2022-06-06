@@ -11,9 +11,4 @@ breadcrumbs:
    target: /
  - name: Products
    target: Products
-nav-items:
- - name: Overview
-   anchor: overview
- - name: Product family
-   anchor: products
 ---
