@@ -32,8 +32,37 @@ body {
   font-size: 1.2rem;
 }
 
+.text-huge {
+  font-size: 5rem;
+  font-family: "Bauziet Norm";
+  line-height: 5rem;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+li.breadcrumb-item,
+li.nav-item {
+  margin-bottom: 0;
+}
+
+li::marker {
+  color: #ed2b2b;
+  font-weight: 400;
+}
+
+ol, ul {
+  padding-left: 0.8rem;
+}
+
 img {
   max-width: 100%;
+}
+
+p.caption {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
 }
 
 a.text-dark:hover {
@@ -132,8 +161,65 @@ a.text-dark:hover {
   border-top: 8px solid #ed2b2b;
 }
 
-.row.row-col-feature.row-col-feature-logo > div > div.shadow {
+.row.row-col-feature.row-col-feature-logo > div > div.shadow,
+.row.row-col-feature.row-col-price > div > div.shadow {
   border-top: none;
+}
+
+.row.row-col-feature.row-col-price > div > div.shadow {
+  padding: 3rem 0 2rem 0;
+  position: relative;
+}
+
+.row-col-price .price-name {
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+.row-col-price .price-name img.price-plus {
+  margin: -17px 0 0 -15px;
+  position: absolute;
+}
+
+@media (min-width: 992px) {
+  .row-col-price .price-name {
+    min-height: 15.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .row-col-price .price-name img.price-plus {
+    margin: -16px 0 0 -15px;
+  }
+}
+.row-col-price .price-name p.price-label {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Bauziet Norm";
+  color: #ed2b2b;
+}
+
+.row-col-price .price-box {
+  padding: 1.5rem 0 0.5rem 0;
+  margin: 1rem 2rem;
+  background-color: rgba(237, 43, 43, 0.1);
+}
+
+.row-col-price .price-box p {
+  color: #000105;
+}
+
+.row-col-price .price-box p.price-label {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Bauziet Norm";
+  margin: 0 2rem 1rem 2rem;
+  padding: 0.5rem 0;
+  background-color: #ed2b2b;
+}
+
+.row-col-price .price-suggestion p {
+  color: #000105;
+  font-weight: 500;
 }
 
 .row.row-col-feature.row-col-feature-steps img.step-icon {
@@ -189,14 +275,6 @@ a.text-dark:hover {
   margin-top: -3px;
 }
 
-@media (max-width: 767px) {
-  .row.row-col-feature.row-col-feature-steps h3 span {
-    width: 28px;
-    height: 28px;
-    margin-left: -45px;
-    margin-top: -3px;
-  }
-}
 .row.row-col-feature.row-col-activities > div > div.shadow {
   border-top: none;
   padding: 0 0 2.5rem 0;
@@ -216,6 +294,20 @@ a.text-dark:hover {
   aspect-ratio: 16/8;
   overflow: hidden;
   margin-bottom: 30px;
+}
+
+.notes {
+  padding: 2rem 0 0 0;
+  border-top: 1px solid #ed2b2b;
+}
+
+.notes * {
+  text-align: left;
+}
+
+.notes p, .notes li {
+  font-size: 0.7rem;
+  color: rgba(0, 1, 5, 0.6);
 }
 
 .row-col-activities img {
@@ -240,6 +332,11 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   margin-top: 0.5rem;
   margin-bottom: 0.8rem;
+}
+
+h2.section-heading {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 p.subtitle {
@@ -300,6 +397,10 @@ input, .form-control {
 }
 .input-group-text img {
   padding-left: 10px;
+}
+
+.img-wrapper {
+  padding-top: 2rem;
 }
 
 .input-group-submit .input-group-text p {
@@ -419,6 +520,10 @@ form {
   padding-bottom: 4rem;
 }
 
+.container.section.container-box2 {
+  padding: 3rem !important;
+}
+
 .container.section-limited-width {
   max-width: 1000px !important;
 }
@@ -446,6 +551,16 @@ form {
 @media (max-width: 767px) {
   .container.section-primary-box {
     margin: 0 auto;
+  }
+
+  .container.section-primary-box,
+.container.section-primary-box.section-primary-box2 .primary-box-title,
+.container.section-primary-box.section-primary-box2 .primary-box-text {
+    padding: 3rem;
+  }
+
+  .container.section .simple-row {
+    padding: 0 1.5rem;
   }
 }
 @media (min-width: 992px) {
