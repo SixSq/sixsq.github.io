@@ -61,12 +61,21 @@ img {
 }
 
 p.caption {
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   font-size: 0.8rem;
+}
+
+p.caption-big {
+  padding: 1.5rem 0;
+  font-size: 1rem;
 }
 
 a.text-dark:hover {
   color: #ed2b2b !important;
+}
+
+.border-light-gray {
+  border: 1px solid rgba(0, 1, 5, 0.1);
 }
 
 .bg-gradient-gray {
@@ -280,7 +289,7 @@ a.text-dark:hover {
   padding: 0 0 2.5rem 0;
 }
 
-.row.row-col-feature.row-col-activities > div > div.shadow > * {
+.row.row-col-feature.row-col-activities > div > div.shadow > *:not(.btn-light) {
   border-top: none;
   padding: 0 3rem;
 }
@@ -360,6 +369,10 @@ p.subtitle {
 
 .h3, h3 {
   font-size: calc(1rem + .4vw) !important;
+}
+
+.h4, h4 {
+  font-size: calc(1rem + .2vw) !important;
 }
 
 .shadow {
@@ -714,8 +727,16 @@ form {
   justify-content: center;
 }
 
+.breadcrumb {
+  margin-bottom: 0.7rem;
+}
+
+.sticky-top.breadcrumb-wrapper .breadcrumb {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 767px) {
-  .breadcrumb {
+  .sticky-top.breadcrumb-wrapper .breadcrumb {
     display: none;
   }
 
@@ -1002,6 +1023,19 @@ footer {
   padding-bottom: 7rem;
 }
 
+.hero.hero-narrow {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  .hero.hero-narrow .hero-text {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+}
 .hero-text {
   padding-bottom: 3rem;
 }

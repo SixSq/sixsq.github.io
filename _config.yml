@@ -45,6 +45,8 @@ collections:
     output: false
   platform:
     output: false
+  casestudies:
+    output: false
 
 defaults:
   -
@@ -83,6 +85,12 @@ defaults:
       type: "platform"
     values:
       category: "feature"
+  -
+    scope:
+      path: "*/retail"
+      type: "casestudies"
+    values:
+      category: "retail"
 
 # Build settings
 theme: minima
