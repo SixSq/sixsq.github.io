@@ -1,7 +1,14 @@
 ---
-title: SixSq acquired by Ekinops and secures fast growth in Edge Computing 
-summary: SixSq acquired by Ekinops and secures fast growth in Edge Computing
+title: SixSq acquired by Ekinops
+product-title: SixSq acquired by Ekinops and secures fast growth in Edge Computing 
 image: featured-image-pr-ekinops.jpg
+breadcrumbs:
+ - name: Home
+   target: /
+ - name: News
+   target: /news
+ - name: SixSq acquired by Ekinops
+co-author-company: ekinops
 ---
 
 **PARIS, November 2, 2021 - 7:30 am - EKINOPS (Euronext Paris - FR0011466069 – EKI)**, a leading supplier of telecommunications solutions for telecom operators and enterprises, is announcing the acquisition of the start-up SixSq, a software-as-a-service (SaaS) provider for Edge Computing.

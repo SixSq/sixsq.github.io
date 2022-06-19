@@ -83,6 +83,7 @@
             {% endif %}
           {% endfor %}
         </div>
+        <a class="btn btn-primary" role="button" href="marketplace" target="_blank">More apps and vendors</a>
     </div>
     <div class="container-fluid bg-gradient-gray">
         <div class="container section text-center" style="padding-bottom: 0;">
@@ -109,7 +110,7 @@
         <h2 class="text-center">News and Activities<br></h2>
         <div class="row row-col-feature row-col-activities">
             {% for post in site.posts limit:3 %}
-              {% include news-or-blog.html %}
+              {% include news-or-blog-card.html %}
             {% endfor %}
         </div>
     </div>
