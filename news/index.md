@@ -11,6 +11,6 @@ breadcrumbs:
 pagination: 
   enabled: true
   permalink: ':num/'
-  collection: all
+  category: news
 without-trial: true
 ---

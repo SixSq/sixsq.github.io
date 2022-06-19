@@ -11,5 +11,6 @@ breadcrumbs:
 pagination: 
   enabled: true
   permalink: ':num/'
+  category: blog
 without-trial: true
 ---

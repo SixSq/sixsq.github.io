@@ -68,7 +68,7 @@ defaults:
       type: "posts"
     values:
       category: "blog"
-      layout: "news-article"
+      layout: "blog-article"
       product-name: Blog
   -
     scope:
@@ -136,7 +136,7 @@ pagination:
   debug: true
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'posts'
+#  collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
   per_page: 9
@@ -159,7 +159,7 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
+#  category: 'posts'
 
   # Optional, the default tag to use, omit to disable
   tag: ''
@@ -184,17 +184,18 @@ pagination:
 
 autopages:
 
-  # Site-wide kill switch, disable here and it doesn't run at all 
+  # Site-wide kill switch, disable here and it doesn't run at all
   enabled: true
 
   # Category pages, omit entire config element to disable
-  categories: 
+  categories:
+    enabled: false
     # Optional, the list of layouts that should be processed for every category found in the site
-    layouts: 
+    layouts:
       - 'news.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
     title: 'Posts in category :cat'
-    # Optional, the permalink for the  pagination page (:cat is replaced), 
+    # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
     permalink: '/category/:cat'
     # Optional, when true logging related to category pages will be supressed.
@@ -205,18 +206,19 @@ autopages:
 
   # Collection pages, omit to disable
   collections:
-    layouts: 
-      - 'news.html'
+    enabled: false
+    layouts:
+      - 'blog.html'
     title: 'Posts in collection :coll' # :coll is replaced by the collection name
     permalink: '/collection/:coll'
     silent: false
     slugify:
       mode: 'default'   # :coll is slugified.
-      case: false 
-  
+      case: false
+
   # Tag pages, omit to disable
   tags:
-    layouts: 
+    layouts:
       - 'news.html'
     title: 'Posts tagged with :tag' # :tag is replaced by the tag name
     permalink: '/tag/:tag'
