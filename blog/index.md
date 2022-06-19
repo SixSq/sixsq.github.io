@@ -1,8 +1,8 @@
 ---
 layout: news
 title: Blog
-product-title: Thought Leadership
-product-description: Discover the latest news and events from SixSq, our partners and customers.
+product-title: Out Latest Thoughts
+product-description: We share in this blog our latest thoughts and what we've learned working with partners and customers.
 product-background-img: bg-hero-News.jpg
 breadcrumbs:
  - name: Home
