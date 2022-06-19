@@ -76,6 +76,18 @@ ol, ul {
 img{
   max-width: 100%;
 }
+img.inline-image{
+     float: left;
+     width: 40%;
+     margin: 8px 35px 20px 0;
+}
+@media (max-width: 767px){
+img.inline-image{
+     float: none;
+     width: 100%;
+     margin: 20px 0 20px 0;
+}
+}
 p.caption{
   padding: 1rem 0;
   font-size: .8rem;
@@ -103,6 +115,27 @@ margin: 1.5rem auto;
 width: 40px;
 height: 4px;
 background-color: $red-100;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pagination .page-link{
+  border: none;
+  width: 30px;
+    height: 30px;
+  border-radius: 50px !important;
+  color:  $black-100;
+  padding: .15rem 0 0 0;
+}
+.pagination .page-item {
+text-align: center;
+padding: 5px;
+}
+.pagination .page-item.active .page-link {
+    background-color:  $red-100;
 }
 
 @media (min-width: 1400px) {
@@ -538,6 +571,12 @@ display: block;
 }
 .container.section-limited-width{
   max-width: 1000px !important;
+}
+.container.section-article{
+  max-width: 900px !important;
+}
+.container.section-article p{
+  text-align: justify;
 }
 .container.section-primary-box{
   margin: 4rem auto;
@@ -1005,6 +1044,16 @@ footer {
   margin-left: 15px;
 }
 
+.social-share  {
+  margin-top: 30px;
+}
+.social-share a img {
+  margin-left: 15px;
+}
+.social-share a:first-child img {
+  margin-left: 0;
+}
+
 /* Footer end */
 
 /* Hero start */
@@ -1017,7 +1066,7 @@ footer {
   padding-top: 9rem;
   padding-bottom: 4rem;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 .hero.hero-narrow .hero-text{
   padding: 2rem;
       background-color: rgba(255, 255, 255, 0.9);

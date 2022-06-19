@@ -1,6 +1,6 @@
 <div class="col-lg-4">
     <div class="shadow">
-        <div class="activities-image-wrapper"><img src="assets/img/{{ post.image }}"></div>
+        <div class="activities-image-wrapper"><img src="/assets/img/{% if post.image-card %}{{ post.image-card }}{% else %}{{ post.image }}{% endif %}"></div>
         <p class="activities-type">{% if post.category == 'news' %}Press release{% else %}Blog{% endif %}</p>
         <p class="activities-title">{{ post.title }}</p>
         <p class="activities-date">{{ post.date | date: "%d %B %Y" }}</p>

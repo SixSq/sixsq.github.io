@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+    <div class="container-fluid">
+        <div id="content">
+        <div class="container section">
+            <div id="products" class="anchor-position"></div>
+            <div class="row row-col-feature row-col-activities">
+            {% for post in paginator.posts %}
+              {% include news-or-blog-card.html %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}#content" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                    {% if paginator.page_trail %}
+                      {% for trail in paginator.page_trail %}
+                        <li class="page-item {% if page.url == trail.path %}active{% endif %}">
+                            <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                        </li>
+                      {% endfor %}
+                    {% endif %}
+                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}#content" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

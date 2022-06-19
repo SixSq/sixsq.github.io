@@ -1,0 +1,15 @@
+<div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/bg-hero-News.jpg') center / cover;">
+    <div class="container hero hero-narrow">
+        <div class="row">
+            <div class="col-lg-7 align-self-center hero-text">
+                {% if page.product-name %}
+                  <p class="text-primary text-big">{{ page.product-name }}</p>
+                {% endif %}
+                <h1>{{ page.product-title }}</h1>
+                <p>{{ page.product-description }}</p>
+                <p>{{ page.date | date: "%d %B %Y" }} - {{ page.location }}</p>
+                {% include news-or-blog-social.html %}
+            </div>
+        </div>
+    </div>
+</div>
