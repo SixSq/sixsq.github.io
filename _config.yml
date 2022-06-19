@@ -136,7 +136,7 @@ pagination:
   debug: true
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
-#  collection: 'posts'
+  collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
   per_page: 9
@@ -159,7 +159,7 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-#  category: 'posts'
+  category: 'posts'
 
   # Optional, the default tag to use, omit to disable
   tag: ''
