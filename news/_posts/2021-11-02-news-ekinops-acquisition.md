@@ -11,7 +11,7 @@ breadcrumbs:
 co-author-company: ekinops
 ---
 
-**PARIS, November 2, 2021 - 7:30 am - EKINOPS (Euronext Paris - FR0011466069 – EKI)**, a leading supplier of telecommunications solutions for telecom operators and enterprises, is announcing the acquisition of the start-up SixSq, a software-as-a-service (SaaS) provider for Edge Computing.
+Ekinops, a leading supplier of telecommunications solutions for telecom operators and enterprises, is announcing the acquisition of the start-up SixSq, a software-as-a-service (SaaS) provider for Edge Computing.
 
 Based in Geneva, Switzerland, SixSq has developed an ultra-innovative solution allowing businesses to take full advantage of the added value of Edge Computing. Complementing Cloud computing, the SixSq solution enables smart data processing directly on the company’s site. 
 
