@@ -11,7 +11,7 @@ breadcrumbs:
 
 ---
 
-What are the use cases that can be deployed in cities to help them become smarter?
+**What are the use cases that can be deployed in cities to help them become smarter?**
 
 SixSq CEO Marc Elian Bégin had the great pleasure to talk to smart city advisor [Pierre Mirlesse](https://www.linkedin.com/in/pierremirlesse/) for the Smart and Sustainable City podcast. This highly-rated series features interviews with women and men who strive to make cities a better place for residents, citizens and visitors.
 
