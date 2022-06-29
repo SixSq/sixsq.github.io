@@ -53,11 +53,11 @@ collections:
 defaults:
   -
     scope:
-      path: "news"
-      type: "posts"
+      path: news
+      type: posts
     values:
-      category: "news"
-      layout: "news-article"
+      category: news
+      layout: news-article
       product-name: News
       location: Geneva, Switzerland
       author-name: Louise Merifield
@@ -66,11 +66,11 @@ defaults:
       author-mobile: +41 77 44 68 119
   -
     scope:
-      path: "blog"
-      type: "posts"
+      path: blog
+      type: posts
     values:
-      category: "blog"
-      layout: "blog-article"
+      category: blog
+      layout: blog-article
       product-name: Blog
   -
     scope:
@@ -135,7 +135,7 @@ pagination:
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: true
+  debug: false
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'posts'
