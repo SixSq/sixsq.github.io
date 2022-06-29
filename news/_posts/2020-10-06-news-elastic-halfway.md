@@ -1,14 +1,13 @@
 ---
 title: Halfway Mark for H2020 Project ELASTIC
 product-title: Halfway Mark for H2020 Project ELASTIC
-image: elastic_tram.jpeg
+image: ../elastic_tram.jpeg
 breadcrumbs:
  - name: Home
    target: /
  - name: News
    target: /news
  - name: Halfway Mark for H2020 Project ELASTIC
-
 ---
 
 [Horizon 2020](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en) was the biggest ever European Union Research and Innovation programme, with nearly **€80 billion** of funding available over 7 years (2014 to 2020). In the first three years, the EU made contribution of €24.8 billion to 13,903 projects. More than a quarter of this money has been awarded to research and innovation for ICT, to projects such as ELASTIC. Quite rightly, H2020 project partners have to commit to a comprehensive set of deliverables against which they are assessed on an ongoing basis by the European Commission. The midway point of the project is therefore an important time for partners to step back and assess progress against objectives and milestones to make sure they are on the right track.

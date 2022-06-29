@@ -1,14 +1,13 @@
 ---
 title: Launch of Nuvla-io Marketplace
 product-title: Launch of Nuvla-io Marketplace Provides Sales Platform for Vendors of Edge Computing Apps
-image: logo-nuvla-io.png
+image: ../logo-nuvla-io.png
 breadcrumbs:
  - name: Home
    target: /
  - name: News
    target: /news
  - name: Launch of Nuvla-io Marketplace
-
 ---
 
 **Launch of Nuvla.io Marketplace Provides Sales Platform for Vendors of Edge Computing Apps**

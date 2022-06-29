@@ -1,7 +1,7 @@
 ---
 title: Cybus joins App Vendor Programme
 product-title: Cybus Connectware is now available on the SixSq’s Nuvla.io Marketplace for intelligent manufacturing monitoring
-image: logo-cybus.png
+image: app-vendor-cybus.png
 breadcrumbs:
  - name: Home
    target: /

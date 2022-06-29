@@ -8,7 +8,6 @@ breadcrumbs:
  - name: News
    target: /news
  - name: EcoCloud Sustainability Days
-
 ---
 
 **Driving Sustainable Cloud Computing**

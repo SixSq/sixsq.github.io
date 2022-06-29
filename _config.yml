@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sixsq.com/sixsq-pages-new.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://new-website.sixsq.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sixsq
 
 excerpt_separator: <!--more-->
@@ -191,15 +191,15 @@ autopages:
 
   # Category pages, omit entire config element to disable
   categories:
-    enabled: false
+#    enabled: false
     # Optional, the list of layouts that should be processed for every category found in the site
     layouts:
-      - 'news.html'
+      - 'blog-category.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: 'Posts in category :cat'
+    title: ':cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/category/:cat'
+    permalink: '/blog/category/:cat'
     # Optional, when true logging related to category pages will be supressed.
     silent: false
     slugify:
@@ -208,11 +208,11 @@ autopages:
 
   # Collection pages, omit to disable
   collections:
-    enabled: false
+#    enabled: false
     layouts:
       - 'blog.html'
     title: 'Posts in collection :coll' # :coll is replaced by the collection name
-    permalink: '/collection/:coll'
+    permalink: 'blog/collection/:coll'
     silent: false
     slugify:
       mode: 'default'   # :coll is slugified.
@@ -221,9 +221,14 @@ autopages:
   # Tag pages, omit to disable
   tags:
     layouts:
-      - 'news.html'
-    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
-    permalink: '/tag/:tag'
+      - 'blog-tag.html'
+    title: ':tag'
+    pagination: 
+      enabled: true
+      permalink: ':num/'
+      category: news
+    without-trial: true
+    permalink: '/blog/tag/:tag'
     silent: false
     slugify:
       mode: 'default'   # :tag is slugified.

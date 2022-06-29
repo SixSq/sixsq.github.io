@@ -8,7 +8,6 @@ breadcrumbs:
  - name: News
    target: /news
  - name: Discussing the Smart City Edge
-
 ---
 
 **What are the use cases that can be deployed in cities to help them become smarter?**

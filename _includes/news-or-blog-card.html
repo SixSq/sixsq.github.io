@@ -1,7 +1,9 @@
 <div class="col-lg-4">
     <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/{% if post.category == 'news' %}{% else %}blog{% endif %}/{% if post.image-card %}{{ post.image-card }}{% else %}{{ post.image }}{% endif %}"></div>
+        <div class="activities-image-wrapper"><img src="/assets/img/{% if post.category == 'news' %}news{% else %}blog{% endif %}/{% if post.image-card %}{{ post.image-card }}{% else %}{{ post.image }}{% endif %}"></div>
+        {% if include.show-type %}
         <p class="activities-type">{% if post.category == 'news' %}Press release{% else %}Blog{% endif %}</p>
+        {% endif %}
         <p class="activities-title">{{ post.title }}</p>
         <p class="activities-date">{{ post.date | date: "%d %B %Y" }}</p>
         <p class="activities-description">{{ post.excerpt | strip_html | truncate: 150 }}</p>

@@ -14,6 +14,9 @@
             <div id="blog" class="anchor-position"></div>
             <img class="inline-image" src="/assets/img/blog/{{ page.image }}">
             {{ page.content }}
+            {% if page.linkedin %}
+                <a class="btn btn-primary" role="button" target="_blank" href="{{ page.linkedin }}">Engage on LinkedIn</a>
+            {% endif %}
         </div>
     </div>
     <div class="container-fluid bg-gray">

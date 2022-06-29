@@ -3,7 +3,7 @@
   {% include head.html %}
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}
-    {% include top-form-section.html %}
+    {% include top-form-section.html %}{{ page.tag }}
 
     <div class="container-fluid sticky-top breadcrumb-wrapper">
         {% include breadcrumbs.html %}
@@ -36,6 +36,6 @@
         </div>
     </div>
 
-    {% include footer.html %}
+    {% include footer.html they-trust-us = false %}
   </body>
 </html>

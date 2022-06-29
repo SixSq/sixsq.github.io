@@ -1,7 +1,7 @@
 ---
 title: AI EdgeLabs joins App Vendor Programme
 product-title: AI EdgeLabs available on Nuvla.io Marketplace for Cyber protection at the edge
-image: logo-ai-edgelabs.png
+image: app-vendor-ai-edgelabs.png
 breadcrumbs:
  - name: Home
    target: /

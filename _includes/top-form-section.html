@@ -4,8 +4,10 @@
             <div class="col-lg-6 align-self-center hero-text">
                 {% if page.product-name %}
                   <p class="text-primary text-big">{{ page.product-name }}</p>
+                {% else %}
+                  <p class="mt-5"></p>
                 {% endif %}
-                <h1>{{ page.product-title }}</h1>
+                <h1><strong>{% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title | capitalize }}{% endif %}</strong></h1>
                 <p>{{ page.product-description }}</p>
                 {% if page.product-next-text %}                
                 <a class="btn btn-link" role="button" href="#{{ page.product-next-target }}">{{ page.product-next-text }}</a>
