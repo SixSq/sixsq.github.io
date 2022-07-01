@@ -72,6 +72,7 @@ defaults:
       category: blog
       layout: blog-article
       product-name: Blog
+      location: Geneva, Switzerland
   -
     scope:
       path: "*/features"
@@ -227,6 +228,7 @@ autopages:
       enabled: true
       permalink: ':num/'
       category: news
+    tag: ':tag'
     without-trial: true
     permalink: '/blog/tag/:tag'
     silent: false

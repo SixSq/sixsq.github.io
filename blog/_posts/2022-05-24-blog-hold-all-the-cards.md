@@ -8,7 +8,7 @@ breadcrumbs:
  - name: Blog
    target: /blog
  - name: Privacy intrusion
-tags: edge, cloud, privacy, security
+tags: edge cloud privacy security
 ---
 
 In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organisations collecting data, video and audio — these inputs are your cards and absolutely no one else should see them. 

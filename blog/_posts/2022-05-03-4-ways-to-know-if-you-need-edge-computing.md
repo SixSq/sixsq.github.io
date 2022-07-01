@@ -8,8 +8,9 @@ breadcrumbs:
  - name: Blog
    target: /blog
  - name: 4 ways to know if you need edge computing
-tags: edge, cloud, privacy, security
-category: edge computing
+tags: edge cloud
+category: edge
+author: Marc-Elian Bégin
 ---
 
 

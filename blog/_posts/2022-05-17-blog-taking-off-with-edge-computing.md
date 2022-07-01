@@ -8,8 +8,9 @@ breadcrumbs:
  - name: Blog
    target: /blog
  - name: Taking off with edge computing?
-tags: edge, cloud, privacy, security
-linkedin: https://www.linkedin.com/posts/sixsq_taking-off-with-edge-computing-dont-clip-activity-6896484147087376384-Hz_E
+tags: edge
+author: Marc-Elian Bégin
+author-linkedin: https://www.linkedin.com/posts/sixsq_taking-off-with-edge-computing-dont-clip-activity-6896484147087376384-Hz_E
 ---
 
 #### Considering an edge solution? Read on for tips and potential pitfalls.

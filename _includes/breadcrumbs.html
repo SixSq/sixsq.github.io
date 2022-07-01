@@ -7,5 +7,11 @@
       </a>
     </li>
     {% endfor %}
+    {% if page.pagination.tag %}
+    <li class="breadcrumb-item">
+        <span>{{ page.pagination.tag }}</span>
+    </li>
+    {% endif %}
+    </li>
   </ol>
 </div>
