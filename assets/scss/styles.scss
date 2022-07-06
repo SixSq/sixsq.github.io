@@ -1,6 +1,7 @@
 /* variables start */
 
 $red-100: rgba(237,43,43,1);
+$red-90: rgba(237,43,43,.9);
 $red-70: rgba(237,43,43,.7);
 $red-50: rgba(237,43,43,.5);
 $red-10: rgba(237,43,43,.1);
@@ -58,6 +59,30 @@ body {
   font-size: 5rem;
   font-family: 'Bauziet Norm';
   line-height: 5rem;
+}
+
+.email-para.text-light a{
+color:#fff;
+text-decoration: none;
+}
+.email-para.text-light a:hover{
+text-decoration: underline;
+}
+.email-para{
+padding-left: 2rem;
+background-image: url("icon-email.svg");
+background-repeat: no-repeat;
+}
+.location-para{
+padding-left: 2rem;
+background-image: url("icon-location.svg");
+background-repeat: no-repeat;
+}
+.email-para.text-light{
+background-image: url("icon-email-white.svg");
+}
+.location-para.text-light{
+background-image: url("icon-location-white.svg");
 }
 li{
   margin-bottom: .8rem;
@@ -461,6 +486,39 @@ input, .form-control {
 }
 
 
+.check-input {
+  margin: .5rem 0;
+}
+
+.check-input .form-label {
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: -26px;
+}
+@media (max-width: 767px) {
+.check-input input[type="checkbox"] {
+  width: auto !important;
+}
+
+.check-input .form-label {
+    padding-left: 30px;
+
+}
+}
+
+
+
+.form-label-text-along{
+    padding: 1rem 1rem .5rem 1rem;
+}
+.form-check .form-check-input {
+    margin-left: 0;
+    border-radius: 0;
+    border: 1px solid rgba(0, 1, 5, 0.15)
+}
+
 
 .input-group-submit .input-group-text {
   background-color: transparent;
@@ -553,6 +611,9 @@ display: block;
 .btn.btn-light {
   background-color: #ffffff;
   border: 1px solid $red-100;
+}
+.btn-noborder{
+  border: none !important;
 }
 
 .btn.btn-light:focus, .btn.btn-light:hover {
@@ -841,9 +902,57 @@ img.logo {
 }
 
 
+.full-height-follow{
+
+margin-bottom: -8rem; padding-top : 5rem; margin-left: -3.5rem;
+
+}
+
+.full-height-image{
+padding: 6rem;
+}
+.full-height-title{
+padding: 3rem 3.5rem;
+background-color: $red-100;
+}
+.full-height-text{
+padding: 4rem;
+}
+
+
+@media (max-width: 1199px) {
+
+  .full-height-image{
+  padding: 3rem 3rem 7rem 3rem;
+  }
+  .full-height-title{
+  padding: 2rem 2.5rem;
+  }
+  .full-height-follow {
+    margin-bottom: -7rem;
+    padding-top: 5rem;
+    margin-left: -2.5rem;
+  }
+  .full-height-text{
+  padding: 0rem;
+  }
+}
 
 
 @media (max-width: 767px) {
+
+
+  .form-label-text-along {
+    padding: 0.5rem 0;
+  }
+  .full-height-image{
+  padding: 3rem 3rem 7rem 3rem;
+  }
+  .full-height-title{
+  padding: 2rem 2.5rem;
+  }
+
+
   img.logo {
     width: 64px;
   }
@@ -1090,6 +1199,7 @@ footer {
   font-size: .8rem;
   color: $black-50;
 }
+
 
 @media (min-width: 992px) {
   .social-follow p {

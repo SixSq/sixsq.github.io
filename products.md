@@ -11,5 +11,4 @@ breadcrumbs:
  - name: Home
    target: /
  - name: Products
-   target: Products
 ---

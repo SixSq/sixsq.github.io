@@ -49,6 +49,12 @@ collections:
     output: false
   casestudies:
     output: false
+  jobs:
+    output: true
+    layout: job
+    product-background-img: bg-hero-product.jpg
+  partners:
+    output: false
 
 defaults:
   -
@@ -103,6 +109,17 @@ defaults:
       type: "casestudies"
     values:
       category: "retail"
+  -
+    scope:
+      path: ""
+      type: jobs
+    values:
+      layout: job
+      product-title: Join Our Amazing Team and help deliver the Edge-to-Cloud Computing Revolution
+      product-description: Our people are our most precious asset. Do you have what it takes to be part of the adventure?
+      product-background-img: bg-hero-jobs.jpg
+      without-trial: true
+
 
 # Build settings
 theme: minima

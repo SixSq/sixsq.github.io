@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section section-article">
+            <div id="blog" class="anchor-position"></div>
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="container-fluid bg-gray">
+        <div class="container section">
+            <div id="products" class="anchor-position"></div>
+            <h2 class="text-center">Latest blog posts<br></h2>
+            <div class="row row-col-feature row-col-activities">
+                {% assign news = site.posts | where: "category", "blog" %}
+                {% for post in news limit:3 %}
+                  {% include news-or-blog-card.html %}
+                {% endfor %}
+            </div>
+            <div class="text-center pt-3">
+                <a class="btn btn-primary" role="button" href="{{ site.url }}{{ site.baseurl }}/blog" target="_blank">Read all blog posts</a>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<div class="col-lg-6 offset-lg-3">
+    <div class="shadow">
+        <h3>{{ job.title }}<br></h3>
+        <p>{{ job.excerpt | strip_html | truncate: 150 }}<br></p>
+        <a class="btn btn-light" role="button" href="{{ job.url }}">Discover &amp; Apply</a>
+    </div>
+</div>

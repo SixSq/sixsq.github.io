@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container section container-box2">
+        <div class="container section-primary-box section-primary-box2 section-limited-width">
+            <div class="row shadow">
+                <div class="col-lg-4 bg-primary" style="padding: 3rem;">
+                    <p class="email-para text-light"><a href="mailto:info@sixsq.com">info@sixsq.com</a><br></p>
+                    <p class="email-para text-light"><a href="mailto:support@sixsq.com">support@sixsq.com</a><br></p>
+                    <p class="text-light location-para">SixSq<br>Route de Meyrin 267<br>1217, Meyrin, Geneva<br>Switzerland</p>
+                </div>
+                <div class="col-lg-8">
+                    <form>
+                        <h3>Get in touch</h3>
+                        <div class="input-group"><input class="form-control" type="text" placeholder="First name" name="First name" required=""><input class="form-control" type="text" placeholder="Last name" name="Last name" required=""></div>
+                        <div class="input-group"><input class="form-control" type="text" placeholder="E-mail" name="E-mail" required=""></div>
+                        <div class="input-group"><input class="form-control" type="text" placeholder="Phone Number" name="Phone Number" required=""></div>
+                        <div class="input-group"><textarea class="form-control" name="How can we help?" placeholder="How can we help?"></textarea></div>
+                        <div class="input-group input-group-submit"><button class="btn btn-secondary" type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="row shadow" style="margin-top: 3rem; margin-bottom: 3rem;">
+                <div class="col-lg-6" style="padding: 2.5rem 3rem;">
+                    <h2>Directions</h2>
+                    <p class="small">It's easy to get to the SixSq offices. We are located about 15 minutes from the Geneva International Airport and from the Geneva Cornavin central railway station.</p>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="pri">By public transport</h3>
+                            <p class="small">From the airport, take the bus 23 (direction ZIPLO) or 28 (direction Parfumerie) to Blandonnet, then change to tram 18 (direction CERN), getting off at the stop Bois-du-Lan.</p>
+                            <p class="small">From the central train station, simply take the tram 18 (direction CERN), getting off at the stop Bois-du-Lan.</p>
+                            <p class="small">Once you get off the tram, you will see the Bacardi/Martini site. To the right of the carwash, on the same road as the tram, in the hedge, you will find the pedestrian gate. Ring Tradall to have the gate opened. Our building is on the right, first floor.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h3>By car</h3>
+                            <p class="small">Enter the Bacardi/Martini site from the gate on rue du Bois-du-Lan. Ring Tradall to have the gate opened. Then drive to the front of the second building. We are on the first floor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="padding: 0;">
+                    <div class="h-100" style="padding: 0;">
+                      <iframe src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=SixSq,+Meyrin&amp;aq=0&amp;oq=sixsq&amp;sll=47.377455,8.536715&amp;sspn=0.261082,0.228996&amp;ie=UTF8&amp;hq=SixSq,&amp;hnear=Meyrin,+Geneva&amp;t=m&amp;ll=46.229461,6.079216&amp;spn=0.01425,0.027466&amp;z=15&amp;iwloc=A&amp;output=embed" width="100%" height="100%" style="border:0; min-height: 450px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html they-trust-us = false %}
+  </body>
+</html>

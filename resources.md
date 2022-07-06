@@ -16,19 +16,22 @@ without-trial: true
         <div id="products" class="anchor-position"></div>
         <div class="row row-col-feature row-col-feature-logo">
             <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/icon-news.svg">
+                <div class="shadow">
+                    <img src="assets/img/icon-news.svg">
                     <h3>News</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class="btn btn-light" role="button" href="/news" target="_blank">Read news</a>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/icon-blog.svg">
+                <div class="shadow">
+                    <img src="assets/img/icon-blog.svg">
                     <h3>Blog</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class="btn btn-light" role="button" href="/blog" target="_blank">Read articles</a>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/icon-video.svg">
+                <div class="shadow">
+                    <img src="assets/img/icon-video.svg">
                     <h3>Videos</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class="btn btn-light" role="button" href="/videos" target="_blank">Watch now</a>
                 </div>
