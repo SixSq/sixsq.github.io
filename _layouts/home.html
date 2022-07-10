@@ -4,7 +4,7 @@
   <body data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}    
 
-    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url(&quot;assets/img/bg-hero-home.jpg&quot;) center / cover no-repeat;">
+    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/bg-hero-home.jpg') center / cover no-repeat;">
         <div class="container hero hero-straddle">
             <div class="row">
                 <div class="col-lg-6 align-self-center hero-text">
@@ -25,11 +25,11 @@
                 <div class="row row-col-2-side row-col-side">
                     <div class="col-lg-6 col-xl-5 offset-xl-1"><img src="assets/img/icon-edge-white.svg">
                         <h3 class="text-light">Edge knowledge base</h3>
-                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaning the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p><a class="btn btn-primary" role="button" href="/resources" target="_blank">Learn more</a>
+                        <p class="text-light">Understand the Edge further with our comprehensive knowledge base explaning the technology, ecosystem and capabilities. Find out how the Edge can empower your business.</p><a class="btn btn-primary" role="button" href="/resources">Learn more</a>
                     </div>
                     <div class="col-lg-6 col-xl-5"><img src="assets/img/icon-nuvla-white.svg">
                         <h3 class="text-light">Our solutions</h3>
-                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p><a class="btn btn-primary" role="button" href="/products" target="_blank">Learn more</a>
+                        <p class="text-light">Tailored solutions to meet a vast range of business use-cases across retail, manufacturing and transportation. Edge is the solution for scale to lower network cost, lower latency and maintain security.</p><a class="btn btn-primary" role="button" href="/products">Learn more</a>
                     </div>
                 </div>
                 <h3 class="text-light">Discover Nuvla.io</h3>
@@ -38,9 +38,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MlaRI3lrhrM" class="video-frame" width="100%"></iframe><a class="btn btn-secondary" role="button" href="https://nuvla.io/" target="_blank" style="margin-top: 30px;">Sign up for Nuvla</a></div>
+            <div class="col-lg-8 offset-lg-2 text-center"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MlaRI3lrhrM" class="video-frame" width="100%"></iframe><a class="btn btn-secondary" role="button" href="https://nuvla.io/" style="margin-top: 30px;">Sign up for Nuvla</a></div>
         </div>
-    </div>
+    </div><
     <div class="container section text-center">
         <h2>The power of Edge<br></h2>
         <p>Understand the power fo the Edge with our comprehensive overview of the industry and solutions.</p>
@@ -56,7 +56,7 @@
                 <div class="shadow"><img src="assets/img/icon-marketplace-red.svg">
                     <h3>The Marketplace</h3>
                     <p>The Marketplace and its App Vendor Programme springboards customers into adopting and deploying meaningful edge computing with minimum risk and a positive ROI.</p>
-                    <a class="btn btn-light" role="button" href="/marketplace" target="_blank">Business ready Marketplace</a>
+                    <a class="btn btn-light" role="button" href="/marketplace">Business ready Marketplace</a>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -77,7 +77,7 @@
             {% endif %}
           {% endfor %}
         </div>
-        <a class="btn btn-primary" role="button" href="/partners" target="_blank">All partners</a>
+        <a class="btn btn-primary" role="button" href="/partners">All partners</a>
         <h2 class="title-seperation">Our app vendors<br></h2>
         <div class="logo-wrapper">
           {% for post in site.vendors %}
@@ -86,37 +86,32 @@
             {% endif %}
           {% endfor %}
         </div>
-        <a class="btn btn-primary" role="button" href="/marketplace#app-vendors" target="_blank">More apps and vendors</a>
+        <a class="btn btn-primary" role="button" href="/marketplace#app-vendors">More apps and vendors</a>
     </div>
     <div class="container-fluid bg-gradient-gray">
-        <div class="container section text-center" style="padding-bottom: 0;">
-            <h2>They trust us</h2>
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-                <div class="carousel-inner">
-                    {% for post in site.customers %}
-                      {% assign customerIndex = forloop.index %}
-                      {% if post.testimonial-author %}
-                        {% include customer-testimonial.html customerIndex = customerIndex %}
-                      {% endif %}
-                    {% endfor %}
-                </div>
-                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
-            </div>
+        <div class="container section text-center">
+            {% include they-trust-us.html %}
             <div class="logo-wrapper">
               {% for post in site.customers %}
-                {% include customer.html %}
+                {% if post.top %}
+                  {% include customer.html %}
+                {% endif %}
               {% endfor %}
             </div>
+            <a class="btn btn-primary" role="button" href="/customers">More customers</a>
         </div>
     </div>
-    <div class="container section">
-        <h2 class="text-center">News and Activities<br></h2>
-        <div class="row row-col-feature row-col-activities">
-            {% for post in site.posts limit:3 %}
-              {% include news-or-blog-card.html show-type = true %}
-            {% endfor %}
+    <div class="container-fluid bg-gray">
+        <div class="container text-center section pb-0">
+            <h2 class="text-center">News and Activities<br></h2>
+            <div class="row row-col-feature row-col-activities">
+                {% for post in site.posts limit:3 %}
+                    {% include news-or-blog-card.html show-type = true %}
+                {% endfor %}
+            </div>
+            <a class="btn btn-primary mt-5 mb-0" role="button" href="/resources">All news, blog and more</a>
         </div>
     </div>
-    {% include footer.html they-trust-us=false %}
+    {% include footer.html bg-gray = true%}
   </body>
 </html>

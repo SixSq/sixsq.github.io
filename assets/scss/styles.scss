@@ -1242,12 +1242,15 @@ footer {
   padding-bottom: 4rem;
 }
 @media (max-width: 991px) {
-.hero.hero-narrow .hero-text{
-  padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.9);
-      width: 90%;
-      margin: 0 5% 0 5%;
-}
+  .hero.hero-narrow {
+    padding-top: 0rem;
+  }
+  .hero.hero-narrow .hero-text{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
 }
 
 .hero-text {

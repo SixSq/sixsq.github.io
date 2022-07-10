@@ -1,7 +1,7 @@
 ---
 title: GMV
 image: logo-gmv.png
-top-story: false
+top: false
 link: https://www.gmv.com
 ---
 

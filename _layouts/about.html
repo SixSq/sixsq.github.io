@@ -93,11 +93,25 @@
     </div>
     <div class="container section text-center" style="padding-top: 0; padding-bottom: 3rem;">
         <h2>In strategic partnership with<br></h2>
-        <div class="logo-wrapper"><img src="assets/img/logo-hp.png"><img src="assets/img/logo-cancom.png"><img src="assets/img/logo-dell.png"><img src="assets/img/logo-exoscale.png"><img src="assets/img/logo-nagra.png"><img src="assets/img/logo-lenovo.png"></div><a class="btn btn-primary" role="button" href="#" target="_blank">All partners</a>
-        <h2 class="title-seperation">Our vendors<br></h2>
-        <div class="logo-wrapper"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"><img src="assets/img/logo-vendors.png"></div>
+        <div class="logo-wrapper">
+          {% for post in site.partners %}
+            {% if post.top == true %}
+              {% include partner.html %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <a class="btn btn-primary" role="button" href="/partners">All partners</a>
+        <h2 class="title-seperation">Our app vendors<br></h2>
+        <div class="logo-wrapper">
+          {% for post in site.vendors %}
+            {% if post.top == true %}
+              {% include vendors.html %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <a class="btn btn-primary" role="button" href="/marketplace#app-vendors">More apps and vendors</a>
     </div>
 
-    {% include footer.html they-trust-us = false %}
+    {% include footer.html %}
   </body>
 </html>

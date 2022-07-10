@@ -1,7 +1,7 @@
 ---
 title: EFCA
 image: logo-efca.png
-top-story: true
+top: false
 link: https://www.efca.europa.eu
 ---
 

@@ -1,5 +1,5 @@
 ---
-image: logo-hp.png
+image: logo-hpe.png
 link: https://hpe.com
 ---
 

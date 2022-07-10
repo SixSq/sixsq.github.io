@@ -1,4 +1,5 @@
 ---
 layout: home
-title: SixSq | Welcome page
+title: Welcome page
+they-trust-us: false
 ---
