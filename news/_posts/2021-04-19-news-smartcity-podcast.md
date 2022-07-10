@@ -2,12 +2,6 @@
 title: Discussing the Smart City Edge
 product-title: Discussing the Smart City Edge
 image: smartandsustainablecitypodcast.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Discussing the Smart City Edge
 ---
 
 **What are the use cases that can be deployed in cities to help them become smarter?**

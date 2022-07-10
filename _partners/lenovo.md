@@ -1,7 +1,7 @@
 ---
 title: Lenovo
 image: logo-lenovo.png
-top-story: false
+top: true
 link: https://www.lenovo.com/us/en/data-center/solutions/telco-nfv
 ---
 

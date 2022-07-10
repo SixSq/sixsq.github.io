@@ -2,12 +2,6 @@
 title: ELEKTRON and SixSq launch TrafficDim
 product-title: ELEKTRON and SixSq launch the first industrialised traffic-based lighting solution in Switzerland
 image: ../logo-elektron.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: ELEKTRON and SixSq launch TrafficDim
 ---
 
 **Next-generation solution for smart, efficient street lighting**

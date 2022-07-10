@@ -2,12 +2,6 @@
 title: Securaxis joins App Vendor Programme
 product-title: SixSq’s Nuvla.io ecosystem facilitates the deployment, management and update of Securaxis’s SONAL Sound Analysis Agent
 image: app-vendor-securaxis.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Securaxis joins App Vendor Programme
 co-author-company: securaxis
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Exoscale
 image: logo-exoscale.png
-top-story: true
+top: true
 link: http://exoscale.com
 redirect_from:
   - /partners/exoscale.html

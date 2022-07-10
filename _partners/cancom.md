@@ -1,7 +1,7 @@
 ---
 title: Cancom
 image: logo-cancom.png
-top-story: true
+top: false
 link: http://cancom.com
 ---
 

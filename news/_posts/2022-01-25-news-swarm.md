@@ -2,13 +2,6 @@
 title: Renewable energy management at forefront of SWARM project
 product-title: Renewable energy management at forefront of SWARM project
 image: smartgrid.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Renewable energy management at forefront of SWARM project
-
 ---
 
 **Smart and Widely-distributed Appliances for Renewable energy Management (SWARM)**

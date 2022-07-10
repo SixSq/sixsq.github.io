@@ -1,13 +1,7 @@
 ---
-title: Ekinops’ SixSq joins 5G-EMERGE to build solutions for the satellite-enabled 5G media market
+title: SixSq joins 5G-EMERGE project
 product-title: Ekinops’ SixSq joins 5G-EMERGE to build solutions for the satellite-enabled 5G media market
-image: logo_5GEMERGE.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: SixSq acquired by Ekinops
+image: 5GEmerge-vignette.png
 co-author-company: ekinops
 ---
 

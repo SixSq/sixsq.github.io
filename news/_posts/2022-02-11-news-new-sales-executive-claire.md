@@ -2,12 +2,6 @@
 title: Claire d'Herbomez joins SixSq
 product-title: SixSq pleased to announce appointment of new Sales Executive
 image: news-claire.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Claire d'Herbomez joins SixSq
 co-author-name: Claire d’Herbomez
 co-author-email: claire.dherbomez@sixsq.com
 co-author-title: Sales Executive

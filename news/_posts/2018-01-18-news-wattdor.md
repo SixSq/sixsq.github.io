@@ -2,12 +2,6 @@
 title: Prestigious Swiss Watt d'Or Prize goes to Intelligent Lighting System
 product-title: Prestigious Swiss Watt d'Or Prize goes to Intelligent Lighting System
 image: logo_volumlight.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Prestigious Swiss Watt d'Or Prize goes to Intelligent Lighting System
 ---
 
 [Schréder Swiss](https://www.schreder.com/en), one of Europe’s leading suppliers of street lighting equipment, in partnership with [EKZ](https://www.ekz.ch/de/ueber-ekz.html) (Elektrizitätswerke des Kantons Zürich), has been presented with the [Watt d’Or 2018](https://www.bfe.admin.ch/bfe/en/home/swiss-federal-office-of-energy/watt-d-or/winners-of-the-watt-dor-awards/winners-of-the-2018-watt-d-or-awards.html) award for the Energy Technologies Category. The prize is awarded by the Swiss Federal Office of Energy to innovative Swiss companies and organisations which have developed practical, sustainable energy solutions.

@@ -9,12 +9,74 @@
         {% include breadcrumbs.html %}
         {% include navbar.html %}
     </div>
-    <div class="container bg-primary section section-straddle" style="background: url(&quot;assets/img/bg-wave.png&quot;) right / cover no-repeat; margin-top: 3rem;">
-        <div id="vendor" class="anchor-position"></div>
+    <div class="container bg-primary section" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+        <div id="app-vendors" class="anchor-position"></div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="text-light"><strong>App Vendor Journey</strong></h2>
-                <p class="text-light subtitle">Becoming an app vendor on Nuvla.io is simple and straightforward.</p>
+                <h2 class="text-light"><strong>App Vendors</strong></h2>
+                <p class="text-light subtitle">Deploy ready made apps in minutes, from market leaders and domain matter experts.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container text-center">
+                <div class="row row-col-feature row-col-feature-logo">
+                {% for vendor in site.vendors %}
+                  {% include vendor-card.html %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section" style="padding-top: 0;">
+        <div id="customer-journey" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center title-seperation"><strong>Customer Journey</strong></h2>
+                <p class="subtitle">Adopting Nuvla.io takes a few minutes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 0;">
+        <div class="row row-col-feature row-col-feature-steps row-col-feature-logo">
+            <div class="col-lg-4">
+                <div class="shadow">
+                    <div class="step-icon"><img class="step-icon" src="assets/img/icon-account-step.svg"></div>
+                    <h3><span>1</span>Create account</h3>
+                    <div class="seperator-primary"></div>
+                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
+                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
+                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-card.png"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="shadow"><img class="step-icon" src="assets/img/icon-infrastrcture-step.svg">
+                    <h3><span>2</span>Register or deploy infrastructure<br></h3>
+                    <div class="seperator-primary"></div>
+                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
+                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
+                    <div class="logo-wrapper logo-wrapper-3"><img src="assets/img/logo-kubernetes.png"><img src="assets/img/logo-docker.png"><img src="assets/img/logo-nuvlaedge.png"></div>
+                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
+                    <div class="logo-wrapper logo-wrapper-3"><img src="assets/img/logo-aws.png"><img src="assets/img/logo-azur.png"><img src="assets/img/logo-google-cloud.png"><img src="assets/img/logo-exoscale.png"><img src="assets/img/logo-openstack.png"><img src="assets/img/logo-azur-stack.png"><img src="assets/img/logo-vmware.png"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="shadow"><img class="step-icon" src="assets/img/icon-marketplace-step.svg">
+                    <h3><span>3</span>Purchase &amp; Deploy apps<br></h3>
+                    <h3><span>4</span>Monitor/update apps &amp; devices<br></h3>
+                    <div class="seperator-primary"></div>
+                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section" style="padding-top: 0;">
+        <div id="vendor-journey" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center title-seperation"><strong>App Vendor Journey</strong></h2>
+                <p class="subtitle">Becoming an app vendor on Nuvla.io is simple and straightforward.</p>
             </div>
         </div>
     </div>
@@ -50,42 +112,6 @@
             </div>
         </div>
     </div>
-    <div class="container section" style="padding-top : 0;">
-        <div id="customer" class="anchor-position"></div>
-        <h2 class="text-center title-seperation" style="margin-top: 1rem;"><strong>Customer Journey</strong></h2>
-        <p class="subtitle text-center">Becoming an app vendor on Nuvla.io is simple and straightforward.</p>
-        <div class="row row-col-feature row-col-feature-steps row-col-feature-logo">
-            <div class="col-lg-4">
-                <div class="shadow">
-                    <div class="step-icon"><img class="step-icon" src="assets/img/icon-account-step.svg"></div>
-                    <h3><span>1</span>Create account</h3>
-                    <div class="seperator-primary"></div>
-                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
-                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
-                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-card.png"></div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img class="step-icon" src="assets/img/icon-infrastrcture-step.svg">
-                    <h3><span>2</span>Register or deploy infrastructure<br></h3>
-                    <div class="seperator-primary"></div>
-                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
-                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
-                    <div class="logo-wrapper logo-wrapper-3"><img src="assets/img/logo-kubernetes.png"><img src="assets/img/logo-docker.png"><img src="assets/img/logo-nuvlaedge.png"></div>
-                    <div class="text-center"><img class="text-center" src="assets/img/icon-plus.svg" style="margin: 0;"></div>
-                    <div class="logo-wrapper logo-wrapper-3"><img src="assets/img/logo-aws.png"><img src="assets/img/logo-azur.png"><img src="assets/img/logo-google-cloud.png"><img src="assets/img/logo-exoscale.png"><img src="assets/img/logo-openstack.png"><img src="assets/img/logo-azur-stack.png"><img src="assets/img/logo-vmware.png"></div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img class="step-icon" src="assets/img/icon-marketplace-step.svg">
-                    <h3><span>3</span>Purchase &amp; Deploy apps<br></h3>
-                    <h3><span>4</span>Monitor/update apps &amp; devices<br></h3>
-                    <div class="seperator-primary"></div>
-                    <div class="logo-wrapper logo-wrapper-2"><img src="assets/img/logo-nuvla-io.png"></div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="container-fluid bg-gray">
         <div class="container section text-center">
@@ -100,22 +126,6 @@
                   {% endif %}
                 {% endfor %}
             </div>
-<!--            <button class="btn btn-primary btn-collapse collapsed" type="button" data-bs-target="#all-features" data-bs-toggle="collapse" aria-controls="all-features" aria-expanded="false" style="margin-top: 30px;">
-              <span class="btn-collapse-open">Discover all features</span>
-              <span class="btn-collapse-close">Show main features only</span>
-            </button>
-            <div id="all-features" class="collapse" style="margin-top:2rem;">
-                <div class="row row-col-feature">
-                  {% for post in site.marketplace %}
-                    {% if post.category == 'feature' %}
-                      {% if post.main-feature == true %}
-                      {% else %}
-                        {% include feature.html %}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-            </div> -->
         </div>
     </div>
     {% include footer.html %}

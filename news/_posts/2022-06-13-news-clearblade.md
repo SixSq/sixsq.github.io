@@ -2,12 +2,6 @@
 title: Clearblade joins App Vendor Programme
 product-title: ClearBlade’s Intelligent Asset Edge AI Solution now available on SixSq’s Nuvla.io Marketplace
 image: app-vendor-clearblade.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Clearblade joins App Vendor Programme
 co-author-company: clearblade
 co-author-name: Michelle Davis
 co-author-email: marketing@clearblade.com

@@ -2,13 +2,6 @@
 title: Kudelski Group and SixSq to Make Industrial IoT Edge Computing Easy and Secure
 product-title: Kudelski Group and SixSq to Make Industrial IoT Edge Computing Easy and Secure
 image: logo-nagra.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Kudelski Group and SixSq to Make Industrial IoT Edge Computing Easy and Secure
-
 ---
 
 **Cheseaux-sur-Lausanne, Switzerland, Phoenix (AZ), USA, and Geneva, Switzerland, April 24, 2019.**

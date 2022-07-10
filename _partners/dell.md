@@ -1,7 +1,7 @@
 ---
 title: Dell
 image: logo-dell.png
-top-story: false
+top: false
 link: https://www.dell.com
 ---
 

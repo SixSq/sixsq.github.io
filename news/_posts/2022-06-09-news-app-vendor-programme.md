@@ -2,18 +2,10 @@
 title: SixSq announces Nuvla.io App Vendor Programme
 product-title: SixSq announces Nuvla.io App Vendor Programme to unlock business at the edge
 image: app-vendor-programme.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: SixSq announces Nuvla.io App Vendor Programme
-
 ---
 
 Building on the success of [Nuvla.io](https://nuvla.io/) B2B SaaS, edge solution experts SixSq SA, an [Ekinops](https://www.ekinops.com/) company, today announced the launch of the **Nuvla.io App Vendor Programme to accelerate the delivery and monetisation of edge computing applications.**
 <br/>
-
 
 Nuvla.io App Vendor Programme enables:
 <br/>

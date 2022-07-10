@@ -2,17 +2,10 @@
 title: AI EdgeLabs joins App Vendor Programme
 product-title: AI EdgeLabs available on Nuvla.io Marketplace for Cyber protection at the edge
 image: app-vendor-ai-edgelabs.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: AI EdgeLabs joins App Vendor Programme
 co-author-company: aiedgelabs
 co-author-name: Isaiah Arias
 co-author-email: isaiah.arias@edgelabs.ai
 co-author-title: Head of Sales and Business Development
-
 ---
 
 **SixSq’s Nuvla.io ecosystem facilitates the deployment, management, and update of AI EdgeLab’s cyber security sensors**

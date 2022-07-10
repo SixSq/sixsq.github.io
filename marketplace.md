@@ -13,10 +13,12 @@ breadcrumbs:
  - name: Products
    target: Products
 nav-items:
- - name: Vendor
-   anchor: vendor
- - name: Customer
-   anchor: customer
+ - name: App Vendors
+   anchor: app-vendors
+ - name: Customer Journey
+   anchor: customer-journey
+ - name: Vendor Journey
+   anchor: vendor-journey
  - name: Features
    anchor: features 
 ---

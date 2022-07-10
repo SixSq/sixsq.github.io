@@ -1,7 +1,7 @@
 ---
 title: Hewlett Packard Enterprise
 image: logo-hpe.png
-top-story: true
+top: false
 link: https://www.hpe.com/emea_europe/en/home.html
 ---
 

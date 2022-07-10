@@ -46,13 +46,6 @@
         <p>Understand the power fo the Edge with our comprehensive overview of the industry and solutions.</p>
         <div class="row row-col-feature">
             <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/icon-nuvla-red.svg">
-                    <h3>The Software</h3>
-                    <p>The NuvlaEdge software turns any ARM or x86 computer or virtual machine into a smart edge device, managed from Nuvla.io. The software is open source, secure and installs in minutes.</p>
-                    <a class="btn btn-light" role="button" href="/nuvlaedge">Discover our software</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
                 <div class="shadow"><img src="assets/img/icon-platform-red.svg">
                     <h3>The Platform</h3>
                     <p>Manage any containerised application across a fleet of edge devices and container orchestration engines in the cloud. Manage your edges as if they were on your desk, even if they are floating in the ocean or orbiting the Earth.</p>
@@ -66,15 +59,25 @@
                     <a class="btn btn-light" role="button" href="/marketplace" target="_blank">Business ready Marketplace</a>
                 </div>
             </div>
+            <div class="col-lg-4">
+                <div class="shadow"><img src="assets/img/icon-nuvla-red.svg">
+                    <h3>The Software</h3>
+                    <p>The NuvlaEdge software turns any ARM or x86 computer or virtual machine into a smart edge device, managed from Nuvla.io. The software is open source, secure and installs in minutes.</p>
+                    <a class="btn btn-light" role="button" href="/nuvlaedge">Discover our software</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container section text-center" style="padding-top: 0; padding-bottom: 3rem;">
         <h2>In strategic partnership with<br></h2>
         <div class="logo-wrapper">
           {% for post in site.partners %}
-            {% include partner.html %}
+            {% if post.top == true %}
+              {% include partner.html %}
+            {% endif %}
           {% endfor %}
         </div>
+        <a class="btn btn-primary" role="button" href="/partners" target="_blank">All partners</a>
         <h2 class="title-seperation">Our app vendors<br></h2>
         <div class="logo-wrapper">
           {% for post in site.vendors %}
@@ -83,7 +86,7 @@
             {% endif %}
           {% endfor %}
         </div>
-        <a class="btn btn-primary" role="button" href="/marketplace" target="_blank">More apps and vendors</a>
+        <a class="btn btn-primary" role="button" href="/marketplace#app-vendors" target="_blank">More apps and vendors</a>
     </div>
     <div class="container-fluid bg-gradient-gray">
         <div class="container section text-center" style="padding-bottom: 0;">

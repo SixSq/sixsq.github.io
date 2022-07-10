@@ -1,0 +1,8 @@
+{% if vendor.sectors %}
+  {% assign sectors = vendor.sectors | split: ", " %}
+  {% for sector in sectors %}
+  <p class="app-sector">
+    {{ sector }}
+  </p>
+  {% endfor %}
+{% endif %}

@@ -1336,17 +1336,31 @@ margin-right: 10px;
 .comments{
   margin-top: 3rem;
 }
+
+.app-sector {
+  margin-top: 1rem;
+  font-size: .7rem;
+  padding: 8px 15px;
+  background-color: $black-05;
+  border-radius: 6px;
+  margin-right: 10px;
+  color: $black-60;
+  transition: all .15s ease-in-out;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
 .tag {
-margin-top: 2rem;
+  margin-top: 2rem;
 }
 .tag a{
   font-size: .7rem;
-padding: 8px 15px;
-background-color: $black-05;
-border-radius: 6px;
-margin-right: 10px;
-color: $black-60;
-transition: all .15s ease-in-out;
+  padding: 8px 15px;
+  background-color: $black-05;
+  border-radius: 6px;
+  margin-right: 10px;
+  color: $black-60;
+  transition: all .15s ease-in-out;
 	display: inline-block;
 	margin-bottom: 10px;
 }

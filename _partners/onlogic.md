@@ -1,7 +1,7 @@
 ---
 title: OnLogic
 image: logo-onlogic.png
-top-story: false
+top: false
 link: https://www.onlogic.com/
 ---
 

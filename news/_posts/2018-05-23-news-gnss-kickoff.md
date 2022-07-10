@@ -2,12 +2,6 @@
 title: NSL, SixSq & University of Nottingham Awarded GNSS Big Data Contract
 product-title: NSL, SixSq & University of Nottingham Awarded GNSS Big Data Contract
 image: satellite.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: Improving exploitation of Big Data
 ---
 
 SixSq will be working alongside [Nottingham Scientific Ltd](https://gmvnsl.com/) (NSL) and the [University of Nottingham]( https://www.nottingham.ac.uk/) on an exciting new project set to improve the exploitation and application of big data collected by global navigation systems.

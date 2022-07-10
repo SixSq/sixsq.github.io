@@ -1,7 +1,7 @@
 ---
 title: Nagra
 image: logo-nagra.png
-top-story: true
+top: true
 link: https://www.nagra.com
 ---
 

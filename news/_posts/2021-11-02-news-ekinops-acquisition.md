@@ -2,12 +2,6 @@
 title: SixSq acquired by Ekinops
 product-title: SixSq acquired by Ekinops and secures fast growth in Edge Computing 
 image: featured-image-pr-ekinops.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: SixSq acquired by Ekinops
 co-author-company: ekinops
 ---
 

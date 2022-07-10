@@ -2,12 +2,6 @@
 title: EcoCloud Sustainability Days
 product-title: Discussing Sustainable Edge-to-Cloud Solutions at EcoCloud Sustainability Days
 image: ecocloud.jpeg
-breadcrumbs:
- - name: Home
-   target: /
- - name: News
-   target: /news
- - name: EcoCloud Sustainability Days
 ---
 
 **Driving Sustainable Cloud Computing**

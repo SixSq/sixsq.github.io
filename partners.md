@@ -7,4 +7,5 @@ product-background-img: bg-hero-partners.jpg
 breadcrumbs:
  - name: Home
    target: /
+ - name: Company
 ---
