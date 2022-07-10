@@ -9,30 +9,31 @@
         {% include breadcrumbs.html %}
     </div>
     <div class="container-fluid">
-        <div id="content">
-            <div class="row row-col-feature">
-                <div class="col">
-                    <div class="bg-primary text-center flex-icons" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
-                        <a class="{% if page.pagination.category == site.blog-discover %}selected{% endif %}" href="{% if page.pagination.category == site.blog-discover %}/blog{% else %}/blog/discover{% endif %}">
-                            <div>
-                                <img src="/assets/img/icon-iot-white.svg">
-                                <p class="text-light text-big">Discover</p>
-                            </div>
-                        </a>
-                        <a class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}" href="{% if page.pagination.category == site.blog-tech-corner %}/blog{% else %}/blog/tech-corner{% endif %}">
-                            <div class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}">
-                                    <img src="/assets/img/icon-edge-white.svg">
-                                    <p class="text-light text-big">Tech Corner</p>
-                            </div>
-                        </a>
-                        <a class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}" href="{% if page.pagination.category == site.blog-marketplace %}/blog{% else %}/blog/marketplace{% endif %}">
-                            <div class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}">
-                                <img src="/assets/img/icon-marketplace-white.svg">
-                                <p class="text-light text-big">Marketplace</p>
-                            </div>
-                        </a>
-                      </div>
-                    </div>
+        <div id="content" class="container section">
+            <div class="row row-col-feature bg-primary text-center" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
+                <div class="col-lg-4 col-sm flex-icons" style="padding: 0">
+                    <a class="{% if page.pagination.category == site.blog-discover %}selected{% endif %}" href="{% if page.pagination.category == site.blog-discover %}/blog{% else %}/blog/discover{% endif %}">
+                        <div>
+                            <img src="/assets/img/icon-iot-white.svg">
+                            <p class="text-light text-big">Discover</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm flex-icons" style="padding: 0">
+                    <a class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}" href="{% if page.pagination.category == site.blog-tech-corner %}/blog{% else %}/blog/tech-corner{% endif %}">
+                        <div class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}">
+                                <img src="/assets/img/icon-edge-white.svg">
+                                <p class="text-light text-big">Tech Corner</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm flex-icons" style="padding: 0">
+                    <a class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}" href="{% if page.pagination.category == site.blog-marketplace %}/blog{% else %}/blog/marketplace{% endif %}">
+                        <div class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}">
+                            <img src="/assets/img/icon-marketplace-white.svg">
+                            <p class="text-light text-big">Marketplace</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="row row-col-feature">
