@@ -7,8 +7,7 @@ product-background-img: bg-hero-blog.jpg
 breadcrumbs:
  - name: Home
    target: /
- - name: Blog
-pagination: 
+pagination:
   enabled: true
   permalink: ':num/'
   category: blog

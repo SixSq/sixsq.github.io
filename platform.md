@@ -1,8 +1,8 @@
 ---
 layout: platform
-title: SixSq | Products | Nuvla Platform
-product-name: Nuvla Platform
-product-title: B2B Edge and Container Management Service
+title: Nuvla.io Platform
+product-name: Nuvla.io
+product-title: B2B Edge and Container Management Platform
 product-description: Manage any containerised application across a fleet of edge devices and container orchestration engines.
 product-next-text: Discover the platform
 product-next-target: overview
@@ -12,8 +12,6 @@ breadcrumbs:
    target: /
  - name: Products
    target: Products
- - name: Nuvla Platform
-   target: Platform
 nav-items:
  - name: Overview
    anchor: overview

@@ -7,9 +7,10 @@ breadcrumbs:
    target: /
  - name: Blog
    target: /blog
- - name: 4 ways to know if you need edge computing
+ - name: Discover
+   target: /blog/discover
 tags: edge cloud
-category: edge
+blog-category: discover
 author: Marc-Elian Bégin
 ---
 

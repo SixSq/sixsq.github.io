@@ -13,28 +13,9 @@
         <div class="container section text-center section-limited-width">
             <div id="products" class="anchor-position"></div>
             <div class="row row-col-feature row-col-feature-logo">
-                <div class="col-lg-6">
-                    <div class="shadow"><img src="assets/img/icon-license.svg">
-                        <h3><strong>App License</strong></h3><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank" style="margin-top: 1.5rem;">Learn more</a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="shadow"><img src="assets/img/icon-cookie.svg">
-                        <h3>SixSq Cookie Policy</h3><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank" style="margin-top: 1.5rem;">Learn more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-col-feature row-col-feature-logo">
-                <div class="col-lg-6">
-                    <div class="shadow"><img src="assets/img/nuvla.io_logo.png" style="height: 96px;">
-                        <h3>Nuvla.io Terms &amp; Conditions</h3><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank" style="margin-top: 1.5rem;">Learn more</a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="shadow"><img src="assets/img/icon-privacy.svg">
-                        <h3>SixSq Approach to Privacy</h3><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank" style="margin-top: 1.5rem;">Learn more</a>
-                    </div>
-                </div>
+            {% for legal in site.legal %}
+              {% include legal-card.html %}
+            {% endfor %}
             </div>
         </div>
     </div>

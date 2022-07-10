@@ -1,0 +1,24 @@
+<div class="container-fluid hero-wrapper bg-gradient-gray-bottom">
+    <div class="container hero hero-narrow">
+        <div class="row">
+            <div class="col-lg-2 img-right-wrapper" style="padding: 10px 20px;">
+                <img src="/assets/img/{{ page.photo }}" style="width: 120px; margin-top: .8rem;">
+            </div>
+            <div class="col-lg-8" style="padding: 10px 20px;">
+                <p class="text-primary text-big">Blog Author</p>
+                <h1><strong>{{ page.title }}</strong><br></h1>
+                <p>{{ page.content }}</p>
+                {% if page.linkedin %}
+                <a href="{{ page.linkedin }}">
+                    <img src="/assets/img/icon-Linkedin-share-2.svg">
+                </a>
+                {% endif %}
+                {% if page.twitter %}
+                <a href="{{ page.twitter }}">
+                    <img src="/assets/img/icon-Twitter-share-2.svg" style="margin-left: 10px;">
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

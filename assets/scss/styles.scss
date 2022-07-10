@@ -102,6 +102,11 @@ ol, ul {
 .section-article ol, .section-article ul {
     padding-left: 1rem;
 }
+@media (min-width: 992px){
+.img-right-wrapper{
+  text-align: right;
+}
+}
 img{
   max-width: 100%;
 }
@@ -142,6 +147,9 @@ a.text-dark:hover {
 
 .bg-gradient-gray {
   background-image: linear-gradient(180deg, $black-05 0%, $black-00 50%);
+}
+.bg-gradient-gray-bottom {
+  background-image: linear-gradient(180deg, $black-00 0%, $black-05 50%);
 }
 .bg-gray{
   background-color: $black-05 !important;
@@ -893,12 +901,12 @@ display: none;
 /* Header start */
 
 img.logo {
-  width: 80px;
+  width: 160px;
   margin-right: 40px;
     transition: all .15s ease-in-out;
 }
 .fixed-top.header-active img.logo {
-  width: 64px;
+  width: 128px;
 }
 
 
@@ -954,7 +962,7 @@ padding: 4rem;
 
 
   img.logo {
-    width: 64px;
+    width:128px;
   }
   .double-menu header.fixed-top{
     position: relative;
@@ -1339,25 +1347,42 @@ border-radius: 6px;
 margin-right: 10px;
 color: $black-60;
 transition: all .15s ease-in-out;
+	display: inline-block;
+	margin-bottom: 10px;
 }
+
 .tag a:hover{
 background-color: $black-10;
 color: $black-100;
 }
+
+.tag a.selected-tag{
+background-color: $red-100;
+color: white;
+}
+
+.tag a.selected-tag:hover{
+background-color: $red-100;
+color: white;
+}
 .flex-icons{
 display: flex;
 }
-.flex-icons div{
+.flex-icons > a{
 flex:1;
 padding: 4rem 1rem 2rem 1rem;
 transition: all .15s ease-in-out;
 }
 
-.flex-icons div:hover{
+.flex-icons > a:hover{
 background-color: $red-100;
 }
 
-.flex-icons div a{
+.flex-icons > a.selected{
+background-color: $red-100;
+}
+
+.flex-icons > a{
 text-decoration: none;
 }
 .activities-description {

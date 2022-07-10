@@ -3,19 +3,11 @@
   {% include head.html %}
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}
+    {% include top-form-section.html %}
 
-    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url(&quot;assets/img/BG-Hero-About.jpg&quot;) center top / cover;">
-        <div class="container hero hero-narrow">
-            <div class="row">
-                <div class="col-lg-6 align-self-center hero-text">
-                    <h1><strong>Discover SixSq and Our Team</strong><br></h1>
-                    <p>We are software artisans, passionate about craftsmanship, DevOps and all the rigor required to build efficient and dependable software products and services.</p>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
     </div>
-
-    {% include breadcrumbs.html %}
 
     <div class="container-fluid">
         <div class="container section text-center">

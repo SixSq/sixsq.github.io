@@ -1,0 +1,23 @@
+<div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/{{ page.product-background-img }}') center / cover;">
+    <div class="container hero hero-narrow">
+        <div class="row">
+            <div class="col-lg-6 align-self-center hero-text">
+                {% if page.product-name %}
+                  <p class="text-primary text-big">{{ page.product-name}}</p>
+                {% else %}
+                  <p class="mt-5"></p>
+                {% endif %}
+                <h1><strong>{% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title | capitalize | replace: "-", " "}}{% endif %}</strong></h1>
+                {% if page.pagination.category %}
+                <p>{% include blog-description-{{ page.pagination.category }}.txt %}</p>
+                {% else %}
+                <p>{{ page.product-description }}</p>
+                {% endif %}
+
+                {% if page.product-next-text %}                
+                <a class="btn btn-link" role="button" href="#{{ page.product-next-target }}">{{ page.product-next-text }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

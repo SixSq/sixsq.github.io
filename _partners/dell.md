@@ -1,5 +1,8 @@
 ---
 title: Dell
-logo: "logo-dell.png"
-home_url: "https://dell.com"
+image: logo-dell.png
+top-story: false
+link: https://www.dell.com
 ---
+
+Dell helps organisations and individuals build their digital future and transform how they work, live and play. 

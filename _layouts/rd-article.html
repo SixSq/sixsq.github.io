@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section section-article">
+            <div id="blog" class="anchor-position"></div>
+            <h2>{{ page.head-title }}</h2>
+            <img class="inline-image border-light-gray" src="/assets/img/{{ page.image }}">
+            {{ page.content }}
+        </div>
+    </div>
+    <div class="container-fluid bg-gray">
+        <div class="container section text-center">
+            <div id="more" class="anchor-position"></div>
+            <h2 class="text-center">More R&amp;D Projects<br></h2>
+            <div class="row row-col-feature">
+            {% for project in site.rd limit:3 %}
+              {% include rd-card.html %}
+            {% endfor %}
+            </div>
+            <div class="text-center pt-3">
+                <a class="btn btn-primary" role="button" href="/r&amp;d" target="_blank">See all R&amp;D Projects</a>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html bg-gray = true%}
+  </body>
+</html>

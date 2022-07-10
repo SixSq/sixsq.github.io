@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section section-article">
+            <div id="hardware" class="anchor-position"></div>
+            {{ page.content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

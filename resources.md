@@ -1,14 +1,14 @@
 ---
 layout: default
-title: SixSq | Resources
+title: Resources
 product-title: Resources
 product-description: Find out about our latest developments and dive into our products, services and solutions.
 product-background-img: bg-hero-Resources.jpg
 breadcrumbs:
  - name: Home
    target: /
- - name: Resources
 without-trial: true
+they-trust-us: false
 ---
 
 <div class="container-fluid">

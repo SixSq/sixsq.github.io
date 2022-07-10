@@ -7,10 +7,10 @@ product-background-img: bg-hero-News.jpg
 breadcrumbs:
  - name: Home
    target: /
- - name: News
 pagination: 
   enabled: true
   permalink: ':num/'
   category: news
 without-trial: true
+they-trust-us: false
 ---

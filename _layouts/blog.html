@@ -3,7 +3,7 @@
   {% include head.html %}
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}
-    {% include top-form-section.html %}
+    {% include top-form-section-blog.html %}
 
     <div class="container-fluid sticky-top breadcrumb-wrapper">
         {% include breadcrumbs.html %}
@@ -13,48 +13,68 @@
             <div class="row row-col-feature">
                 <div class="col">
                     <div class="bg-primary text-center flex-icons" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
-                        <div><img src="/assets/img/icon-edge-white.svg">
-                            <p class="text-light text-big"><a href="#">Edge</a></p>
-                        </div>
-                        <div><img src="/assets/img/icon-IoT-white.svg">
-                            <p class="text-light text-big"><a href="#">IoT</a></p>
-                        </div>
-                        <div><img src="/assets/img/icon-Industry-white.svg">
-                            <p class="text-light text-big"><a href="#">Verticals</a></p>
-                        </div>
-                        <div><img src="/assets/img/icon-AI-white.svg">
-                            <p class="text-light text-big"><a href="#">AI</a></p>
-                        </div>
-                        <div><img src="/assets/img/icon-security-white.svg">
-                            <p class="text-light text-big"><a href="#">Privacy</a></p>
-                        </div>
+                        <a class="{% if page.pagination.category == site.blog-discover %}selected{% endif %}" href="{% if page.pagination.category == site.blog-discover %}/blog{% else %}/blog/discover{% endif %}">
+                            <div>
+                                <img src="/assets/img/icon-iot-white.svg">
+                                <p class="text-light text-big">Discover</p>
+                            </div>
+                        </a>
+                        <a class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}" href="{% if page.pagination.category == site.blog-tech-corner %}/blog{% else %}/blog/tech-corner{% endif %}">
+                            <div class="{% if page.pagination.category == site.blog-tech-corner %}selected{% endif %}">
+                                    <img src="/assets/img/icon-edge-white.svg">
+                                    <p class="text-light text-big">Tech Corner</p>
+                            </div>
+                        </a>
+                        <a class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}" href="{% if page.pagination.category == site.blog-marketplace %}/blog{% else %}/blog/marketplace{% endif %}">
+                            <div class="{% if page.pagination.category == site.blog-marketplace %}selected{% endif %}">
+                                <img src="/assets/img/icon-marketplace-white.svg">
+                                <p class="text-light text-big">Marketplace</p>
+                            </div>
+                        </a>
+                      </div>
                     </div>
                 </div>
             </div>
-        <div class="container section">
-            <div id="products" class="anchor-position"></div>
-            <div class="row row-col-feature row-col-activities">
-            {% for post in paginator.posts %}
-              {% include news-or-blog-card.html %}
-            {% endfor %}
+            <div class="row row-col-feature">
+                <div class="col">
+                    <div class="shadow" style="padding: 1rem 2rem;">
+                        <h3>Filter by topics</h3>
+                        <p class="tag">
+                        {% for tag in site.tags %}
+                          <a class="{% if tag[0] == page.title %}selected-tag{% endif %}" href="/blog/tag/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</a>
+                        {% endfor %}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container section">
+                <div id="products" class="anchor-position"></div>
+                <div class="row row-col-feature row-col-activities">
+                {% for post in paginator.posts %}
+                  {% include news-or-blog-card.html %}
+                {% endfor %}
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <nav>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}#content" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                    {% if paginator.page_trail %}
-                      {% for trail in paginator.page_trail %}
-                        <li class="page-item {% if page.url == trail.path %}active{% endif %}">
-                            <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-                        </li>
-                      {% endfor %}
-                    {% endif %}
-                    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}#content" aria-label="Next"><span aria-hidden="true">»</span></a></li>
-                </ul>
-            </nav>
+        {% if paginator.total_pages > 1 %}
+        <div class="row">
+            <div class="col-md-12">
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}#content" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                        {% if paginator.page_trail %}
+                          {% for trail in paginator.page_trail %}
+                            <li class="page-item {% if page.url == trail.path %}active{% endif %}">
+                                <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                            </li>
+                          {% endfor %}
+                        {% endif %}
+                        <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}#content" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
+        {% endif %}
     </div>
 
     {% include footer.html they-trust-us = false %}

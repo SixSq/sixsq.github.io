@@ -28,6 +28,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://new-website.sixsq.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sixsq
 
+blog-discover: discover
+blog-tech-corner: tech-corner
+blog-marketplace: marketplace
+
 excerpt_separator: <!--more-->
 
 collections:
@@ -51,10 +55,17 @@ collections:
     output: false
   jobs:
     output: true
-    layout: job
-    product-background-img: bg-hero-product.jpg
   partners:
     output: false
+  authors:
+    output: true
+  legal:
+    output: true
+  rd:
+    output: true
+  vendors:
+    output: false
+    
 
 defaults:
   -
@@ -70,6 +81,13 @@ defaults:
       author-email: merifield@sixsq.com
       author-title: Co-founder &amp; Operations Manager
       author-mobile: +41 77 44 68 119
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: News
+         target: /news
+      without-trial: true
+      they-trust-us: false
   -
     scope:
       path: blog
@@ -79,6 +97,15 @@ defaults:
       layout: blog-article
       product-name: Blog
       location: Geneva, Switzerland
+      without-trial: true
+      they-trust-us: false
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: Blog
+         target: /blog
+      without-trial: true
+      they-trust-us: false
   -
     scope:
       path: "*/features"
@@ -119,12 +146,66 @@ defaults:
       product-description: Our people are our most precious asset. Do you have what it takes to be part of the adventure?
       product-background-img: bg-hero-jobs.jpg
       without-trial: true
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: Jobs
+         target: /jobs
+      without-trial: true
+      they-trust-us: false
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      product-name: Blog Author
+      product-background-img: bg-hero-blog.jpg
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: Blog
+         target: /blog
+      without-trial: true
+      they-trust-us: false
+  -
+    scope:
+      path: ""
+      type: legal
+    values:
+      layout: legal-article
+      product-name: Legal &amp; Terms
+      product-background-img: bg-hero-legal.jpg
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: Legal &amp; Terms
+         target: /legal
+      without-trial: true
+      they-trust-us: false
+  -
+    scope:
+      path: ""
+      type: rd
+    values:
+      layout: r&d-article
+      product-name: R&amp;D Project
+      product-background-img: bg-hero-rd.jpg
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: R&amp;D
+         target: /r&d
+      without-trial: true
+      they-trust-us: false
 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -217,7 +298,7 @@ autopages:
     title: ':cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/blog/category/:cat'
+    permalink: '/blog/:cat'
     # Optional, when true logging related to category pages will be supressed.
     silent: false
     slugify:
@@ -226,11 +307,14 @@ autopages:
 
   # Collection pages, omit to disable
   collections:
-#    enabled: false
+    enabled: false
     layouts:
       - 'blog.html'
     title: 'Posts in collection :coll' # :coll is replaced by the collection name
-    permalink: 'blog/collection/:coll'
+    pagination: 
+      enabled: true
+      permalink: ':num/'
+    permalink: '/blog/:coll'
     silent: false
     slugify:
       mode: 'default'   # :coll is slugified.
@@ -244,7 +328,6 @@ autopages:
     pagination: 
       enabled: true
       permalink: ':num/'
-      category: news
     tag: ':tag'
     without-trial: true
     permalink: '/blog/tag/:tag'

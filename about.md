@@ -1,9 +1,11 @@
 ---
 layout: about
-title: SixSq | About
+title: About
+product-title: Discover SixSq and Our Team
+product-description: We are software artisans, passionate about craftsmanship, DevOps and all the rigor required to build efficient and dependable software products and services.
+product-background-img: bg-hero-about.jpg
 breadcrumbs:
  - name: Home
    target: /
- - name: About
-   target: About
+without-trial: true
 ---

@@ -3,7 +3,7 @@
   {% include head.html %}
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}
-    {% include top-form-section-news-or-blog.html %}
+    {% include top-form-section-news-or-blog-article.html %}
 
     <div class="container-fluid sticky-top breadcrumb-wrapper">
         {% include breadcrumbs.html %}
@@ -25,6 +25,7 @@
             {% if page.co-author-company %}
                 {% include article-about-{{ page.co-author-company }}.html %}
             {% endif %}
+            {% include article-social.html %}
         </div>
     </div>
     <div class="container-fluid bg-gray">
@@ -38,7 +39,7 @@
                 {% endfor %}
             </div>
             <div class="text-center pt-3">
-                <a class="btn btn-primary" role="button" href="{{ site.url }}{{ site.baseurl }}/news" target="_blank">Read all News</a>
+                <a class="btn btn-primary" role="button" href="/news" target="_blank">Read all News</a>
             </div>
         </div>
     </div>

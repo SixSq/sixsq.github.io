@@ -1,6 +1,6 @@
 ---
 layout: nuvlaedge
-title: SixSq | Products | NuvlaEdge
+title: NuvlaEdge
 product-name: NuvlaEdge
 product-title: Secure and Intelligent Edge Computing Software
 product-description: With NuvlaEdge, turn your hardware into a smart edge device.
@@ -11,8 +11,6 @@ breadcrumbs:
    target: /
  - name: Products
    target: Products
- - name: NuvlaEdge
-   target: NuvlaEdge
 nav-items:
  - name: Overview
    anchor: overview

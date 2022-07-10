@@ -1,21 +1,16 @@
 ---
-title: Privacy intrusion
+title: Privacy intrusion XXX
 product-title: Privacy intrusion&colon; hold all the cards with edge computing 
 image: hold-all-the-cards.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Privacy intrusion
 tags: edge cloud privacy security
+blog-category: discovery
+author: Louise Merifield
+linkedin: toto
 ---
 
 In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organisations collecting data, video and audio — these inputs are your cards and absolutely no one else should see them. 
 
 The wealth of information from your sensors, cameras, microphones, actuators and other new digital sources should yield valuable insights without intrusion.
-
-<br/>
 
 ### Privacy intrusion is a hot topic
 

@@ -3,11 +3,12 @@
         <div class="row">
             <div class="col-lg-7 align-self-center hero-text">
                 {% if page.product-name %}
-                  <p class="text-primary text-big">{{ page.product-name }}</p>
+                <p class="text-primary text-big">{{ page.product-name }}</p>
                 {% endif %}
                 <h1>{{ page.product-title }}</h1>
+                
                 <p>{{ page.product-description }}</p>
-                <p>{{ page.date | date: "%d %B %Y" }} | by <a href="{{ page.author-linkedin }}">{{ page.author }}</a>{% if page.co-author %} and <a href="{{ page.co-author-linkedin }}">{{ page.co-author }}</a>{% endif %}</p>
+                <p>{{ page.date | date: "%d %B %Y" }} | by <a href="/authors/{{ page.author }}">{{ page.author }}</a>{% if page.co-author %} and <a href="{{ page.co-author }}">{{ page.co-author }}</a>{% endif %}</p>
                 {% include news-or-blog-tags.html %}
             </div>
         </div>

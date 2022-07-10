@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+    <div class="container-fluid">
+        <div class="container section text-center">
+            <div class="row row-col-feature row-col-feature-logo">
+            {% for project in site.rd %}
+              {% include rd-card.html %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html they-trust-us = false %}
+  </body>
+</html>

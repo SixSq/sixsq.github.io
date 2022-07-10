@@ -1,0 +1,23 @@
+<br/>
+<p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
+<div class="post-sharing blog_sharing">
+  {% assign url = site.url | append: page.url %}
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ url }}','Facebook Share','width=600,height=400')">
+        <span>Facebook</span>
+    </a>
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+{{ url }}','Twitter Share','width=600,height=400')">
+        <span>Twitter</span>
+    </a>
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('http://www.pinterest.com/pin/create/button/?url={{ url }}&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+        <span>Facebook</span>
+    </a>
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url={{ url }}','Google+ Share','width=600,height=400')">
+        <span>Google+</span>
+    </a>
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url={{ url }}','LinkedIn Share','width=600,height=400')">
+        <span>LinkedIn</span>
+    </a>
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | {{ page.title }}&body={{ url }}" title="email">
+        <span>Email</span>
+    </a>
+</div>
