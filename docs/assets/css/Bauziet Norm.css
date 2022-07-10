@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Bauziet Norm';
+	src: url(../../assets/fonts/BauzietNormMedium.woff2) format('woff2'),
+	url(../../assets/fonts/BauzietNormMedium.woff) format('woff');
+	font-weight: 500;
+	font-style: normal;
+}

@@ -1,0 +1,451 @@
+[
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "About",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/about.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "SixSq | Case Studies",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/case-studies.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "SixSq | Contact",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/contact.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "SixSq | Customers",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/customers.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Welcome page",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Jobs",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/jobs.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Legal &amp;amp; Terms",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/legal.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Nuvla.io Marketplace",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/marketplace.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "NuvlaEdge",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/nuvlaedge.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Partners",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/partners.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Nuvla.io Platform",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/platform.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "SixSq | Pricing",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/pricing.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Products",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/products.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "R&amp;amp;D",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/r&d.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "Resources",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/resources.html",
+        "date"     : "",
+        "content"  : "<div class=\"container-fluid\">\n    <div class=\"container section text-center\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-news.svg\" />\n                    <h3>News</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
+     
+   } ,
+  
+   {
+     
+        "title"    : "SixSq | Case Studies | Retail",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/retail.html",
+        "date"     : "",
+        "content"  : "\n"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Videos",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/videos.html",
+        "date"     : "",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Blog",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/index.html",
+        "date"     : "",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "News",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/index.html",
+        "date"     : "",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "News - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/2/index.html",
+        "date"     : "",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "News - page 3",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/3/index.html",
+        "date"     : "",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "edge",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/edge/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "cloud",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/cloud/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "toto",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/toto/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "privacy",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/privacy/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "security",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/security/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "news",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/news/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "news - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/news/page/2/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "news - page 3",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/news/page/3/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "blog",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/blog/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "discover",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/discover/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "marketplace",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/marketplace/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "tech-corner",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tech-corner/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "feature",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/feature/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "hardware",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/hardware/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+        "title"    : "retail",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/retail/index.html",
+        "date"     : "",
+        "content"  : null
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]
