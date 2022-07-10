@@ -117,29 +117,25 @@ For more information, visit: [sixsq.com](https://sixsq.com/)
 
 ### About Ekinops
 
-Ekinops is a leading provider of open and fully interoperable Layer 1, 2 and 3 solutions to service pro-viders around the world. Our programmable and highly scalable solutions enable the fast, flexible and cost-effective deployment of new services for both high-speed, high-capacity optical transport as well as virtualization-enabled managed enterprise services. 
+Ekinops is a leading provider of open, trusted and innovative network connectivity solutions to service providers around the world. Our programmable and highly scalable solutions enable the fast, flexible, and cost-effective deployment of new services for both high-speed, high-capacity optical transport as well as virtualization-enabled managed enterprise services. Our product portfolio consists of three highly complementary product and service sets: [EKINOPS360](https://www.ekinops.com/products-services/products/ekinops360), [OneAccess](https://www.ekinops.com/products-services/products/oneaccess) and [Compose](https://www.ekinops.com/products-services/products/compose).
 
-Its product portfolio consists of three highly complementary product and service sets:
-
-- EKINOPS 360 provides optical transport solutions for metro, regional and long-distance net-works with WDM for high-capacity point-to-point, ring and optical mesh architectures, and OTN for improved bandwidth utilization and efficient multi-service aggregation.
-
+- EKINOPS360 provides optical transport solutions for metro, regional and long-distance networks with WDM for high-capacity point-to-point, ring, and optical mesh architectures, and OTN for improved bandwidth utilization and efficient multi-service aggregation.
 - OneAccess offers a wide choice of physical and virtualized deployment options for Layer 2 and Layer 3 access network functions.
+- Compose supports service providers in making their networks software-defined with a variety of software management tools and services, including the scalable SD-WAN Xpress and SixSq Edge-to-Cloud solutions.
 
-- Compose supports service providers in making their networks software-defined with a variety of software management tools and services, including the scalable SD-WAN Xpress.
+As service providers embrace SDN and NFV deployment models, Ekinops enables future-proofed deployment today, enabling operators to seamlessly migrate to an open, virtualized delivery model at a time of their choosing. A global organization, Ekinops (EKI) - a public company traded on the Euronext Paris exchange operates on four continents.
 
-As service providers embrace SDN and NFV deployment models, Ekinops enables future-proofed de-ployment today, enabling operators to seamlessly migrate to an open, virtualized delivery model at a time of their choosing.
-
-A global organization, Ekinops (EKI) - a public company traded on the Euronext Paris exchange - is headquartered in Lannion, France, and operates on four continents.
-
-Name: Ekinops
+Name : Ekinops
 <br/>
-ISIN code: FR0011466069
+ISIN Code : FR0011466069
 <br/>
-Ticker: EKI
+Mnemonic code : EKI
 <br/>
-Total number of shares: 25,761,366
+Number of shares : 26,162,922
+<br/>
 
-For more information, visit: [www.ekinops.com](https://www.ekinops.com/).
+For more information, visit: [ekinops.com](https://www.ekinops.com/).
+
 
 
 
