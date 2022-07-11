@@ -10,4 +10,5 @@ breadcrumbs:
  - name: Resources
    target: /resources
 without-trial: true
+they-trust-us: false
 ---

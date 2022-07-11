@@ -12,4 +12,5 @@ pagination:
   permalink: ':num/'
   category: blog
 without-trial: true
+they-trust-us: false
 ---
