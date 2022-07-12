@@ -1,50 +1,340 @@
 [
   
+    {
+      "title"    : "SixSq joins 5G-EMERGE project",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/07/05/news-5G-EMERGE.html",
+      "date"     : "2022-07-05 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "C2RO joins App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/20/news-c2ro.html",
+      "date"     : "2022-06-20 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Securaxis joins App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/13/news-securaxis.html",
+      "date"     : "2022-06-13 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Cybus joins App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/13/news-cybus.html",
+      "date"     : "2022-06-13 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Clearblade joins App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/13/news-clearblade.html",
+      "date"     : "2022-06-13 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "AI EdgeLabs joins App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/13/news-aiedgelabs.html",
+      "date"     : "2022-06-13 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "SixSq announces Nuvla.io App Vendor Programme",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/06/09/news-app-vendor-programme.html",
+      "date"     : "2022-06-09 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Privacy intrusion XXX",
+      "category" : "blog",
+      "tags"     : "edge, cloud, privacy, security",
+      "url"      : "/blog/discover/2022/05/24/blog-hold-all-the-cards.html",
+      "date"     : "2022-05-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
+      "category" : "blog",
+      "tags"     : "edge",
+      "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Bilal Bouchelaghem joins SixSq",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/05/03/news-new-sales-executive-bilal.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud, toto",
+      "url"      : "/blog/tech-corner/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud, toto",
+      "url"      : "/blog/marketplace/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Claire d&#39;Herbomez joins SixSq",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/02/11/news-new-sales-executive-claire.html",
+      "date"     : "2022-02-11 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Renewable energy management at forefront of SWARM project",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2022/01/25/news-swarm.html",
+      "date"     : "2022-01-25 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "SixSq acquired by Ekinops",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2021/11/02/news-ekinops-acquisition.html",
+      "date"     : "2021-11-02 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "EcoCloud Sustainability Days",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2021/09/10/news-sustainable-ecocloud-days.html",
+      "date"     : "2021-09-10 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Discussing the Smart City Edge",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2021/04/19/news-smartcity-podcast.html",
+      "date"     : "2021-04-19 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Launch of Nuvla-io Marketplace",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/11/15/news-nuvlaio-marketplace.html",
+      "date"     : "2020-11-15 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Halfway Mark for H2020 Project ELASTIC",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/10/06/news-elastic-halfway.html",
+      "date"     : "2020-10-06 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "ELEKTRON and SixSq launch TrafficDim",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/09/14/news-elektron-trafficdim.html",
+      "date"     : "2020-09-14 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Group Feature Enhancement to Nuvla.io",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/08/20/news-nuvlaio-group-feature.html",
+      "date"     : "2020-08-20 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Subscriptions for Nuvla.io",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/08/11/news-nuvlaio-subscription.html",
+      "date"     : "2020-08-11 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "SixSq Joins Swiss Alliance for Data Intensive Services",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2020/07/07/news-data-alliance.html",
+      "date"     : "2020-07-07 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "European Cloud Security Project Leaves Rich Legacy",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/12/19/news-eusec-legacy.html",
+      "date"     : "2019-12-19 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Advanced Environmental Risk Monitoring",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/11/19/news-mapx.html",
+      "date"     : "2019-11-19 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Adaptive Lighting Delivers Savings to Smart Monthey",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/09/24/news-monthey.html",
+      "date"     : "2019-09-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Open Cloud Research Environments Project",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/05/14/news-ocre-kickoff.html",
+      "date"     : "2019-05-14 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Kudelski Group and SixSq to Make Industrial IoT Edge Computing Easy and Secure",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/04/24/news-kudelski.html",
+      "date"     : "2019-04-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "ELASTIC - Smart Mobility Systems",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2019/02/10/news-elastic-kickoff.html",
+      "date"     : "2019-02-10 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "NSL, SixSq &amp; University of Nottingham Awarded GNSS Big Data Contract",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2018/05/23/news-gnss-kickoff.html",
+      "date"     : "2018-05-23 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Prestigious Swiss Watt d&#39;Or Prize goes to Intelligent Lighting System",
+      "category" : "news",
+      "tags"     : "",
+      "url"      : "/news/2018/01/18/news-wattdor.html",
+      "date"     : "2018-01-18 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } 
+  
+  ,
+  
    {
      
    } ,
   
    {
      
-        "title"    : "About",
+        "title"    : "Discover SixSq and Our Team",
         "category" : "",
         "tags"     : "",
         "url"      : "/about.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "SixSq | Case Studies",
+        "title"    : "Case Studies",
         "category" : "",
         "tags"     : "",
         "url"      : "/case-studies.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "SixSq | Contact",
+        "title"    : "We&#39;re here to help!",
         "category" : "",
         "tags"     : "",
         "url"      : "/contact.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "SixSq | Customers",
+        "title"    : "Our Customers",
         "category" : "",
         "tags"     : "",
         "url"      : "/customers.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
@@ -55,106 +345,106 @@
         "tags"     : "",
         "url"      : "/",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Jobs",
+        "title"    : "Join Our Amazing Team and help deliver the Edge-to-Cloud Computing Revolution",
         "category" : "",
         "tags"     : "",
         "url"      : "/jobs.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Legal &amp;amp; Terms",
+        "title"    : "Terms and conditions and other Legal Documents",
         "category" : "",
         "tags"     : "",
         "url"      : "/legal.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Nuvla.io Marketplace",
+        "title"    : "Marketplace",
         "category" : "",
         "tags"     : "",
         "url"      : "/marketplace.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "NuvlaEdge",
+        "title"    : "Secure and Intelligent Edge Computing Software",
         "category" : "",
         "tags"     : "",
         "url"      : "/nuvlaedge.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Partners",
+        "title"    : "Partnership Boosts Innovation",
         "category" : "",
         "tags"     : "",
         "url"      : "/partners.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Nuvla.io Platform",
+        "title"    : "B2B Edge and Container Management Platform",
         "category" : "",
         "tags"     : "",
         "url"      : "/platform.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "SixSq | Pricing",
+        "title"    : "Pay-as-you-go simple pricing",
         "category" : "",
         "tags"     : "",
         "url"      : "/pricing.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "Products",
+        "title"    : "Nuvla Products",
         "category" : "",
         "tags"     : "",
         "url"      : "/products.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
    {
      
-        "title"    : "R&amp;amp;D",
+        "title"    : "Research and Development",
         "category" : "",
         "tags"     : "",
         "url"      : "/r&d.html",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
@@ -165,18 +455,18 @@
         "tags"     : "",
         "url"      : "/resources.html",
         "date"     : "",
-        "content"  : "<div class=\"container-fluid\">\n    <div class=\"container section text-center\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-news.svg\" />\n                    <h3>News</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
+        "content": "<div class=\"container-fluid\">\n    <div class=\"container section text-center\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-news.svg\" />\n                    <h3>News</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\" target=\"_blank\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
      
    } ,
   
    {
      
-        "title"    : "SixSq | Case Studies | Retail",
+        "title"    : "Retail",
         "category" : "",
         "tags"     : "",
-        "url"      : "/retail.html",
+        "url"      : "/case-studies/retail",
         "date"     : "",
-        "content"  : "\n"
+        "content": "\n"
      
    } ,
   
@@ -191,7 +481,7 @@
         "tags"     : "",
         "url"      : "/videos.html",
         "date"     : "",
-        "content"  : ""
+        "content": ""
      
    } ,
   
@@ -228,6 +518,39 @@
    } ,
   
    {
+     
+   } ,
+  
+   {
+     
+        "title"    : "In The News",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/index.html",
+        "date"     : "",
+        "content": ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "In The News",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/2/index.html",
+        "date"     : "",
+        "content": ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "In The News",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/news/3/index.html",
+        "date"     : "",
+        "content": ""
      
    } ,
   
@@ -238,40 +561,7 @@
         "tags"     : "",
         "url"      : "/blog/index.html",
         "date"     : "",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "News",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/news/index.html",
-        "date"     : "",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "News - page 2",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/news/2/index.html",
-        "date"     : "",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "News - page 3",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/news/3/index.html",
-        "date"     : "",
-        "content"  : ""
+        "content": ""
      
    } ,
   
@@ -282,7 +572,7 @@
         "tags"     : "",
         "url"      : "/blog/tag/edge/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -293,7 +583,7 @@
         "tags"     : "",
         "url"      : "/blog/tag/cloud/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -304,7 +594,7 @@
         "tags"     : "",
         "url"      : "/blog/tag/toto/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -315,7 +605,7 @@
         "tags"     : "",
         "url"      : "/blog/tag/privacy/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -326,7 +616,7 @@
         "tags"     : "",
         "url"      : "/blog/tag/security/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -337,7 +627,7 @@
         "tags"     : "",
         "url"      : "/blog/news/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -348,7 +638,7 @@
         "tags"     : "",
         "url"      : "/blog/news/page/2/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -359,7 +649,7 @@
         "tags"     : "",
         "url"      : "/blog/news/page/3/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -370,7 +660,7 @@
         "tags"     : "",
         "url"      : "/blog/blog/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -381,7 +671,7 @@
         "tags"     : "",
         "url"      : "/blog/discover/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -392,7 +682,7 @@
         "tags"     : "",
         "url"      : "/blog/marketplace/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -403,7 +693,7 @@
         "tags"     : "",
         "url"      : "/blog/tech-corner/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -414,7 +704,7 @@
         "tags"     : "",
         "url"      : "/blog/feature/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -425,7 +715,7 @@
         "tags"     : "",
         "url"      : "/blog/hardware/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
@@ -436,7 +726,7 @@
         "tags"     : "",
         "url"      : "/blog/retail/index.html",
         "date"     : "",
-        "content"  : null
+        "content": null
      
    } ,
   
