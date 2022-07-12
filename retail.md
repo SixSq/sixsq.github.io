@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: SixSq | Case Studies | Retail
+title: Retail
 product-title: Retail
 product-description: Here are a few case studies showing how our products and services are making a real difference for our customers.
 product-background-img: BG-Hero-Retail.jpg
@@ -11,6 +11,5 @@ breadcrumbs:
    target: /
  - name: Case Studies
    target: case-studies
- - name: Retail
-   target: retail
+permalink: /case-studies/retail
 ---

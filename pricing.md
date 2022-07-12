@@ -1,14 +1,12 @@
 ---
 layout: pricing
-title: SixSq | Pricing
+title: Pricing
 product-title: Pay-as-you-go simple pricing
 product-description: Only pay for active resources. No commitment required.
 product-background-img: BG-Hero-Pricing.jpg
 breadcrumbs:
  - name: Home
    target: /
- - name: Pricing
-   target: Pricing
 nav-items:
  - name: Edge device
    anchor: edge
