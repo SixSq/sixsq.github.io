@@ -13,4 +13,5 @@ pagination:
   category: blog
 without-trial: true
 they-trust-us: false
+section-straddle-top: true
 ---
