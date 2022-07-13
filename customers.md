@@ -8,4 +8,5 @@ breadcrumbs:
  - name: Home
    target: /
 without-trial: true
+bg-gray: true
 ---

@@ -17,7 +17,16 @@
             </div>
         </div>
     </div>
-
+    
+    <div class="container-fluid bg-gradient-gray text-center">
+    <div class="container section">
+        {% if page.they-trust-us == false %}
+        {% else %}
+          {% include they-trust-us.html %}
+        {% endif %}
+    </div>
+</div>
+    
     {% include footer.html they-trust-us = false %}
   </body>
 </html>
