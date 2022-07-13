@@ -102,6 +102,13 @@ ol, ul {
 .section-article ol, .section-article ul {
     padding-left: 1rem;
 }
+@media not all and (min-resolution:.001dpcm) {
+     @supports (-webkit-appearance:none) {
+       .section-article ol, .section-article ul {
+           padding-left: 1.2rem;
+       }
+     }
+}
 @media (min-width: 992px){
 .img-right-wrapper{
   text-align: right;
