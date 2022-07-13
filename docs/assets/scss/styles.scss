@@ -675,7 +675,12 @@ display: block;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
+.container.section.section-no-top-space {
+   padding-top: 0;
+ }
+ .container.section.section-no-bottom-space {
+    padding-bottom: 0;
+  }
 .container.section.container-box2 {
   padding: 3rem !important;
 }
