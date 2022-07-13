@@ -73,10 +73,73 @@
     } ,
   
     {
+      "title"    : "Privacy intrusion",
+      "category" : "blog",
+      "tags"     : "edge, cloud, privacy, security",
+      "url"      : "/blog/discover/2022/05/24/blog-hold-all-the-cards-copy.html",
+      "date"     : "2022-05-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Privacy intrusion",
+      "category" : "blog",
+      "tags"     : "edge, cloud, privacy, security",
+      "url"      : "/blog/discover/2022/05/24/blog-hold-all-the-cards-copy-3.html",
+      "date"     : "2022-05-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Privacy intrusion",
+      "category" : "blog",
+      "tags"     : "edge, cloud, privacy, security",
+      "url"      : "/blog/discover/2022/05/24/blog-hold-all-the-cards-copy-2.html",
+      "date"     : "2022-05-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "What makes a smart city even smarter? Shared edge infrastructure",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2022/05/17/shared-edge-infrastruture.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
       "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
       "category" : "blog",
       "tags"     : "edge",
       "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
+      "category" : "blog",
+      "tags"     : "edge",
+      "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing-copy.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
+      "category" : "blog",
+      "tags"     : "edge",
+      "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing-copy-3.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
+      "category" : "blog",
+      "tags"     : "edge",
+      "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing-copy-2.html",
       "date"     : "2022-05-17 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -114,6 +177,42 @@
       "tags"     : "edge, cloud",
       "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html",
       "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing-copy.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing-copy-3.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "4 ways to know if you need edge computing",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing-copy-2.html",
+      "date"     : "2022-05-03 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Before lift-off&amp;colon; the parts required for excellent edge computing",
+      "category" : "edge",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/edge/2022/02/14/before-lift-off-parts-for-edge-computing.html",
+      "date"     : "2022-02-14 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
   
@@ -567,6 +666,17 @@
   
    {
      
+        "title"    : "Blog",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/2/index.html",
+        "date"     : "",
+        "content": ""
+     
+   } ,
+  
+   {
+     
         "title"    : "edge",
         "category" : "",
         "tags"     : "",
@@ -578,10 +688,32 @@
   
    {
      
+        "title"    : "edge - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/edge/page/2/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
         "title"    : "cloud",
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/tag/cloud/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
+        "title"    : "cloud - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/tag/cloud/page/2/index.html",
         "date"     : "",
         "content": null
      
@@ -666,10 +798,43 @@
   
    {
      
+        "title"    : "blog - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/blog/page/2/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
         "title"    : "discover",
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/discover/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
+        "title"    : "discover - page 2",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/discover/page/2/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
+        "title"    : "edge",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/edge/index.html",
         "date"     : "",
         "content": null
      
