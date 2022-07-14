@@ -6,7 +6,7 @@
     {% include top-form-section.html %}
 
     <div class="container-fluid sticky-top breadcrumb-wrapper">
-        {% include breadcrumbs.html %}
+      {% include breadcrumbs.html %}
     </div>
     <div class="container-fluid">
         <div class="container section text-center">
@@ -20,13 +20,10 @@
     
     <div class="container-fluid bg-gradient-gray text-center">
     <div class="container section">
-        {% if page.they-trust-us == false %}
-        {% else %}
-          {% include they-trust-us.html %}
-        {% endif %}
+      {% include they-trust-us.html %}
     </div>
 </div>
     
-    {% include footer.html they-trust-us = false %}
+    {% include footer.html %}
   </body>
 </html>
