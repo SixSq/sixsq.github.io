@@ -14,64 +14,9 @@
             <div id="products" class="anchor-position"></div>
             <h2>Meet the team!<br></h2>
             <div class="row row-col-feature row-col-feature-logo">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/louise.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Louise Merifield</h3>
-                        <p><strong>Operations Manager, Co-Founder</strong><br>Ex-ECB<br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/khaled.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Khaled Basbous</h3>
-                        <p><strong>Senior Software Engineer</strong><br>MSc Computer Engineering</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/pierre.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Pierre Mirlesse</h3>
-                        <p><strong>Strategic Advisor</strong><br>HEC Paris and HBS alumni<br>Ex-HPE</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-col-feature row-col-feature-logo">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/konstan.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Konstantin Skaburskas</h3>
-                        <p><strong>Tech. Lead + Scrum Master</strong><br>MSc Biomedical Engineering<br>Ex-CERN<br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/lionel.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Lionel Schaub</h3>
-                        <p><strong>Senior Software Engineer</strong><br>MSc Computer Engineering</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/claire.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Claire d'Herbomez</h3>
-                        <p><strong>Sales Executive</strong><br>SKEMA Business School<br>Paris + Singapore<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-col-feature row-col-feature-logo">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/bilal.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Bilal Bouchelaghem</h3>
-                        <p><strong>Sales Executive</strong><br>Euridis Business School<br>Ex-Dell<br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/nacho.png" style="width: 120px; margin-top: .8rem;">
-                        <h3>Ignacio (Nacho) Penas</h3>
-                        <p><strong>Edge Software Developer</strong><br>MSc Telecom Eng.<br>Ex-EPFL<br></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/meb.png" style="width: 120px; margin-top: .8rem;">
-                        <h3><strong>Marc-Elian Bégin</strong></h3>
-                        <p><strong>CEO, Co-Founder</strong><br>B.Eng. Aerospace Engineering<br>Ex-CERN</p>
-                    </div>
-                </div>
+              {% for staff in site.staff %}
+                 {% include staff.html %}
+              {% endfor %}
             </div>
         </div>
     </div>

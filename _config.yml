@@ -65,6 +65,8 @@ collections:
     output: true
   vendors:
     output: false
+  staff:
+    output: false
     
 
 defaults:
