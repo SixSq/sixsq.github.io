@@ -7,12 +7,6 @@
       </a>
     </li>
     {% endfor %}
-    <!-- {% if page.pagination.tag %}
-    <li class="breadcrumb-item">
-        <span>{{ page.pagination.tag }}</span>
-    </li>
-    {% else %}
-    {% endif %} -->
     <li class="breadcrumb-item">
         <span>{% if page.title == "R&amp;D" %}{{ page.title }}{% else %}{{ page.title | capitalize | replace: "-", " " }}{% endif %}</span>
     </li>
