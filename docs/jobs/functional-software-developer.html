@@ -295,15 +295,18 @@
             <div class="col-lg-5 align-self-center cta-title">
                 <h2 class="text-light">Start your own journey to the edge with Nuvla.io</h2>
             </div>
-            <div class="col-lg-7 align-self-center cta-wrapper"><a class="btn btn-secondary" role="button" href="#" target="_blank">Start your free trial</a><a class="btn btn-primary" role="button" href="#" target="_blank">Request a demo</a><a class="btn btn-primary" role="button" href="#" target="_blank">Contact us</a></div>
+            <div class="col-lg-7 align-self-center cta-wrapper">
+              <a class="btn btn-secondary" role="button" href="https://nuvla.io/ui/sign-up" target="_blank">Start your free trial</a>
+              <a class="btn btn-primary" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sales-sixsq/free-demo-30min?hide_gdpr_banner=1'});return false;">Request a demo</a>
+              <a class="btn btn-primary" role="button" href="/contact">Contact us</a></div>
         </div>
     </div>
 </div>
 <footer>
     <div class="container footer">
         <div class="row">
-            <div class="col-lg-9"><p class="text-dark">Copyright © 2022 SixSq SA. All rights reserved.  <span style="color:  #ed2b2b;">|</span>  <a href="#" class="text-dark">Terms &amp; conditions</a></p>
-                <p class="disclaimer">SixSq, Nuvla and NuvlaEdge are registered trademarks of SixSq SA in Switzerland and other countries. <br>Other registered trademarks are owned by their owner. </p>
+            <div class="col-lg-9"><p class="text-dark">Copyright © 2022 SixSq SA. All rights reserved.  <span style="color:  #ed2b2b;">|</span>  <a href="/legal" class="text-dark">Terms &amp; conditions</a></p>
+                <p class="disclaimer">SixSq, Nuvla and NuvlaEdge are registered trademarks of SixSq SA in Switzerland and other countries.<br>Other registered trademarks are owned by their owner. </p>
                 <p><a href="https://www.ekinops.com/" target="_blank">SixSq is an Ekinops Company.&nbsp; &nbsp;<img src="/assets/img/logo-ekinops.svg"><br></a></p>
             </div>
             <div class="col-lg-3 social-follow">
@@ -323,6 +326,32 @@
     json: 'https://new-website.sixsq.ch/search.json',
   })
 </script>
+
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/475360.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<script>
+  window.intercomSettings = {
+    app_id: "qjggmp6w",
+    website: "sixsq.com"
+  };
+</script>
+
+<script>
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/u4ftpdjf'
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/u4ftpdjf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+<!-- Calendly -->
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
   </body>
 </html>
