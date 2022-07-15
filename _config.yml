@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://new-website.sixsq.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sixsq
 
+calendly-href: https://calendly.com/sales-sixsq/free-demo-30min?hide_gdpr_banner=1
+
 blog-discover: discover
 blog-tech-corner: tech-corner
 blog-marketplace: marketplace
