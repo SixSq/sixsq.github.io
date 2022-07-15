@@ -70,19 +70,19 @@ text-decoration: underline;
 }
 .email-para{
 padding-left: 2rem;
-background-image: url("icon-email.svg");
+background-image: url("/assets/img/icon-email.svg");
 background-repeat: no-repeat;
 }
 .location-para{
 padding-left: 2rem;
-background-image: url("icon-location.svg");
+background-image: url("/assets/img/icon-location.svg");
 background-repeat: no-repeat;
 }
 .email-para.text-light{
-background-image: url("icon-email-white.svg");
+background-image: url("/assets/img/icon-email-white.svg");
 }
 .location-para.text-light{
-background-image: url("icon-location-white.svg");
+background-image: url("/assets/img/icon-location-white.svg");
 }
 li{
   margin-bottom: .8rem;
