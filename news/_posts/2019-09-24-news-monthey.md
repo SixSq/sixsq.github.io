@@ -1,7 +1,7 @@
 ---
 title: Adaptive Lighting Delivers Savings to Smart Monthey
 product-title: Adaptive Lighting Delivers Savings to Smart Monthey
-image: Monthey_logo.png
+image: monthey_logo.png
 ---
 
 The city of Monthey wants to live up to its European Energy Award and has its sights set on the European Energy Award® GOLD. It therefore has stiff targets with regards to **sustainable development**, which are made harder to achieve because of significant population growth in the region. This makes the success of their projects related to energy efficiency, mobility issues and traffic management even more critical. One of its key projects is **Smart Monthey** which has put in place an adaptive lighting system. With approximately 2,050 luminaires installed on the territory of Monthey, innovative solutions like this are fundamental to the achievement of targets for energy savings and cost reduction.

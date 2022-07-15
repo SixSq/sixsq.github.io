@@ -260,7 +260,7 @@ padding: 5px;
 }
 .row.row-col-feature img {
 max-width: 100%;
-margin: -1rem auto .5rem auto;
+margin: -0.5rem auto .5rem auto;
 }
 .row.row-col-feature > div {
   padding: 1.5rem;
@@ -1304,6 +1304,12 @@ footer {
   font-weight: 400;
   margin-bottom: .5rem;
   font-size: 1.2rem;
+  a {
+    color: $black-100;
+    &:hover {
+      color: #ed2b2b;
+    }
+  };
 }
 
 .activities-date {

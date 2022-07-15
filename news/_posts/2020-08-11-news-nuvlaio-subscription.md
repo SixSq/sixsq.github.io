@@ -1,7 +1,7 @@
 ---
 title: Subscriptions for Nuvla.io
 product-title: Introducing Subscriptions for Nuvla.io Edge Management Platform
-image: ../logo-nuvla-io.png
+image: logo-nuvla-io.png
 ---
 
 SixSq has updated Nuvla.io to introduce subscriptions and pricing support. [Nuvla.io](https://nuvla.io/ui/welcome) is a secured edge-to-cloud (and back) management platform that enables near-data AI for a connected world. The container native platform supports all forms of cloud infrastructure and allows users to deploy AI and any containerised application at the edge and in the cloud, at scale.
