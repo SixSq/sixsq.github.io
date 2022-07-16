@@ -10,7 +10,7 @@ image: logo-cyclone.png
 SixSq brought its a [multi-cloud application management](https://nuvla.io/)
 platform, as well as its expertise in cloud computing to the collaboration.  SixSq software was used as the basis for automated application deployments and extended to include advanced networking and security features. These extensions benefited existing users and made it an even more compelling solution. 
 
-**Website:** [http://www.cyclone-project.eu](http://www.cyclone-project.eu)
+**Website:** [https://www.cyclone-project.eu](https://www.cyclone-project.eu)
  
 **Partners:** 7 led by Interoute
 
@@ -29,6 +29,6 @@ SixSq was supported by the Swiss State Secretariat for Education, Research and I
  * Integration of networking resources within the software suite.
 
 
-[web]: http://www.cyclone-project.eu
+[web]: https://www.cyclone-project.eu
 [interoute]: http://interoute.com
 [seri]: https://www.sbfi.admin.ch/sbfi/en/home.html

@@ -39,12 +39,12 @@ The project involved nine partners from seven countries:
 
 - [Fabasoft Cloud](https://www.fabasoft.com/en/), Austria 
 
-- [Ministry of Finance](http://www.finance.gov.sk/en/), Slovakia
+- [Ministry of Finance](https://www.finance.gov.sk/en/), Slovakia
 
-- [Ministry of public administration](http://www.mju.gov.si/en/), Slovenia
+- [Ministry of public administration](https://www.mju.gov.si/en/), Slovenia
 
 - [NIXU](https://www.nixu.com), Finland 
 
-- [PwC](http://www.pwc.de/en/), Germany
+- [PwC](https://www.pwc.de/en/), Germany
 
-- [SixSq](http://sixsq.com), Switzerland 
+- [SixSq](https://sixsq.com), Switzerland 

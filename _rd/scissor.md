@@ -33,6 +33,6 @@ Use of the NuvlaBox software also provided remote control of the computing platf
   of NuvlaBoxes. SlipStream was the forerunner to [Nuvla.io](https://nuvla.io/).
 
 [web]: https://cordis.europa.eu/project/id/644425
-[assystem]: http://www.assystem.com/en/home.html
+[assystem]: https://www.assystem.com/en/home.html
 [seri]: https://www.sbfi.admin.ch/sbfi/en/home.html
 [@SCISSOR_2015]: https://twitter.com/SCISSOR_2015

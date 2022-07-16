@@ -36,7 +36,7 @@ The project involves nine partners:
 
 - [Instituto Superior De Engenharia Do Porto](https://www.isep.ipp.pt/), Portugal
 
-- [Information Catalyst for Enterprise Ltd](http://informationcatalyst.com/), UK
+- [Information Catalyst for Enterprise Ltd](https://informationcatalyst.com/), UK
 
 - [SixSq](https://sixsq.com/), Switzerland
 
@@ -46,6 +46,6 @@ The project involves nine partners:
 
 - [Gestione Ed Eserizio del Sistema Tranviario SPA](https://www.ratpdev.com/en/home), Italy
 
-- [Citta Metropolitana di Firenze](http://www.cittametropolitana.fi.it), Italy
+- [Citta Metropolitana di Firenze](https://www.cittametropolitana.fi.it), Italy
 
 

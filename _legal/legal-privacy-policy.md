@@ -109,13 +109,13 @@ Personal data is not transferred to any 3rd parties unless:
  - mandated by the Service Provider for enabling access to its service on its behalf;
  - the 3rd party has undertaken similar duties considered sufficient under the data protection law applicable to the Service Provider.
 
-3.5. Lawfulness of processing (according to [Article 6 of the GDPR](http://www.privacy-regulation.eu/en/article-6-lawfulness-of-processing-GDPR.htm))
+3.5. Lawfulness of processing (according to [Article 6 of the GDPR](https://www.privacy-regulation.eu/en/article-6-lawfulness-of-processing-GDPR.htm))
 
 Lawful processing of your personal data is ensured by applying the following:
 
  - _"the data subject has given consent to the processing of his or her personal data for one or more specific purposes"_;
 
-**No special categories of personal data ([Article 9 of the GDPR](http://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm)) are processed by SixSq**.
+**No special categories of personal data ([Article 9 of the GDPR](https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm)) are processed by SixSq**.
 
 Where do we keep your personal data?
 

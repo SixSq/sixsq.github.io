@@ -7,7 +7,7 @@ image: logo-mf2c.png
 
 **Mobile Fog-to-Cloud Project**
 
-SixSq participated in the H2020 project [mF2C](http://www.mf2c-project.eu), an EU-financed project looking at many of the detailed technical problems which arise at the intersection of fog computing and cloud computing. The project kicked off on 1 January 2017 and ran until 31 December 2019. The mobile Fog to Cloud project addressed the need for an open and coordinated management of fog and cloud computing systems.
+SixSq participated in the H2020 project [mF2C](https://www.mf2c-project.eu), an EU-financed project looking at many of the detailed technical problems which arise at the intersection of fog computing and cloud computing. The project kicked off on 1 January 2017 and ran until 31 December 2019. The mobile Fog to Cloud project addressed the need for an open and coordinated management of fog and cloud computing systems.
 
 **What is Fog computing?**
 
@@ -41,23 +41,23 @@ Within the project, SixSq brought its experience in building cloud systems and e
 
 The project involved ten partners:
 
-- [Atos](http://booklet.atosresearch.eu), Spain
+- [Atos](https://booklet.atosresearch.eu), Spain
 
-- [Xlab](http://www.xlab.si/?lang=en), Slovenia 
+- [Xlab](https://www.xlab.si/?lang=en), Slovenia 
 
-- [The Universitat Politècnica de Catalunya (UPC)](http://www.upc.edu), Spain
+- [The Universitat Politècnica de Catalunya (UPC)](https://www.upc.edu), Spain
 
 - [The Technische Universität Carolo-Wilhelmina zu Braunschweig (TUBS)](https://www.tu-braunschweig.de), Germany
 
-- [Intel](http://www.intel.eu/content/www/eu/en/research/intel-labs.html), Ireland
+- [Intel](https://www.intel.eu/content/www/eu/en/research/intel-labs.html), Ireland
 
 - [The Barcelona Supercomputing Center (BSC)](https://www.bsc.es), Spain 
 
-- [Worldsensing](http://www.worldsensing.com), UK
+- [Worldsensing](https://www.worldsensing.com), UK
 
 - [Tiscali Italia S.p.A.](https://www.tiscali.com/en/), Italy
 
-- [Science Technology Facilities Council(STFC)](http://www.stfc.ac.uk), UK
+- [Science Technology Facilities Council(STFC)](https://www.stfc.ac.uk), UK
 
 
 - SixSq, Switzerland 

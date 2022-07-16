@@ -24,7 +24,7 @@ image: icon-cookie.svg
 
 6. You can block cookies by activating the setting on your browser that allows you to refuse the setting of all or some cookies. However, if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of our sites.
 
-7. One of the Google cookies is not a session cookie but a persistent cookie. This particular cookie registers when you first visit our websites and will record any subsequent visits you may make. This cookie will be stored on your hard drive unless you actively delete it. See [Google Analytics terms](http://www.google.com/analytics/terms/gb.html) for detail.
+7. One of the Google cookies is not a session cookie but a persistent cookie. This particular cookie registers when you first visit our websites and will record any subsequent visits you may make. This cookie will be stored on your hard drive unless you actively delete it. See [Google Analytics terms](https://www.google.com/analytics/terms/gb.html) for detail.
 
 8. One of the Hubspot cookies is not a session cookie but a persistent cookie. This particular cookie registers when you first visit our website and will record any subsequent visits you may make. This cookie will be stored on your hard drive unless you actively delete it. See [Hubspot terms](https://legal.hubspot.com/privacy-policy) for details.
 
