@@ -9,4 +9,7 @@ breadcrumbs:
    target: /
 without-trial: true
 they-trust-us: false
+redirect_from:
+ - /jobs/job-500-functional-software-developer/
+ - /about/jobs.html
 ---

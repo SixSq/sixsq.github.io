@@ -30,5 +30,5 @@ SixSq was supported by the Swiss State Secretariat for Education, Research and I
 
 
 [web]: https://www.cyclone-project.eu
-[interoute]: http://interoute.com
+[interoute]: https://interoute.com
 [seri]: https://www.sbfi.admin.ch/sbfi/en/home.html

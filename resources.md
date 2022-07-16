@@ -9,6 +9,10 @@ breadcrumbs:
    target: /
 without-trial: true
 they-trust-us: false
+redirect_from:
+ - /media/overview.html
+ - /media/solution-briefs.html
+ - /media/webinar.html
 ---
 
 <div class="container-fluid">

@@ -8,4 +8,6 @@ breadcrumbs:
  - name: Home
    target: /
  - name: Company
+redirect_from:
+ - /about/partners.html
 ---

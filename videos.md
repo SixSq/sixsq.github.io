@@ -11,4 +11,6 @@ breadcrumbs:
    target: /resources
 without-trial: true
 they-trust-us: false
+redirect_from:
+ -  /media/videos.html
 ---

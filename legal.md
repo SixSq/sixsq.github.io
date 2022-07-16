@@ -9,4 +9,14 @@ breadcrumbs:
    target: /
 without-trial: true
 they-trust-us: false
+redirect_from:
+ - /terms/app-license
+ - /terms/cookie-notice
+ - /terms/legal-nuvla-io/
+ - /terms/privacy
+ - /about/about-us.html
+ - /about/contact.html
+ - /about/customers.html
+ - /media/eguides.html
+ - /about/terms.html
 ---
