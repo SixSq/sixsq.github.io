@@ -68,7 +68,7 @@ Operations Manager and Co-founder
 <br/>
 +41 77 44 68 170
 <br/>
-[merifield@sixsq.com](merifield@sixsq.com)
+[merifield@sixsq.com](mailto:merifield@sixsq.com)
 
 
 **Ekinops**
@@ -79,7 +79,7 @@ Didier Brédy
 <br/>
 Chairman and CEO
 <br/>
-[contact@ekinops.com](contact@ekinops.com)
+[contact@ekinops.com](mailto:contact@ekinops.com)
 <br/>
 - Investors
 <br/>
@@ -89,7 +89,7 @@ Investor relations
 <br/>
 +33 1 53 67 36 92
 <br/>
-[momnes@actus.fr](momnes@actus.fr)
+[momnes@actus.fr](mailto:momnes@actus.fr)
 
 - Press
 <br/>
@@ -99,7 +99,7 @@ Press relations
 <br/>
 +33 1 53 67 36 74
 <br/>
-[adugast@actus.fr](adugast@actus.fr)
+[adugast@actus.fr](mailto:adugast@actus.fr)
 
 <br/>
 
