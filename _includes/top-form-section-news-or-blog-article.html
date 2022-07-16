@@ -8,7 +8,13 @@
                 <h1>{{ page.product-title }}</h1>
                 
                 <p>{{ page.product-description }}</p>
-                <p>{{ page.date | date: "%d %B %Y" }} | by <a href="/authors/{{ page.author }}">{{ page.author }}</a>{% if page.co-author %} and <a href="{{ page.co-author }}">{{ page.co-author }}</a>{% endif %}</p>
+                <p>{{ page.date | date: "%d %B %Y" }}
+                  {% if page.category == 'blog' %}
+                     | by <a href="/authors/{{ page.author }}">{{ page.author }}</a>
+                     {% if page.co-author %} and <a href="{{ page.co-author }}">{{ page.co-author }}</a>{% endif %}
+                  {% else %}
+                     | Geneva, Switzerland
+                  {% endif %}</p>
                 {% include news-or-blog-tags.html %}
             </div>
         </div>
