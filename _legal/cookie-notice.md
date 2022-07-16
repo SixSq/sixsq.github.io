@@ -20,7 +20,7 @@ image: icon-cookie.svg
 
     c. *Functionality cookies*. These are used to recognise you when you return to our websites. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
 
-5. Please note that third parties (including, for example, providers of external services like web traffic analysis services) may also use cookies, over which we have no control (e.g. Hubspot, Google, Freshdesk, Intercom, Calendly). These cookies are likely to be analytical/performance cookies or targeting cookies.
+5. Please note that third parties (including, for example, providers of external services like web traffic analysis services) may also use cookies, over which we have no control (e.g. Hubspot, Google, Intercom, Calendly). These cookies are likely to be analytical/performance cookies or targeting cookies.
 
 6. You can block cookies by activating the setting on your browser that allows you to refuse the setting of all or some cookies. However, if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of our sites.
 
