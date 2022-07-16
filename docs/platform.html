@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>SixSq  | Nuvla.io Platform</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+    <!-- End Google Tag Manager -->
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/favicons-180.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons-32.png">
@@ -14,10 +21,19 @@
     <link rel="stylesheet" href="/assets/css/Bauziet%20Norm.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <!-- Calendly -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>
 
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
-    <header class="fixed-top">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="fixed-top">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -119,7 +135,7 @@
 
 
     <div class="container-fluid sticky-top breadcrumb-wrapper">
-        <div class="container">
+        <div id="breadcrumbs" class="container">
   <ol class="breadcrumb container">
     
     <li class="breadcrumb-item">
@@ -163,133 +179,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container section text-center">
-        <h2><strong>Standing on the shoulders of giants</strong><br></h2>
-        <p class="text-center subtitle">Nuvla builds on the important work of other open source projects. Here are the key technologies, tools and libraries we use to build Nuvla. This ensures a software which is scalable, easy to test and operate, as well as simple to extend and evolve.</p>
-        <div class="row row-col-feature row-col-feature-logo">
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-centos.png">
-                    <h3>CentOS<br></h3>
-                    <p>The open source version of Redhat Linux Enterprise Linux (RHEL) is a solid enterprise ready operating system. All of our production software, products and services leverage CentOS.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-DMTF.png">
-                    <h3>DMFT CIMI Standard for REST resources<br></h3>
-                    <p>Cloud Infrastructure Management Interface (CIMI), by the Distribute Management Task Force, provides a consistent and systematic way to expose RESTful web services in the cloud space.</p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-clojure.png">
-                    <h3>Clojure<br></h3>
-                    <p>Clojure is a dynamic, general-purpose programming language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. The Nuvla server is written in Clojure.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-        </div>
-        <div class="row row-col-feature row-col-feature-logo">
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-cljs.png">
-                    <h3>Clojure<br></h3>
-                    <p>Building on our knowledge and investment in Clojure, Clojurescript allows us to reuse Clojure business logic to build our latest web user interface, with a single page application that we think is a delight to develop and use.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-docker.png">
-                    <h3>Docker<br></h3>
-                    <p>SlipStream uses and supports containers. It uses them as packaging for its micro-services, while also allowing users to deploy their cloud and edge applications as container(s). And as the container world moves rather fast, we are tracking that target as well.</p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-Elasticsearch.png">
-                    <h3>Elasticsearch<br></h3>
-                    <p>The main state of Nuvla is stored in the Elasticsearch database. This means we were able to build our powerful query mechanism and we can scale as required.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-        </div>
-        <div class="row row-col-feature row-col-feature-logo">
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-github.png">
-                    <h3>GitHub<br></h3>
-                    <p>From hosting our source code to managing a good part of or DevOps process and hosting our website, GitHub plays an important role of all SixSq developers and managers.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-Python.png">
-                    <h3>Python<br></h3>
-                    <p>When it comes to deploying code in the user environment (e.g. virtual machine, container), a small footprint matters. Python gives us all the power of a 3rd generation language, with a small footprint. It is also the current choice of most system administrators.</p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="shadow"><img src="assets/img/logo-zookeeper.png">
-                    <h3>Zookeeper<br></h3>
-                    <p>Transitional and event based logic is handled using Apache Zookeeper. It also allows a simple and elegant support for push notifications, at scale. Another good one.<br></p><a class="btn btn-light" role="button" href="https://nuvla.io/" target="_blank">Learn more</a>
-                </div>
-            </div>
-        </div>
-        <div id="all-features" class="collapse" style="margin-top:2rem;">
-            <div class="row row-col-feature">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-Hyperconverged.svg">
-                        <h3><strong>Hyperconverged</strong></h3>
-                        <p>The NuvlaEdge software turns any certified x86 and ARM platform into a hyperconverged system, where users can “carve” as much resources as needed for a given application. This means applications can happily run alongside each other, even on small devices, with minimum impact on each other. Via the&nbsp;<a href="https://sixsq.com/products-and-services/nuvla-io/overview">Nuvla.io</a>&nbsp;management platform, containerised applications can be dynamically deployed, monitored and updated, without needing to change the hardware.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-swiss.svg">
-                        <h3><strong>Made in Switzerland</strong></h3>
-                        <p>The Nuvla.io service is operated and hosted in Switzelrand. The NuvlaEdge and Nuvla software is also designed Switzerland. Working closely with our hardware and distribution partners, we guarantee that the product is integrated and certified according to our highest standards. While an international team, we pride ourselves in our constant quest for precision and excellence.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-opensource.svg">
-                        <h3><strong>Open Source</strong></h3>
-                        <p>NuvlaEdge is now fully open source software, and we ensure that the entire stack, including its dependencies, is Apache 2.0 compatible. This means that we leverage the latest innovations from the thriving open source communities, but also their maturity. From there, you are able to build your own edge-to-cloud journey, knowing that there is no lock-in.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-col-feature">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-linux.svg">
-                        <h3><strong>Support Linux OS</strong></h3>
-                        <p>The NuvlaEdge software runs on most Linux operating systems, as long as they support Docker. We have also&nbsp;<a href="https://docs.nuvla.io/">documented</a>&nbsp;how to build your own Docker images. If you have your own Linux foundation and want to certify it run NuvlaEdge software, get in touch.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-Plug-and-Play.svg">
-                        <h3><strong>Plug-and-Play</strong></h3>
-                        <p>NuvlaEdge is a turn-key solution. From factory settings, you plug it in, power it up and you are good to go. The automated and secured registration process ensures that each edge device is yours and uniquely configured and initialised. This even includes a dedicated set of credentials for Virtual Private Network (VPN) access.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-remote.svg">
-                        <h3><strong>Remote Control</strong></h3>
-                        <p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. It also works with intermittent connectivity, which is common in many field scenarios.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-col-feature">
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-outdoor.svg">
-                        <h3><strong>Ruggedised</strong></h3>
-                        <p>Working with specialists&nbsp;<a href="https://sixsq.com/products-and-services/nuvlabox/hardware">hardware vendors</a>, you can create ruggedised platforms, for extreme weather and environments. The same applies for connectivity, including satellite. Combined with our robust software, this means your devices running the NuvlaEdge software have the best chance to survive their mission, even in harsh and semi-connected environments. And if a device is compromised, you can use Nuvla.io to isolate the device, while it gets investigated.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-security.svg">
-                        <h3><strong>Security</strong></h3>
-                        <p>Once powered-up, the box initiates a secured connection to&nbsp;<a href="https://sixsq.com/products-and-services/nuvla-io/overview">Nuvla.io</a>. Once the secured registration process is done, each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise. We also work with expert partners to build the most secured edge solution, delivering solutions for stringent applications and highly regulated industries.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="shadow"><img src="assets/img/icon-toy.svg">
-                        <h3><strong>Simplicity</strong></h3>
-                        <p>Smart factory settings and zero config means it’s a child’s play to set up and use. You can even ship your edge hardware with minimum configuration and let a non-expert in the field register and activate devices running the NuvlaEdge software in a simple and secure manner. Combined with its&nbsp;<a href="https://sixsq.com/products-and-services/nuvla-io/overview">Nuvla.io</a>&nbsp;remote-control capabilities, this means you don’t need IT experts on-site anymore. And you can watch and manage your growing edge assets from the comfort of your centralised Nuvla.io dashboard.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="container-fluid section-straddle">
+    <div class="container-fluid">
         <div class="container section text-center">
             <div id="features" class="anchor-position"></div>
             <h2>Main features<br></h2>
@@ -371,11 +261,7 @@
                   
                 
             </div>
-            <button class="btn btn-primary btn-collapse collapsed" type="button" data-bs-target="#all-features" data-bs-toggle="collapse" aria-controls="all-features" aria-expanded="false" style="margin-top: 30px;">
-              <span class="btn-collapse-open">Discover all features</span>
-              <span class="btn-collapse-close">Show main features only</span>
-            </button>
-            <div id="all-features" class="collapse" style="margin-top:2rem;">
+            <div id="all-features" class="collapse" style="">
                 <div class="row row-col-feature">
                   
                     
@@ -512,22 +398,29 @@
                   
                 </div>
             </div>
+            <button class="btn btn-primary btn-collapse collapsed" type="button" data-bs-target="#all-features" data-bs-toggle="collapse" aria-controls="all-features" aria-expanded="false" style="margin-top: 30px;">
+              <span class="btn-collapse-open">Discover all features</span>
+              <span class="btn-collapse-close">Show main features only</span>
+            </button>
         </div>
     </div>
-    <div class="container section-primary-box section-primary-box2 section-limited-width">
-        <div id="techspecs" class="anchor-position-straddle"></div>
-    <div class="container section">  
-      <div class="row shadow">
-            <div class="col-lg-4 primary-box-title bg-primary" style="background: url(&quot;assets/img/bg-wave3.png&quot;) right / cover no-repeat; margin-top: 0;">
-                <h2 class="text-light">How does Nulva work?</h2>
-            </div>
-            <div class="col-lg-8 primary-box-text">
-                <p class="text-big text-dark"><strong>The Nuvla software is open source and maintained on&nbsp;<a href="https://github.com/nuvla/nuvla" target="_blank">Github</a>.<br></strong></p>
-                <p>You will also find quick&nbsp;<strong>installation instructions on our&nbsp;</strong><a href="https://docs.nuvla.io/"><strong>documentation website</strong></a>.</p>
-                <p>For production deployment of Nuvla,&nbsp;<a href="https://sixsq.com/about/contact#contact-us-form">get in touch</a>.</p>
+    <div class="container-fluid bg-gray">
+        <div class="container section-primary-box section-primary-box2 section-limited-width">
+            <div id="techspecs" class=""></div>
+            <div class="container section">  
+                <div class="row shadow">
+                    <div class="col-lg-4 primary-box-title bg-primary" style="background: url(&quot;assets/img/bg-wave3.png&quot;) right / cover no-repeat; margin-top: 0;">
+                        <h2 class="text-light">How does Nulva work?</h2>
+                    </div>
+                    <div class="col-lg-8 primary-box-text">
+                        <p class="text-big text-dark">
+                          <strong>The Nuvla software is open source and maintained on&nbsp;<a href="https://github.com/nuvla/nuvla" target="_blank">Github</a>.<br/></strong></p>
+                        <p>You will also find quick&nbsp;<strong>installation instructions on our&nbsp;</strong><a href="https://docs.nuvla.io/"><strong>documentation website</strong></a>.</p>
+                        <p>For production deployment of Nuvla,&nbsp;<a href="https://sixsq.com/about/contact#contact-us-form">get in touch</a>.</p>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
     </div>
     <!-- <div class="container-fluid">
         <div class="container section section-no-top-space">
@@ -547,15 +440,15 @@
             </div>
             <div class="col-lg-7 align-self-center cta-wrapper">
               <a class="btn btn-secondary" role="button" href="https://nuvla.io/ui/sign-up" target="_blank">Start your free trial</a>
-              <a class="btn btn-primary" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sales-sixsq/free-demo-30min?hide_gdpr_banner=1'});return false;">Request a demo</a>
-              <a class="btn btn-primary" role="button" href="/contact">Contact us</a></div>
+              <a class="btn btn-primary" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nuvla-io-demo/30min?hide_gdpr_banner=1'});return false;">Request a demo</a>
+              <a class="btn btn-primary" role="button" href="/contact#breadcrumbs">Contact us</a></div>
         </div>
     </div>
 </div>
 <footer>
     <div class="container footer">
         <div class="row">
-            <div class="col-lg-9"><p class="text-dark">Copyright © 2022 SixSq SA. All rights reserved.  <span style="color:  #ed2b2b;">|</span>  <a href="/legal" class="text-dark">Terms &amp; conditions</a></p>
+            <div class="col-lg-9"><p class="text-dark">Copyright © 2022 SixSq SA. All rights reserved.  <span style="color:  #ed2b2b;">|</span>  <a href="/legal" class="text-dark">Terms &amp; conditions</a>.</p>
                 <p class="disclaimer">SixSq, Nuvla and NuvlaEdge are registered trademarks of SixSq SA in Switzerland and other countries.<br>Other registered trademarks are owned by their owner. </p>
                 <p><a href="https://www.ekinops.com/" target="_blank">SixSq is an Ekinops Company.&nbsp; &nbsp;<img src="/assets/img/logo-ekinops.svg"><br></a></p>
             </div>
@@ -565,9 +458,22 @@
         </div>
     </div>
 </footer>
+
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
 <script src="/assets/js/Header.js"></script>
-<!-- Script pointing to jekyll-search.js -->
+
+<!-- Async HubSpot Analytics Code -->
+<script type="text/javascript">
+  (function(d,s,i,r) {
+    if (d.getElementById(i)){return;}
+    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+    n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/475360.js';
+    e.parentNode.insertBefore(n, e);
+  })(document,"script","hs-analytics",300000);
+</script>
+
+<!-- jekyll-search.js -->
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 <script>
   SimpleJekyllSearch({
@@ -577,31 +483,17 @@
   })
 </script>
 
-<!-- Start of Async HubSpot Analytics Code -->
-  <script type="text/javascript">
-    (function(d,s,i,r) {
-      if (d.getElementById(i)){return;}
-      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/475360.js';
-      e.parentNode.insertBefore(n, e);
-    })(document,"script","hs-analytics",300000);
-  </script>
-<!-- End of Async HubSpot Analytics Code -->
-
+<!-- Intercom -->
 <script>
   window.intercomSettings = {
     app_id: "qjggmp6w",
     website: "sixsq.com"
   };
 </script>
-
 <script>
 // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/u4ftpdjf'
 (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/u4ftpdjf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
 </script>
-
-<!-- Calendly -->
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
   </body>
 </html>
