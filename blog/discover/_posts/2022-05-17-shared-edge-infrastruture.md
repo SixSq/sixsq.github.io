@@ -1,6 +1,6 @@
 ---
 title: What makes a smart city even smarter? Shared edge infrastructure
-image: featured-image-blog-liftoff.jpg
+image: shared_infrastructure.png
 breadcrumbs:
  - name: Home
    target: /
