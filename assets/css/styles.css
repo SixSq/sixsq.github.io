@@ -8,6 +8,17 @@ body {
   position: relative;
   z-index: -100; }
 
+code {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #1193cf;
+  color: #666;
+  page-break-inside: avoid;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word; }
+
 .text-primary {
   color: #ed2b2b !important; }
 
