@@ -21,7 +21,7 @@ The parts required for excellent edge computing are:
 
 - One or more apps to process the data produced by your things, extract insights, generate real-time events and act locally if needed.
 
-- A management platform to ensure your fleet of edge devices is online and doing what it is supposed to do. This will also allow you to deploy, update and upgrade the apps deployed at the edge. It’s rapidly becoming the norm to use third-party apps (e.g. machine learning), so the management platform must be sufficiently open to host these apps. It should also be capable of evolving and, even better, hosting your own apps and those from a range of vendors and app developer partners.
+- A [management platform](https://nuvla.io/) to ensure your fleet of edge devices is online and doing what it is supposed to do. This will also allow you to deploy, update and upgrade the apps deployed at the edge. It’s rapidly becoming the norm to use third-party apps (e.g. machine learning), so the management platform must be sufficiently open to host these apps. It should also be capable of evolving and, even better, hosting your own apps and those from a range of vendors and app developer partners.
 
 And remember that you don’t have to buy and install software yourself anymore, since a managed service – also referred to as software-as-a-service (SaaS) – is now available, taking away much of the pain and risk for you. There are of course security and data sovereignty issues to consider, and I will cover these topics in a future article.
 
