@@ -29,6 +29,6 @@ components.
   Integration of project software into SlipStream *Platform as a
   Service* feature set. SlipStream was the forerunner to [Nuvla.io](https://nuvla.io/).
 
-[web]: http://paasword.io 
-[cas]: http://www.cas.de/en/homepage.html
+[web]: https://paasword.io 
+[cas]: https://www.cas.de/en/homepage.html
 [seri]: https://www.sbfi.admin.ch/sbfi/en/home.html

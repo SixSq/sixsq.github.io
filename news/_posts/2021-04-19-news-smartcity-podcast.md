@@ -16,9 +16,9 @@ Choose your preferred way to listen to the podcast fron the list below:
 
 [Spotify](https://open.spotify.com/show/0ekW3LkQt9TAoMcGYWZySi) 
 <br>
-[Google Podcast](http://tiny.cc/0kbmsz) 
+[Google Podcast](https://tiny.cc/0kbmsz) 
 <br>
-[itunes](http://tiny.cc/svnysz)
+[itunes](https://podcasts.apple.com/ch/podcast/smart-and-sustainable-city-podcast/id1492749700?mt=2&app=podcast)
 <br>
 [Youtube](https://youtu.be/Gfrvm59Lk2E)
 <br>

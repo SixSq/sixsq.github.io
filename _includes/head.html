@@ -1,7 +1,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq {% if page.category %} | {{ page.category | capitalize }} {% endif %} | {{ page.title }}</title>
+    <title>SixSq {% if page.category %}| {{ page.category | capitalize }} {% endif %}| {{ page.title }}</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{ site.google-tag-id }}');</script>
+    <!-- End Google Tag Manager -->
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/favicons-180.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons-32.png">
@@ -12,4 +19,8 @@
     <link rel="stylesheet" href="/assets/css/Bauziet%20Norm.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <!-- Calendly -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </head>

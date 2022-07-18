@@ -188,7 +188,7 @@ a.text-dark:hover {
 
 .row.row-col-feature img {
   max-width: 100%;
-  margin: -1rem auto .5rem auto; }
+  margin: -0.5rem auto .5rem auto; }
 
 .row.row-col-feature > div {
   padding: 1.5rem; }
@@ -1041,6 +1041,10 @@ footer {
   font-weight: 400;
   margin-bottom: .5rem;
   font-size: 1.2rem; }
+  .activities-title a {
+    color: #000105; }
+    .activities-title a:hover {
+      color: #ed2b2b; }
 
 .activities-date {
   color: rgba(0, 1, 5, 0.4);

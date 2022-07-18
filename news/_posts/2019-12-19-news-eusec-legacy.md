@@ -1,7 +1,7 @@
 ---
 title: European Cloud Security Project Leaves Rich Legacy
 product-title: European Cloud Security Project Leaves Rich Legacy of Materials for Cloud Stakeholders
-image: logo_EU_SEC.png
+image: logo_eu-sec.png
 ---
 
 - Multi-Party Recognition Framework for Cloud Security Certifications brings clarity to the compliance process

@@ -20,7 +20,7 @@ SixSq, under the stewardship of NSL, and in collaboration with field experts Not
 
 Useful links
 
-[NSL](http://www.nsl.eu.com/) 
+[NSL](https://www.nsl.eu.com/) 
 
 [Nottingham University](https://www.nottingham.ac.uk/)
 

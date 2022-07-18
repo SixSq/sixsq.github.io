@@ -1,7 +1,7 @@
 ---
 title: SixSq Joins Swiss Alliance for Data Intensive Services
 product-title: SixSq Joins Swiss Alliance for Data Intensive Services
-image: ../logo_data_alliance.png
+image: logo_data_alliance.png
 ---
 
 SixSq is pleased to announce its membership of the [Swiss Alliance for Data Intensive Services](https://data-innovation.org/).

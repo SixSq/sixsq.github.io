@@ -38,6 +38,6 @@ SixSq is working alongside a mix of SME, academic, and electric power companies 
 
 [KTH Royal Institute of Technology](https://www.kth.se/en) is an international technical university, spaning from natural sciences to all the branches of engineering. The SWARM project will benefit from KTH's expertise in communication technologies, Internet-of-Things (IoT), privacy, machine learning.
 
-The Geneva communes of [Meyrin](http://meyrin.ch/fr) and [Chêne-Bougeries](https://www.chene-bougeries.ch/accueil/) will act as microgrid infrastructure providers, working in close collaboration with the project. 
+The Geneva communes of [Meyrin](https://meyrin.ch/fr) and [Chêne-Bougeries](https://www.chene-bougeries.ch/accueil/) will act as microgrid infrastructure providers, working in close collaboration with the project. 
 
 

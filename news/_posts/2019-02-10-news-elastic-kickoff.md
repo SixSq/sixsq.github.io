@@ -1,7 +1,7 @@
 ---
 title: ELASTIC - Smart Mobility Systems
 product-title: ELASTIC - Developing Edge to Cloud Architecture for Advanced Mobility Systems
-image: elastic_tram.jpeg
+image: feature-elastic-project.png
 ---
 
 SixSq is pleased to announce its involvement in the H2020 project [ELASTIC](https://elastic-project.eu/). The project’s main objective is to develop a novel software architecture to distribute computational resources from edge to cloud. The ELASTIC software architecture will form the technological basis for **advanced mobility systems** and **autonomous transport networks**.

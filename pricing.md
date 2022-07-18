@@ -3,7 +3,7 @@ layout: pricing
 title: Pricing
 product-title: Pay-as-you-go simple pricing
 product-description: Only pay for active resources. No commitment required.
-product-background-img: BG-Hero-Pricing.jpg
+product-background-img: bg-hero-pricing.jpg
 breadcrumbs:
  - name: Home
    target: /

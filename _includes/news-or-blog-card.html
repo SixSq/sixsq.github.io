@@ -5,7 +5,7 @@
         <p class="activities-type">{% if post.category == 'news' %}Press release{% else %}Blog{% endif %}</p>
         {% endif %}
         <p class="activities-date">{{ post.date | date: "%d %B %Y" }}</p>
-        <p class="activities-title">{{ post.title }}</p>
+        <p class="activities-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
         {% if post.category == 'blog' %}
         <p class="blog-author">By&nbsp;<a href="/authors/{{ post.author }}">{{ post.author }}</a></p>
         {% endif %}

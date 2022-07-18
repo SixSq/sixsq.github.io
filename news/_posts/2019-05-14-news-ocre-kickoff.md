@@ -14,7 +14,7 @@ If you are involved in EO services and would like to contribute to the valuable 
 
 **Useful links**
 
-[ocre-project.eu](www.ocre-project.eu)
+[ocre-project.eu](https://www.ocre-project.eu)
 
 OCRE on **[Twitter](https://twitter.com/OCREproject)** and **[LinkedIn](https://www.linkedin.com/company/ocre-project/)**
 

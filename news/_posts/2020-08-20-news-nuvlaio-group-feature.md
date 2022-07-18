@@ -1,7 +1,7 @@
 ---
 title: Group Feature Enhancement to Nuvla.io
 product-title: Group Feature Upgrade Brings enhanced Security to Nuvla.io Edge Management Platform
-image: ../logo-nuvla-io.png
+image: logo-nuvla-io.png
 ---
 
 SixSq is proud to announce the introduction of the **Switch Group** feature, in response to user requests to improve the management at scale of apps, edge devices and container orchestration engine resources.
