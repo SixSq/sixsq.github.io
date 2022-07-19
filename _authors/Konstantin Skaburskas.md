@@ -1,7 +1,7 @@
 ---
 title: Konstantin Skaburskas
 job-title: Tech Lead &amp; Scrum Master
-photo: meb.png
+photo: konstan.png
 linkedin: https://www.linkedin.com/in/konstantinskaburskas/
 ---
 
