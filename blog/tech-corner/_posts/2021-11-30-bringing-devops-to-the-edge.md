@@ -72,8 +72,24 @@ To use it, simply make sure your GitHub repositories has the GitHub Actions enab
 
 
 
+```
+Jobs: continuous-deployment: 
 
+runs-on: ubuntu-latest
+name: Deploy application from Nuvla.io steps: 
 
+- name: Deploy
+id: deploy
+uses: nuvla/nuvla-deploy-app-action@v1 with: 
+
+api-key: $ api-secret: $ module-id: 'module/<uuid>'
+credential-id: 'credential/<uuid>' environment: 'NUVLABOX_UUID=nuvlabox/<uuid>' 
+```
+
+# Use the output
+- name: Get the output 
+
+run: echo "The output was $"  
 
 
 
