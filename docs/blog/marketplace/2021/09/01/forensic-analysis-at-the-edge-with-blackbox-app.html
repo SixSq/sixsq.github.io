@@ -183,7 +183,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>The BlackBox app records all the data processed by the edge device.  The local storage is on a rotation, and older data is replaced by new data. This will include, for example, video and audio feeds, as well as any other source of data connected to the edge device, such as sensor and machine measurements of all kinds. The diagram below gives an overview of the workflow.</p>
 
-<p><img src="/assets/img/blog/nuvlacicd.png" alt="cicd" /></p>
+<p><img src="/assets/img/blog/bb-overview2.png" alt="blackbox overview" /></p>
+
+<p class="caption">Figure 1: General overview of the Blackbox.</p>
+
+<h3 id="inbuilt-security">Inbuilt security</h3>
+
+<p>The BlackBox app then automatically archives all the available data. However, before it ships the virtual blackbox to its recipient, it <strong>encrypts</strong> and signs its content to protect any sensitive data it may contain. For the same reason you don’t want video and audio feeds to go to the cloud over the wide area network, you don’t want the virtual blackbox to leave the edge without <strong>maximum security</strong>.</p>
+
+<p>For this we use asymmetric key encryption. When the BlackBox app is deployed, a public key is used by the app to encrypt the archive. Therefore, only the holder of the private key will be able to decrypt it. SixSq doesn’t hold this private key, which makes the overall setup very secure.</p>
+
+<p>The virtual blackbox is then pushed to the cloud where it can be retrieved and analysed. The value of the data contained in the virtual blackbox far outweighs any network and storage costs incurred.</p>
+
+<p>Finally, the user is informed by the notification and alert feature of <a href="https://nuvla.io/">Nuvla.io</a>. The message includes a direct link to Nuvla.io which authenticates the user and allows direct download of the virtual blackbox.</p>
+
+<p>Then, using the private key, the user can decrypt the archive and access all the data leading to the significant event that triggered its creation.</p>
+
+<p><img src="/assets/img/blog/bb-overview.png" alt="blackbox detailed overview" /></p>
+
+<p class="caption">Figure 2: Detailed view of how the Blackbox creates an archive and sends it.</p>
+
+<h3 id="simple-and-efficient-framework">Simple and efficient framework</h3>
+
+<p>In terms of architecture, the BlackBox app follows best practices, using a local data bus to organise data inside each edge device. Our NuvlaBox Engine software is composed of micro services. It includes a message bus service (i.e. MQTT) used by the BlackBox app to collect data. Therefore, as long as other apps push their data (raw or pre-processed) to the message bus, the BlackBox app will be able to add the data to a virtual blackbox archive. The solution is therefore simple, yet efficient, and moreover maintenance free.</p>
+
+<p>Sign up for your free trial of Nuvla.io <a href="https://nuvla.io/ui/sign-up">here</a>.</p>
+
+<p>Find the BlackBox app in the Nuvla.io Marketplace <a href="https://nuvla.io/ui/sign-in?redirect=apps/sixsq/blackbox">here</a>, including a complete description, license details and affordable pay-as-you-go pricing. And like all other apps in the marketplace, it can be deployed in a click.</p>
+
+<p>As always, if you need help or have questions along the way, get in touch.</p>
 
             
             <br/>
@@ -223,12 +251,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-hold-all-the-cards.html">Privacy intrusion XXX</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
-        <p class="blog-author">By&nbsp;<a href="/authors/Louise Merifield">Louise Merifield</a></p>
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
     </div>
 </div>
 
