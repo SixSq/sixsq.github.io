@@ -325,6 +325,15 @@
     } ,
   
     {
+      "title"    : "What is edge computing?",
+      "category" : "blog",
+      "tags"     : "edge, cloud",
+      "url"      : "/blog/discover/2019/11/08/blog-what-is-edge-computing.html",
+      "date"     : "2019-11-08 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
       "title"    : "Adaptive Lighting Delivers Savings to Smart Monthey",
       "category" : "news",
       "tags"     : "",
@@ -1183,10 +1192,10 @@
   
    {
      
-        "title"    : "tech-corner",
+        "title"    : "discover",
         "category" : "",
         "tags"     : "",
-        "url"      : "/blog/tech-corner/index.html",
+        "url"      : "/blog/discover/index.html",
         "date"     : "",
         "content": null
      
@@ -1194,10 +1203,10 @@
   
    {
      
-        "title"    : "discover",
+        "title"    : "tech-corner",
         "category" : "",
         "tags"     : "",
-        "url"      : "/blog/discover/index.html",
+        "url"      : "/blog/tech-corner/index.html",
         "date"     : "",
         "content": null
      
