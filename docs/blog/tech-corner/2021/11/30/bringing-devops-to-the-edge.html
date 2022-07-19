@@ -234,14 +234,12 @@ uses: nuvla/nuvla-deploy-app-action@v1 with:
 
 api-key: $ api-secret: $ module-id: 'module/&lt;uuid&gt;'
 credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&lt;uuid&gt;' 
+
+ # Use the output
+- name: Get the output 
+
+run: echo "The output was $"  
 </code></pre></div></div>
-
-<h1 id="use-the-output">Use the output</h1>
-<ul>
-  <li>name: Get the output</li>
-</ul>
-
-<p>run: echo “The output was $”</p>
 
 <p>Looks quite straightforward, right? Just to make sure it’s all clear, let’s go through each action input:</p>
 
@@ -254,11 +252,12 @@ credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&l
 
 <p>If the action fails, it will try to auto-clean whatever deployments have been started, otherwise, on success, it will output the ID of your deployment, which you can capture via the workflow variable:</p>
 
-<p>steps.test.outputs.DEPLOYMENT_ID</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>steps.test.outputs.DEPLOYMENT_ID 
+</code></pre></div></div>
 
 <p>Now you can manage the lifecycle of your edge applications much more easily.</p>
 
-<p>Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can dig deeper, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don’t hesitate to get in touch.</p>
+<p>Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can <a href="https://nuvla.io/getting-started">dig deeper</a>, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don’t hesitate to get in touch.</p>
 
             
             <br/>
