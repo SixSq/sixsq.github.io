@@ -72,8 +72,24 @@ To use it, simply make sure your GitHub repositories has the GitHub Actions enab
 
 
 
+```
+Jobs: continuous-deployment: 
 
+runs-on: ubuntu-latest
+name: Deploy application from Nuvla.io steps: 
 
+- name: Deploy
+id: deploy
+uses: nuvla/nuvla-deploy-app-action@v1 with: 
+
+api-key: $ api-secret: $ module-id: 'module/<uuid>'
+credential-id: 'credential/<uuid>' environment: 'NUVLABOX_UUID=nuvlabox/<uuid>' 
+
+ # Use the output
+- name: Get the output 
+
+run: echo "The output was $"  
+```
 
 
 
@@ -86,9 +102,10 @@ Looks quite straightforward, right? Just to make sure it's all clear, let’s go
 
 If the action fails, it will try to auto-clean whatever deployments have been started, otherwise, on success, it will output the ID of your deployment, which you can capture via the workflow variable:
 
+```
 steps.test.outputs.DEPLOYMENT_ID 
-
+```
 
 Now you can manage the lifecycle of your edge applications much more easily.
 
-Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can dig deeper, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.
+Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can [dig deeper](https://nuvla.io/getting-started), so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.

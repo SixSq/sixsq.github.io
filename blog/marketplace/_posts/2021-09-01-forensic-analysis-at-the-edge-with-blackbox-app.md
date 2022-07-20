@@ -30,4 +30,34 @@ The BlackBox app kicks in when a significant event is detected. It creates an en
 
 The BlackBox app records all the data processed by the edge device.  The local storage is on a rotation, and older data is replaced by new data. This will include, for example, video and audio feeds, as well as any other source of data connected to the edge device, such as sensor and machine measurements of all kinds. The diagram below gives an overview of the workflow. 
 
-![cicd](/assets/img/blog/nuvlacicd.png)
+![blackbox overview](/assets/img/blog/bb-overview2.png)
+
+Figure 1: General overview of the Blackbox.
+{: .caption }
+
+### Inbuilt security 
+
+The BlackBox app then automatically archives all the available data. However, before it ships the virtual blackbox to its recipient, it **encrypts** and signs its content to protect any sensitive data it may contain. For the same reason you don't want video and audio feeds to go to the cloud over the wide area network, you don't want the virtual blackbox to leave the edge without **maximum security**.
+
+For this we use asymmetric key encryption. When the BlackBox app is deployed, a public key is used by the app to encrypt the archive. Therefore, only the holder of the private key will be able to decrypt it. SixSq doesn't hold this private key, which makes the overall setup very secure.
+
+The virtual blackbox is then pushed to the cloud where it can be retrieved and analysed. The value of the data contained in the virtual blackbox far outweighs any network and storage costs incurred.
+
+Finally, the user is informed by the notification and alert feature of [Nuvla.io](https://nuvla.io/). The message includes a direct link to Nuvla.io which authenticates the user and allows direct download of the virtual blackbox.
+
+Then, using the private key, the user can decrypt the archive and access all the data leading to the significant event that triggered its creation.
+
+![blackbox detailed overview](/assets/img/blog/bb-overview.png)
+
+Figure 2: Detailed view of how the Blackbox creates an archive and sends it.
+{: .caption }
+
+### Simple and efficient framework
+
+In terms of architecture, the BlackBox app follows best practices, using a local data bus to organise data inside each edge device. Our NuvlaBox Engine software is composed of micro services. It includes a message bus service (i.e. MQTT) used by the BlackBox app to collect data. Therefore, as long as other apps push their data (raw or pre-processed) to the message bus, the BlackBox app will be able to add the data to a virtual blackbox archive. The solution is therefore simple, yet efficient, and moreover maintenance free.
+
+Sign up for your free trial of Nuvla.io [here](https://nuvla.io/ui/sign-up).
+
+Find the BlackBox app in the Nuvla.io Marketplace [here](https://nuvla.io/ui/sign-in?redirect=apps/sixsq/blackbox), including a complete description, license details and affordable pay-as-you-go pricing. And like all other apps in the marketplace, it can be deployed in a click.
+
+As always, if you need help or have questions along the way, get in touch. 

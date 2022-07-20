@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>SixSq | Blog | Data Management with Nuvla.io Part 1</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M77XBLH');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/favicons-180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons-32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/favicons-180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicons-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicons-512.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/Bauziet%20Norm.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <!-- Calendly -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M77XBLH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <nav class="navbar navbar-light navbar-expand-lg">
+                        <div class="container-fluid"><a href="/"><img class="logo" src="/assets/img/logo-sixsq.svg" alt="Sixsq"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navcol-1">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                      <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="/products">Products&nbsp;</a>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/products">Overview</a>
+                                        <!-- <a class="dropdown-item" href="#">Nuvla Ecosystem</a> -->
+                                        <a class="dropdown-item" href="/platform">Nuvla Platform</a>
+                                        <a class="dropdown-item" href="/marketplace">Nuvla Marketplace</a>
+                                        <a class="dropdown-item" href="/nuvlaedge">NuvlaEdge</a>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                      <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Case Studies&nbsp;</a>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/case-studies">Overview</a>
+                                        <a class="dropdown-item" href="/case-studies/transport">Transport</a>
+                                        <a class="dropdown-item" href="/case-studies/retail">Retail</a>
+                                        <a class="dropdown-item" href="/case-studies/manufacturing">Manufacturing</a>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+                                    <li class="nav-item dropdown">
+                                      <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Resources</a>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/resources">All</a>
+                                        <a class="dropdown-item" href="/news">News</a>
+                                        <a class="dropdown-item" href="/blog">Blog</a>
+                                        <a class="dropdown-item" href="/videos">Videos</a>
+                                        <!-- <a class="dropdown-item" href="#">Webinar</a>
+                                        <a class="dropdown-item" href="#">Edge Knowledge Base</a>
+                                        <a class="dropdown-item" href="#">White papers</a> -->
+                                      </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                      <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Company</a>
+                                      <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/about">About us</a>
+                                        <a class="dropdown-item" href="/contact">Contact</a>
+                                        <a class="dropdown-item" href="/customers">Customers</a>
+                                        <a class="dropdown-item" href="/partners">Partners</a>
+                                        <a class="dropdown-item" href="/r&amp;d">R&amp;D</a>
+                                        <a class="dropdown-item" href="/jobs">Jobs</a>
+                                        <a class="dropdown-item" href="/legal">Legal &amp; terms</a>
+                                      </div>
+                                    </li>
+                                </ul>
+                                <a class="btn p-0" role="button" href="https://nuvla.io/" target="_blank"><img class="" style="width: 100px;" src="/assets/img/nuvla-io-white-on-red.png" alt="Nuvla.io logo"/></a>
+                                <input id="search-input" type="search">
+                                <div id="results-container">
+                                  <ul id="search-results"></ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/bg-hero-blog.jpg') center / cover;">
+    <div class="container hero hero-narrow">
+        <div class="row">
+            <div class="col-lg-7 align-self-center hero-text">
+                
+                <p class="text-primary text-big">Blog</p>
+                
+                <h1>Data Management with Nuvla.io Part 1</h1>
+                
+                <p></p>
+                <p>04 May 2020
+                  
+                     | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
+                     
+                  </p>
+                
+<p class="tag">
+  
+  <a href="/blog/tag/edge">edge</a>
+  
+  <a href="/blog/tag/cloud">cloud</a>
+  
+  <a href="/blog/tag/toto">toto</a>
+  
+</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="container-fluid breadcrumb-wrapper">
+        <div id="breadcrumbs" class="container">
+  <ol class="breadcrumb container">
+    
+    <li class="breadcrumb-item">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+      <a href="/blog">
+        <span>Blog</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+      <a href="/blog/tech-corner">
+        <span>Tech Corner</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+        <span>Data management with nuvla.io part 1</span>
+    </li>
+    </li>
+  </ol>
+</div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section section-article">
+            <div id="blog" class="anchor-position"></div>
+            <img class="full-image" src="/assets/img/blog/edge-to-cloud-big-data.png">
+            <p>This is the first in a series of posts on <strong>Data management with <a href="https://nuvla.io/">Nuvla.io</a></strong>. Nuvla.io is an edge management platform as a service, designed to make it easy for you to manage, monitor, deploy and update your containerised apps and edge devices.</p>
+
+<p><strong>Data scientists</strong> have to make sense of messy, unstructured data to uncover solutions for scientific, technological and business challenges. These blog posts are aimed at data scientists looking for a more efficient way to manage, process and analyse that data.</p>
+
+<p>In these posts you will learn about:</p>
+
+<ul>
+  <li>the set of features available in Nuvla.io</li>
+  <li>what you can achieve with them</li>
+  <li>how this works in practice.</li>
+</ul>
+
+<p>Keep with us until the end, as we will give you an insight into the ESA GNSS Big Data project, which uses Nuvla.io for data management.</p>
+
+<h3 id="making-sense-of-large-data-sets">Making sense of large data sets</h3>
+
+<p>Large data sets, produced and stored on the edge and in the cloud, need to be made available for post-processing and analysis to facilitate extraction of valuable information. Nuvla.io enables this process by providing users with data management capabilities in the form of:</p>
+
+<ul>
+  <li>data registration,</li>
+  <li>a powerful search engine,</li>
+  <li>meta-data updates,</li>
+  <li>selection of applications that can work with particular data types and</li>
+  <li>directing data processing applications to where the data is actually located.</li>
+</ul>
+
+<p>All this is possible via a rich web UI and API.</p>
+
+<p>Below, we describe a number of building blocks (or elements) and operations on them available in Nuvla.io to support user <strong>data management in distributed environments</strong>. We present you with a powerful “Open with…” pattern, allowing users to automatically deploy their data processing applications directly where the data is located.</p>
+
+<h3 id="elements--operations-of-nuvlaio-data-management">Elements &amp; operations of Nuvla.io data management</h3>
+<p>Nuvla.io defines a number of elements (resources) and operations on them that help users to work with their data stored on the edge or in the cloud. Let’s go through them:</p>
+
+<p>ELEMENTS (RESOURCES)</p>
+
+<p><strong>Infrastructure-Service and Infrastructure-Credential</strong></p>
+
+<p>These resources contain endpoints and credentials of the storage (e.g. S3) and/or cluster (Kubernetes, Docker Swarm) where the data is located. The data resources (detailed below) reference these infrastructure resources.</p>
+
+<p><strong>Infrastructure-Service-Group</strong></p>
+
+<p>This allows grouping of cluster and storage Infrastructure-Services to identify storage and processing proximity.</p>
+
+<p><strong>Data-Record</strong></p>
+
+<p>This resource keeps information about the user data in a user-defined schema. The fields in the schema can contain scalars (e.g. strings, booleans) and collections (e.g. set of key/value pairs, geo-spatial points). It also allows users to link each particular data record with its location - Infrastructure-Service. The user can define and set a data type for each record. This helps to find applications supporting this data type.</p>
+
+<p><strong>Data-Object</strong></p>
+
+<p>This is an S3 object with a predefined workflow on it. It is a very powerful resource for working with data on S3 and is described in the online <a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data#data-object-resources">Nuvla.io documentation</a>.</p>
+
+<p><strong>Data-Set</strong></p>
+
+<p>This provides a virtual snapshot view over the data defined by the user query on the data records or objects.</p>
+
+<p>OPERATIONS</p>
+
+<p><strong>CRUD and actions</strong></p>
+
+<p>Nuvla.io provides a full set of CRUD operations over all the data elements, and extends them with a set of resource specific actions (see <a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data#data-object-resources">Data-Object documentation</a>).</p>
+
+<p><strong>Query</strong></p>
+
+<p>A simple and powerful query language which allows you to query data records and data objects. A full text search is available for the data sets.</p>
+
+<p>Each data record or object has a creation timestamp which means that they, as well as the data sets, can also be <strong>filtered by time</strong>. Nuvla.io allows users to have geo-spatial data fields in the data records and run point and shape queries over them.</p>
+
+<p>Users can persist their queries over the data as data sets. This creates virtual dynamic snapshots over the data that can be acted upon - e.g. with “Open with…”.</p>
+
+<p><strong>Open with…</strong></p>
+
+<p>In Nuvla.io, applications can be marked with a list of data types they support.</p>
+
+<p>By utilising the data binding defined on the applications and the data types in Data-Records, and in combination with knowing where the data is located (via the link of data to the Infrastructure-Service), Nuvla.io allows users to automatically direct the deployment of applications close to the data.</p>
+
+<p>This operation is usually done on data sets. Launching an application on the selected data sets we call “Open with…” feature. At the moment, the data sets must reside on a single location, but we are exploring possibilities of deploying the user workloads simultaneously in multiple locations as well.</p>
+
+<h3 id="an-example-of-data-management-workflow">An example of data management workflow.</h3>
+
+<p>The rich set of functionalities described above allows our clients to push their boundaries by bridging the gap between edge and cloud. A good example of this is the <a href="https://www.youtube.com/watch?v=l8XD8bHceOY">GNNS Big Data Project</a>.</p>
+
+<p><img src="/assets/img/blog/edge-to-cloud-big-data.png" alt="Nuvla.io edge" /></p>
+
+<p>A typical workflow of working with data could look as follows:</p>
+
+<ol>
+  <li>Store files on the storage local to the place where the data was collected or produced,</li>
+  <li>Register meta-data about the data and its location in Nuvla.io.</li>
+  <li>Build and register queries over the data. This produces data sets.</li>
+  <li>Tag the data by types that define which applications can work with it.</li>
+  <li>Create applications that can work with the specific data types.</li>
+  <li>Use “Open with…” feature to select data set(s) and launch the application on them.</li>
+</ol>
+
+<p>Let’s go through the steps in more detail.</p>
+
+<p><strong>Steps 1. and 2.</strong> are usually combined into a store-and-register step:</p>
+
+<p>Store data as files on local storage of the edge device and register the data in Nuvla.io. The local storage can be of any type. For example, it can be S3 Ceph RadosGW physically persisting data on Ceph pools defined on Ceph object store. Or it can be a distributed file system (e.g. NFS, GlusterFS, CephFS). In each of the cases, the stored files can be registered in Nuvla.io with information defining the reference to the edge device, type of the storage and path to the file on that storage. In the case of S3, this will be a reference to the S3 infrastructure service pre-defined by user in Nuvla.io, that has the endpoint of the S3 and, in turn, reference to credentials to access this S3 endpoint.</p>
+
+<p><strong>Step 3</strong> allows users to create filters over the meta-data for which they registered their data. It can be geo-special queries or queries over the specific data sub-types, data creation time, etc.</p>
+
+<p><strong>Step 4</strong> is possible as part of Step 2. or as a separate update action.</p>
+
+<p><strong>Step 5</strong> is where users build applications from scratch or find existing ones in Nuvla.io App store, and add a corresponding data type binding to them. This signals to Nuvla.io that this app can work with the particular data type.</p>
+
+<p>Step 6 Nuvla.io facilitates users with the deployment of the right application on the data at the location where the data is actually residing.</p>
+
+<p>Building the described workflow can be achieved by combining the usage of Nuvla.io API, client API libraries (available in Python, C and ClojureScript), and web UI.</p>
+
+<h3 id="nuvlaio-as-a-meta-data-catalogue">Nuvla.io as a meta-data catalogue</h3>
+
+<p>From the description of available resources, operations and the example workflow, we hope to have shown you that Nuvla.io acts as <strong>meta-data catalogue</strong> with links between data, infrastructure resources and applications. This allows for a rich set of functionalities and patterns to be built around that by any user.</p>
+
+<h3 id="whats-next">What’s next?</h3>
+
+<p>In the next posts we will explore how to use the data management features of Nuvla.io using the UI and API. This will help you understand how this actually works in practice and allow you to apply this knowledge to managing and processing your own data across edge and cloud.</p>
+
+            
+            <br/>
+<p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
+<div class="post-sharing blog_sharing">
+  
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html','Facebook Share','width=600,height=400')">
+        <span>Facebook</span>
+    </a>
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html','Twitter Share','width=600,height=400')">
+        <span>Twitter</span>
+    </a>
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+        <span>Facebook</span>
+    </a>
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html','Google+ Share','width=600,height=400')">
+        <span>Google+</span>
+    </a>
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html','LinkedIn Share','width=600,height=400')">
+        <span>LinkedIn</span>
+    </a>
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla.io Part 1&body=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html" title="email">
+        <span>Email</span>
+    </a>
+</div>
+
+        </div>
+        <div class="container-fluid bg-gray">
+            <div class="container section">
+                <div id="products" class="anchor-position"></div>
+                <h2 class="text-center">Latest blog posts<br></h2>
+                <div class="row row-col-feature row-col-activities">
+                    
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
+        
+        <p class="activities-date">24 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/shared_infrastructure.png"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/shared-edge-infrastruture.html">What makes a smart city even smarter? Shared edge infrastructure</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Create a future-proof solution for your smart city by implementing a shared infrastructure
+
+You can find many, many smart cities that share a commo...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/shared-edge-infrastruture.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                </div>
+                <div class="text-center pt-3">
+                    <a class="btn btn-primary" role="button" href="https://new-website.sixsq.ch/blog">Read all blog posts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer-cta bg-primary ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 align-self-center cta-title">
+                <h2 class="text-light">Start your own journey to the edge with Nuvla.io</h2>
+            </div>
+            <div class="col-lg-7 align-self-center cta-wrapper">
+              <a class="btn btn-secondary" role="button" href="https://nuvla.io/ui/sign-up" target="_blank">Start your free trial</a>
+              <a class="btn btn-primary" role="button" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nuvla-io-demo/30min?hide_gdpr_banner=1'});return false;">Request a demo</a>
+              <a class="btn btn-primary" role="button" href="/contact#breadcrumbs">Contact us</a></div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container footer">
+        <div class="row">
+            <div class="col-lg-9"><p class="text-dark">Copyright © 2022 SixSq SA. All rights reserved.  <span style="color:  #ed2b2b;">|</span>  <a href="/legal" class="text-dark">Terms &amp; conditions</a>.</p>
+                <p class="disclaimer">SixSq, Nuvla and NuvlaEdge are registered trademarks of SixSq SA in Switzerland and other countries.<br>Other registered trademarks are owned by their owner. </p>
+                <p><a href="https://www.ekinops.com/" target="_blank">SixSq is an Ekinops Company.&nbsp; &nbsp;<img src="/assets/img/logo-ekinops.svg"><br></a></p>
+            </div>
+            <div class="col-lg-3 social-follow">
+                <p class="text-dark">Follow us<a href="https://www.linkedin.com/company/sixsq"><img src="/assets/img/icon-linkedin.svg"></a><a href="https://twitter.com/sixsq"><img src="/assets/img/icon-twitter.svg"></a><a href="https://www.youtube.com/channel/UCGYw3n7c-QsDtsVH32By1-g"><img src="/assets/img/icon-youtube.svg"></a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="/assets/js/Header.js"></script>
+
+<!-- Async HubSpot Analytics Code -->
+<script type="text/javascript">
+  (function(d,s,i,r) {
+    if (d.getElementById(i)){return;}
+    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+    n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/475360.js';
+    e.parentNode.insertBefore(n, e);
+  })(document,"script","hs-analytics",300000);
+</script>
+
+<!-- jekyll-search.js -->
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: 'https://new-website.sixsq.ch/search.json',
+  })
+</script>
+
+<!-- Intercom -->
+<script>
+  window.intercomSettings = {
+    app_id: "qjggmp6w",
+    website: "sixsq.com"
+  };
+</script>
+<script>
+// We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/u4ftpdjf'
+(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/u4ftpdjf';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+
+<!-- Start of HubSpot code snippet -->
+<button type="button" id="hs_remove_cookie_button"
+  style="background-color: #95000C; border: 1px solid #95000C;
+         border-radius: 3px; padding: 10px 16px; text-decoration: none; color: #fff;
+         font-family: inherit; font-size: inherit; font-weight: normal; line-height: inherit;
+         text-align: left; text-shadow: none;"
+  onClick="(function(){
+    var _hsp = window._hsp = window._hsp || [];
+    _hsp.push(['revokeCookieConsent']);
+  })()"
+>
+  Cookie Settings
+</button>
+
+<!-- End of HubSpot code snippet -->
+
+  </body>
+</html>
