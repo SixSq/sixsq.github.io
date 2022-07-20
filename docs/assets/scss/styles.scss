@@ -408,6 +408,9 @@ margin-bottom: 1.6rem;
   overflow: hidden;
   margin-bottom: 30px;
 }
+.notes-simple {
+    border-top: none !important;
+}
 .notes{
     padding: 2rem 0 0 0;
     border-top: 1px solid $red-100;
