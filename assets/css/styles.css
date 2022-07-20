@@ -318,6 +318,9 @@ a.text-dark:hover {
   overflow: hidden;
   margin-bottom: 30px; }
 
+.notes-simple {
+  border-top: none !important; }
+
 .notes {
   padding: 2rem 0 0 0;
   border-top: 1px solid #ed2b2b; }
