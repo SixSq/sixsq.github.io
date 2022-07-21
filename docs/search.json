@@ -479,6 +479,17 @@
   
    {
      
+        "title"    : "Manufacturing",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/case-studies/manufacturing",
+        "date"     : "",
+        "content": "\n"
+     
+   } ,
+  
+   {
+     
         "title"    : "Marketplace",
         "category" : "",
         "tags"     : "",
@@ -577,6 +588,17 @@
    } ,
   
    {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Transport",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/case-studies/transport",
+        "date"     : "",
+        "content": ""
      
    } ,
   
@@ -1258,10 +1280,32 @@
   
    {
      
+        "title"    : "manufacturing",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/manufacturing/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
         "title"    : "retail",
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/retail/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
+        "title"    : "transport",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/transport/index.html",
         "date"     : "",
         "content": null
      
