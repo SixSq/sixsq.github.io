@@ -1,8 +1,8 @@
 ---
-layout: case-study
+layout: retail
 title: Retail
 product-title: Retail
-product-description: Here are a few case studies showing how our products and services are making a real difference for our customers.
+product-description: Learn how Nuvla.io enables retailers to take data-driven decisions.
 product-background-img: bg-hero-retail.jpg
 product-next-text: How Nuvla works in Retail
 product-next-target: overview
