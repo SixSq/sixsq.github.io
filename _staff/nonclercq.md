@@ -1,6 +1,6 @@
 ---
 name: Claire Nonclercq
 title: Strategic Advisor Business Development
-experience: ...
+experience:
 photo: claire-nonclercq.png
 ---
