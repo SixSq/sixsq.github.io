@@ -137,10 +137,22 @@ defaults:
       category: "feature"
   -
     scope:
+      path: "*/manufacturing"
+      type: "casestudies"
+    values:
+      category: "manufacturing"
+  -
+    scope:
       path: "*/retail"
       type: "casestudies"
     values:
       category: "retail"
+  -
+    scope:
+      path: "*/transport"
+      type: "casestudies"
+    values:
+      category: "transport"
   -
     scope:
       path: ""

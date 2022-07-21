@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: retail
 title: Retail
 product-title: Retail
 product-description: Learn how Nuvla.io enables retailers to take data-driven decisions.

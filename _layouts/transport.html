@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}    
+    {% include top-form-section.html %}
+
+    <div class="container-fluid breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container bg-primary section-primary-box section-limited-width" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
+        <div id="overview" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-lg-5 primary-box-title">
+                <h2 class="text-light">Discover how Nuvla enables Transport, at the edge as a service</h2>
+                <p class="text-light text-big">Public transport operators have to support intelligent devices spread across hundreds of locations in their network. On and off-board payment systems, safety monitoring, sensors and information displays all form part of the IT infrastructure that has to be checked and updated, often manually, resulting in inefficient use of IT resources and lack of central control.</p>
+            </div>
+            <div class="col-lg-7 primary-box-text">
+                <p class="text-light">By installing SixSq’s NuvlaEdge software on each device, operators gain control over the device and the apps deployed there. <br></p>
+                <p class="text-light">Using the Nuvla.io platform, the operator has improved visibility over devices and applications. Users are alerted when a device is offline and can manage the whole lifecycle of the applications, including remote updates. Additional apps can be deployed without the need for on-site visits.<br></p>
+                <p class="text-light">Operators gain a future-proof, scalable solution with limitless possibilities for service innovation.<br></p> 
+				<p class="text-light">Thanks to the&nbsp;<a href="https://sixsq.com/products-and-services/nuvla-io/overview">Nuvla</a>&nbsp;edge management platform, the deployment and maintenance process is simplified throughout the whole lifecysle.<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="container section section-limited-width">
+        </div>
+    </div>
+    <div class="container-fluid bg-gray">
+        <div class="container section text-center">
+            <div id="features" class="anchor-position"></div>
+            <h2>Benefits of edge computing in transport<br></h2>
+            <div class="row row-col-feature">
+                {% for post in site.casestudies %}
+                  {% if post.category == 'transport' %}
+                    {% include feature.html %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
