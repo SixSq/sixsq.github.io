@@ -1,12 +1,12 @@
 ---
-title: Nuvla.io Apps End-User License Agreement (EULA)
+title: SixSq Nuvla.io Apps End-User License Agreement (EULA)
 product-description: End-User License Agreement (EULA) for selected SixSq Apps distributed via Nuvla.io
 image: icon-license.svg
 ---
 
 [History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/apps-license.md)
 
-This End-User License Agreement ("EULA") is a legal agreement between you and SixSq SA regarding the apps are deploying via Nuvla.io under this license. This EULA was created by [EULA Template](https://www.eulatemplate.com). For this License agreement to apply, it must be referenced in the app definition in Nuvla.io.
+This End-User License Agreement ("EULA") is a legal agreement between you and SixSq SA regarding the apps you are deploying via Nuvla.io under this license. This EULA was created by [EULA Template](https://www.eulatemplate.com). For this License agreement to apply, it must be referenced in the app definition in Nuvla.io.
 
 This EULA agreement governs your acquisition and use of the app software ("Software") indirectly through Nuvla.io, authorized as reseller or distributor (a "Reseller"). This Privacy Policy was created by this [Privacy Policy Generator](https://www.generateprivacypolicy.com).
 
