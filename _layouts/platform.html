@@ -49,8 +49,37 @@
             </button>
         </div>
     </div>
-    <div class="container-fluid bg-gray">
-        <div class="container section-primary-box section-primary-box2 section-limited-width">
+    <div class="container section-primary-box section-primary-box2 section-limited-width">
+        <div id="techspecs" class="anchor-position"></div>
+        <div class="row shadow">
+            <div class="col-lg-4 primary-box-title bg-primary" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                <h2 class="text-light">How does Nuvla work?</h2>
+            </div>
+            <div class="col-lg-8 primary-box-text">
+                <p class="text-big text-dark">
+                  <strong>The Nuvla platform is a B2B SaaS, providing a turn-key solution for managing edge devices and apps, across the IoT-edge-cloud continuum.
+                <p>You will find detailed information on our <a href="https://docs.nuvla.io/"><strong>documentation website</strong></a>.</p>
+                <p>For on-premise deployment of the Nuvla software,&nbsp;<a href="https://sixsq.com/about/contact#contact-us-form">get in touch</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid section-straddle-top bg-gradient-gray">
+        <div class="container section section-limited-width text-center">
+            <div id="architecture" class="anchor-position"></div>
+            <h2>NuvlaEdge is made of micro-services<br></h2>
+            <p class="text-big text-dark col-lg-6 offset-lg-3">The software needs as little as 100 MB of memory, leaving plenty of space for your apps to run, even on constrained devices.</p>
+            <div class="title-underline"></div>
+            <p>Here is a view of the different Docker micro-services included in the NuvlaEdge software, including the data-gateway, a Mosquitto MQTT broker, useful for apps to communicate with each other.</p>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1"><img src="/assets/img/nuvlabox-detailed.png"></div>
+            </div>
+            <!-- <h2 class="title-seperation text-center">Become an Expert</h2>
+            <p class="text-center subtitle">Created by this Cristóvão (Cris) Cordeiro, R&amp;D Project Manager at SixSq, this Youtube channel gives you all the detailed information needed to master Nuvla.io and created amazing edge-to-cloud solutions.</p><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/s0NQjTgmaU0" class="video-frame col-lg-10 offset-lg-1" width="100%"></iframe> -->
+        </div>
+    </div>
+      <div class="container-fluid bg-gray">
+        <!-- <div class="container section-primary-box section-primary-box2 section-limited-width"> -->
+        <div class="container section-primary-box section-primary-box2 section-straddle">
             <div id="techspecs" class=""></div>
             <div class="container section">  
                 <div class="row shadow">
@@ -59,24 +88,18 @@
                     </div>
                     <div class="col-lg-8 primary-box-text">
                         <p class="text-big text-dark">
-                          <strong>The Nuvla software is open source and maintained on&nbsp;<a href="https://github.com/nuvla/nuvla" target="_blank">Github</a>.<br/></strong></p>
-                        <p>You will also find quick&nbsp;<strong>installation instructions on our&nbsp;</strong><a href="https://docs.nuvla.io/"><strong>documentation website</strong></a>.</p>
-                        <p>For production deployment of Nuvla,&nbsp;<a href="https://sixsq.com/about/contact#contact-us-form">get in touch</a>.</p>
+                          <strong>The Nuvla platform is a B2B SaaS, providing a turn-key solution for managing edge devices and apps, across the IoT-edge-cloud continuum.
+                        <p>You will find detailed information on our <a href="https://docs.nuvla.io/"><strong>documentation website</strong></a>.</p>
+                        <p>For on-premise deployment of the Nuvla software,&nbsp;<a href="https://sixsq.com/about/contact#contact-us-form">get in touch</a>.</p>
                     </div>
                 </div>
+        <h2 class="text-center">Here’s how it works:<br></h2>
+        <div class="img-wrapper text-center"><img class="border-light-gray" src="/assets/img/nuvla-diagram.png">
+            <p id="d" class="caption-big text-dark">When a registered customer enters the store, relevant data is pulled from the company’s CRM. Sales staff can then approach the customer armed with name and purchase history, enabling a much more meaningful interaction with the client.</p>
+        </div>
             </div>
         </div>
     </div>
-    <!-- <div class="container-fluid">
-        <div class="container section section-no-top-space">
-            <h2 class="text-center">Become an Expert</h2>
-            <p class="text-center subtitle">Created by this Cristóvão (Cris) Cordeiro, R&amp;D Project Manager at SixSq, this Youtube channel gives you all the detailed information needed to master Nuvla.io and created amazing edge-to-cloud solutions.</p>
-            <div class="row">
-                <div class="col-md-6" style="padding: 0 2rem 2rem 2rem;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/BHzbEDzyfnQ" class="video-frame" width="100%"></iframe></div>
-                <div class="col-md-6" style="padding: 0 2rem 2rem 2rem;"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/s0NQjTgmaU0" class="video-frame" width="100%"></iframe></div>
-            </div>
-        </div>
-    </div> -->
     {% include footer.html %}
   </body>
 </html>

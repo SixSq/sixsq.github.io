@@ -1,0 +1,7 @@
+<div class="carousel-item {% if forloop.index == 1 %}active{% endif %}">
+    <div>
+        <p class="testimonial-quote">{{ customer.testimonial-quote }}</p>
+        <p class="testimonial-author">{{ customer.testimonial-author }}</p>
+        <p class="testimonial-jobtitle">{{ customer.testimonial-jobtitle }}</p><img class="testimonial-logo" src="/assets/img/{{ customer.image }}">
+    </div>
+</div>
