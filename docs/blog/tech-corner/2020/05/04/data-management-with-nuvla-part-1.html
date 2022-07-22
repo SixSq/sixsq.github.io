@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq | Blog | Taking off with edge computing? Don't clip your own wings</title>
+    <title>SixSq | Blog | Data Management with Nuvla.io Part 1</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -106,18 +106,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Taking off with edge computing? Don't clip your own wings</h1>
+                <h1>Data Management with Nuvla.io Part 1</h1>
                 
                 <p></p>
-                <p>17 May 2022
+                <p>04 May 2020
                   
-                     | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
+                     | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
                      
                   </p>
                 
 <p class="tag">
   
   <a href="/blog/tag/edge">edge</a>
+  
+  <a href="/blog/tag/cloud">cloud</a>
+  
+  <a href="/blog/tag/toto">toto</a>
   
 </p>
 
@@ -145,13 +149,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-      <a href="">
-        <span>Taking off with edge computing?</span>
+      <a href="/blog/tech-corner">
+        <span>Tech Corner</span>
       </a>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Taking off with edge computing? don't clip your own wings</span>
+        <span>Data management with nuvla.io part 1</span>
     </li>
     </li>
   </ol>
@@ -162,58 +166,146 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/featured-image-blog-wings.jpg">
-            <h4 id="considering-an-edge-solution-read-on-for-tips-and-potential-pitfalls">Considering an edge solution? Read on for tips and potential pitfalls.</h4>
+            <img class="full-image" src="/assets/img/blog/edge-to-cloud-big-data.png">
+            <p>This is the first in a series of posts on <strong>Data management with <a href="https://nuvla.io/">Nuvla.io</a></strong>. Nuvla.io is an edge management platform as a service, designed to make it easy for you to manage, monitor, deploy and update your containerised apps and edge devices.</p>
 
-<p>A pilot entering cloudy, turbulent skies is effectively flying blind. It’s a critical situation. Every moment that ticks by without clear visibility means things can change and danger levels increase. It may become impossible to reach the destination airport. Data is needed immediately – facts about the aircraft, its status, position, nearby hazards, and weather conditions – so the pilot is able to proceed without guesswork and regain full control.</p>
+<p><strong>Data scientists</strong> have to make sense of messy, unstructured data to uncover solutions for scientific, technological and business challenges. These blog posts are aimed at data scientists looking for a more efficient way to manage, process and analyse that data.</p>
 
-<p>As a private pilot, I know a lot about airplanes but I’d never trust myself to build one and take to the skies! A do-it-yourself (DIY) solution – even one made from excellent parts – carries too much risk. I feel the same is true for edge computing.</p>
+<p>In these posts you will learn about:</p>
 
-<p>Too many times, I’ve seen DIY edge solutions fail. Companies realise too late the downsides of unbudgeted cost, protracted time to readiness and operational complexity. And they clip their own wings by sacrificing system reliability and evolvability.</p>
+<ul>
+  <li>the set of features available in Nuvla.io</li>
+  <li>what you can achieve with them</li>
+  <li>how this works in practice.</li>
+</ul>
 
-<p>I guess people are tempted to self-build because edge computing seems similar to cloud computing. Sure, they share several attributes but they’re also very different.</p>
+<p>Keep with us until the end, as we will give you an insight into the ESA GNSS Big Data project, which uses Nuvla.io for data management.</p>
 
-<p><img src="/assets/img/blog/airplanes.png" alt="airplanes" /></p>
+<h3 id="making-sense-of-large-data-sets">Making sense of large data sets</h3>
 
-<p class="caption">Through my aeroclub, I’m not limited to flying just one type of aircraft. I like to keep my options open.</p>
+<p>Large data sets, produced and stored on the edge and in the cloud, need to be made available for post-processing and analysis to facilitate extraction of valuable information. Nuvla.io enables this process by providing users with data management capabilities in the form of:</p>
 
-<p>Take, for example, the physical environment. Cloud computing happens in highly controlled locations with easy-to-access servers. But the edge is challenged by temperature and humidity changes, dust and vibration. Unregulated settings get power and network jitters, have more cyber-security risk and can be complex to access.</p>
+<ul>
+  <li>data registration,</li>
+  <li>a powerful search engine,</li>
+  <li>meta-data updates,</li>
+  <li>selection of applications that can work with particular data types and</li>
+  <li>directing data processing applications to where the data is actually located.</li>
+</ul>
 
-<p>Instead of a DIY edge solution, some organisations ask a vertical solution provider to solve a specific use case. The danger here is a significant investment with little flexibility in the future. As business needs evolve, the original solution may not adapt. A flexibility promise might be made but it will be on the provider’s terms, with limited powers of negotiation.</p>
+<p>All this is possible via a rich web UI and API.</p>
 
-<p>An obvious alternative is a cloud-first approach. Start with a cloud from one of the hyperscalers (Amazon, Microsoft Azure or Google) or a private cloud, and deploy at the edge as mandated. <strong>Warning!</strong> There is a conflict of interest. While you seek the best possible edge outcomes, these providers are in the business of selling compute and storage. They want you to pump as much data as possible to the cloud. So you’ll miss what’s arguably the <a href="/blog/free-your-business-critical-data-from-the-cloud">No.1 benefit of edge computing</a>: processing raw data near its source.</p>
+<p>Below, we describe a number of building blocks (or elements) and operations on them available in Nuvla.io to support user <strong>data management in distributed environments</strong>. We present you with a powerful “Open with…” pattern, allowing users to automatically deploy their data processing applications directly where the data is located.</p>
 
-<p>Cloud-first can work for simple deployments but – once again – you risk clipping your own wings. As your business needs grow in scale and sophistication (trust me, they will), a cloud approach quickly limits your ability to expand. At which point, you may regret putting all your eggs in the same cloud basket.</p>
+<h3 id="elements--operations-of-nuvlaio-data-management">Elements &amp; operations of Nuvla.io data management</h3>
+<p>Nuvla.io defines a number of elements (resources) and operations on them that help users to work with their data stored on the edge or in the cloud. Let’s go through them:</p>
 
-<p>So the optimal approach is edge-first and cloud-neutral. This aims to privilege the edge (instead of the cloud) because this is where you act on your data. An edge-first solution does not limit your ability to process, transform, aggregate and anonymise the data. On the contrary, it generally empowers developers with a wide range of tools (including machine learning) to take full advantage of the data produced at the edge and act on it. And you do all this on your own terms while also leveraging the unlimited processing power and storage of the cloud. You get the best of both worlds – edge and cloud.</p>
+<p>ELEMENTS (RESOURCES)</p>
 
-<p>Another way to keep your options open, ensuring the most future-proof edge experience, is to select a provider offering <a href="https://nuvla.io">OPEX</a> over CAPEX. Added to this, edge-first providers are likely to help you deploy a shared infrastructure strategy. This allows several old and new apps from different sources to run alongside each other at the edge, which is likely to generate a very attractive return on investment.</p>
+<p><strong>Infrastructure-Service and Infrastructure-Credential</strong></p>
 
-<p>One final thought. <strong>Data sovereignty</strong> matters. Keeping tight control of where your data gets processed is strategic for many organisations. A key decision is which parts of your data will be processed at the edge and which in the cloud. The solution you select must give you the right level of control over your data flows.</p>
+<p>These resources contain endpoints and credentials of the storage (e.g. S3) and/or cluster (Kubernetes, Docker Swarm) where the data is located. The data resources (detailed below) reference these infrastructure resources.</p>
 
-<p>An edge-first, cloud-neutral approach means you won’t clip your own wings. We will be happy to help you on your journey to the edge. So please get in touch for lock-in free, future-proofed advice.</p>
+<p><strong>Infrastructure-Service-Group</strong></p>
+
+<p>This allows grouping of cluster and storage Infrastructure-Services to identify storage and processing proximity.</p>
+
+<p><strong>Data-Record</strong></p>
+
+<p>This resource keeps information about the user data in a user-defined schema. The fields in the schema can contain scalars (e.g. strings, booleans) and collections (e.g. set of key/value pairs, geo-spatial points). It also allows users to link each particular data record with its location - Infrastructure-Service. The user can define and set a data type for each record. This helps to find applications supporting this data type.</p>
+
+<p><strong>Data-Object</strong></p>
+
+<p>This is an S3 object with a predefined workflow on it. It is a very powerful resource for working with data on S3 and is described in the online <a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data#data-object-resources">Nuvla.io documentation</a>.</p>
+
+<p><strong>Data-Set</strong></p>
+
+<p>This provides a virtual snapshot view over the data defined by the user query on the data records or objects.</p>
+
+<p>OPERATIONS</p>
+
+<p><strong>CRUD and actions</strong></p>
+
+<p>Nuvla.io provides a full set of CRUD operations over all the data elements, and extends them with a set of resource specific actions (see <a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data#data-object-resources">Data-Object documentation</a>).</p>
+
+<p><strong>Query</strong></p>
+
+<p>A simple and powerful query language which allows you to query data records and data objects. A full text search is available for the data sets.</p>
+
+<p>Each data record or object has a creation timestamp which means that they, as well as the data sets, can also be <strong>filtered by time</strong>. Nuvla.io allows users to have geo-spatial data fields in the data records and run point and shape queries over them.</p>
+
+<p>Users can persist their queries over the data as data sets. This creates virtual dynamic snapshots over the data that can be acted upon - e.g. with “Open with…”.</p>
+
+<p><strong>Open with…</strong></p>
+
+<p>In Nuvla.io, applications can be marked with a list of data types they support.</p>
+
+<p>By utilising the data binding defined on the applications and the data types in Data-Records, and in combination with knowing where the data is located (via the link of data to the Infrastructure-Service), Nuvla.io allows users to automatically direct the deployment of applications close to the data.</p>
+
+<p>This operation is usually done on data sets. Launching an application on the selected data sets we call “Open with…” feature. At the moment, the data sets must reside on a single location, but we are exploring possibilities of deploying the user workloads simultaneously in multiple locations as well.</p>
+
+<h3 id="an-example-of-data-management-workflow">An example of data management workflow.</h3>
+
+<p>The rich set of functionalities described above allows our clients to push their boundaries by bridging the gap between edge and cloud. A good example of this is the <a href="https://www.youtube.com/watch?v=l8XD8bHceOY">GNNS Big Data Project</a>.</p>
+
+<p><img src="/assets/img/blog/edge-to-cloud-big-data.png" alt="Nuvla.io edge" /></p>
+
+<p>A typical workflow of working with data could look as follows:</p>
+
+<ol>
+  <li>Store files on the storage local to the place where the data was collected or produced,</li>
+  <li>Register meta-data about the data and its location in Nuvla.io.</li>
+  <li>Build and register queries over the data. This produces data sets.</li>
+  <li>Tag the data by types that define which applications can work with it.</li>
+  <li>Create applications that can work with the specific data types.</li>
+  <li>Use “Open with…” feature to select data set(s) and launch the application on them.</li>
+</ol>
+
+<p>Let’s go through the steps in more detail.</p>
+
+<p><strong>Steps 1. and 2.</strong> are usually combined into a store-and-register step:</p>
+
+<p>Store data as files on local storage of the edge device and register the data in Nuvla.io. The local storage can be of any type. For example, it can be S3 Ceph RadosGW physically persisting data on Ceph pools defined on Ceph object store. Or it can be a distributed file system (e.g. NFS, GlusterFS, CephFS). In each of the cases, the stored files can be registered in Nuvla.io with information defining the reference to the edge device, type of the storage and path to the file on that storage. In the case of S3, this will be a reference to the S3 infrastructure service pre-defined by user in Nuvla.io, that has the endpoint of the S3 and, in turn, reference to credentials to access this S3 endpoint.</p>
+
+<p><strong>Step 3</strong> allows users to create filters over the meta-data for which they registered their data. It can be geo-special queries or queries over the specific data sub-types, data creation time, etc.</p>
+
+<p><strong>Step 4</strong> is possible as part of Step 2. or as a separate update action.</p>
+
+<p><strong>Step 5</strong> is where users build applications from scratch or find existing ones in Nuvla.io App store, and add a corresponding data type binding to them. This signals to Nuvla.io that this app can work with the particular data type.</p>
+
+<p>Step 6 Nuvla.io facilitates users with the deployment of the right application on the data at the location where the data is actually residing.</p>
+
+<p>Building the described workflow can be achieved by combining the usage of Nuvla.io API, client API libraries (available in Python, C and ClojureScript), and web UI.</p>
+
+<h3 id="nuvlaio-as-a-meta-data-catalogue">Nuvla.io as a meta-data catalogue</h3>
+
+<p>From the description of available resources, operations and the example workflow, we hope to have shown you that Nuvla.io acts as <strong>meta-data catalogue</strong> with links between data, infrastructure resources and applications. This allows for a rich set of functionalities and patterns to be built around that by any user.</p>
+
+<h3 id="whats-next">What’s next?</h3>
+
+<p>In the next posts we will explore how to use the data management features of Nuvla.io using the UI and API. This will help you understand how this actually works in practice and allow you to apply this knowledge to managing and processing your own data across edge and cloud.</p>
 
             
             <br/>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Taking off with edge computing? Don't clip your own wings&body=https://new-website.sixsq.ch/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla.io Part 1&body=https://new-website.sixsq.ch/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html" title="email">
         <span>Email</span>
     </a>
 </div>
@@ -231,12 +323,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
         <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
@@ -254,23 +363,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 You can find many, many smart cities that share a commo...</p>
         <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/shared-edge-infrastruture.html">Read blog</a>
-    </div>
-</div>
-
-                    
-                      <div class="col-lg-4">
-    <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
-        
-        <p class="activities-date">17 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
-        
-        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
-        
-        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
-
-A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 

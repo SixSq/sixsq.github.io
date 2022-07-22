@@ -67,8 +67,17 @@
       "title"    : "Privacy intrusion",
       "category" : "blog",
       "tags"     : "edge, cloud, privacy, security",
-      "url"      : "/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html",
+      "url"      : "/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html",
       "date"     : "2022-05-24 00:00:00 +0000",
+      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
+    } ,
+  
+    {
+      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
+      "category" : "blog",
+      "tags"     : "edge",
+      "url"      : "/blog/discover/2022/05/17/taking-off-with-edge-computing.html",
+      "date"     : "2022-05-17 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
   
@@ -77,15 +86,6 @@
       "category" : "blog",
       "tags"     : "edge, cloud",
       "url"      : "/blog/discover/2022/05/17/shared-edge-infrastruture.html",
-      "date"     : "2022-05-17 00:00:00 +0000",
-      "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
-    } ,
-  
-    {
-      "title"    : "Taking off with edge computing? Don&#39;t clip your own wings",
-      "category" : "blog",
-      "tags"     : "edge",
-      "url"      : "/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html",
       "date"     : "2022-05-17 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -211,7 +211,7 @@
       "title"    : "Governance for smart cities using edge computing and open data",
       "category" : "blog",
       "tags"     : "edge, cloud",
-      "url"      : "/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html",
+      "url"      : "/blog/discover/2021/01/15/governance-for-smart-cities-using-edge-computing-and-open-data.html",
       "date"     : "2021-01-15 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -274,7 +274,7 @@
       "title"    : "Data Management with Nuvla.io Part 3",
       "category" : "blog",
       "tags"     : "edge, cloud, toto",
-      "url"      : "/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html",
+      "url"      : "/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html",
       "date"     : "2020-08-11 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -292,7 +292,7 @@
       "title"    : "Data Management with Nuvla.io Part 2",
       "category" : "blog",
       "tags"     : "edge, cloud, toto",
-      "url"      : "/blog/tech-corner/2020/06/05/blog-data-management-with-nuvla-part-2.html",
+      "url"      : "/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html",
       "date"     : "2020-06-05 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -301,7 +301,7 @@
       "title"    : "Data Management with Nuvla.io Part 1",
       "category" : "blog",
       "tags"     : "edge, cloud, toto",
-      "url"      : "/blog/tech-corner/2020/05/04/blog-data-management-with-nuvla-part-1.html",
+      "url"      : "/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html",
       "date"     : "2020-05-04 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -328,7 +328,7 @@
       "title"    : "What is edge computing?",
       "category" : "blog",
       "tags"     : "edge, cloud",
-      "url"      : "/blog/discover/2019/11/08/blog-what-is-edge-computing.html",
+      "url"      : "/blog/discover/2019/11/08/what-is-edge-computing.html",
       "date"     : "2019-11-08 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
