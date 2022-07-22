@@ -19,7 +19,7 @@ Any user can start a 14-day free trial, directly from Nuvla.io. Only at the end 
 
 **What’s coming next?**
 
-This subscription feature is only a first step. Later this year, we will be rolling out a [Marketplace](https://nuvla.io/marketplace) feature, where app developers will be able to create paying apps in the Nuvla.io App Store. This means that Nuvla.io will become a business enablement service, where innovative app developers will be able to monetise their work, while edge and edge-to-cloud infrastructure users will be able to leverage this innovation to deliver more value to their business.
+This subscription feature is only a first step. Later this year, we will be rolling out a [Marketplace](/marketplace) feature, where app developers will be able to create paying apps in the Nuvla.io App Store. This means that Nuvla will become a business enablement service, where innovative app developers will be able to monetise their work, while edge and edge-to-cloud infrastructure users will be able to leverage this innovation to deliver more value to their business.
 
 **Useful links**
 
