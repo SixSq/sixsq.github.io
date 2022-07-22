@@ -20,7 +20,7 @@ In Urdorf in the canton of Zurich, a street light on a busy one-kilometer stretc
 
 After only 6 months, the results of the pilot project in Urdorf were so promising that Schréder Swiss started to develop a solution for the market. In partnership with SixSq, the Volumlight™ solution was developed and put into service at the end of 2017. The first three installations were deployed with customers in the canton of Basel.
 
-Volumlight™ uses advanced technologies such as [edge computing](https://media.sixsq.com/blog/what-is-edge-computing) and Private Cloud and is future-oriented, with integration for [Smart Cities](https://media.sixsq.com/blog/what-is-a-smart-city) already planned. With its open architecture, the system is designed to share data and functionality with other systems.
+Volumlight™ uses advanced technologies such as [edge computing](https://sixsq.com/blog/discover/2019/11/08/what-is-edge-computing) and Private Cloud and is future-oriented, with integration for Smart Cities already planned. With its open architecture, the system is designed to share data and functionality with other systems.
 
 **Schréder Swiss**
 

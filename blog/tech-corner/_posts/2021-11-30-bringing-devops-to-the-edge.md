@@ -108,4 +108,4 @@ steps.test.outputs.DEPLOYMENT_ID
 
 Now you can manage the lifecycle of your edge applications much more easily.
 
-Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can [dig deeper](https://nuvla.io/getting-started), so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.
+Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can [dig deeper](https://nuvla.io), so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.

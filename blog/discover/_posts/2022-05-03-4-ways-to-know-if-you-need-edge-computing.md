@@ -16,7 +16,7 @@ author: Marc-Elian Bégin
 
 #### Would your company benefit from an edge computing solution? 4 quick questions to consider.
 
-It seems everyone is taking a closer look at [edge computing](/blog/what-is-edge-computing). Enterprise infrastructure is evolving with more cloud, more devices and more data processing requirements at the edge. It’s inevitable that the global market will see massive growth – there are strong indications of more than 5x expansion over the next 5 years.
+It seems everyone is taking a closer look at [edge computing](/blog/discover/2019/11/08/what-is-edge-computing). Enterprise infrastructure is evolving with more cloud, more devices and more data processing requirements at the edge. It’s inevitable that the global market will see massive growth – there are strong indications of more than 5x expansion over the next 5 years.
 
 ## What is edge computing?
 

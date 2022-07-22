@@ -25,7 +25,7 @@ No-one else should be able to see your information, or that of your customers. T
 
 ### How to avoid prying eyes?
 
-A key promise of [edge computing](/blog/what-is-edge-computing) is that instead of sending your data, video and audio to the cloud to be processed, you keep it close. All of your input streams are processed locally, near the digital device that generates them. Here’s what you gain:
+A key promise of [edge computing](/blog/discover/2019/11/08/what-is-edge-computing) is that instead of sending your data, video and audio to the cloud to be processed, you keep it close. All of your input streams are processed locally, near the digital device that generates them. Here’s what you gain:
 
   - Higher-quality insights: When streams are processed in their entirety near to source, they yield the best possible results. But when streams are transported over the network to the cloud for processing, their quality is normally reduced and this can result in degraded insights.
 

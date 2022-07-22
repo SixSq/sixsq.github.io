@@ -33,5 +33,4 @@ Software engineers among you may want to take a look at the [ELASTIC GitLab repo
 
 **Funding:** The ELASTIC project has received funding from the European Union’s Horizon 2020 research and innovation programme under the grant agreement Nº 825473.
 
-For a bit of background reading on edge and cloud computing, take a look at our [blog](https://media.sixsq.com/blog) page.
-
+For a bit of background reading on edge and cloud computing, take a look at our [blog](/blog) page.

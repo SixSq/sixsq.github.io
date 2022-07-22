@@ -7,7 +7,7 @@ image: logo-nuvla-io.png
 **Launch of Nuvla.io Marketplace Provides Sales Platform for Vendors of Edge Computing Apps**
 
 
-Edge solution experts SixSq today announced the launch of the [Nuvla.io Marketplace](https://nuvla.io/marketplace), a key element in their mission to deliver a frictionless edge computing platform to vendors and customers.
+Edge solution experts SixSq today announced the launch of the [Nuvla Marketplace](/marketplace), a key element in their mission to deliver a frictionless edge computing platform to vendors and customers.
 
 **The Problem with IoT**
 
@@ -23,4 +23,4 @@ A marketplace to enable business at the edge
 
 Organisations, public and private, must transform to take advantage of the IoT revolution. SixSq believes the Nuvla.io Marketplace is the only platform capable of providing a fully operational, simple to use, secured by design, dependable and scalable solution. Furthermore, the marketplace brings together all stakeholders to ensure the edge is the place to do business.
 
-Becoming an app vendor or buying apps on the Nuvla.io Marketplace is simple and straightforward. Visit the Marketplace for more information [nuvla.io/marketplace](https://nuvla.io/marketplace)
+Becoming an app vendor or buying apps on the Nuvla.io Marketplace is simple and straightforward. Visit the [Nuvla Marketplace page](/marketplace) for more information.

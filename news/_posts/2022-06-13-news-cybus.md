@@ -11,7 +11,7 @@ co-author-mobile: +49 40 22 85 86 85 13
 
 **SixSq’s [Nuvla.io](https://nuvla.io/) ecosystem facilitates the deployment, management and update of the Manufacturing Data Platform “Cybus Connectware”**
 
-SixSq and [Cybus](https://www.cybus.io/en/) today announced a partnership to make [Cybus Connectware](https://www.cybus.io/en/product/cybus-connectware/) conveniently available via the [Nuvla.io Marketplace](https://nuvla.io/marketplace). This collaboration significantly simplifies the purchase, deployment and management of Cybus’ leading manufacturing data platform and realisation of intelligent manufacturing monitoring.
+SixSq and [Cybus](https://www.cybus.io/en/) today announced a partnership to make [Cybus Connectware](https://www.cybus.io/en/product/cybus-connectware/) conveniently available via the [Nuvla Marketplace](/marketplace). This collaboration significantly simplifies the purchase, deployment and management of Cybus’ leading manufacturing data platform and realisation of intelligent manufacturing monitoring.
 
 Manufacturing companies need to monitor and understand the state of their shop floor and array of machines to improve key performance indicators, such as their overall equipment effectiveness, reduce maintenance effort and increase production quality. With the software solution Cybus Connectware, factories establish full shop floor transparency in only a few weeks. The real-time production data is then directly distributed to built-in monitoring features for powerful and intuitive analysis tools, alerting and dashboarding.
 

@@ -41,7 +41,7 @@ The project involved nine partners from seven countries:
 
 - [Ministry of Finance](https://www.finance.gov.sk/en/), Slovakia
 
-- [Ministry of public administration](https://www.mju.gov.si/en/), Slovenia
+- [Ministry of public administration](https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-javno-upravo), Slovenia
 
 - [NIXU](https://www.nixu.com), Finland 
 

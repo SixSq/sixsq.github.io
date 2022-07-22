@@ -29,4 +29,4 @@ ELASTIC (A Software Architecture for Extreme-ScaLe Big-Data AnalyticS in Fog Com
 
 For more information on the project, visit the [ELASTIC website](https://elastic-project.eu/).
 
-For more information on edge and cloud computing, take a look at our [blog](https://media.sixsq.com/blog).
+For more information on edge and cloud computing, take a look at our [blog](https://sixsq.com/blog).

@@ -9,7 +9,7 @@ co-author-company: ekinops
 
 Based in Geneva, Switzerland, SixSq has developed an ultra-innovative solution allowing businesses to take full advantage of the added value of Edge Computing. Complementing Cloud computing, the SixSq solution enables smart data processing directly on the company’s site. 
 
-The SixSq range comprises the [Nuvla.io marketplace](https://nuvla.io/marketplace), which hosts all types of business applications in container format, and the NuvlaEdge software, which converts enterprise routers or other open hardware platforms capable of processing data, into smart edge systems.
+The SixSq range comprises the [Nuvla.io marketplace](https://sixsq.com/marketplace), which hosts all types of business applications in container format, and the NuvlaEdge software, which converts enterprise routers or other open hardware platforms capable of processing data, into smart edge systems.
 
 The Nuvla.io marketplace makes available to all devices running the [NuvlaEdge](https://sixsq.com/nuvlaedge) software deployed in the field inside enterprises, all the applications it hosts in the Cloud, similar to the App Store or Play Store for consumers. This way, SixSq makes it possible for all software vendors to reach the enterprise market and sell their innovative software applications. 
 

@@ -23,6 +23,6 @@ This subscription feature is only a first step. Later this year, we will be roll
 
 **Useful links**
 
-[Nuvla.io documentation](https://docs.nuvla.io/) 
+[Nuvla documentation](https://docs.nuvla.io/) 
 
-[Data management with Nuvla.io](https://media.sixsq.com/blog/data-management-with-nuvla.io)
+[Data management with Nuvla](/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html)
