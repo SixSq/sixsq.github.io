@@ -1,7 +1,8 @@
 ---
 layout: rd-article
 title: 5G-EMERGE
-head-title: ... 
+product-title: 5G-EMERGE
+head-title: 5G-EMERGE&#58; Satellite to 5G integration for smart multi-media distribution
 image: logo-5gemerge.png
 ---
 

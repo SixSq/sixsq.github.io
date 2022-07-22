@@ -34,20 +34,20 @@ Using [Nuvla.io](https://nuvla.io/) edge management platform, users can now simp
 - 	memory usage is too high, or
 - 	CPU usage excessively high 
 
-And by default, as more edge devices are added, notifications will also also apply to these new devices, making maintenance of alerts a breeze.  Further, notifications can be defined to only alert on a subset of edge devices - e.g. all NuvlaBoxes located in Germany, or from a specific customer or located in a given plant, harbour or airport.
+And by default, as more edge devices are added, notifications will also also apply to these new devices, making maintenance of alerts a breeze.  Further, notifications can be defined to only alert on a subset of edge devices - e.g. all NuvlaEdge powered devices located in Germany, or from a specific customer or located in a given plant, harbour or airport.
 
-This applies to any edge device running the NuvlaBox Engine software. If you haven't  installed the NuvlaBox software on your edge devices yet, we'd be happy to help.
+This applies to any edge device running the NuvlaEdge software. If you haven't installed the NuvlaEdge software on your edge devices yet, we'd be happy to help.
 
 ![slack alert](/assets/img/blog/slack-alert.png)
 
-Example of email notification - NuvlaBox back online.
+Example of email notification - NuvlaEdge back online.
 {: .caption }
 
 In terms of delivery mechanism, we have enabled email and Slack.  But if you’re missing your favourite delivery tool, please get in touch and we’ll be more than happy to add more delivery methods.
 
 ![slack alert](/assets/img/blog/email-alert-1.png)
 
-Example of Slack notification - NuvlaBox offline.
+Example of Slack notification - NuvlaEdge offline.
 {: .caption }
 
 [Konstantin Skaburskas](https://www.linkedin.com/in/konstantinskaburskas/) led the charge on our side.  Behind the scenes this new feature is based on a new infrastructure service leveraging the Kafka open source software, which is scalable and robust. This also means that [Nuvla.io](https://nuvla.io/) now offers enterprise customers a new event driven interface, such that it can securely be integrated into their overall IT eco-system.

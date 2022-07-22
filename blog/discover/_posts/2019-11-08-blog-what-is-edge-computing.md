@@ -13,7 +13,7 @@ author: Marc-Elian Bégin
 
 **Edge Computing is one of the latest buzz expressions in the ICT world, along with IoT, big data and artificial intelligence.**
 
-### WHAT IS EDGE COMPUTING?
+### What is Edge Computing?
 
 Edge computing refers to providing data processing power at the edge of a network, near where the data is produced and collected, as opposed to transferring the raw data to the cloud, or a central data warehouse, for processing. "So what?" you may well ask. "Why do we need yet more ways for processing and storing data?" or "Why not let all the sensors send their data over the network to a cloud?" The fact is that a lot of data is produced at the edge, and this trend is predicted to massively accelerate.  Furthermore, even if you could send all of this data reliably AND securely to a cloud, in many cases this data would lose its value by taking too long to be processed.  In some cases this is not important, but in others it is critical. If you want to know whether someone is hacking a critical infrastructure, or want to adjust light intensity to improve the safety of motorists, you need the most up-to-date information. Waiting for the data to make its way back to a cloud or data centre for analysis is likely not to be good enough or safe enough.
 
@@ -47,6 +47,6 @@ Retail stores are struggling to keep up with on-line commerce. To close the gap 
 
 ### Edge Computing at SixSq
 
-Coming from a cloud computing background, we have long realised that the benefits of cloud computing could be miniaturised into a platform now called edge computing.  Our NuvlaBox is a hyperconverged solution delivering a generic solution to implement edge computing.  The example above on smart lighting is our latest fully integrated solution developed in partnership with Schréder.  Our direction of travel will lead us to more miniaturisation to enable further smart city and Industry 4.0.  Keep posted!
+Coming from a cloud computing background, we have long realised that the benefits of cloud computing could be miniaturised into a platform now called edge computing.  Our NuvlaEdge software creates a hyperconverged edge computing solution.  The example above on smart lighting is a fully integrated solution developed in partnership with Schréder.  Our direction of travel will lead us to more miniaturisation to enable further smart city and Industry 4.0.  Keep posted!
 
 If you have any comments or questions about this topic, don't hesitate to get in touch with the SixSq team.

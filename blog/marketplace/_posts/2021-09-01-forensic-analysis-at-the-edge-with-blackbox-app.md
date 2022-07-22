@@ -26,7 +26,7 @@ The BlackBox app kicks in when a significant event is detected. It creates an en
 
 ### How it works
 
-[Nuvla.io](https://nuvla.io/), SixSq's edge-to-cloud platform and marketplace, is built to make your life easy when managing devices and applications at the edge. With the NuvlaBox Engine software you can turn your ARM or x86 computer into a smart edge device, then install and manage your apps with ease. Now with the added protection of the BlackBox app, you can be sure not to miss anything. 
+[Nuvla.io](https://nuvla.io/), SixSq's edge-to-cloud platform and marketplace, is built to make your life easy when managing devices and applications at the edge. With the NuvlaEdge software you can turn your ARM or x86 computer into a smart edge device, then install and manage your apps with ease. Now with the added protection of the BlackBox app, you can be sure not to miss anything. 
 
 The BlackBox app records all the data processed by the edge device.  The local storage is on a rotation, and older data is replaced by new data. This will include, for example, video and audio feeds, as well as any other source of data connected to the edge device, such as sensor and machine measurements of all kinds. The diagram below gives an overview of the workflow. 
 
@@ -54,7 +54,7 @@ Figure 2: Detailed view of how the Blackbox creates an archive and sends it.
 
 ### Simple and efficient framework
 
-In terms of architecture, the BlackBox app follows best practices, using a local data bus to organise data inside each edge device. Our NuvlaBox Engine software is composed of micro services. It includes a message bus service (i.e. MQTT) used by the BlackBox app to collect data. Therefore, as long as other apps push their data (raw or pre-processed) to the message bus, the BlackBox app will be able to add the data to a virtual blackbox archive. The solution is therefore simple, yet efficient, and moreover maintenance free.
+In terms of architecture, the BlackBox app follows best practices, using a local data bus to organise data inside each edge device. Our NuvlaEdge software is composed of micro services. It includes a message bus service (i.e. MQTT) used by the BlackBox app to collect data. Therefore, as long as other apps push their data (raw or pre-processed) to the message bus, the BlackBox app will be able to add the data to a virtual blackbox archive. The solution is therefore simple, yet efficient, and moreover maintenance free.
 
 Sign up for your free trial of Nuvla.io [here](https://nuvla.io/ui/sign-up).
 

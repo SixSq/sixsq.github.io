@@ -16,7 +16,7 @@ OCRE, which launched in January 2019, will address this by running a pan-Europea
 
 **SixSq's role in the project:** 
 
-SixSq’s role in OCRE is to make use of [Nuvla](https://sixsq.com/products-and-services/nuvla/overview)’s capabilities to build the OCRE Business Platform, which will provide a voucher management system for researchers and research institutes who are looking for Cloud and Earth Observation suppliers. SixSq will also further improve and integrate its resource monitoring and accounting functionalities into the OCRE Business Platform, giving users an overall view of their resource usage.
+SixSq’s role in OCRE is to make use of [Nuvla](/platform)’s capabilities to build the OCRE Business Platform, which will provide a voucher management system for researchers and research institutes who are looking for Cloud and Earth Observation suppliers. SixSq will also further improve and integrate its resource monitoring and accounting functionalities into the OCRE Business Platform, giving users an overall view of their resource usage.
 
 **Project Website** 
 

@@ -45,7 +45,7 @@ Continuous Delivery/Deployment comes after that, by releasing the committed soft
 Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla.io can help. To get started with Nuvla.io you only need to:
 
 - register with Nuvla.io and set up your environment 
-- prepare your edge device by installing the NuvlaBox Engine software
+- prepare your edge device by installing the NuvlaEdge software
 - add your containerised app to Nuvla.io
 
 Our [documentation](https://docs.nuvla.io/) will support you along the way. And if you hit a snag, simply reach out to us via the little blue widget on the bottom right of any of our websites.
