@@ -1,0 +1,26 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[reagent "1.1.1"]
+  [sixsq.nuvla/api "2.0.10"]
+  [kwladyka/form-validator-cljs "1.2.1"]]
+
+ :dev-http
+ {8020 "../docs"}
+
+ :builds
+ {:app
+  {:target     :browser
+   :output-dir "../docs/assets/js"
+   :asset-path "/assets/js"
+
+   :modules
+   {:nuvla-app ; becomes public/js/nuvla-app.js
+    {:init-fn starter.browser/init}}
+
+   :release {:output-dir "../assets/js"}
+   }}}
