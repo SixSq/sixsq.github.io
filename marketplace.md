@@ -3,7 +3,7 @@ layout: marketplace
 title: Nuvla Marketplace
 product-name: Nuvla
 product-title: Marketplace
-product-description: Manage any containerised application across a fleet of edge devices, servers and container orchestration engines.
+product-description: The Marketplace and its App Vendor Programme simplify the adoption and deployment of an edge computing strategy.
 product-next-text: Get started
 product-next-target: customer-journey
 product-background-img: bg-hero-product.png
