@@ -34,6 +34,6 @@ Switzerland
 
 [Data centers need to consider their carbon footprint](https://ecocloud.epfl.ch/2020/10/22/data-centers-need-to-consider-their-carbon-footprint/)
 
-[What is Edge Computing?](https://sixsq.com/blog/discover/2019/11/08/what-is-edge-computing)
+[What is Edge Computing?](/blog/discover/2019/11/08/what-is-edge-computing)
 
 [Governance for Smart Cities using Edge Computing](/blog/discover/2021/01/15/governance-for-smart-cities-using-edge-computing-and-open-data)

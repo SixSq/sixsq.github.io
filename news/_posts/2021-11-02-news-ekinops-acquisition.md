@@ -9,9 +9,9 @@ co-author-company: ekinops
 
 Based in Geneva, Switzerland, SixSq has developed an ultra-innovative solution allowing businesses to take full advantage of the added value of Edge Computing. Complementing Cloud computing, the SixSq solution enables smart data processing directly on the company’s site. 
 
-The SixSq range comprises the [Nuvla marketplace](https://sixsq.com/marketplace), which hosts all types of business applications in container format, and the NuvlaEdge software, which converts enterprise routers or other open hardware platforms capable of processing data, into smart edge systems.
+The SixSq range comprises the [Nuvla marketplace](/marketplace), which hosts all types of business applications in container format, and the NuvlaEdge software, which converts enterprise routers or other open hardware platforms capable of processing data, into smart edge systems.
 
-The Nuvla marketplace makes available to all devices running the [NuvlaEdge](https://sixsq.com/nuvlaedge) software deployed in the field inside enterprises, all the applications it hosts in the Cloud, similar to the App Store or Play Store for consumers. This way, SixSq makes it possible for all software vendors to reach the enterprise market and sell their innovative software applications. 
+The Nuvla marketplace makes available to all devices running the [NuvlaEdge](/nuvlaedge) software deployed in the field inside enterprises, all the applications it hosts in the Cloud, similar to the App Store or Play Store for consumers. This way, SixSq makes it possible for all software vendors to reach the enterprise market and sell their innovative software applications. 
 
 With this acquisition, [Ekinops](https://www.ekinops.com/) is stepping up its strategy to provide greater added value to its customers. _“After enriching [OneOS6](https://www.ekinops.com/products-services/products/compose/oneos6) middleware with SD-WAN and SBC solutions, it is now possible to extend it to all types of applications through the integration of NuvlaEdge into OneOS6 and access to the Nuvla marketplace. The possibilities are infinite!”_ said **Didier Brédy, CEO of Ekinops**. _“We are looking forward to presenting this opportunity to our telecom operator customers. It is a new way for them to monetize their presence at enterprise branch sites through our OneOS6 routers.”_
 

@@ -12,7 +12,7 @@ Between 2015 and 2017, mercury vapour luminaires in Monthey were replaced by LED
 
 **The Smart Solution**
 
-Within the framework of the [CityZen](https://www.cityzen.ch/) association, partners Schréder Swiss and SixSq were chosen to deploy the VolumLight® solution for Smart Monthey. VolumLight® allows the control of lighting according to the volume of traffic in real time. In addition to providing optimal lighting and safety conditions, VolumLight produces valuable traffic data. This is made possible by SixSq’s [Nuvla](https://sixsq.com/casestudies/overview) solution, an open-source [edge computing](/blog/discover/2019/11/08/what-is-edge-computing) platform for scalable smart city solutions.
+Within the framework of the [CityZen](https://www.cityzen.ch/) association, partners Schréder Swiss and SixSq were chosen to deploy the VolumLight® solution for Smart Monthey. VolumLight® allows the control of lighting according to the volume of traffic in real time. In addition to providing optimal lighting and safety conditions, VolumLight produces valuable traffic data. This is made possible by SixSq’s [Nuvla](/casestudies/overview) solution, an open-source [edge computing](/blog/discover/2019/11/08/what-is-edge-computing) platform for scalable smart city solutions.
 
 Pre-processed and anonymised on the edge, the data is analysed, then represented and communicated to the various stakeholders (decision makers, associations, citizens …) via a series of interactive maps and dashboards within ArcGIS Online, the geospatial platform developed by [Esri](https://www.esri.com/en-us/home).
 
