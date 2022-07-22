@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq | Blog | Data Management with Nuvla.io Part 3</title>
+    <title>SixSq | Blog | Data Management with Nuvla.io Part 2</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -106,10 +106,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Data Management with Nuvla.io Part 3</h1>
+                <h1>Data Management with Nuvla.io Part 2</h1>
                 
                 <p></p>
-                <p>11 August 2020
+                <p>05 June 2020
                   
                      | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
                      
@@ -155,7 +155,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Data management with nuvla.io part 3</span>
+        <span>Data management with nuvla.io part 2</span>
     </li>
     </li>
   </ol>
@@ -166,121 +166,159 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/edge-to-cloud-big-data.png">
-            <h4 id="implementing-a-successful-edge-computing-strategy-requires-close-cooperation-between-software-developers-and-it-operations--adopting-devops-principles-is-therefore-the-natural-way-to-go-in-this-blog-we-explore-how-the-nuvlaio-application-management-platform-enables-you-to-extend-your-devops-workflow-to-the-edge">Implementing a successful edge computing strategy requires close cooperation between software developers and IT operations.  Adopting DevOps principles is therefore the natural way to go. In this blog, we explore how the Nuvla.io application management platform enables you to extend your DevOps workflow to the edge.</h4>
+            <img class="full-image" src="/assets/img/blog/data-object-search.png">
+            <p>This is the second blog post in the series on <strong>Data management with <a href="https://nuvla.io/">Nuvla.io</a></strong>. Nuvla.io is an edge management platform as a service, designed to make it easy for you to manage, monitor, deploy and update your containerised apps and edge devices.</p>
 
-<h2 id="benefits-of-devops">Benefits of DevOps</h2>
+<p>Here we will show you how easily you or your customers can manage any data on S3 (store, register, search and download) either on Cloud or Edge using Nuvla.io.</p>
 
-<p>DevOps is not a new concept. Far from it. For a little over ten years now, this endearing set of best practices has been making its way into every software development and IT operations team worthy of its name.</p>
+<h3 id="easy-handling-of-s3-objects-with-nuvlaio">Easy handling of S3 objects with Nuvla.io</h3>
 
-<p>In fact, a <a href="https://cloud.google.com/devops/state-of-devops/">DevOps report from 2019</a> studied and gathered statistics on how this set of Agile practices makes a difference between teams who adopt it and those who don’t:</p>
+<p>In the first blog we covered at a high level the ways it is possible to register and use data on the Edge or Cloud with Nuvla.io. Here we will delve into the details and present a cool feature of Nuvla.io that greatly simplifies the building of your Edge and Cloud data catalogues and providing access to the data to any user.</p>
 
-<p><img src="/assets/img/blog/devopsstats.png" alt="devops stats" /></p>
+<p>But before we do that, here are the benefits of doing this with Nuvla.io:</p>
 
-<p>In short, teams who adopt DevOps are in general more productive, deliver more reliable products, and do all of that much faster.</p>
+<ol>
+  <li>No S3 client is needed! Yes, that’s right.</li>
+  <li>No S3 credentials are shared with your users/customers for data upload and download.</li>
+  <li>Categorisation of your data with an arbitrary schema.</li>
+  <li>Reach and fast search over your data’s meta-data.</li>
+  <li>Nuvla.io application orchestrator leveraging the meta-data catalogue and starting applications where the data is and with the data attached.</li>
+</ol>
 
-<h2 id="continuous-integration--delivery-is-key">Continuous Integration &amp; Delivery is key</h2>
-
-<p>One of the biggest DevOps tactics is called CI/CD, which stands for Continuous Integration and Continuous Delivery/Deployment. Its purpose is to integrate a trustworthy and automated chain of testing marks into the Agile development process.</p>
-
-<p>For the sake of simplicity, let’s take the following DevOps workflow:</p>
-
-<p><img src="/assets/img/blog/devops2.jpeg" alt="devops" /></p>
-
-<p>The Continuous Integration phase consists of everything from planning to coding, building and testing (pretty much the left part of the diagram above). This is where all the automated tests are executed against every new code change, and where your software is compiled and/or built.</p>
-
-<p>Continuous Delivery/Deployment comes after that, by releasing the committed software, and in some cases, deploying it into a QA environment for validation (for example for Canary deployments).</p>
-
-<h2 id="what-does-nuvlaio-have-to-do-with-all-of-this">What does Nuvla.io have to do with all of this?</h2>
-
-<p>Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla.io can help. To get started with Nuvla.io you only need to:</p>
+<p>This translates into the following:</p>
 
 <ul>
-  <li>register with Nuvla.io and set up your environment</li>
-  <li>prepare your edge device by installing the NuvlaBox Engine software</li>
-  <li>add your containerised app to Nuvla.io</li>
+  <li>greatly simplifies your data management</li>
+  <li>provides a complete integration of your data across clouds and edge</li>
+  <li>removes hurdles and erases boundaries for data engineers and developers.</li>
 </ul>
 
-<p>Our <a href="https://docs.nuvla.io/">documentation</a> will support you along the way. And if you hit a snag, simply reach out to us via the little blue widget on the bottom right of any of our websites.</p>
+<p>This is a holistic approach to management and processing of your data wherever it is. In other words, it creates a continuum between the cloud and the edge.</p>
 
-<h2 id="developers-read-on-️">Developers, read on ⬇️</h2>
+<h3 id="register-s3-endpoint">Register S3 Endpoint</h3>
 
-<p>Well, DevOps without tooling would be quite complicated. You’ll easily find a plethora of tools for each step of the DevOps process: Issue Trackers and Scrum Boards for planning (like JIRA), IDEs for coding (like IntelliJ), Source Code Management systems for tracking changes (like GitHub), Continuous Testing applications for testing code changes (like Jenkins and GitHub CI), Continuous Deployment tools for automatic provisioning (like ArgoCD), etc.</p>
+<p>As we will be working here with S3, we need to tell Nuvla.io the S3 endpoint and credentials. You can use any S3 endpoint as long as it has AWS S3 compliant API: e.g. <a href="https://min.io/">MinIO</a>, <a href="https://docs.ceph.com/en/latest/radosgw/">Ceph RadosGW</a>, etc., and it doesn’t matter whether it’s running at the Edge or in the Cloud.</p>
 
-<p>So, if you think about it, since Nuvla.io is basically an application management platform with orchestration capabilities for Docker and Kubernetes environments, why not use it for Continuous Deployment?</p>
+<p>To add the S3 endpoint and credentials, use the <strong>Infrastructures</strong> and <strong>Credentials</strong> tabs in Nuvla.io.</p>
 
-<p><img src="/assets/img/blog/nuvlacicd.png" alt="cicd" /></p>
+<p>For more details see our documentation on management of <a href="https://docs.nuvla.io/nuvla/infrastructures">Infrastructure Services in Nuvla.io</a>.</p>
 
-<p>So let’s say you plan for a new feature. An awesome one by the way. First, you develop it. Your code looks neat and tidy, so you commit it. When you commit, your continuous tests will be triggered, and they’ll run all the unit and integration tests to validate that your feature is working properly. And it is, so congrats! Upon this successful step, you will also have another action that will build and push your new code as an artefact (let’s say your final artefact is a Docker Image in Docker Hub). Finally, you want to roll out this new feature to all of your ongoing deployments (be it QA or production). So instead of doing this roll-out manually, why not simply trigger a new continuous action, that will use Nuvla.io’s REST API to deploy your new application (that is registered in your Nuvla.io App Store) into your infrastructures (also registered in Nuvla.io)?</p>
+<p>Here it’s how you can do this with our <a href="https://github.com/nuvla/python-library">Python API library</a>.</p>
 
-<p>This will give you transparent and infrastructure-agnostic deployments in any compute infrastructure (at the edge or in the cloud), plus you’ll be able to then operate and monitor the lifecycle of your deployments from the Nuvla.io platform!</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from nuvla.api import Api as Nuvla
+from nuvla.api.resources.infra_service import (InfraServiceGroup,
+                                               InfraServiceS3,
+                                               CredentialS3)
+nuvla = Nuvla()
 
-<h2 id="example-of-cd-using-nuvlaio">Example of CD using Nuvla.io</h2>
+nuvla.login('&lt;login params&gt;')
 
-<p>To help you integrate Nuvla.io into your CI/CD pipeline, we at SixSq have built a GitHub Action that you can use to automatically deploy an app from Nuvla.io into an infrastructure.</p>
+group_id = InfraServiceGroup(nuvla).add('S3')
 
-<p>This GitHub Action is called Nuvla Application Deployer and is available in the GitHub marketplace at <a href="https://github.com/marketplace/actions/nuvla-application-deployer">https://github.com/marketplace/actions/nuvla-application-deployer</a>.</p>
+infra_s3 = InfraServiceS3(nuvla).add('https://s3.endpoint', group_id , 'My S3')
 
-<p>To use it, simply make sure your GitHub repositories has the GitHub Actions enabled. In your GitHub Actions Workflow, you can use our Nuvla Application Deployer as a job. Something like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Jobs: continuous-deployment: 
-
-runs-on: ubuntu-latest
-name: Deploy application from Nuvla.io steps: 
-
-- name: Deploy
-id: deploy
-uses: nuvla/nuvla-deploy-app-action@v1 with: 
-
-api-key: $ api-secret: $ module-id: 'module/&lt;uuid&gt;'
-credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&lt;uuid&gt;' 
+s3cred_id = CredentialS3('s3 key', 's3 secret', infra_s3, 'My S3 cred')
 </code></pre></div></div>
 
-<h1 id="use-the-output">Use the output</h1>
+<h3 id="upload-data-to-s3-and-register-it-in-nuvlaio">Upload data to S3 and Register it in Nuvla.io</h3>
+
+<p>Once your S3 endpoint is registered in Nuvla.io, you are ready to start uploading data to S3 and registering it with Nuvla.io.</p>
+
+<p>Here are the steps describing how this is done (any HTTP client can be used):</p>
+
+<ol>
+  <li>Create data-object record by providing S3 bucket, object path, and the ID of S3 credentials. This will return the ID of the new data-object resource.</li>
+  <li>Call the upload operation on it. This returns the S3 pre-signed upload URL.</li>
+  <li>Upload your object to S3 using the pre-signed upload URL from 2.</li>
+  <li>Set the object as ready by calling the ready operation.</li>
+</ol>
+
+<p>As you can see, this can easily be scripted or programmed in any language that has an HTTP library. The bucket will be created on S3 by Nuvla.io if it doesn’t exist when calling the upload operation (see step 2. above). Also, steps 1., 2. and 4. can be done using the Nuvla.io UI. Additionally, by setting the appropriate ACLs (Access Control List) you control who can see the object and what operation can be performed. Usually you set read-only ACLs for the user by forbidding the deletion of the object.</p>
+
+<p>In our Python API library we wrapped the above four actions into a single call for your convenience.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from nuvla.api.resources.data import DataObjectS3
+
+obj_id = DataObjectS3(nuvla).create(open('data/african-lion.jpg').read(), 'cloud.animals', 'africa/african-lion.jpg', s3_cred_id)
+</code></pre></div></div>
+
+<p>There are more options to the object creation available - like setting object content type, md5sum, tags, giving the object a friendly name in Nuvla.io, etc.</p>
+
+<p>More information can be found in our online documentation:</p>
+
+<p><a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data">Data management model</a> and <a href="https://docs.nuvla.io/tutorials/data/manage-data-with-api">Example on data management</a>.</p>
+
+<h3 id="search">Search</h3>
+
+<p>Nuvla.io has a powerful search API. Now, that your object is in S3 and registered in Nuvla.io, it can be found by searching <strong>data-object</strong> resources either directly through the API or the API section of the UI, as seen in the screenshot below.</p>
+
+<p>Because there is no need to search through objects’ meta-data directly on S3, the operation is extremely fast, leveraging Elasticsearch that is used by Nuvla.io under the hood.</p>
+
+<p><img src="/assets/img/blog/data-object-search.png" alt="data object search" /></p>
+
+<h3 id="download-no-s3-credentials-or-s3-client-needed">Download: No S3 credentials or S3 client needed</h3>
+<p>When the required object is found (see screenshot above; bucket and tags keys are used), the user can either:</p>
+
 <ul>
-  <li>name: Get the output</li>
+  <li>request S3 pre-signed object download URL from Nuvla.io by clicking on the <strong>download</strong> button (see screenshot below), or</li>
+  <li>start an application requesting this object to be mounted to or already present in the container.</li>
 </ul>
 
-<p>run: echo “The output was $”</p>
+<p>This second - more powerful option - will be described in our next blog posts.</p>
 
-<p>Looks quite straightforward, right? Just to make sure it’s all clear, let’s go through each action input:</p>
+<p><img src="/assets/img/blog/data-object-download.png" alt="data object download" /></p>
+
+<p>As you can see, users with whom you’ve shared the access to the data-object in Nuvla.io, don’t have to possess credentials of your S3. And now downloading the file from S3 can be done with any HTTP client, as in the example below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ curl --output lion.jpg "https://sos-ch-gva-2.exo.io/cloud.animals/africa/african-lion.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200531T220403Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=899&amp;X-Amz-Credential=EXOcc19d8afde0f4eac4675426a%2F20200531%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=f3817e96207fc2dae41da804fade1c490f44c49aa85a821656b7bc7166994517"
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+100 29191  100 29191    0     0   140k      0 --:--:-- --:--:-- --:--:--  139k
+
+$ ls lion.jpg
+
+lion.jpg
+</code></pre></div></div>
+
+<h3 id="next-steps">Next steps</h3>
+<p>In this blog, we’ve covered a very cool feature of Nuvla.io that allows you to:</p>
 
 <ul>
-  <li>api-key and api-secret: to manage resources in Nuvla.io, you need to be <a href="https://nuvla.io/ui/sign-up">registered as a user</a>. This GitHub Action will perform an operation on your behalf, so it needs a valid credential for login</li>
-  <li>module-id: you are trying to deploy an application that you, or someone else, have previously registered in Nuvla.io. If you click on this application, you’ll find an underlying module ID that the GitHub Action will need in order to know which app to deploy.</li>
-  <li>credential-id: Nuvla.io speaks with infrastructures via their secure API (Docker or Kubernetes). This means all of your infrastructures in Nuvla.io should have at least one Container Orchestration Engine Credential associated with it. This ID will tell GitHub Action which credential to use when deploying your app in the infrastructure. You can find this credential from the Credentials page in Nuvla.io.</li>
-  <li>environment: finally, this optional input lets you define environment variables for your application. Assuming your Nuvla.io app has been configured to accept these variables, all you need to do is to provide them to the GitHub Action, as a comma-separated string, making sure the variable names match with the ones in the corresponding Nuvla.io application.</li>
+  <li>store, search, and download your data to/on/from S3;</li>
+  <li>share data with your users/clients without giving them credentials of your S3;</li>
+  <li>and you don’t need an S3 client neither for object upload nor download.</li>
 </ul>
 
-<p>If the action fails, it will try to auto-clean whatever deployments have been started, otherwise, on success, it will output the ID of your deployment, which you can capture via the workflow variable:</p>
+<p>In the next blog post on this topic, we will cover in details data-records.</p>
 
-<p>steps.test.outputs.DEPLOYMENT_ID</p>
+<p>While, as you could already see, tags on data-object gives a sense of meta-data that can be used for object identification, data-record is specifically designed to be your object’s meta-data store. After that we will demonstrate how to start your container application on a set of data using Nuvla.io’s data-set. We will finish by describing how all this works in the GNSS Big Data project, where Nuvla.io is at the heart of the distributed platform for GNSS data collection and processing at the Edge and in the Cloud.</p>
 
-<p>Now you can manage the lifecycle of your edge applications much more easily.</p>
-
-<p>Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can dig deeper, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don’t hesitate to get in touch.</p>
+<p>Follow us on <a href="https://www.linkedin.com/company/sixsq/">LinkedIn</a> or <a href="https://twitter.com/sixsq">Twitter</a> to make sure don’t miss when the next blog is published!</p>
 
             
             <br/>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla.io Part 3&body=https://new-website.sixsq.ch/blog/tech-corner/2020/08/11/blog-data-management-with-nuvla-part-3.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla.io Part 2&body=https://new-website.sixsq.ch/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html" title="email">
         <span>Email</span>
     </a>
 </div>
@@ -298,12 +336,29 @@ credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&l
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
         <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
@@ -321,23 +376,6 @@ credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&l
 
 You can find many, many smart cities that share a commo...</p>
         <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/shared-edge-infrastruture.html">Read blog</a>
-    </div>
-</div>
-
-                    
-                      <div class="col-lg-4">
-    <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
-        
-        <p class="activities-date">17 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
-        
-        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
-        
-        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
-
-A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 

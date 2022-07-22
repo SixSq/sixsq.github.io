@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq | Blog | Governance for smart cities using edge computing and open data</title>
+    <title>SixSq | Blog | Taking off with edge computing? Don't clip your own wings</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -106,10 +106,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Governance for smart cities using edge computing and open data</h1>
+                <h1>Taking off with edge computing? Don't clip your own wings</h1>
                 
                 <p></p>
-                <p>15 January 2021
+                <p>17 May 2022
                   
                      | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
                      
@@ -118,8 +118,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="tag">
   
   <a href="/blog/tag/edge">edge</a>
-  
-  <a href="/blog/tag/cloud">cloud</a>
   
 </p>
 
@@ -147,7 +145,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Governance for smart cities using edge computing and open data</span>
+      <a href="">
+        <span>Taking off with edge computing?</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+        <span>Taking off with edge computing? don't clip your own wings</span>
     </li>
     </li>
   </ol>
@@ -158,93 +162,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/governance-min.png">
-            <p><strong>Citizens and innovators increasingly demand open data, that anyone can access, use and share, to better understand how the city pulses and improve policy decisions.  An effective, secure, non-intrusive and flexible way of providing open data is to leverage edge computing. Edge computing provides a way to deploy realtime services, that avoid data intrusion issues, while enabling an evolutive approach for the city. However, in order to scale and deliver its full innovation potential, edge computing and open data must form the integral part of a governance policy. This blog explores some of the aspects such a governance policy must address and how.</strong></p>
+            <img class="full-image" src="/assets/img/blog/featured-image-blog-wings.jpg">
+            <h4 id="considering-an-edge-solution-read-on-for-tips-and-potential-pitfalls">Considering an edge solution? Read on for tips and potential pitfalls.</h4>
 
-<h3 id="governance-for-what">Governance for what?</h3>
-<p>In previous blog post, we looked at the key drivers for adopting edge computing. In, another blog post, we explored how different sensors (e.g. audio and video) can be combined and reused at the edge.  Edge computing has the ability to transform raw data, such as audio and video streams, into information (e.g. “there’s an accident”) in real-time (here and now). Further, edge computing can produce trending information (e.g. traffic peak and averages, over time, by vehicle category), which can then be aggregated in the cloud (local/private or public) and published as open data. This open data can then be used by a range of users, both public and private, including organisations and citizens.</p>
+<p>A pilot entering cloudy, turbulent skies is effectively flying blind. It’s a critical situation. Every moment that ticks by without clear visibility means things can change and danger levels increase. It may become impossible to reach the destination airport. Data is needed immediately – facts about the aircraft, its status, position, nearby hazards, and weather conditions – so the pilot is able to proceed without guesswork and regain full control.</p>
 
-<p>However, in order to ensure that only curated data is available as open data, robust and clear governance is required.</p>
+<p>As a private pilot, I know a lot about airplanes but I’d never trust myself to build one and take to the skies! A do-it-yourself (DIY) solution – even one made from excellent parts – carries too much risk. I feel the same is true for edge computing.</p>
 
-<p>Here are some of the areas a smart city governance policy should address to provide trusted open data and edge computing:</p>
+<p>Too many times, I’ve seen DIY edge solutions fail. Companies realise too late the downsides of unbudgeted cost, protracted time to readiness and operational complexity. And they clip their own wings by sacrificing system reliability and evolvability.</p>
 
-<ul>
-  <li>Applications</li>
-  <li>Data</li>
-  <li>Access</li>
-  <li>Sensors</li>
-</ul>
+<p>I guess people are tempted to self-build because edge computing seems similar to cloud computing. Sure, they share several attributes but they’re also very different.</p>
 
-<p>Let’s take a closer look at each of these items, and how governance can be achieved.</p>
+<p><img src="/assets/img/blog/airplanes.png" alt="airplanes" /></p>
 
-<h4 id="applications">Applications</h4>
-<p>Edge management platforms, such as Nuvla.io, include the concept of an app store, from which operators of the edge infrastructure can deploy a range of applications. However, in a smart city context, it is paramount that only safe and secure applications are deployed on its edge infrastructure. Therefore, an application certification process must be put in place.</p>
+<p class="caption">Through my aeroclub, I’m not limited to flying just one type of aircraft. I like to keep my options open.</p>
 
-<p>Such an edge application policy could include, for example, that the application only communicates data to the city open data storage. Or that detected events are only sent to recognised authorities.  Another important point could be that apps don’t forward any data or information which intrudes into a citizen’s privacy.</p>
+<p>Take, for example, the physical environment. Cloud computing happens in highly controlled locations with easy-to-access servers. But the edge is challenged by temperature and humidity changes, dust and vibration. Unregulated settings get power and network jitters, have more cyber-security risk and can be complex to access.</p>
 
-<p>A pragmatic way to start upon an app certification processes could be to inspect and test each application. Once the app is certified, it can then be granted the appropriate rights, such that the smart city edge operator can deploy it.</p>
+<p>Instead of a DIY edge solution, some organisations ask a vertical solution provider to solve a specific use case. The danger here is a significant investment with little flexibility in the future. As business needs evolve, the original solution may not adapt. A flexibility promise might be made but it will be on the provider’s terms, with limited powers of negotiation.</p>
 
-<h4 id="data">Data</h4>
-<p>Another important aspect of governance should relate to the type of information transferred to the cloud and included as open data. For example, ensuring that only trend information, such as aggregated averages, minimum and maximum values over time, is good and simple start.  For traffic data this is how it could look like:</p>
+<p>An obvious alternative is a cloud-first approach. Start with a cloud from one of the hyperscalers (Amazon, Microsoft Azure or Google) or a private cloud, and deploy at the edge as mandated. <strong>Warning!</strong> There is a conflict of interest. While you seek the best possible edge outcomes, these providers are in the business of selling compute and storage. They want you to pump as much data as possible to the cloud. So you’ll miss what’s arguably the <a href="/blog/free-your-business-critical-data-from-the-cloud">No.1 benefit of edge computing</a>: processing raw data near its source.</p>
 
-<p>min, max and average vehicle every 10 mins, for each measurement location, 
-categorisation of vehicles percentage of the same time period.
-What should not be included is any data that could identify an individual, either directly (e.g. voice or image) or indirectly (e.g. unique identifier that could be used to identify an individual over time).</p>
+<p>Cloud-first can work for simple deployments but – once again – you risk clipping your own wings. As your business needs grow in scale and sophistication (trust me, they will), a cloud approach quickly limits your ability to expand. At which point, you may regret putting all your eggs in the same cloud basket.</p>
 
-<p>In our previous blog on data fusion, we explore how forensic data can be used to assist enquiries (e.g. video and audio stream of an accident), but to be clear, this type of data should never be confused with open data. Forensic data should be encrypted and only delivered to authorities able to decrypt it, and under strict conditions. The beauty of an edge management platform is that it allows all of this fine tuning to take place.</p>
+<p>So the optimal approach is edge-first and cloud-neutral. This aims to privilege the edge (instead of the cloud) because this is where you act on your data. An edge-first solution does not limit your ability to process, transform, aggregate and anonymise the data. On the contrary, it generally empowers developers with a wide range of tools (including machine learning) to take full advantage of the data produced at the edge and act on it. And you do all this on your own terms while also leveraging the unlimited processing power and storage of the cloud. You get the best of both worlds – edge and cloud.</p>
 
-<h4 id="access">Access</h4>
-<p>Controlling who has access to the management functions of the system is also paramount. To this end, management platforms, such as Nuvla.io, have advanced authorisation features, ensuring only members of a given group are allowed to perform specific actions. It is therefore straightforward to configure the edge infrastructure devices to only be available to users in a certain group.</p>
+<p>Another way to keep your options open, ensuring the most future-proof edge experience, is to select a provider offering <a href="https://nuvla.io">OPEX</a> over CAPEX. Added to this, edge-first providers are likely to help you deploy a shared infrastructure strategy. This allows several old and new apps from different sources to run alongside each other at the edge, which is likely to generate a very attractive return on investment.</p>
 
-<p>Further, all important actions are logged, thus leaving an audit trail. This can then be used by any controlling authority to review what actions were performed, by whom and when.</p>
+<p>One final thought. <strong>Data sovereignty</strong> matters. Keeping tight control of where your data gets processed is strategic for many organisations. A key decision is which parts of your data will be processed at the edge and which in the cloud. The solution you select must give you the right level of control over your data flows.</p>
 
-<p>On the applications side, only certified application versions should be available to the group managing the edge infrastructure, such that only these are deployed and updated.</p>
-
-<h4 id="sensors">Sensors</h4>
-<p>What type of sensors can be used is another aspect an edge computing governance policy should consider. When correctly implemented, edge computing means sensors can be isolated. For example, if the only path to the network for a sensor is via the edge device it is attached to, it means it is not be able to reach out to unknown services on the wide area network. This means a wider range of sensors could be used safely, since any network route would end in the secure edge device.  And since we have fine control over how each edge device communicates, we can ensure that no backdoor is present. This can significantly reduce costs by widening the palette of sensors that can be deployed.</p>
-
-<p>Open Data exploitation
-Once the system is in place, users will be able to access clean, safe, valuable and reliable information, in the form of curated data, produced by fleets of edge devices.</p>
-
-<p>Looking at our traffic data example, this means that users would be able to query the open data system to extract trending information, such as:</p>
-
-<ul>
-  <li>traffic highs and lows over days, during week days vs weekends, school holidays vs working days.</li>
-  <li>proportion of trucks vs cars vs bicycles vs pedestrians across the city to understand usage pattern.</li>
-  <li>impact on traffic across events such as accidents, road works or speed reduction experiments.</li>
-</ul>
-
-<p>This could be replicated for each and every data set gathered across the city. The transformative impact of having readily available data, refreshed constantly, is potentially significant. And as more data sets are added to the system, e.g. air quality measurements, noise level, light intensity and energy consumption, the better the understanding of all stakeholders.</p>
-
-<h4 id="bringing-it-all-together">Bringing it all together</h4>
-<p>In this blog, we have sketched out an outline of what a smart city governance policy could look like, to ensure all stakeholders can reap the benefits of edge computing and open data, safely, and with sufficient agility to evolve with the city’s future needs.</p>
-
-<p>Adding a certification process to edge platforms such as Nuvla.io enhances the value of the <strong>app marketplace</strong>. This means application vendors could register edge (and cloud) applications, allowing cities to deploy these apps with confidence.  This is a powerful concept that will allow smart city operators and application developers to work together to improve services and innovate.</p>
-
-<p>Our objective is for this post to be used as a trigger towards the elaboration of a governance policy that can be tested in real life, over a real edge infrastructure, in real-life conditions. Of course, if you are interested in this process, please get in touch.</p>
-
+<p>An edge-first, cloud-neutral approach means you won’t clip your own wings. We will be happy to help you on your journey to the edge. So please get in touch for lock-in free, future-proofed advice.</p>
 
             
             <br/>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Governance for smart cities using edge computing and open data&body=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Taking off with edge computing? Don't clip your own wings&body=https://new-website.sixsq.ch/blog/discover/2022/05/17/taking-off-with-edge-computing.html" title="email">
         <span>Email</span>
     </a>
 </div>
@@ -262,12 +231,29 @@ Once the system is in place, users will be able to access clean, safe, valuable 
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
         <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
@@ -285,23 +271,6 @@ Once the system is in place, users will be able to access clean, safe, valuable 
 
 You can find many, many smart cities that share a commo...</p>
         <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/shared-edge-infrastruture.html">Read blog</a>
-    </div>
-</div>
-
-                    
-                      <div class="col-lg-4">
-    <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
-        
-        <p class="activities-date">17 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
-        
-        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
-        
-        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
-
-A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
