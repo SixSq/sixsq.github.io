@@ -1,21 +1,21 @@
 ---
-title: SixSq Nuvla.io Apps End-User License Agreement (EULA)
-product-title: SixSq Nuvla.io Apps End-User License Agreement (EULA)
-product-description: End-User License Agreement (EULA) for selected SixSq Apps distributed via Nuvla.io
+title: SixSq Nuvla Apps End-User License Agreement (EULA)
+product-title: SixSq Nuvla Apps End-User License Agreement (EULA)
+product-description: End-User License Agreement (EULA) for selected SixSq Apps distributed via Nuvla
 image: icon-license.svg
 ---
 
 [History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/apps-license.md)
 
-This End-User License Agreement ("EULA") is a legal agreement between you and SixSq SA regarding the apps you are deploying via Nuvla.io under this license. This EULA was created by [EULA Template](https://www.eulatemplate.com). For this License agreement to apply, it must be referenced in the app definition in Nuvla.io.
+This End-User License Agreement ("EULA") is a legal agreement between you and SixSq SA regarding the apps you are deploying via Nuvla under this license. This EULA was created by [EULA Template](https://www.eulatemplate.com). For this License agreement to apply, it must be referenced in the app definition in Nuvla.
 
-This EULA agreement governs your acquisition and use of the app software ("Software") indirectly through Nuvla.io, authorized as reseller or distributor (a "Reseller"). This Privacy Policy was created by this [Privacy Policy Generator](https://www.generateprivacypolicy.com).
+This EULA agreement governs your acquisition and use of the app software ("Software") indirectly through Nuvla, authorized as reseller or distributor (a "Reseller"). This Privacy Policy was created by this [Privacy Policy Generator](https://www.generateprivacypolicy.com).
 
 Please read this EULA agreement carefully before completing the deployment and installation process and using the app software. It provides a license to use the app software and contains warranty information and liability disclaimers.
 
-If you register for a free trial of the app software, this EULA agreement will also govern that trial. By clicking "accept" during the Nuvla.io launch process, or installing and/or using the app software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
+If you register for a free trial of the app software, this EULA agreement will also govern that trial. By clicking "accept" during the Nuvla launch process, or installing and/or using the app software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
 
-The free trial of Nuvla.io does not extend to paying apps, you can therefore be invoiced for deploying paying apps during the free trial.
+The free trial of Nuvla does not extend to paying apps, you can therefore be invoiced for deploying paying apps during the free trial.
 
 If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
 
@@ -30,7 +30,7 @@ You are permitted to deploy the app software (for example on an edge device, IoT
 You are not permitted to:
 
  1. Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole or any part of the Software to be combined with or become incorporated in any other software, nor decompile, disassemble or reverse engineer the Software or attempt to do any such things.
- 2. Circumvent the Nuvla.io platform to reproduce, copy, distribute, resell or otherwise the Software for any reason.
+ 2. Circumvent the Nuvla platform to reproduce, copy, distribute, resell or otherwise the Software for any reason.
  3. Use the Software in any way which breaches any applicable local, national or international law.
  4. Use the Software for any purpose that the Vendor considers is a breach of this EULA agreement.
 

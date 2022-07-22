@@ -1,7 +1,7 @@
 ---
 title: SixSq Approach to Privacy
 product-title: SixSq Approach to Privacy
-product-description: This notice describes a set of data privacy rules that SixSq commits to in the context of the Nuvla.io service and its websites operations, in compliance GDPR and Swiss data privacy law.
+product-description: This notice describes a set of data privacy rules that SixSq commits to in the context of the Nuvla service and its websites operations, in compliance GDPR and Swiss data privacy law.
 image: icon-privacy.svg
 redirect_from:
   - /legal/aai_privacy.html
@@ -126,7 +126,7 @@ All personal data is kept within EU and Swiss data centres and might be moved be
 4\. Applicability 
 ---
 
-Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to SixSq's websites and web services like [sixsq.com](https://sixsq.com), [Nuvla.io](https://nuvla.io) and any other public pages with static content, owned by SixSq and related to our services and products. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
+Independently of the existing relations with third-party partners and references to other websites, this privacy notice only applies to SixSq's websites and web services like [sixsq.com](https://sixsq.com), [Nuvla](https://nuvla.io) and any other public pages with static content, owned by SixSq and related to our services and products. This includes the documentation website [docs.nuvla.io](https://docs.nuvla.io).
 
 5\. Right to forget
 ---
