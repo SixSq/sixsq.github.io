@@ -1,5 +1,6 @@
 ---
 title: Generic Nuvla.io Apps End-User License Agreement (EULA)
+product-title: Generic Nuvla.io Apps End-User License Agreement (EULA)
 product-description: End-User License Agreement (EULA) for selected SixSq Apps distributed via Nuvla.io
 image: icon-license.svg
 ---

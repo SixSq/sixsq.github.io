@@ -1,5 +1,6 @@
 ---
 title: Nuvla.io Terms &amp; Conditions
+product-title: Nuvla.io Terms &amp; Conditions
 product-description: This agreement describes the general terms and conditions for the Nuvla.io Platform services and apply to all Users of the Platform.
 image: logo-nuvla-io.png
 redirect_from:

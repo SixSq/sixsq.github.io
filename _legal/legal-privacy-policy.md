@@ -1,5 +1,6 @@
 ---
 title: SixSq Approach to Privacy
+product-title: SixSq Approach to Privacy
 product-description: This notice describes a set of data privacy rules that SixSq commits to in the context of the Nuvla.io service and its websites operations, in compliance GDPR and Swiss data privacy law.
 image: icon-privacy.svg
 redirect_from:
