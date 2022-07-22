@@ -14,7 +14,7 @@ As a result, the SixSq team has replaced and improved the previous **Act As** gr
 
 By deploying the new **Switch Group** feature, users only see the resources belonging to that group, not the resources from their personal account or from other groups they are part of. For example, when managing different customers, a user simply has to switch to a group and only resources related to that group will be shown.
 
-Furthermore, this new feature also simplifies and improves security. A user can no longer create a VPN credential after switching to a group. Creating a VPN credential is only available via a personal account. This credential then gives access to all NuvlaBoxes belonging to the personal account, as well as those belonging to groups the user is part of.
+Furthermore, this new feature also simplifies and improves security. A user can no longer create a VPN credential after switching to a group. Creating a VPN credential is only available via a personal account. This credential then gives access to all NuvlaEdge powered devices belonging to the personal account, as well as those belonging to groups the user is part of.
 
 **Take advantage of the 14-day free trial**
 

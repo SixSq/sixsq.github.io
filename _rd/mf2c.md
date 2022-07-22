@@ -34,7 +34,7 @@ SixSq’s participation was supported by the Swiss State Secretariat for Educati
 
 **SixSq's role in the project:** 
 
-Within the project, SixSq brought its experience in building cloud systems and early work in IoT and [edge computing](https://media.sixsq.com/blog/what-is-edge-computing) to the overall architecture. Furthermore, SixSq shared its vision in building highly valuable products and services, such as the open source [Nuvla](https://sixsq.com/products-and-services/nuvla/overview) service and the [NuvlaEdge](https://sixsq.com/products-and-services/nuvlabox/overview) product range.  As a professional agile practitioner, SixSq contributed its industrial software development practices to ensure that mF2C results were of the highest possible quality. SixSq integrated mF2C results into its commercial products and services.
+Within the project, SixSq brought its experience in building cloud systems and early work in IoT and [edge computing](https://media.sixsq.com/blog/what-is-edge-computing) to the overall architecture. Furthermore, SixSq shared its vision in building highly valuable products and services, such as the open source [Nuvla](/platform) service and the [NuvlaEdge](/nuvlaedge) product range.  As a professional agile practitioner, SixSq contributed its industrial software development practices to ensure that mF2C results were of the highest possible quality. SixSq integrated mF2C results into its commercial products and services.
 
 
 **Partners:** 

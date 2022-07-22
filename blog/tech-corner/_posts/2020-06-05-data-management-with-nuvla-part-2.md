@@ -89,7 +89,7 @@ There are more options to the object creation available - like setting object co
 
 More information can be found in our online documentation:
 
-[Data management model](https://docs.nuvla.io/nuvla/advanced-usage/manage-data) and [Example on data management](https://docs.nuvla.io/tutorials/data/manage-data-with-api.html).
+[Data management model](https://docs.nuvla.io/nuvla/advanced-usage/manage-data) and [Example on data management](https://docs.nuvla.io/tutorials/data/manage-data-with-api).
 
 ### Search
 

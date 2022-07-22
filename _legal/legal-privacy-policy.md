@@ -62,7 +62,7 @@ Our services may also use the [Intercom](https://www.intercom.com) online servic
 
 - email
 - status of trial
-- key events (e.g. first deployment, first application creation, first NuvlaBox registration)
+- key events (e.g. first deployment, first application creation, first NuvlaEdge registration)
 - approximate location
 
 Please refer to [Intercom's privacy policies](https://www.intercom.com/legal/privacy) for additional information.

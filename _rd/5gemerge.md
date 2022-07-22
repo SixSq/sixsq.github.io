@@ -1,6 +1,7 @@
 ---
 layout: rd-article
 title: 5G-EMERGE
+product-title: 5G-EMERGE
 head-title: 5G-EMERGE; solutions for the satellite-enabled 5G media market 
 image: logo-5gemerge.png
 ---

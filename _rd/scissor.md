@@ -13,9 +13,9 @@ human-machine interface.  Cloud technologies touch all of these
 components, giving the system an unprecedented level of flexibility,
 computing power and responsiveness.
 
-SixSq brought its [NuvlaBox](https://sixsq.com/products-and-services/nuvlabox/overview) concept and technology to the project.  Embedding a cloud computing platform directly into the system allowed tailored, local analysis of monitoring information.
+SixSq brought its [NuvlaEdge](/platform) concept and technology to the project.  Embedding a cloud computing platform directly into the system allowed tailored, local analysis of monitoring information.
 
-Use of the NuvlaBox software also provided remote control of the computing platform.  Through the project, SixSq further enhanced the capabilities of the NuvlaBox while improving resilience of the software for challenging real-world SCADA deployments.
+Use of the NuvlaEdge software also provided remote control of the computing platform.  Through the project, SixSq further enhanced the capabilities of the NuvlaEdge while improving resilience of the software for challenging real-world SCADA deployments.
 
 **Project website:** [https://cordis.europa.eu/project/id/644425][web]
 
@@ -28,9 +28,9 @@ Use of the NuvlaBox software also provided remote control of the computing platf
 
 **Partners:** 9 lead by [Assystem][assystem] 
 
-**Goal for SixSq:** Bringing NuvlaBox as platform for embedded cloud.
-  SlipStream and concepts for general integration and remote control
-  of NuvlaBoxes. SlipStream was the forerunner to [Nuvla.io](https://nuvla.io/).
+**Goal for SixSq:** Bringing NuvlaEdge as platform for embedded cloud.
+  Nuvla and concepts for general integration and remote control
+  of NuvlaEdges. Nuvla was the forerunner to [Nuvla.io](https://nuvla.io/).
 
 [web]: https://cordis.europa.eu/project/id/644425
 [assystem]: https://www.assystem.com/en/home.html
