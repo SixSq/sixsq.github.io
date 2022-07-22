@@ -1,1 +1,1 @@
-Sitemap: https://new-website.sixsq.ch/sitemap.xml
+Sitemap: https://sixsq.com/sitemap.xml
