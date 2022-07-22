@@ -1,51 +1,42 @@
 ---
 layout: rd-article
 title: 5G-EMERGE
-head-title: ... 
+head-title: 5G-EMERGE; solutions for the satellite-enabled 5G media market 
 image: logo-5gemerge.png
 ---
-
-**Technology for advanced mobility systems and autonomous transport networks.**
 	
-ELASTIC has the three main objectives:
+The 5G-EMERGE project aims to develop solutions that leverage 5G technology and satellite broadcasting to put Europe at the vanguard of media delivery technology. The project is part of the [European Space Agency](https://www.esa.int/) (ESA) programme of [Advanced Research in Telecommunications Systems](https://www.esa.int/Applications/Telecommunications_Integrated_Applications/ARTES/About_ARTES) (ARTES) and will be led by the [European Broadcasting Union](https://www.ebu.ch/home) (EBU).
 
-- ELASTIC will develop a **software architecture incorporating a new elasticity concept**, that will enable smart systems to satisfy the performance requirements of extreme-scale analytics workloads. The new elasticity concept will efficiently distribute the workloads across the compute continuum, whilst guaranteeing real-time, energy, communication quality and security non-function properties inherited from the system domain.
- 
-- The vision of ELASTIC is that by extending the **elasticity concept across the compute continuum in a fog computing environment**, combined with the usage of advanced hardware architectures at the edge side, can significantly increase the capabilities of the extreme-scale analytics integrating both responsive data-in-motion and latent data-at-rest analytics into a single solution.
- 
-- ELASTIC will consider a realistic yet visionary **[smart mobility use-case](https://elastic-project.eu/use-case)**, which will elaborate of huge amounts of data coming from a large set of IoT sensors distributed along the Florence tramway network. ELASTIC will adopt a very innovative federated/distributed fog architecture, supporting elasticity across the compute continuum whilst fulfilling real-time, energy, communication and secure properties.
+The 5G-EMERGE project plans to develop an integrated satellite and terrestrial system based on open standards to enable high-quality content distribution services over multi-layer IP infra-structures. Telecommunications satellites will efficiently deliver high-demand content, including streaming of live events, as close as possible to the end user – to the ‘edge’. The project includes demonstrations in 5G base stations, users’ homes and vehicles.
 
 
-**SixSq's role in the project:** 
+**SixSq's role in the project** 
 
-Within the project, SixSq will facilitate the implementation of a transparent cloud to edge ecosystem, with support for cloud-native applications. This will make use of SixSq's expertise in **edge-to-cloud** and **edge-to-edge** products and services to enable smart city and IoT projects.
-
-**Project Website** [https://elastic-project.eu/](https://elastic-project.eu/)
-
-**Funding:** The ELASTIC project has received funding from the European Union’s Horizon 2020 research and innovation programme under the grant agreement Nº 825473.
-
-**Duration:** 01 December 2018 to 30 June 2022.
-
-**Partners:** 
-
-The project involves nine partners:
-
-- [Barcelona Computing Centre](https://www.bsc.es/), Spain
-
-- [Ikerlan](https://www.ikerlan.es/en), Spain 
-
-- [Instituto Superior De Engenharia Do Porto](https://www.isep.ipp.pt/), Portugal
-
-- [Information Catalyst for Enterprise Ltd](https://informationcatalyst.com/), UK
-
-- [SixSq](https://sixsq.com/), Switzerland
-
-- [Thales SA](https://www.thalesgroup.com/en), France 
-
-- [THALES Italia SPA](https://www.thalesgroup.com/en/italy), Italy
-
-- [Gestione Ed Eserizio del Sistema Tranviario SPA](https://www.ratpdev.com/en/home), Italy
-
-- [Citta Metropolitana di Firenze](https://www.cittametropolitana.fi.it), Italy
+SixSq’s contribution includes leading the demonstration work package and providing the edge-to-cloud software infrastructure based on its Nuvla B2B SaaS platform and marketplace of containerised applications, as well as its open source NuvlaEdge software.
 
 
+**5G-EMERGE Consortium** 
+
+A consortium of 20 companies from six European countries will collaborate on developing the distributed edge technology and service-delivery features.
+
+- Arctic Space Technologies
+- Arthur D. Little
+- Athonet 
+- Celestia Technologies Group 
+- EBU
+- Fondazione LINKS
+- FTA Communication Technologies
+- G-Core Labs
+- MBI
+- Nagravision Sàrl
+- Nagravision AS
+- Rai
+- RomARS
+- SES Techcom
+- SixSq
+- Telenor ASA
+- Telenor Satellite
+- Telenor Maritime
+- TNO
+- Varnish Software
+- ViaSat Antenna Systems
