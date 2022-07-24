@@ -1420,9 +1420,12 @@ color: white;
 display: flex;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px){
   .flex-icons {
     display: block;
+  }
+  .flex-icons div:hover{
+    background-color: transparent !important;
   }
 }
 
