@@ -1420,6 +1420,12 @@ color: white;
 display: flex;
 }
 
+@media (max-width: 767px) {
+  .flex-icons {
+    display: block;
+  }
+}
+
 .flex-icons > a{
 flex:1;
 padding: 4rem 1rem 2rem 1rem;
