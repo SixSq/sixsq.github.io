@@ -1,7 +1,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq {% if page.category %}| {{ page.category | capitalize }} {% endif %}| {{ page.title }}</title>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="SixSq {% if page.category %}| {{ page.category | capitalize }} {% endif %}| {% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title }}{% endif %}"/>
+    <meta property="og:image" content="{{ site.url }}{% if page.image %}/assets/img/{{ page.category }}/{{ page.image }}{% else %}/assets/img/{{ page.product-background-img }}{% endif %}"/>
+    <meta property="og:description" content="{{ page.product-description }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <!-- <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' /> -->
+    
+    <title>SixSq {% if page.category %}| {{ page.category | capitalize }} {% endif %}| {% if page.product-title %}{{ page.product-title }}{% endif %}{{ page.title }}</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
