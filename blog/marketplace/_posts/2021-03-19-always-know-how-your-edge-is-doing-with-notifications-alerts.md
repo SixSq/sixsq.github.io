@@ -2,15 +2,7 @@
 title: Always know how your edge is doing with notifications and alerts
 product-title: Always know how your edge is doing with notifications and alerts
 image: hermes-min.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Tech Corner
-   target: /blog/tech-corner
 tags: edge cloud
-blog-category: tech-corner
 author: Marc-Elian Bégin
 ---
 

@@ -3,7 +3,6 @@ title: Privacy intrusion
 product-title: Privacy intrusion&colon; hold all the cards with edge computing 
 image: hold-all-the-cards.jpg
 tags: edge cloud privacy security
-blog-category: discovery
 author: Marc-Elian Bégin
 ---
 

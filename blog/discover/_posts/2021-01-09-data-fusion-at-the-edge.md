@@ -2,11 +2,6 @@
 title: Data fusion at the edge, killer apps for smart cities and more
 product-title: Data fusion at the edge, killer apps for smart cities and more
 image: data-fusion.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud 
 author: Marc-Elian Bégin
 ---

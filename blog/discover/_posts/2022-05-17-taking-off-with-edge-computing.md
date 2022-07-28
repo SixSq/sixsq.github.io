@@ -2,14 +2,7 @@
 title: Taking off with edge computing? Don't clip your own wings
 product-title: Taking off with edge computing? Don't clip your own wings
 image: featured-image-blog-wings.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Taking off with edge computing?
 tags: edge
-blog-category: discovery
 author: Marc-Elian Bégin
 ---
 

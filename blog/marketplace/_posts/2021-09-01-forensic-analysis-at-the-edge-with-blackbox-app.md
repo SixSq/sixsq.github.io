@@ -2,15 +2,7 @@
 title: Forensic analysis at the edge with the blackbox app
 product-title: Forensic analysis at the edge with the blackbox app
 image: blackbox-blog-title-min.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Tech Corner
-   target: /blog/tech-corner
 tags: edge cloud
-blog-category: tech-corner
 author: Marc-Elian Bégin
 ---
 

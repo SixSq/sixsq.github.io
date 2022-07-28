@@ -2,15 +2,7 @@
 title: 4 ways to know if you need edge computing
 product-title: 4 ways to know if you need edge computing 
 image: featured-image-blog-why-edge.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Discover
-   target: /blog/discover
 tags: edge cloud
-blog-category: discover
 author: Marc-Elian Bégin
 ---
 

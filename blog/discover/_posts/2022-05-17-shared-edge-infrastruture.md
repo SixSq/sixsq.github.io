@@ -1,11 +1,6 @@
 ---
 title: What makes a smart city even smarter? Shared edge infrastructure
 image: shared_infrastructure.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud
 author: Marc-Elian Bégin
 ---

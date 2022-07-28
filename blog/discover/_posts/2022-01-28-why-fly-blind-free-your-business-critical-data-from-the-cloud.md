@@ -2,11 +2,6 @@
 title: Why fly blind? Free your business-critical data from the cloud today
 product-title: Why fly blind? Free your business-critical data from the cloud today
 image: airplane-in-storm-min.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud
 author: Marc-Elian Bégin
 ---

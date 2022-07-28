@@ -2,12 +2,7 @@
 title: What is edge computing?
 product-title: What is edge computing?
 image: data-fusion.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
-tags: edge cloud 
+tags: edge cloud
 author: Marc-Elian Bégin
 ---
 
