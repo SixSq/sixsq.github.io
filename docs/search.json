@@ -55,7 +55,7 @@
     } ,
   
     {
-      "title"    : "SixSq announces Nuvla.io App Vendor Programme",
+      "title"    : "SixSq announces Nuvla App Vendor Programme",
       "category" : "news",
       "tags"     : "",
       "url"      : "/news/2022/06/09/news-app-vendor-programme.html",
@@ -110,9 +110,9 @@
   
     {
       "title"    : "Before lift-off&amp;colon; the parts required for excellent edge computing",
-      "category" : "edge",
+      "category" : "blog",
       "tags"     : "edge, cloud",
-      "url"      : "/blog/discover/edge/2022/02/14/before-lift-off-parts-for-edge-computing.html",
+      "url"      : "/blog/discover/2022/02/14/before-lift-off-parts-for-edge-computing.html",
       "date"     : "2022-02-14 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -147,7 +147,7 @@
     {
       "title"    : "Life at the edge is better with friends",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/tech-corner/2022/01/10/life-at-the-edge-is-better-with-friends.html",
       "date"     : "2022-01-10 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -156,7 +156,7 @@
     {
       "title"    : "Bringing DevOps to the edge",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/tech-corner/2021/11/30/bringing-devops-to-the-edge.html",
       "date"     : "2021-11-30 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -183,7 +183,7 @@
     {
       "title"    : "Forensic analysis at the edge with the blackbox app",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/marketplace/2021/09/01/forensic-analysis-at-the-edge-with-blackbox-app.html",
       "date"     : "2021-09-01 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -201,7 +201,7 @@
     {
       "title"    : "Always know how your edge is doing with notifications and alerts",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/marketplace/2021/03/19/always-know-how-your-edge-is-doing-with-notifications-alerts.html",
       "date"     : "2021-03-19 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -226,7 +226,7 @@
     } ,
   
     {
-      "title"    : "Launch of Nuvla.io Marketplace",
+      "title"    : "Launch of Nuvla Marketplace",
       "category" : "news",
       "tags"     : "",
       "url"      : "/news/2020/11/15/news-nuvlaio-marketplace.html",
@@ -253,7 +253,7 @@
     } ,
   
     {
-      "title"    : "Group Feature Enhancement to Nuvla.io",
+      "title"    : "Group Feature Enhancement to Nuvla",
       "category" : "news",
       "tags"     : "",
       "url"      : "/news/2020/08/20/news-nuvlaio-group-feature.html",
@@ -262,7 +262,7 @@
     } ,
   
     {
-      "title"    : "Subscriptions for Nuvla.io",
+      "title"    : "Subscriptions for Nuvla",
       "category" : "news",
       "tags"     : "",
       "url"      : "/news/2020/08/11/news-nuvlaio-subscription.html",
@@ -271,9 +271,9 @@
     } ,
   
     {
-      "title"    : "Data Management with Nuvla.io Part 3",
+      "title"    : "Data Management with Nuvla Part 3",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html",
       "date"     : "2020-08-11 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -289,18 +289,18 @@
     } ,
   
     {
-      "title"    : "Data Management with Nuvla.io Part 2",
+      "title"    : "Data Management with Nuvla Part 2",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html",
       "date"     : "2020-06-05 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
   
     {
-      "title"    : "Data Management with Nuvla.io Part 1",
+      "title"    : "Data Management with Nuvla Part 1",
       "category" : "blog",
-      "tags"     : "edge, cloud, toto",
+      "tags"     : "edge, cloud",
       "url"      : "/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html",
       "date"     : "2020-05-04 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
@@ -572,7 +572,7 @@
         "tags"     : "",
         "url"      : "/resources.html",
         "date"     : "",
-        "content": "<div class=\"container-fluid\">\n    <div class=\"container section text-center\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-news.svg\" />\n                    <h3>News</h3>\n                    <p>Discover the latest news and events from SixSq, our partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>We share in this blog our latest thoughts and what we've learned working with partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>See us in action&colon; talking, showing, explaining and evangelising about edge computing, cloud computing and what we do.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
+        "content": "<div class=\"container-fluid\">\n    <div class=\"container section text-center hero-narrow\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-news.svg\" />\n                    <h3>News</h3>\n                    <p>Discover the latest news and events from SixSq, our partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>We share in this blog our latest thoughts and what we've learned working with partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>See us in action&colon; talking, showing, explaining and evangelising about edge computing, cloud computing and what we do.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-documents.svg\" />\n                    <h3>Documentation</h3>\n                    <p>If you're the reading type, our documentation website is designed for you.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://docs.nuvla.io/\" target=\"_blank\">Read on</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
      
    } ,
   
@@ -1126,17 +1126,6 @@
   
    {
      
-        "title"    : "toto",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/blog/tag/toto/index.html",
-        "date"     : "",
-        "content": null
-     
-   } ,
-  
-   {
-     
         "title"    : "privacy",
         "category" : "",
         "tags"     : "",
@@ -1240,17 +1229,6 @@
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/marketplace/index.html",
-        "date"     : "",
-        "content": null
-     
-   } ,
-  
-   {
-     
-        "title"    : "edge",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/blog/edge/index.html",
         "date"     : "",
         "content": null
      

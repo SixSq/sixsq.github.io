@@ -2,14 +2,7 @@
 title: Taking off with edge computing? Don't clip your own wings
 product-title: Taking off with edge computing? Don't clip your own wings
 image: featured-image-blog-wings.jpg
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
- - name: Taking off with edge computing?
 tags: edge
-blog-category: discovery
 author: Marc-Elian Bégin
 ---
 
@@ -32,7 +25,7 @@ Take, for example, the physical environment. Cloud computing happens in highly c
 
 Instead of a DIY edge solution, some organisations ask a vertical solution provider to solve a specific use case. The danger here is a significant investment with little flexibility in the future. As business needs evolve, the original solution may not adapt. A flexibility promise might be made but it will be on the provider’s terms, with limited powers of negotiation.
 
-An obvious alternative is a cloud-first approach. Start with a cloud from one of the hyperscalers (Amazon, Microsoft Azure or Google) or a private cloud, and deploy at the edge as mandated. **Warning!** There is a conflict of interest. While you seek the best possible edge outcomes, these providers are in the business of selling compute and storage. They want you to pump as much data as possible to the cloud. So you’ll miss what’s arguably the [No.1 benefit of edge computing](/blog//discover/2022/01/28/why-fly-blind-free-your-business-critical-data-from-the-cloud): processing raw data near its source. 
+An obvious alternative is a cloud-first approach. Start with a cloud from one of the hyperscalers (Amazon, Microsoft Azure or Google) or a private cloud, and deploy at the edge as mandated. **Warning!** There is a conflict of interest. While you seek the best possible edge outcomes, these providers are in the business of selling compute and storage. They want you to pump as much data as possible to the cloud. So you’ll miss what’s arguably the [No.1 benefit of edge computing](/blog/discover/2022/01/28/why-fly-blind-free-your-business-critical-data-from-the-cloud): processing raw data near its source. 
 
 Cloud-first can work for simple deployments but – once again – you risk clipping your own wings. As your business needs grow in scale and sophistication (trust me, they will), a cloud approach quickly limits your ability to expand. At which point, you may regret putting all your eggs in the same cloud basket.
 

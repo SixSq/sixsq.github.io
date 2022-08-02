@@ -1,6 +1,6 @@
 ---
-title: Group Feature Enhancement to Nuvla.io
-product-title: Group Feature Upgrade Brings enhanced Security to Nuvla.io Edge Management Platform
+title: Group Feature Enhancement to Nuvla
+product-title: Group Feature Upgrade Brings enhanced Security to Nuvla Edge Management Platform
 image: logo-nuvla-io.png
 ---
 
@@ -18,7 +18,7 @@ Furthermore, this new feature also simplifies and improves security. A user can 
 
 **Take advantage of the 14-day free trial**
 
-If you are curious and want to give our edge management platform a go, why not start a 14-day free trial, directly from [Nuvla.io](https://nuvla.io/ui/sign-up)?
+If you are curious and want to give our edge management platform a go, why not start a 14-day free trial, directly from [Nuvla](https://nuvla.io/ui/sign-up)?
 
 Take a look at some of the [things you can do with an edge management platform](https://youtu.be/Y8TjUnMfK3g) to give yourself some inspiration.
 
@@ -28,11 +28,10 @@ We hope that this new feature will fulfil the many requests we received to impro
 
 For the moment, creating groups requires a support request, which you can submit anytime, for free, via email or via the in-app support widget. In the near future, you will be able to create your own groups and invite colleagues to join them.
 
-If you need any help or have further questions, do not hesitate to get in touch, either by email or via the in-app widget on our website or in Nuvla.io.
+If you need any help or have further questions, do not hesitate to get in touch, either by email or via the in-app widget on our website or in Nuvla.
 
 **Useful links**
 
-[Nuvla.io documentation](https://docs.nuvla.io/)
+[Nuvla documentation](https://docs.nuvla.io/)
 
-[Data management with Nuvla.io](https://media.sixsq.com/blog/data-management-with-nuvla.io) 
-
+[Data management with Nuvla](/blog/tech-corner/2020/05/04/data-management-with-nuvla-part-1.html) 

@@ -9,7 +9,7 @@ breadcrumbs:
    target: /blog
  - name: Tech Corner
    target: /blog/tech-corner
-tags: edge cloud toto
+tags: edge cloud
 blog-category: tech-corner
 author: Marc-Elian Bégin
 ---

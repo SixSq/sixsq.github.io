@@ -2,7 +2,6 @@
 title: Before lift-off&colon; the parts required for excellent edge computing 
 image: featured-image-blog-liftoff.jpg
 tags: edge cloud
-category: edge
 author: Marc-Elian Bégin
 ---
 

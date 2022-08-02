@@ -4,7 +4,7 @@ $(document).ready(function() {
 	});
 
   var insertVideos = function(playlistId, target) {
-    $.getJSON('https://www.googleapis.com/youtube/v3/playlistItems?&origin=http://sixsq.com&maxResults=8&part=snippet&playlistId=' + playlistId + '&key=AIzaSyDdrmCZq0NAWnaGtxAbkL9P-9FyMRonpJY', function(data) {
+    $.getJSON('https://www.googleapis.com/youtube/v3/playlistItems?&origin=https://sixsq.com&maxResults=8&part=snippet&playlistId=' + playlistId + '&key=AIzaSyDdrmCZq0NAWnaGtxAbkL9P-9FyMRonpJY', function(data) {
       for(var i=0; i<data.items.length; i++) {
         var col = $("#col-template > div").clone();
         var id = data.items[i].snippet.resourceId.videoId;

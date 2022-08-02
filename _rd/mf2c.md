@@ -11,7 +11,7 @@ SixSq participated in the H2020 project [mF2C](https://www.mf2c-project.eu), an 
 
 **What is Fog computing?**
 
-[Fog computing](https://media.sixsq.com/blog/improving-emergency-situation-management-smart-cities), also known as fog networking or fogging, is a decentralised computing infrastructure in which data, compute, storage and applications are distributed in the most logical, efficient place between the data source and the cloud. Fog computing extends cloud computing and services to the edge of the network, bringing the advantages and power of the cloud closer to where data is created and acted upon.
+Fog computing, also known as fog networking or fogging, is a decentralised computing infrastructure in which data, compute, storage and applications are distributed in the most logical, efficient place between the data source and the cloud. Fog computing extends cloud computing and services to the edge of the network, bringing the advantages and power of the cloud closer to where data is created and acted upon.
 
 **Why is it important?**
 
@@ -34,7 +34,7 @@ SixSq’s participation was supported by the Swiss State Secretariat for Educati
 
 **SixSq's role in the project:** 
 
-Within the project, SixSq brought its experience in building cloud systems and early work in IoT and [edge computing](https://media.sixsq.com/blog/what-is-edge-computing) to the overall architecture. Furthermore, SixSq shared its vision in building highly valuable products and services, such as the open source [Nuvla](/platform) service and the [NuvlaEdge](/nuvlaedge) product range.  As a professional agile practitioner, SixSq contributed its industrial software development practices to ensure that mF2C results were of the highest possible quality. SixSq integrated mF2C results into its commercial products and services.
+Within the project, SixSq brought its experience in building cloud systems and early work in IoT and [edge computing](/blog/discover/2019/11/08/what-is-edge-computing) to the overall architecture. Furthermore, SixSq shared its vision in building highly valuable products and services, such as the open source [Nuvla](/platform) service and the [NuvlaEdge](/nuvlaedge) product range.  As a professional agile practitioner, SixSq contributed its industrial software development practices to ensure that mF2C results were of the highest possible quality. SixSq integrated mF2C results into its commercial products and services.
 
 
 **Partners:** 

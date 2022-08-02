@@ -30,7 +30,7 @@ Use of the NuvlaEdge software also provided remote control of the computing plat
 
 **Goal for SixSq:** Bringing NuvlaEdge as platform for embedded cloud.
   Nuvla and concepts for general integration and remote control
-  of NuvlaEdges. Nuvla was the forerunner to [Nuvla.io](https://nuvla.io/).
+  of NuvlaEdges. Nuvla was the forerunner to [Nuvla](https://nuvla.io/).
 
 [web]: https://cordis.europa.eu/project/id/644425
 [assystem]: https://www.assystem.com/en/home.html

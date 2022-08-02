@@ -11,13 +11,13 @@ The 5G-EMERGE project aims at developing an integrated satellite and terrestrial
 
 A consortium of 20 companies from six European countries will collaborate on developing the distributed edge technology and service-delivery features. 
 
-SixSq’s contribution includes leading the demonstration work package and providing the edge-to-cloud software infrastructure based on its [Nuvla.io](https://nuvla.io/) B2B SaaS platform and marketplace of containerised applications, as well as its open source NuvlaEdge software.
+SixSq’s contribution includes leading the demonstration work package and providing the edge-to-cloud software infrastructure based on its [Nuvla](https://nuvla.io/) B2B SaaS platform and marketplace of containerised applications, as well as its open source NuvlaEdge software.
 
 SixSq CEO [Marc-Elian Bégin](https://www.linkedin.com/in/mebster/) said, _“Leveraging satellite broadcast and 5G is a great opportunity to deliver the right high-density content at the right location with the right customization. However, this requires fine-tuned orchestration of the entire value chain and this is what SixSq edge-to-cloud software provides. We are no stranger to big challenges posed by ESA and EBU and are looking forward to pushing the boundaries of edge-to-cloud, bringing together the space sector, 5G and multi-media content delivery.”_
 
 _“The 5G-Emerge project is yet another example of Ekinops’ long commitment towards software innovation as a mean to add value to the telecommunications sector”_, commented [Vincent Munière](https://www.linkedin.com/in/muniere/), Group Chief Technology Officer & VP R&D at Ekinops. _“We are looking forward to helping set the bar in 5G services and content delivery."_
 
-For SixSq, this project is a unique opportunity to showcase its edge computing software’s ability to orchestrate complex scenarios for a range of new commercial use-cases, ranging from mari-time, vehicle, public transport, 5G and building applications.  Working with market leaders in their domain, Nuvla.io will manage apps across the edge-to-cloud continuum.
+For SixSq, this project is a unique opportunity to showcase its edge computing software’s ability to orchestrate complex scenarios for a range of new commercial use-cases, ranging from mari-time, vehicle, public transport, 5G and building applications.  Working with market leaders in their domain, Nuvla will manage apps across the edge-to-cloud continuum.
 
 ###  5G-EMERGE Consortium
 
