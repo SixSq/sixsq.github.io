@@ -110,9 +110,9 @@
   
     {
       "title"    : "Before lift-off&amp;colon; the parts required for excellent edge computing",
-      "category" : "edge",
+      "category" : "blog",
       "tags"     : "edge, cloud",
-      "url"      : "/blog/discover/edge/2022/02/14/before-lift-off-parts-for-edge-computing.html",
+      "url"      : "/blog/discover/2022/02/14/before-lift-off-parts-for-edge-computing.html",
       "date"     : "2022-02-14 00:00:00 +0000",
       "content": "[\n  {% for post in site.posts %}\n    {\n      \"title\"    : \"{{ post.title | escape }}\",\n      \"category\" : \"{{ post.category }}\",\n      \"tags\"     : \"{{ post.tags | join: ', ' }}\",\n      \"url\"      : \"{{ site.baseurl }}{{ post.url }}\",\n      \"date\"     : \"{{ post.date }}\",\n      \"content\": {{ page.content | jsonify }}\n    } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n  ,\n  {% for page in site.pages %}\n   {\n     {% if page.title != nil or page.product-title != nil %}\n        \"title\"    : \"{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}\",\n        \"category\" : \"{{ page.category }}\",\n        \"tags\"     : \"{{ page.tags | join: ', ' }}\",\n        \"url\"      : \"{{ site.baseurl }}{{ page.url }}\",\n        \"date\"     : \"{{ page.date }}\",\n        \"content\": {{ page.content | jsonify }}\n     {% endif %}\n   } {% unless forloop.last %},{% endunless %}\n  {% endfor %}\n]\n"
     } ,
@@ -1229,17 +1229,6 @@
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/marketplace/index.html",
-        "date"     : "",
-        "content": null
-     
-   } ,
-  
-   {
-     
-        "title"    : "edge",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/blog/edge/index.html",
         "date"     : "",
         "content": null
      
