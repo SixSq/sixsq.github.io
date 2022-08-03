@@ -4,4 +4,4 @@ icon: icon-api.svg
 main-feature: false
 ---
 
-Nuvla exposes a powerful REST API. The API allows developers to integrate Nuvla into third party systems, script it and even use it as <em>Infrastructure as Code</em>. We have also put a lot of effort in the <a href="https://docs.nuvla.io"> Nuvla Documentation</a>. Go and explore!
+The Nuvla platform exposes a powerful REST API. This API allows developers to integrate Nuvla into third-party systems, script it and even use it as <em>Infrastructure as code (IaC)</em>. We have also put a lot of effort into the <a href="https://docs.nuvla.io"> Nuvla documentation</a>. Go and explore!
