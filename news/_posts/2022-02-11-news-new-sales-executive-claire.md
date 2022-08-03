@@ -10,7 +10,7 @@ co-author-mobile: +41 78 243 72 20
 
 **On 1 February 2022, Claire d’Herbomez took up her role as Sales Executive in Geneva, Switzerland.**
 
-The SixSq team is pleased to welcome [Claire d’Herbomez](https://www.linkedin.com/in/claire-d-herbomez-3a9a64116/) as Sales Executive. This announcement comes at an exciting time for the company, shortly after its [acquisition by the Ekinops group](https://sixsq.com/news/2021-11-02-news-ekinops-acquisition/). Claire’s arrival is part of the company’s strategy to provide added value to its customers while increasing its sales reach throughout Europe and worldwide.
+The SixSq team is pleased to welcome [Claire d’Herbomez](https://www.linkedin.com/in/claire-d-herbomez-3a9a64116/) as Sales Executive. This announcement comes at an exciting time for the company, shortly after its [acquisition by the Ekinops group](/news/2021-11-02-news-ekinops-acquisition/). Claire’s arrival is part of the company’s strategy to provide added value to its customers while increasing its sales reach throughout Europe and worldwide.
 
 Claire brings with her a wealth of experience, in particular a strong focus on customer relationships. She will work closely with the technical and management teams to offer customers the best solutions to their edge computing problems.
 

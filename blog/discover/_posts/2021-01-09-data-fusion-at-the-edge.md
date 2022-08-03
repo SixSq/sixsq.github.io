@@ -2,11 +2,6 @@
 title: Data fusion at the edge, killer apps for smart cities and more
 product-title: Data fusion at the edge, killer apps for smart cities and more
 image: data-fusion.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud 
 author: Marc-Elian Bégin
 ---
@@ -48,9 +43,9 @@ Many smart city apps will greatly benefit from being able to process audio and v
 
 Using a [management platform](https://nuvla.io/), edge devices can be remote controlled and updated "over the air". When combined with an app store (yes like Apple's App Store or Google Play Store), the management platform provides smart city operators the ability to constantly update, add and upgrade their fleet of apps running at the edge. This also allows operation teams to react to cyber attacks in order to deploy counter measures and update apps quickly, thus reducing the impact of such attacks.
 
-![Nuvla.io edge](/assets/img/blog/edge-1.png)
+![Nuvla edge](/assets/img/blog/edge-1.png)
 
-Nuvla.io edge architecture, with App Store and data fusion at the edge.
+Nuvla edge architecture, with App Store and data fusion at the edge.
 {: .caption }
 
 ### Data forensics as part of secure governance

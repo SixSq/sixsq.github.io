@@ -6,4 +6,5 @@ vendor
 .idea
 cljs-runtime
 manifest.edn
+.tm_properties
 

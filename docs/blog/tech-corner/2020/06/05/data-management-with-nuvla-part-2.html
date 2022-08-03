@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq | Blog | Governance for smart cities using edge computing and open data</title>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="SixSq | Blog | Data Management with Nuvla Part 2"/>
+    <meta property="og:image" content="https://sixsq.com/assets/img/blog/data-object-search.png"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html"/>
+    <!-- <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' /> -->
+    
+    <title>SixSq | Blog | Data Management with Nuvla Part 2Data Management with Nuvla Part 2</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,6 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a class="dropdown-item" href="/news">News</a>
                                         <a class="dropdown-item" href="/blog">Blog</a>
                                         <a class="dropdown-item" href="/videos">Videos</a>
+                                        <a class="dropdown-item" href="https://docs.nuvla.io">Documentation</a>
                                         <!-- <a class="dropdown-item" href="#">Webinar</a>
                                         <a class="dropdown-item" href="#">Edge Knowledge Base</a>
                                         <a class="dropdown-item" href="#">White papers</a> -->
@@ -86,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                       </div>
                                     </li>
                                 </ul>
-                                <a class="btn p-0" role="button" href="https://nuvla.io/" target="_blank"><img class="" style="width: 100px;" src="/assets/img/nuvla-io-white-on-red.png" alt="Nuvla.io logo"/></a>
+                                <a class="btn p-0" role="button" href="https://nuvla.io/" target="_blank"><img class="" style="width: 100px;" src="/assets/img/nuvla-io-white-on-red.png" alt="Nuvla logo"/></a>
                                 <input id="search-input" type="search">
                                 <div id="results-container">
                                   <ul id="search-results"></ul>
@@ -106,12 +115,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Governance for smart cities using edge computing and open data</h1>
+                <h1>Data Management with Nuvla Part 2</h1>
                 
                 <p></p>
-                <p>15 January 2021
+                <p>05 June 2020
                   
-                     | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
+                     | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
                      
                   </p>
                 
@@ -147,7 +156,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Governance for smart cities using edge computing and open data</span>
+      <a href="/blog/tech-corner">
+        <span>Tech Corner</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+        <span>Data management with nuvla part 2</span>
     </li>
     </li>
   </ol>
@@ -158,93 +173,159 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/governance-min.png">
-            <p><strong>Citizens and innovators increasingly demand open data, that anyone can access, use and share, to better understand how the city pulses and improve policy decisions.  An effective, secure, non-intrusive and flexible way of providing open data is to leverage edge computing. Edge computing provides a way to deploy realtime services, that avoid data intrusion issues, while enabling an evolutive approach for the city. However, in order to scale and deliver its full innovation potential, edge computing and open data must form the integral part of a governance policy. This blog explores some of the aspects such a governance policy must address and how.</strong></p>
+            <img class="full-image" src="/assets/img/blog/data-object-search.png">
+            <p>This is the second blog post in the series on <strong>Data management with <a href="https://nuvla.io/">Nuvla</a></strong>. Nuvla is an edge management platform as a service, designed to make it easy for you to manage, monitor, deploy and update your containerised apps and edge devices.</p>
 
-<h3 id="governance-for-what">Governance for what?</h3>
-<p>In previous blog post, we looked at the key drivers for adopting edge computing. In, another blog post, we explored how different sensors (e.g. audio and video) can be combined and reused at the edge.  Edge computing has the ability to transform raw data, such as audio and video streams, into information (e.g. “there’s an accident”) in real-time (here and now). Further, edge computing can produce trending information (e.g. traffic peak and averages, over time, by vehicle category), which can then be aggregated in the cloud (local/private or public) and published as open data. This open data can then be used by a range of users, both public and private, including organisations and citizens.</p>
+<p>Here we will show you how easily you or your customers can manage any data on S3 (store, register, search and download) either on Cloud or Edge using Nuvla.</p>
 
-<p>However, in order to ensure that only curated data is available as open data, robust and clear governance is required.</p>
+<h3 id="easy-handling-of-s3-objects-with-nuvla">Easy handling of S3 objects with Nuvla</h3>
 
-<p>Here are some of the areas a smart city governance policy should address to provide trusted open data and edge computing:</p>
+<p>In the first blog we covered at a high level the ways it is possible to register and use data on the Edge or Cloud with Nuvla. Here we will delve into the details and present a cool feature of Nuvla that greatly simplifies the building of your Edge and Cloud data catalogues and providing access to the data to any user.</p>
 
-<ul>
-  <li>Applications</li>
-  <li>Data</li>
-  <li>Access</li>
-  <li>Sensors</li>
-</ul>
+<p>But before we do that, here are the benefits of doing this with Nuvla:</p>
 
-<p>Let’s take a closer look at each of these items, and how governance can be achieved.</p>
+<ol>
+  <li>No S3 client is needed! Yes, that’s right.</li>
+  <li>No S3 credentials are shared with your users/customers for data upload and download.</li>
+  <li>Categorisation of your data with an arbitrary schema.</li>
+  <li>Reach and fast search over your data’s meta-data.</li>
+  <li>Nuvla application orchestrator leveraging the meta-data catalogue and starting applications where the data is and with the data attached.</li>
+</ol>
 
-<h4 id="applications">Applications</h4>
-<p>Edge management platforms, such as Nuvla.io, include the concept of an app store, from which operators of the edge infrastructure can deploy a range of applications. However, in a smart city context, it is paramount that only safe and secure applications are deployed on its edge infrastructure. Therefore, an application certification process must be put in place.</p>
-
-<p>Such an edge application policy could include, for example, that the application only communicates data to the city open data storage. Or that detected events are only sent to recognised authorities.  Another important point could be that apps don’t forward any data or information which intrudes into a citizen’s privacy.</p>
-
-<p>A pragmatic way to start upon an app certification processes could be to inspect and test each application. Once the app is certified, it can then be granted the appropriate rights, such that the smart city edge operator can deploy it.</p>
-
-<h4 id="data">Data</h4>
-<p>Another important aspect of governance should relate to the type of information transferred to the cloud and included as open data. For example, ensuring that only trend information, such as aggregated averages, minimum and maximum values over time, is good and simple start.  For traffic data this is how it could look like:</p>
-
-<p>min, max and average vehicle every 10 mins, for each measurement location, 
-categorisation of vehicles percentage of the same time period.
-What should not be included is any data that could identify an individual, either directly (e.g. voice or image) or indirectly (e.g. unique identifier that could be used to identify an individual over time).</p>
-
-<p>In our previous blog on data fusion, we explore how forensic data can be used to assist enquiries (e.g. video and audio stream of an accident), but to be clear, this type of data should never be confused with open data. Forensic data should be encrypted and only delivered to authorities able to decrypt it, and under strict conditions. The beauty of an edge management platform is that it allows all of this fine tuning to take place.</p>
-
-<h4 id="access">Access</h4>
-<p>Controlling who has access to the management functions of the system is also paramount. To this end, management platforms, such as Nuvla.io, have advanced authorisation features, ensuring only members of a given group are allowed to perform specific actions. It is therefore straightforward to configure the edge infrastructure devices to only be available to users in a certain group.</p>
-
-<p>Further, all important actions are logged, thus leaving an audit trail. This can then be used by any controlling authority to review what actions were performed, by whom and when.</p>
-
-<p>On the applications side, only certified application versions should be available to the group managing the edge infrastructure, such that only these are deployed and updated.</p>
-
-<h4 id="sensors">Sensors</h4>
-<p>What type of sensors can be used is another aspect an edge computing governance policy should consider. When correctly implemented, edge computing means sensors can be isolated. For example, if the only path to the network for a sensor is via the edge device it is attached to, it means it is not be able to reach out to unknown services on the wide area network. This means a wider range of sensors could be used safely, since any network route would end in the secure edge device.  And since we have fine control over how each edge device communicates, we can ensure that no backdoor is present. This can significantly reduce costs by widening the palette of sensors that can be deployed.</p>
-
-<p>Open Data exploitation
-Once the system is in place, users will be able to access clean, safe, valuable and reliable information, in the form of curated data, produced by fleets of edge devices.</p>
-
-<p>Looking at our traffic data example, this means that users would be able to query the open data system to extract trending information, such as:</p>
+<p>This translates into the following:</p>
 
 <ul>
-  <li>traffic highs and lows over days, during week days vs weekends, school holidays vs working days.</li>
-  <li>proportion of trucks vs cars vs bicycles vs pedestrians across the city to understand usage pattern.</li>
-  <li>impact on traffic across events such as accidents, road works or speed reduction experiments.</li>
+  <li>greatly simplifies your data management</li>
+  <li>provides a complete integration of your data across clouds and edge</li>
+  <li>removes hurdles and erases boundaries for data engineers and developers.</li>
 </ul>
 
-<p>This could be replicated for each and every data set gathered across the city. The transformative impact of having readily available data, refreshed constantly, is potentially significant. And as more data sets are added to the system, e.g. air quality measurements, noise level, light intensity and energy consumption, the better the understanding of all stakeholders.</p>
+<p>This is a holistic approach to management and processing of your data wherever it is. In other words, it creates a continuum between the cloud and the edge.</p>
 
-<h4 id="bringing-it-all-together">Bringing it all together</h4>
-<p>In this blog, we have sketched out an outline of what a smart city governance policy could look like, to ensure all stakeholders can reap the benefits of edge computing and open data, safely, and with sufficient agility to evolve with the city’s future needs.</p>
+<h3 id="register-s3-endpoint">Register S3 Endpoint</h3>
 
-<p>Adding a certification process to edge platforms such as Nuvla.io enhances the value of the <strong>app marketplace</strong>. This means application vendors could register edge (and cloud) applications, allowing cities to deploy these apps with confidence.  This is a powerful concept that will allow smart city operators and application developers to work together to improve services and innovate.</p>
+<p>As we will be working here with S3, we need to tell Nuvla the S3 endpoint and credentials. You can use any S3 endpoint as long as it has AWS S3 compliant API: e.g. <a href="https://min.io/">MinIO</a>, <a href="https://docs.ceph.com/en/latest/radosgw/">Ceph RadosGW</a>, etc., and it doesn’t matter whether it’s running at the Edge or in the Cloud.</p>
 
-<p>Our objective is for this post to be used as a trigger towards the elaboration of a governance policy that can be tested in real life, over a real edge infrastructure, in real-life conditions. Of course, if you are interested in this process, please get in touch.</p>
+<p>To add the S3 endpoint and credentials, use the <strong>Infrastructures</strong> and <strong>Credentials</strong> tabs in Nuvla.</p>
 
+<p>For more details see our documentation on management of <a href="https://docs.nuvla.io/nuvla/infrastructures">Infrastructure Services in Nuvla</a>.</p>
+
+<p>Here it’s how you can do this with our <a href="https://github.com/nuvla/python-library">Python API library</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from nuvla.api import Api as Nuvla
+from nuvla.api.resources.infra_service import (InfraServiceGroup,
+                                               InfraServiceS3,
+                                               CredentialS3)
+nuvla = Nuvla()
+
+nuvla.login('&lt;login params&gt;')
+
+group_id = InfraServiceGroup(nuvla).add('S3')
+
+infra_s3 = InfraServiceS3(nuvla).add('https://s3.endpoint', group_id , 'My S3')
+
+s3cred_id = CredentialS3('s3 key', 's3 secret', infra_s3, 'My S3 cred')
+</code></pre></div></div>
+
+<h3 id="upload-data-to-s3-and-register-it-in-nuvla">Upload data to S3 and Register it in Nuvla</h3>
+
+<p>Once your S3 endpoint is registered in Nuvla, you are ready to start uploading data to S3 and registering it with Nuvla.</p>
+
+<p>Here are the steps describing how this is done (any HTTP client can be used):</p>
+
+<ol>
+  <li>Create data-object record by providing S3 bucket, object path, and the ID of S3 credentials. This will return the ID of the new data-object resource.</li>
+  <li>Call the upload operation on it. This returns the S3 pre-signed upload URL.</li>
+  <li>Upload your object to S3 using the pre-signed upload URL from 2.</li>
+  <li>Set the object as ready by calling the ready operation.</li>
+</ol>
+
+<p>As you can see, this can easily be scripted or programmed in any language that has an HTTP library. The bucket will be created on S3 by Nuvla if it doesn’t exist when calling the upload operation (see step 2. above). Also, steps 1., 2. and 4. can be done using the Nuvla UI. Additionally, by setting the appropriate ACLs (Access Control List) you control who can see the object and what operation can be performed. Usually you set read-only ACLs for the user by forbidding the deletion of the object.</p>
+
+<p>In our Python API library we wrapped the above four actions into a single call for your convenience.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from nuvla.api.resources.data import DataObjectS3
+
+obj_id = DataObjectS3(nuvla).create(open('data/african-lion.jpg').read(), 'cloud.animals', 'africa/african-lion.jpg', s3_cred_id)
+</code></pre></div></div>
+
+<p>There are more options to the object creation available - like setting object content type, md5sum, tags, giving the object a friendly name in Nuvla, etc.</p>
+
+<p>More information can be found in our online documentation:</p>
+
+<p><a href="https://docs.nuvla.io/nuvla/advanced-usage/manage-data">Data management model</a> and <a href="https://docs.nuvla.io/tutorials/data/manage-data-with-api">Example on data management</a>.</p>
+
+<h3 id="search">Search</h3>
+
+<p>Nuvla has a powerful search API. Now, that your object is in S3 and registered in Nuvla, it can be found by searching <strong>data-object</strong> resources either directly through the API or the API section of the UI, as seen in the screenshot below.</p>
+
+<p>Because there is no need to search through objects’ meta-data directly on S3, the operation is extremely fast, leveraging Elasticsearch that is used by Nuvla under the hood.</p>
+
+<p><img src="/assets/img/blog/data-object-search.png" alt="data object search" /></p>
+
+<h3 id="download-no-s3-credentials-or-s3-client-needed">Download: No S3 credentials or S3 client needed</h3>
+<p>When the required object is found (see screenshot above; bucket and tags keys are used), the user can either:</p>
+
+<ul>
+  <li>request S3 pre-signed object download URL from Nuvla by clicking on the <strong>download</strong> button (see screenshot below), or</li>
+  <li>start an application requesting this object to be mounted to or already present in the container.</li>
+</ul>
+
+<p>This second - more powerful option - will be described in our next blog posts.</p>
+
+<p><img src="/assets/img/blog/data-object-download.png" alt="data object download" /></p>
+
+<p>As you can see, users with whom you’ve shared the access to the data-object in Nuvla, don’t have to possess credentials of your S3. And now downloading the file from S3 can be done with any HTTP client, as in the example below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ curl --output lion.jpg "https://sos-ch-gva-2.exo.io/cloud.animals/africa/african-lion.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20200531T220403Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=899&amp;X-Amz-Credential=EXOcc19d8afde0f4eac4675426a%2F20200531%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=f3817e96207fc2dae41da804fade1c490f44c49aa85a821656b7bc7166994517"
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+100 29191  100 29191    0     0   140k      0 --:--:-- --:--:-- --:--:--  139k
+
+$ ls lion.jpg
+
+lion.jpg
+</code></pre></div></div>
+
+<h3 id="next-steps">Next steps</h3>
+<p>In this blog, we’ve covered a very cool feature of Nuvla that allows you to:</p>
+
+<ul>
+  <li>store, search, and download your data to/on/from S3;</li>
+  <li>share data with your users/clients without giving them credentials of your S3;</li>
+  <li>and you don’t need an S3 client neither for object upload nor download.</li>
+</ul>
+
+<p>In the next blog post on this topic, we will cover in details data-records.</p>
+
+<p>While, as you could already see, tags on data-object gives a sense of meta-data that can be used for object identification, data-record is specifically designed to be your object’s meta-data store. After that we will demonstrate how to start your container application on a set of data using Nuvla’s data-set. We will finish by describing how all this works in the GNSS Big Data project, where Nuvla is at the heart of the distributed platform for GNSS data collection and processing at the Edge and in the Cloud.</p>
+
+<p>Follow us on <a href="https://www.linkedin.com/company/sixsq/">LinkedIn</a> or <a href="https://twitter.com/sixsq">Twitter</a> to make sure don’t miss when the next blog is published!</p>
 
             
             <br/>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Governance for smart cities using edge computing and open data&body=https://new-website.sixsq.ch/blog/discover/2021/01/15/blog-governance-for-smart-cities-using-edge-computing-and-open-data.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla Part 2&body=https://sixsq.com/blog/tech-corner/2020/06/05/data-management-with-nuvla-part-2.html" title="email">
         <span>Email</span>
     </a>
 </div>
@@ -262,12 +343,29 @@ Once the system is in place, users will be able to access clean, safe, valuable 
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
         <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
@@ -289,26 +387,9 @@ You can find many, many smart cities that share a commo...</p>
 </div>
 
                     
-                      <div class="col-lg-4">
-    <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
-        
-        <p class="activities-date">17 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
-        
-        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
-        
-        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
-
-A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
-    </div>
-</div>
-
-                    
                 </div>
                 <div class="text-center pt-3">
-                    <a class="btn btn-primary" role="button" href="https://new-website.sixsq.ch/blog">Read all blog posts</a>
+                    <a class="btn btn-primary" role="button" href="https://sixsq.com/blog">Read all blog posts</a>
                 </div>
             </div>
         </div>
@@ -318,7 +399,7 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
     <div class="container">
         <div class="row">
             <div class="col-lg-5 align-self-center cta-title">
-                <h2 class="text-light">Start your own journey to the edge with Nuvla.io</h2>
+                <h2 class="text-light">Start your own journey to the edge with Nuvla</h2>
             </div>
             <div class="col-lg-7 align-self-center cta-wrapper">
               <a class="btn btn-secondary" role="button" href="https://nuvla.io/ui/sign-up" target="_blank">Start your free trial</a>
@@ -345,7 +426,8 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
 
 <script src="/assets/js/Header.js"></script>
 
-<script src="/assets/js/nuvla-app.js"></script>
+
+
 
 <!-- Async HubSpot Analytics Code -->
 <script type="text/javascript">
@@ -363,7 +445,7 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
-    json: 'https://new-website.sixsq.ch/search.json',
+    json: 'https://sixsq.com/search.json',
   })
 </script>
 

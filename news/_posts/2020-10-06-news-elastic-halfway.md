@@ -20,7 +20,7 @@ Software engineers among you may want to take a look at the [ELASTIC GitLab repo
 
 **About ELASTIC**
 
-[ELASTIC](https://sixsq.com/r-and-d/elastic) is a European-funded project under the grant agreement number 825473, with a budget of €5.9 million. The project started on 1 December 2018 and lasts for 3 years. Coordinated by [BSC](https://www.bsc.es/), the project brings together a multidisciplinary consortium of stakeholders from smart mobility and research domain sectors: 
+[ELASTIC](/rd/elastic) is a European-funded project under the grant agreement number 825473, with a budget of €5.9 million. The project started on 1 December 2018 and lasts for 3 years. Coordinated by [BSC](https://www.bsc.es/), the project brings together a multidisciplinary consortium of stakeholders from smart mobility and research domain sectors: 
 - Barcelona Supercomputing Center (Spain)
 - Ikerlan (Spain)
 - Instituto Superior da Engenharia do Porto (Portugal)
@@ -33,5 +33,4 @@ Software engineers among you may want to take a look at the [ELASTIC GitLab repo
 
 **Funding:** The ELASTIC project has received funding from the European Union’s Horizon 2020 research and innovation programme under the grant agreement Nº 825473.
 
-For a bit of background reading on edge and cloud computing, take a look at our [blog](https://media.sixsq.com/blog) page.
-
+For a bit of background reading on edge and cloud computing, take a look at our [blog](/blog) page.

@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>SixSq | Blog | What is edge computing?</title>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="SixSq | Blog | Data Management with Nuvla Part 3"/>
+    <meta property="og:image" content="https://sixsq.com/assets/img/blog/edge-to-cloud-big-data.png"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html"/>
+    <!-- <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' /> -->
+    
+    <title>SixSq | Blog | Data Management with Nuvla Part 3Data Management with Nuvla Part 3</title>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -68,6 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a class="dropdown-item" href="/news">News</a>
                                         <a class="dropdown-item" href="/blog">Blog</a>
                                         <a class="dropdown-item" href="/videos">Videos</a>
+                                        <a class="dropdown-item" href="https://docs.nuvla.io">Documentation</a>
                                         <!-- <a class="dropdown-item" href="#">Webinar</a>
                                         <a class="dropdown-item" href="#">Edge Knowledge Base</a>
                                         <a class="dropdown-item" href="#">White papers</a> -->
@@ -86,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                       </div>
                                     </li>
                                 </ul>
-                                <a class="btn p-0" role="button" href="https://nuvla.io/" target="_blank"><img class="" style="width: 100px;" src="/assets/img/nuvla-io-white-on-red.png" alt="Nuvla.io logo"/></a>
+                                <a class="btn p-0" role="button" href="https://nuvla.io/" target="_blank"><img class="" style="width: 100px;" src="/assets/img/nuvla-io-white-on-red.png" alt="Nuvla logo"/></a>
                                 <input id="search-input" type="search">
                                 <div id="results-container">
                                   <ul id="search-results"></ul>
@@ -106,12 +115,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>What is edge computing?</h1>
+                <h1>Data Management with Nuvla Part 3</h1>
                 
                 <p></p>
-                <p>08 November 2019
+                <p>11 August 2020
                   
-                     | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
+                     | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
                      
                   </p>
                 
@@ -147,7 +156,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>What is edge computing?</span>
+      <a href="/blog/tech-corner">
+        <span>Tech Corner</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+        <span>Data management with nuvla part 3</span>
     </li>
     </li>
   </ol>
@@ -158,70 +173,121 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/data-fusion.png">
-            <p><strong>Edge Computing is one of the latest buzz expressions in the ICT world, along with IoT, big data and artificial intelligence.</strong></p>
+            <img class="full-image" src="/assets/img/blog/edge-to-cloud-big-data.png">
+            <h4 id="implementing-a-successful-edge-computing-strategy-requires-close-cooperation-between-software-developers-and-it-operations--adopting-devops-principles-is-therefore-the-natural-way-to-go-in-this-blog-we-explore-how-the-nuvla-application-management-platform-enables-you-to-extend-your-devops-workflow-to-the-edge">Implementing a successful edge computing strategy requires close cooperation between software developers and IT operations.  Adopting DevOps principles is therefore the natural way to go. In this blog, we explore how the Nuvla application management platform enables you to extend your DevOps workflow to the edge.</h4>
 
-<h3 id="what-is-edge-computing">WHAT IS EDGE COMPUTING?</h3>
+<h2 id="benefits-of-devops">Benefits of DevOps</h2>
 
-<p>Edge computing refers to providing data processing power at the edge of a network, near where the data is produced and collected, as opposed to transferring the raw data to the cloud, or a central data warehouse, for processing. “So what?” you may well ask. “Why do we need yet more ways for processing and storing data?” or “Why not let all the sensors send their data over the network to a cloud?” The fact is that a lot of data is produced at the edge, and this trend is predicted to massively accelerate.  Furthermore, even if you could send all of this data reliably AND securely to a cloud, in many cases this data would lose its value by taking too long to be processed.  In some cases this is not important, but in others it is critical. If you want to know whether someone is hacking a critical infrastructure, or want to adjust light intensity to improve the safety of motorists, you need the most up-to-date information. Waiting for the data to make its way back to a cloud or data centre for analysis is likely not to be good enough or safe enough.</p>
+<p>DevOps is not a new concept. Far from it. For a little over ten years now, this endearing set of best practices has been making its way into every software development and IT operations team worthy of its name.</p>
 
-<p>Edge computing can take the form of micro data centres or small machines placed in remote locations, or at the edge of the network, to provide real-time insights into data. It then acts as an aggregator or a gateway when operated in conjunction with wireless sensor networks, high-definition audio or video equipment and so on.</p>
+<p>In fact, a <a href="https://cloud.google.com/devops/state-of-devops/">DevOps report from 2019</a> studied and gathered statistics on how this set of Agile practices makes a difference between teams who adopt it and those who don’t:</p>
 
-<p>In a nutshell, <strong>edge computing enables the transformation of data into information, at the edge</strong>. The benefits are considerable:</p>
+<p><img src="/assets/img/blog/devopsstats.png" alt="devops stats" /></p>
+
+<p>In short, teams who adopt DevOps are in general more productive, deliver more reliable products, and do all of that much faster.</p>
+
+<h2 id="continuous-integration--delivery-is-key">Continuous Integration &amp; Delivery is key</h2>
+
+<p>One of the biggest DevOps tactics is called CI/CD, which stands for Continuous Integration and Continuous Delivery/Deployment. Its purpose is to integrate a trustworthy and automated chain of testing marks into the Agile development process.</p>
+
+<p>For the sake of simplicity, let’s take the following DevOps workflow:</p>
+
+<p><img src="/assets/img/blog/devops2.jpeg" alt="devops" /></p>
+
+<p>The Continuous Integration phase consists of everything from planning to coding, building and testing (pretty much the left part of the diagram above). This is where all the automated tests are executed against every new code change, and where your software is compiled and/or built.</p>
+
+<p>Continuous Delivery/Deployment comes after that, by releasing the committed software, and in some cases, deploying it into a QA environment for validation (for example for Canary deployments).</p>
+
+<h2 id="what-does-nuvla-have-to-do-with-all-of-this">What does Nuvla have to do with all of this?</h2>
+
+<p>Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla can help. To get started with Nuvla you only need to:</p>
 
 <ul>
-  <li>Access all of the data, without network limitation</li>
-  <li>Provide a new line of defence against cyber attacks</li>
-  <li>Improve responsiveness of systems, taking advantage of local decision-making capabilities</li>
-  <li>Anonymise data during the transformation process, avoiding data privacy issues</li>
-  <li>Massively reduce network usage, since only processed and valuable information is transferred from the edge to the cloud and back</li>
-  <li>Reduce costs in operations and centralise resource needs</li>
+  <li>register with Nuvla and set up your environment</li>
+  <li>prepare your edge device by installing the NuvlaEdge software</li>
+  <li>add your containerised app to Nuvla</li>
 </ul>
 
-<p>Now let’s look at a few concrete applications of edge computing.</p>
+<p>Our <a href="https://docs.nuvla.io/">documentation</a> will support you along the way. And if you hit a snag, simply reach out to us via the little blue widget on the bottom right of any of our websites.</p>
 
-<h3 id="examples-of-edge-computing">Examples of Edge Computing</h3>
+<h2 id="developers-read-on-️">Developers, read on ⬇️</h2>
 
-<h4 id="mobility">Mobility</h4>
-<p>Next generation systems, embedded with high density connected components, promise to be an enormous source of data. For example, the C-Series, the latest airplane by Bombardier, could be producing over 844 TB of data per 12 hours flight.  Clearly, airlines operating fleets of this type of craft will be faced with a deluge of data.</p>
+<p>Well, DevOps without tooling would be quite complicated. You’ll easily find a plethora of tools for each step of the DevOps process: Issue Trackers and Scrum Boards for planning (like JIRA), IDEs for coding (like IntelliJ), Source Code Management systems for tracking changes (like GitHub), Continuous Testing applications for testing code changes (like Jenkins and GitHub CI), Continuous Deployment tools for automatic provisioning (like ArgoCD), etc.</p>
 
-<p>It is not realistic, nor sensible, to transfer, store and process this much data.  Analysis applications need structured information instead, in order to predict important events and derive significant trends.  This information, using edge computing, could be produced from the raw data, closer to the components or system generating the data. In this example of the C-Series, the aircraft itself is probably the right place to perform this type of data transformation.</p>
+<p>So, if you think about it, since Nuvla is basically an application management platform with orchestration capabilities for Docker and Kubernetes environments, why not use it for Continuous Deployment?</p>
 
-<p>Closer to the ground, tramway systems can leverage data from sensors along the route to improve safety and service for commuters. Take a look at the work of the <a href="https://elastic-project.eu/">ELASTIC</a> project to get an idea of what can be done.  The software architecture is being tested in the city of Florence, Italy, and equips tram vehicles with V2X communication and a variety of detectors aimed at improving traffic management, allowing predictive maintenance and enhancing the tramway operation.</p>
+<p><img src="/assets/img/blog/nuvlacicd.png" alt="cicd" /></p>
 
-<h4 id="smart-public-lighting">Smart Public Lighting</h4>
-<p>Another example of smart use of data at the edge is the ability to control street lighting based on traffic level.  Here, light intensity is adjusted in real time, based on the volume of traffic passing. This not only ensures safety for motorists and pedestrians, it also offers a huge opportunity to municipalities and transport ministries to reduce energy bills and meet environmental targets. If you would like to read more about this example, take a look at our City Use Case page.</p>
+<p>So let’s say you plan for a new feature. An awesome one by the way. First, you develop it. Your code looks neat and tidy, so you commit it. When you commit, your continuous tests will be triggered, and they’ll run all the unit and integration tests to validate that your feature is working properly. And it is, so congrats! Upon this successful step, you will also have another action that will build and push your new code as an artefact (let’s say your final artefact is a Docker Image in Docker Hub). Finally, you want to roll out this new feature to all of your ongoing deployments (be it QA or production). So instead of doing this roll-out manually, why not simply trigger a new continuous action, that will use Nuvla’s REST API to deploy your new application (that is registered in your Nuvla App Store) into your infrastructures (also registered in Nuvla)?</p>
 
-<h4 id="retail">Retail</h4>
-<p>Retail stores are struggling to keep up with on-line commerce. To close the gap between e-commerce analytics and in-store analytics, stores can implement an edge computing strategy. By using video analytics software, including AI, for facial recognition, such a solution could provide a near real-time notification mechanism to alert store staff when opted-in customers enter the store. This could provide customers with the personalised shopping experience they are looking for. In addition, real-time, anonymised behaviour analytics can give store managers a deeper understanding of customer behaviour and provide date to improve store layout etc.  Take a look at our retail use case for a deeper understanding.</p>
+<p>This will give you transparent and infrastructure-agnostic deployments in any compute infrastructure (at the edge or in the cloud), plus you’ll be able to then operate and monitor the lifecycle of your deployments from the Nuvla platform!</p>
 
-<h3 id="edge-computing-at-sixsq">Edge Computing at SixSq</h3>
+<h2 id="example-of-cd-using-nuvla">Example of CD using Nuvla</h2>
 
-<p>Coming from a cloud computing background, we have long realised that the benefits of cloud computing could be miniaturised into a platform now called edge computing.  Our NuvlaBox is a hyperconverged solution delivering a generic solution to implement edge computing.  The example above on smart lighting is our latest fully integrated solution developed in partnership with Schréder.  Our direction of travel will lead us to more miniaturisation to enable further smart city and Industry 4.0.  Keep posted!</p>
+<p>To help you integrate Nuvla into your CI/CD pipeline, we at SixSq have built a GitHub Action that you can use to automatically deploy an app from Nuvla into an infrastructure.</p>
 
-<p>If you have any comments or questions about this topic, don’t hesitate to get in touch with the SixSq team.</p>
+<p>This GitHub Action is called Nuvla Application Deployer and is available in the GitHub marketplace at <a href="https://github.com/marketplace/actions/nuvla-application-deployer">https://github.com/marketplace/actions/nuvla-application-deployer</a>.</p>
+
+<p>To use it, simply make sure your GitHub repositories has the GitHub Actions enabled. In your GitHub Actions Workflow, you can use our Nuvla Application Deployer as a job. Something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Jobs: continuous-deployment: 
+
+runs-on: ubuntu-latest
+name: Deploy application from Nuvla steps: 
+
+- name: Deploy
+id: deploy
+uses: nuvla/nuvla-deploy-app-action@v1 with: 
+
+api-key: $ api-secret: $ module-id: 'module/&lt;uuid&gt;'
+credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&lt;uuid&gt;' 
+</code></pre></div></div>
+
+<h1 id="use-the-output">Use the output</h1>
+<ul>
+  <li>name: Get the output</li>
+</ul>
+
+<p>run: echo “The output was $”</p>
+
+<p>Looks quite straightforward, right? Just to make sure it’s all clear, let’s go through each action input:</p>
+
+<ul>
+  <li>api-key and api-secret: to manage resources in Nuvla, you need to be <a href="https://nuvla.io/ui/sign-up">registered as a user</a>. This GitHub Action will perform an operation on your behalf, so it needs a valid credential for login</li>
+  <li>module-id: you are trying to deploy an application that you, or someone else, have previously registered in Nuvla. If you click on this application, you’ll find an underlying module ID that the GitHub Action will need in order to know which app to deploy.</li>
+  <li>credential-id: Nuvla speaks with infrastructures via their secure API (Docker or Kubernetes). This means all of your infrastructures in Nuvla should have at least one Container Orchestration Engine Credential associated with it. This ID will tell GitHub Action which credential to use when deploying your app in the infrastructure. You can find this credential from the Credentials page in Nuvla.</li>
+  <li>environment: finally, this optional input lets you define environment variables for your application. Assuming your Nuvla app has been configured to accept these variables, all you need to do is to provide them to the GitHub Action, as a comma-separated string, making sure the variable names match with the ones in the corresponding Nuvla application.</li>
+</ul>
+
+<p>If the action fails, it will try to auto-clean whatever deployments have been started, otherwise, on success, it will output the ID of your deployment, which you can capture via the workflow variable:</p>
+
+<p>steps.test.outputs.DEPLOYMENT_ID</p>
+
+<p>Now you can manage the lifecycle of your edge applications much more easily.</p>
+
+<p>Continuous Deployment is just one of the many benefits of using Nuvla.  There are several ways you can dig deeper, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don’t hesitate to get in touch.</p>
 
             
             <br/>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | What is edge computing?&body=https://new-website.sixsq.ch/blog/discover/2019/11/08/blog-what-is-edge-computing.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla Part 3&body=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html" title="email">
         <span>Email</span>
     </a>
 </div>
@@ -239,12 +305,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="activities-image-wrapper"><img src="/assets/img/blog/hold-all-the-cards.jpg"></div>
         
         <p class="activities-date">24 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Privacy intrusion</a></p>
         
         <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
         
         <p class="activities-description">In poker rooms around the world, players keep their cards close. It’s the only way to avoid prying eyes. There’s an important lesson here for organ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/blog-edge-computing-hold-all-the-cards.html">Read blog</a>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/24/edge-computing-hold-all-the-cards.html">Read blog</a>
+    </div>
+</div>
+
+                    
+                      <div class="col-lg-4">
+    <div class="shadow">
+        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
+        
+        <p class="activities-date">17 May 2022</p>
+        <p class="activities-title"><a href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
+        
+        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
+        
+        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
+
+A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
+        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/taking-off-with-edge-computing.html">Read blog</a>
     </div>
 </div>
 
@@ -266,26 +349,9 @@ You can find many, many smart cities that share a commo...</p>
 </div>
 
                     
-                      <div class="col-lg-4">
-    <div class="shadow">
-        <div class="activities-image-wrapper"><img src="/assets/img/blog/featured-image-blog-wings.jpg"></div>
-        
-        <p class="activities-date">17 May 2022</p>
-        <p class="activities-title"><a href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Taking off with edge computing? Don't clip your own wings</a></p>
-        
-        <p class="blog-author">By&nbsp;<a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a></p>
-        
-        <p class="activities-description">Considering an edge solution? Read on for tips and potential pitfalls.
-
-A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...</p>
-        <a class="btn btn-link" role="button" href="/blog/discover/2022/05/17/blog-taking-off-with-edge-computing.html">Read blog</a>
-    </div>
-</div>
-
-                    
                 </div>
                 <div class="text-center pt-3">
-                    <a class="btn btn-primary" role="button" href="https://new-website.sixsq.ch/blog">Read all blog posts</a>
+                    <a class="btn btn-primary" role="button" href="https://sixsq.com/blog">Read all blog posts</a>
                 </div>
             </div>
         </div>
@@ -295,7 +361,7 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
     <div class="container">
         <div class="row">
             <div class="col-lg-5 align-self-center cta-title">
-                <h2 class="text-light">Start your own journey to the edge with Nuvla.io</h2>
+                <h2 class="text-light">Start your own journey to the edge with Nuvla</h2>
             </div>
             <div class="col-lg-7 align-self-center cta-wrapper">
               <a class="btn btn-secondary" role="button" href="https://nuvla.io/ui/sign-up" target="_blank">Start your free trial</a>
@@ -322,7 +388,8 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
 
 <script src="/assets/js/Header.js"></script>
 
-<script src="/assets/js/nuvla-app.js"></script>
+
+
 
 <!-- Async HubSpot Analytics Code -->
 <script type="text/javascript">
@@ -340,7 +407,7 @@ A pilot entering cloudy, turbulent skies is effectively flying blind. It’s ...
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
-    json: 'https://new-website.sixsq.ch/search.json',
+    json: 'https://sixsq.com/search.json',
   })
 </script>
 

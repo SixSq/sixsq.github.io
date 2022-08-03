@@ -16,7 +16,7 @@ This 3-year project will take a multidisciplinary approach to support the financ
 
 **SixSq's role in the project** 
 
-A marketplace platform will support the interactions among involved stakeholders, with the digital infrastructure relying on SixSq's [Nuvla.io](https://nuvla.io/) edge-to-cloud platform and marketplace.
+A marketplace platform will support the interactions among involved stakeholders, with the digital infrastructure relying on SixSq's [Nuvla](https://nuvla.io/) edge-to-cloud platform and marketplace.
 
 
 **Funding** 

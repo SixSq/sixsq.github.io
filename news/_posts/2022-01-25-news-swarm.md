@@ -10,7 +10,7 @@ Decentralisation, decarbonisation and changing consumer patterns are disrupting 
 
 The SWARM project aims to provide new services which will allow users to become active participants, thus becoming direct beneficiaries of a liberalised energy market. A Smart Energy Management Appliance in households will provide not only supply and usage prediction, but also the ability to trade energy and flexibility.
 
-A marketplace platform will support the interactions among involved stakeholders, with the digital infrastructure relying on SixSq’s [Nuvla.io](https://nuvla.io/) edge-to-cloud platform and marketplace.
+A marketplace platform will support the interactions among involved stakeholders, with the digital infrastructure relying on SixSq’s [Nuvla](https://nuvla.io/) edge-to-cloud platform and marketplace.
 
 This 3-year project will take a multidisciplinary approach to support the financial and technical interactions taking place between stakeholders. The solution will be tested in field trials in Switzerland and Sweden, with a view to developing a commercially viable product.
 

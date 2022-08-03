@@ -1,18 +1,13 @@
 ---
 title: What makes a smart city even smarter? Shared edge infrastructure
 image: shared_infrastructure.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud
 author: Marc-Elian Bégin
 ---
 
 #### Create a future-proof solution for your smart city by implementing a shared infrastructure
 
-You can find many, many [smart cities](https://media.sixsq.com/blog/what-is-a-smart-city) that share a common architecture. They have one or many sensors producing data. And this data needs to be processed in real time to provide insights, either to take action or to predict trends.
+You can find many, many smart cities that share a common architecture. They have one or many sensors producing data. And this data needs to be processed in real time to provide insights, either to take action or to predict trends.
 
 Let me introduce you to the fascinating work we’re doing in the Swiss city of Geneva, partnering with [Securaxis](https://securaxis.com/), who provide sound analytics for smart cities, [HEPIA](https://www.hesge.ch/hepia/), Geneva’s university of landscape, engineering and architecture, and HEG, the city’s school of business administration. In the context of the [MEDInA](https://www.hesge.ch/hepia/recherche-developpement/projets-recherche/en-cours/medina) project, we’re using the Securaxis SONAL machine learning app to measure sound so we can monitor and categorise traffic. We’re also using cameras and more machine learning from [HEG](https://www.hesge.ch/heg/) to understand traffic lanes. Combined, this provides valuable real-time insights into traffic flow and helps to control street lighting to provide safer streets while saving energy.
 

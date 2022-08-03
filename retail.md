@@ -2,7 +2,7 @@
 layout: retail
 title: Retail
 product-title: Retail
-product-description: Learn how Nuvla.io enables retailers to take data-driven decisions.
+product-description: Learn how Nuvla enables retailers to take data-driven decisions.
 product-background-img: bg-hero-retail.jpg
 product-next-text: How Nuvla works in Retail
 product-next-target: overview

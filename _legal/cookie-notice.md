@@ -1,5 +1,6 @@
 ---
 title: SixSq Websites Cookie Notice
+product-title: SixSq Websites Cookie Notice
 product-description: This Cookie Notice describes how we SixSq Sarl (SixSq or we) use cookies and similar tracking technologies on our websites to collect certain visitor information automatically. It also explains how you can accept or refuse the cookies we serve.
 image: icon-cookie.svg
 ---

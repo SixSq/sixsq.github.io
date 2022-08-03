@@ -2,11 +2,6 @@
 title: Governance for smart cities using edge computing and open data
 product-title: Governance for smart cities using edge computing and open data
 image: governance-min.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud
 author: Marc-Elian Bégin
 ---
@@ -28,7 +23,7 @@ Here are some of the areas a smart city governance policy should address to prov
 Let's take a closer look at each of these items, and how governance can be achieved.
 
 #### Applications
-Edge management platforms, such as Nuvla.io, include the concept of an app store, from which operators of the edge infrastructure can deploy a range of applications. However, in a smart city context, it is paramount that only safe and secure applications are deployed on its edge infrastructure. Therefore, an application certification process must be put in place.
+Edge management platforms, such as Nuvla, include the concept of an app store, from which operators of the edge infrastructure can deploy a range of applications. However, in a smart city context, it is paramount that only safe and secure applications are deployed on its edge infrastructure. Therefore, an application certification process must be put in place.
 
 Such an edge application policy could include, for example, that the application only communicates data to the city open data storage. Or that detected events are only sent to recognised authorities.  Another important point could be that apps don't forward any data or information which intrudes into a citizen's privacy.
 
@@ -44,7 +39,7 @@ What should not be included is any data that could identify an individual, eithe
 In our previous blog on data fusion, we explore how forensic data can be used to assist enquiries (e.g. video and audio stream of an accident), but to be clear, this type of data should never be confused with open data. Forensic data should be encrypted and only delivered to authorities able to decrypt it, and under strict conditions. The beauty of an edge management platform is that it allows all of this fine tuning to take place.
 
 #### Access
-Controlling who has access to the management functions of the system is also paramount. To this end, management platforms, such as Nuvla.io, have advanced authorisation features, ensuring only members of a given group are allowed to perform specific actions. It is therefore straightforward to configure the edge infrastructure devices to only be available to users in a certain group.
+Controlling who has access to the management functions of the system is also paramount. To this end, management platforms, such as Nuvla, have advanced authorisation features, ensuring only members of a given group are allowed to perform specific actions. It is therefore straightforward to configure the edge infrastructure devices to only be available to users in a certain group.
 
 Further, all important actions are logged, thus leaving an audit trail. This can then be used by any controlling authority to review what actions were performed, by whom and when.
 
@@ -67,7 +62,7 @@ This could be replicated for each and every data set gathered across the city. T
 #### Bringing it all together
 In this blog, we have sketched out an outline of what a smart city governance policy could look like, to ensure all stakeholders can reap the benefits of edge computing and open data, safely, and with sufficient agility to evolve with the city's future needs.
 
-Adding a certification process to edge platforms such as Nuvla.io enhances the value of the **app marketplace**. This means application vendors could register edge (and cloud) applications, allowing cities to deploy these apps with confidence.  This is a powerful concept that will allow smart city operators and application developers to work together to improve services and innovate.
+Adding a certification process to edge platforms such as Nuvla enhances the value of the **app marketplace**. This means application vendors could register edge (and cloud) applications, allowing cities to deploy these apps with confidence.  This is a powerful concept that will allow smart city operators and application developers to work together to improve services and innovate.
 
 Our objective is for this post to be used as a trigger towards the elaboration of a governance policy that can be tested in real life, over a real edge infrastructure, in real-life conditions. Of course, if you are interested in this process, please get in touch.
 

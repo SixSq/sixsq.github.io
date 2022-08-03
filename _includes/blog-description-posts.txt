@@ -1,1 +1,1 @@
-This blog dives into technical aspects of edge computing and particularly how Nuvla.io and NuvleEdge can help address challenges at the edge. Written by SixSq developers and friends, this blog gives you direct insights into our software and services.
+This blog dives into technical aspects of edge computing and particularly how Nuvla and NuvlaEdge can help address challenges at the edge. Written by SixSq developers and friends, this blog gives you direct insights into our software and services.

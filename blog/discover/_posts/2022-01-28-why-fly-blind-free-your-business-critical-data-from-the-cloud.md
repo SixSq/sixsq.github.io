@@ -2,11 +2,6 @@
 title: Why fly blind? Free your business-critical data from the cloud today
 product-title: Why fly blind? Free your business-critical data from the cloud today
 image: airplane-in-storm-min.png
-breadcrumbs:
- - name: Home
-   target: /
- - name: Blog
-   target: /blog
 tags: edge cloud
 author: Marc-Elian Bégin
 ---
@@ -43,6 +38,6 @@ Processing raw data near its source is arguably the No.1 benefit of edge computi
 
 If you’d like to dive deeper into this, please see one of my other blogs – Making the case for edge computing. And in a future blog, I will demystify the key features to look for in an edge-to-cloud solution so you remain lock-in free and future proofed.
 
-The examples provided in this blog are already deployed by SixSq, an [Ekinops](https://www.ekinops.com/) company, using our [Nuvla.io](https://nuvla.io/) edge-to-cloud management platform.
+The examples provided in this blog are already deployed by SixSq, an [Ekinops](https://www.ekinops.com/) company, using our [Nuvla](https://nuvla.io/) edge-to-cloud management platform.
 
 Today there’s no need to fly blind. Whether you’re about to embrace the cloud or you’re there already, now is a great time to add edge computing to your mix. For help with your journey to the edge, please get in touch. You can count on our goal-oriented advice.

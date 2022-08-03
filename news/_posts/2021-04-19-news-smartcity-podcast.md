@@ -8,7 +8,7 @@ image: smartandsustainablecitypodcast.png
 
 SixSq CEO Marc Elian Bégin had the great pleasure to talk to smart city advisor [Pierre Mirlesse](https://www.linkedin.com/in/pierremirlesse/) for the Smart and Sustainable City podcast. This highly-rated series features interviews with women and men who strive to make cities a better place for residents, citizens and visitors.
 
-In this episode, Pierre and Marc-Elian discuss cloud and [edge computing](https://media.sixsq.com/blog/what-is-edge-computing), and the war between public and private infrastructure. They also cover the evolution of technologies which enable cities to become smarter, in detecting & responding to events, and even in developing an analytics & forensic capability similar to the black boxes which can be found on planes. Where does Artificial Intelligence fit with all this? What’s the advantage of processing the data near its source? What about [data fusion](https://media.sixsq.com/blog/data-fusion-at-the-edge)? Listen to find out.
+In this episode, Pierre and Marc-Elian discuss cloud and [edge computing](/blog/discover/2019/11/08/what-is-edge-computing), and the war between public and private infrastructure. They also cover the evolution of technologies which enable cities to become smarter, in detecting & responding to events, and even in developing an analytics & forensic capability similar to the black boxes which can be found on planes. Where does Artificial Intelligence fit with all this? What’s the advantage of processing the data near its source? What about [data fusion](/blog/discover/2021/01/09/data-fusion-at-the-edge)? Listen to find out.
 
 **How to listen**
 
