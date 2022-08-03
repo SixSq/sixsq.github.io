@@ -65,12 +65,10 @@ npx shadow-cljs pom
 
 ## Release
 
-The `watch` process we started is all about development. It injects the code required for the REPL and the all other devtools but we do not want any of that when putting the code into "production" (ie. making it available publicly).
+The `watch` process we started is all about development. It injects the code required for the REPL and the all other devtools but we do not want any of that when putting the code into "production" (ie. making it available publicly). Use `CTRL+C` to stop the `watch` process.
 
-The `release` action will remove all development code and run the code through the Closure Compiler to produce a minified `nuvla-app.js` file. Since that will overwrite the file created by the `watch` we first need to stop that.
+The `release` action will remove all development code and run the code through the Closure Compiler to produce a minified `nuvla-app.js` file placed in `/assets/js/` folder. 
 
-Use `CTRL+C` to stop the `watch` process and instead run `npx shadow-cljs release app`.
-
-When done you can open `http://localhost:8020` and see the `release` build in action. At this point you would usually copy the `public` directory to the "production" web server.
-
-Note that in the default config we overwrote the `public/js/main.js` created by the `watch`. You can also configure a different path to use for release builds but writing the output to the same file means we do not have to change the `index.html` and test everything as is.
+```txt
+npx shadow-cljs release app
+```
