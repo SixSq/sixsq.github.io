@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-product-title: Leader in Edge Computing B2B SaaS
+product-title: Leader in Edge Computing B2B platform as a service
 product-description: We deliver a future proof, application centric, cloud neutral and hardware agnostic platform, as a Service.
 product-next-text: Discover our solutions
 product-next-target: solutions
