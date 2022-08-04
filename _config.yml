@@ -55,6 +55,8 @@ collections:
   platform:
     output: false
   casestudies:
+    output: true
+  casestudies-benefits:
     output: false
   jobs:
     output: true
@@ -137,30 +139,24 @@ defaults:
       category: "feature"
   -
     scope:
-      path: "*/manufacturing"
-      type: "casestudies"
+      path: ""
+      type: casestudies
     values:
-      category: "manufacturing"
-  -
-    scope:
-      path: "*/retail"
-      type: "casestudies"
-    values:
-      category: "retail"
-  -
-    scope:
-      path: "*/transport"
-      type: "casestudies"
-    values:
-      category: "transport"
+      product-name: Case study
+      category: casestudy
+      breadcrumbs:
+       - name: Home
+         target: /
+       - name: Case Studies
+         target: /case-studies
   -
     scope:
       path: ""
       type: jobs
     values:
       layout: job
-      product-title: Join Our Amazing Team and help deliver the Edge-to-Cloud Computing Revolution
-      product-description: Our people are our most precious asset. Do you have what it takes to be part of the adventure?
+      category: job
+      product-name: Job
       product-background-img: bg-hero-jobs.jpg
       without-trial: true
       breadcrumbs:
