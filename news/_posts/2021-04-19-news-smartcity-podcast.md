@@ -12,11 +12,11 @@ In this episode, Pierre and Marc-Elian discuss cloud and [edge computing](/blog/
 
 **How to listen**
 
-Choose your preferred way to listen to the podcast fron the list below:
+Choose your preferred way to listen to the podcast from the list below:
 
 [Spotify](https://open.spotify.com/show/0ekW3LkQt9TAoMcGYWZySi) 
 <br>
-[Google Podcast](https://tiny.cc/0kbmsz) 
+[Google Podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMTQyMWI4Yy9wb2RjYXN0L3Jzcw) 
 <br>
 [itunes](https://podcasts.apple.com/ch/podcast/smart-and-sustainable-city-podcast/id1492749700?mt=2&app=podcast)
 <br>
