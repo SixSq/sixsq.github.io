@@ -479,17 +479,6 @@
   
    {
      
-        "title"    : "Manufacturing",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/case-studies/manufacturing",
-        "date"     : "",
-        "content": "\n"
-     
-   } ,
-  
-   {
-     
         "title"    : "Marketplace",
         "category" : "",
         "tags"     : "",
@@ -577,28 +566,6 @@
    } ,
   
    {
-     
-        "title"    : "Retail",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/case-studies/retail",
-        "date"     : "",
-        "content": "\n"
-     
-   } ,
-  
-   {
-     
-   } ,
-  
-   {
-     
-        "title"    : "Transport",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "/case-studies/transport",
-        "date"     : "",
-        "content": ""
      
    } ,
   
@@ -1258,6 +1225,17 @@
   
    {
      
+        "title"    : "casestudy",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/casestudy/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
         "title"    : "manufacturing",
         "category" : "",
         "tags"     : "",
@@ -1284,6 +1262,17 @@
         "category" : "",
         "tags"     : "",
         "url"      : "/blog/transport/index.html",
+        "date"     : "",
+        "content": null
+     
+   } ,
+  
+   {
+     
+        "title"    : "job",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/job/index.html",
         "date"     : "",
         "content": null
      
