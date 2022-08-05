@@ -6,4 +6,4 @@ top: false
 sectors: data forensics, network monitoring
 ---
 
-Generic apps, including our popular Blackbox to rewind the clock.
+Generic apps, including our popular BlackBox to rewind the clock.

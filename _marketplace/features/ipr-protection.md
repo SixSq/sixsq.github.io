@@ -1,5 +1,5 @@
 ---
-title: IPR Protection
+title: IPR protection
 icon: icon-on-demand-security.svg
 main-feature: true
 ---

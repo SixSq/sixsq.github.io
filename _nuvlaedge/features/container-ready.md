@@ -1,5 +1,5 @@
 ---
-title: Container Ready
+title: Container-ready
 icon: icon-container.svg
 main-feature: true
 ---

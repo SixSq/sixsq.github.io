@@ -1,5 +1,5 @@
 ---
-title: Future Proof
+title: Future-proof
 icon: icon-governance.svg
 main-feature: true
 ---

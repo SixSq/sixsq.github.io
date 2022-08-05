@@ -1,5 +1,5 @@
 ---
-title: Multi-cloud and Infrastructures
+title: Multi-cloud and infrastructures
 icon: icon-multi-cloud.svg
 main-feature: false
 ---

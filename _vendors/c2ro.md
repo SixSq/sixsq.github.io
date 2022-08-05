@@ -6,4 +6,4 @@ top: true
 sectors: retail, airport, harbour, smart city
 ---
 
-State-of-the-art GDPR-Compliant Video Analytics of large public venues.
+State-of-the-art GDPR-compliant video analytics of large public venues.

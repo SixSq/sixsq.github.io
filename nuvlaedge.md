@@ -2,7 +2,7 @@
 layout: nuvlaedge
 title: NuvlaEdge
 product-name: NuvlaEdge
-product-title: Secure and Intelligent Edge Computing Software
+product-title: Secure and intelligent edge computing software
 product-description: With NuvlaEdge, turn your hardware into a smart edge device.
 product-next-text: Discover our solutions
 product-next-target: overview
