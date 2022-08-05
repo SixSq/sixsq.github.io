@@ -1,6 +1,6 @@
 ---
 layout: case-studies
-title: Case Studies
+product-title: Case Studies
 product-description: Find out how our products and services are making a real difference for our customers.
 product-background-img: bg-hero-pricing.jpg
 product-next-text: Take a look
