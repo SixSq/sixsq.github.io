@@ -2,27 +2,58 @@
 layout: none
 ---
 [
-  {% for post in site.posts %}
-    {
-      "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date }}",
-      "content": {{ page.content | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-  ,
   {% for page in site.pages %}
-   {
-     {% if page.title != nil or page.product-title != nil %}
-        "title"    : "{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+      {% if site.exclude_urls contains page.url %}
+      {% else %}
+        {% if page.title != nil or page.product-title != nil %}
+          {% capture head-title %}SixSq {% if page.product-name %}| {{ page.product-name }} {% elsif page.category %}| {{ page.category | capitalize }} {% endif %}| {% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+          {
+            "title"      : "{% if page.product-title %}{{ page.product-title | escape }}{% else %}{{ page.title | escape }}{% endif %}",
+            "head-title" : "{{ head-title | replace: "-", " " }}",
+            "category"   : "{{ page.category }}",
+            "tags"       : "{{ page.tags | join: ', ' }}",
+            "keywords"   : "{{ page.keywords | join: ', ' }}",
+            "url"        : "{{ site.baseurl }}{{ page.url }}",
+            "date"       : "{{ page.date }}",
+            "content"    : {{ page.content | jsonify }}
+          },
+        {% else %}
+        {% endif %}
+      {% endif %}
+  {% endfor %}
+  {% for page in site.posts %}
+    {% if site.exclude_urls contains page.url %}
+    {% else %}
+      {% capture head-title %}SixSq {% if page.product-name %}| {{ page.product-name }} {% elsif page.category %}| {{ page.category | capitalize }} {% endif %}| {% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+      {
+        "title"    : "{{ page.title | escape }}",
+        "head-title" : "{{ head-title | replace: "-", " " }}",
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' }}",
         "url"      : "{{ site.baseurl }}{{ page.url }}",
         "date"     : "{{ page.date }}",
         "content": {{ page.content | jsonify }}
-     {% endif %}
-   } {% unless forloop.last %},{% endunless %}
+      },
+    {% endif %}
   {% endfor %}
+  {% for collection in site.collections %}
+    {% if collection.label != 'posts' %}
+      {% for page in site[collection.label] %}
+        {% if site.exclude_urls contains page.url %}
+        {% else %}
+          {% capture head-title %}SixSq {% if page.product-name %}| {{ page.product-name }} {% elsif page.category %}| {{ page.category | capitalize }} {% endif %}| {% if page.product-title %}{{ page.product-title }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+          {
+            "title"    : "{{ page.title | escape }}",
+            "head-title" : "{{ head-title | replace: "-", " " }}",
+            "category" : "{{ page.category }}",
+            "tags"     : "{{ page.tags | join: ', ' }}",
+            "keywords" : "{{ page.keywords | join: ', ' }}",
+            "url"      : "{{ site.baseurl }}{{ page.url }}",
+            "content": {{ page.content | jsonify }}
+          },
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  {}
 ]

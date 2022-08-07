@@ -7,5 +7,10 @@ product-background-img: bg-hero-traffic.jpg
 product-next-text: How Nuvla works in transport
 product-next-target: overview
 vignette: usecase-aerospace.jpg
+keywords:
+ - casestudy
+ - case study
+ - casestudies
+ - case studies
 permalink: /case-studies/transport
 ---

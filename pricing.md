@@ -13,5 +13,10 @@ nav-items:
  - name: Pay-as-you-go
    anchor: pay-as-you-go
  - name: Marketplace
-   anchor: marketplace 
+   anchor: marketplace
+keywords:
+ - price
+ - cost
+ - stripe
+ - sla
 ---

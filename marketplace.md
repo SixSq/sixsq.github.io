@@ -19,5 +19,10 @@ nav-items:
  - name: Vendor Journey
    anchor: vendor-journey
  - name: Features
-   anchor: features 
+   anchor: features
+keywords:
+ - app vendor
+ - vendors
+ - journey
+ - customer   
 ---

@@ -7,5 +7,10 @@ product-background-img: bg-hero-industry.jpg
 product-next-text: How Nuvla works in manufacturing
 product-next-target: overview
 vignette: usecase-infrastructure.jpg
+keywords:
+  - casestudy
+  - case study
+  - casestudies
+  - case studies
 permalink: /case-studies/manufacturing
 ---

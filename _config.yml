@@ -37,6 +37,14 @@ blog-marketplace: marketplace
 
 excerpt_separator: <!--more-->
 
+# Search exclude
+exclude_urls:
+  - /blog/hardware/index.html
+  - /blog/casestudies/index.html
+  - /blog/tag/casestudies/index.html
+  - /404.html
+
+
 collections:
   partners:
     output: false
@@ -44,10 +52,6 @@ collections:
     output: false
   customers:
     output: false
-  news:
-    output: true
-  blog:
-    output: true
   nuvlaedge:
     output: false
   marketplace:
@@ -60,16 +64,12 @@ collections:
     output: false
   jobs:
     output: true
-  partners:
-    output: false
   authors:
     output: true
   legal:
     output: true
   rd:
     output: true
-  vendors:
-    output: false
   staff:
     output: false
     
@@ -87,7 +87,7 @@ defaults:
       author-name: Louise Merifield
       author-email: merifield@sixsq.com
       author-title: Co-founder &amp; Operations Manager
-      author-mobile: +41 77 44 68 119
+      author-mobile: +41 77 44 68 170
       breadcrumbs:
        - name: Home
          target: /
@@ -211,6 +211,37 @@ defaults:
          target: /r&d
       without-trial: true
       they-trust-us: false
+  -
+    scope:
+      path: ""
+      type: partners
+    values:
+      category: partner
+  -
+    scope:
+      path: ""
+      type: vendors
+    values:
+      category: Nuvla-marketplace
+      permalink: /marketplace#app-vendors
+  -
+    scope:
+      path: "*/manufacturing"
+      type: casestudies-benefits
+    values:
+      permalink: /case-studies/manufacturing
+  -
+    scope:
+      path: "*/retail"
+      type: casestudies-benefits
+    values:
+      permalink: /case-studies/retail
+  -
+    scope:
+      path: "*/transport"
+      type: casestudies-benefits
+    values:
+      permalink: /case-studies/transport
 
 
 # Build settings

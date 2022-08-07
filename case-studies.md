@@ -30,4 +30,11 @@ redirect_from:
  - /casestudies/science/features/3_security/
  - /casestudies/science/overview
  - /casestudies/overview.html
+keywords:
+  - casestudy
+  - case study
+  - casestudies
+  - case studies
+  - use cases
+  - usecases
 ---
