@@ -21,4 +21,7 @@ nav-items:
    anchor: techspecs 
  - name: Hardware
    anchor: hardware
+keywords:
+ - hardware
+ - specification
 ---

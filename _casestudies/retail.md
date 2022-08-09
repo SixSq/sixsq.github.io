@@ -8,5 +8,10 @@ product-background-img: bg-hero-retail.jpg
 product-next-text: How Nuvla works in retail
 product-next-target: overview
 vignette: usecase-retail.jpg
+keywords:
+ - casestudy
+ - case study
+ - casestudies
+ - case studies
 permalink: /case-studies/retail
 ---

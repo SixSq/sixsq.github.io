@@ -379,8 +379,16 @@ Throughout its ...</p>
   <div class="col">
     <form class="shadow bg-white" style="border-top: 8px solid rgba(237,43,43,1);">
         <h3>Subscribe to our email newsletter</h3>
-        <div class="input-group"><input class="form-control" type="text" placeholder="E-mail" name="E-mail" required=""></div>
-        <div class="input-group input-group-submit"><button class="btn btn-secondary" type="submit">Subscribe</button></div>
+        <div class="mx-3">
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "475360",
+    formId: "176b8b7b-417a-4942-8a8f-2999de398116"
+  });
+</script>
+        </div>
     </form>
   </div>
 </div>
@@ -440,6 +448,7 @@ Throughout its ...</p>
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('search-results'),
     json: 'https://sixsq.com/search.json',
+    searchResultTemplate: '<li><a href="https://sixsq.com{url}">{head-title}</a></li>'
   })
 </script>
 
