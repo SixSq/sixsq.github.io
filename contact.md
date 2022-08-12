@@ -8,4 +8,6 @@ breadcrumbs:
  - name: Home
    target: /
 without-trial: true
+redirect_from:
+ - /about/contact.html
 ---

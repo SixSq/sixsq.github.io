@@ -9,4 +9,6 @@ breadcrumbs:
    target: /
 without-trial: true
 bg-gray: true
+redirect_from:
+ - /about/customers.html
 ---
