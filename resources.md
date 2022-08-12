@@ -13,6 +13,7 @@ redirect_from:
  - /media/overview.html
  - /media/solution-briefs.html
  - /media/webinar.html
+ - /media/eguides.html
 ---
 
 <div class="container-fluid">

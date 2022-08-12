@@ -14,9 +14,5 @@ redirect_from:
  - /terms/cookie-notice
  - /terms/legal-nuvla-io/
  - /terms/privacy
- - /about/about-us.html
- - /about/contact.html
- - /about/customers.html
- - /media/eguides.html
  - /about/terms.html
 ---

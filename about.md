@@ -9,4 +9,6 @@ breadcrumbs:
    target: /
 without-trial: true
 they-trust-us: false
+redirect_from:
+ - /about/about-us.html
 ---
