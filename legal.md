@@ -10,6 +10,7 @@ breadcrumbs:
 without-trial: true
 they-trust-us: false
 redirect_from:
+ - /terms
  - /terms/app-license
  - /terms/cookie-notice
  - /terms/legal-nuvla-io/
