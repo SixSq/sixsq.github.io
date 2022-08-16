@@ -1,5 +1,5 @@
 ---
-title: Remote Control	
+title: Remote control	
 icon: icon-remote.svg
 category: transport
 ---

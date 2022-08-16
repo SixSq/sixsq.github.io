@@ -7,8 +7,8 @@
         
           
           {
-            "title"      : "Discover SixSq and Our Team",
-            "head-title" : "SixSq | Discover SixSq and Our Team",
+            "title"      : "Discover SixSq and our Team",
+            "head-title" : "SixSq | Discover SixSq and our Team",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -87,8 +87,8 @@
         
           
           {
-            "title"      : "Join Our Amazing Team and help deliver the Edge-to-Cloud Computing Revolution",
-            "head-title" : "SixSq | Join Our Amazing Team and help deliver the Edge to Cloud Computing Revolution",
+            "title"      : "Join our amazing team and help deliver the edge-to-cloud computing revolution",
+            "head-title" : "SixSq | Join our amazing team and help deliver the edge to cloud computing revolution",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -103,8 +103,8 @@
         
           
           {
-            "title"      : "Terms and conditions and other Legal Documents",
-            "head-title" : "SixSq | Terms and conditions and other Legal Documents",
+            "title"      : "Terms and conditions and other legal documents",
+            "head-title" : "SixSq | Terms and conditions and other legal documents",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -215,8 +215,8 @@
         
           
           {
-            "title"      : "Research and Development",
-            "head-title" : "SixSq | Research and Development",
+            "title"      : "Research and development",
+            "head-title" : "SixSq | Research and development",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -1811,13 +1811,13 @@
         
           
           {
-            "title"    : "Near data processing",
+            "title"    : "Near-data processing",
             "head-title" : "SixSq | Manufacturing | Near data processing",
             "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/manufacturing",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near real-time and reduce your reliance on the networks.</p>\n"
+            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
           },
         
       
@@ -1830,7 +1830,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/manufacturing",
-            "content": "<p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+            "content": "<p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
           },
         
       
@@ -1843,7 +1843,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/manufacturing",
-            "content": "<p>Improved IoT device and data security. Once powered-up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+            "content": "<p>Experience improved IoT device and data security. Once powered-up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
           },
         
       
@@ -1863,26 +1863,26 @@
         
           
           {
-            "title"    : "Near data processing",
+            "title"    : "Near-data processing",
             "head-title" : "SixSq | Retail | Near data processing",
             "category" : "retail",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/retail",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near real-time and reduce your reliance on the networks.</p>\n"
+            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Data Privacy",
-            "head-title" : "SixSq | Retail | Data Privacy",
+            "title"    : "Data privacy",
+            "head-title" : "SixSq | Retail | Data privacy",
             "category" : "retail",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/retail",
-            "content": "<p>ENTERA™ is the most advanced GDPR-compliant video analytics platform in the world. It will tell you what, where, when and how visitor use your space, but never who. No personal data is stored.</p>\n"
+            "content": "<p>ENTERA™ is the most advanced GDPR-compliant video analytics platform in the world. It will tell you what, where, when and how visitors use your space, but never who. No personal data is stored.</p>\n"
           },
         
       
@@ -1902,8 +1902,8 @@
         
           
           {
-            "title"    : "Remote Control",
-            "head-title" : "SixSq | Transport | Remote Control",
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Transport | Remote control",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
