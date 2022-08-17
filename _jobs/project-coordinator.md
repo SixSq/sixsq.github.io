@@ -1,6 +1,7 @@
 ---
 product-title: Project Coordinator
 product-description: The project coordinator will ensure all customer projects (e.g. Proof of Concept) and research projects (e.g. Horizon Europe) are on track, pulling in all the required resources from the SixSq team. This is an excellent opportunity to be involved in several exciting projects and deliver great value to customers, ensuring SixSq remains at the cutting edge.
+vignette: project-coordionator-vignette.png
 ---
 
 ### Description
