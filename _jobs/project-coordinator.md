@@ -1,12 +1,12 @@
 ---
 product-title: Project Coordinator
-product-description: The project coordinator will ensure all customer projects (e.g. Proof of Concept) and research projects (e.g. Horizon Europe) are on track, pulling in all the required resources from the SixSq team. This is an excellent opportunity to be involved in several exciting projects and deliver great value to customers, ensuring SixSq remains at the cutting edge.
+product-description: The project coordinator will ensure customer projects (e.g. Proof of Concept) and research projects (e.g. Horizon Europe) are on track, pulling in all the required resources from the SixSq team. This is an excellent opportunity to be involved in several exciting projects and deliver great value to customers, ensuring SixSq remains at the cutting edge.
 vignette: project-coordionator-vignette.png
 ---
 
 ### Description
 
-SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  Following the recent acquisition of SixSq by Ekinops, we are growing quickly. We are looking for a project coordinator who wants to join a multi-cultural and international team.  As a project coordinator you will ensure that all projects (short PoCs, but also longer European research projects) are progressing well. You therefore will be interacting internally with several team members, including management, sales and technical, as well as with customers and partners.  Together, these projects will contribute to the company's growth objectives.
+SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  Following the recent acquisition of SixSq by Ekinops, we are growing quickly. We are looking for a project coordinator who wants to join a multi-cultural and international team.  As a project coordinator you will ensure that projects (short PoCs, but also longer European research projects) are progressing well. You therefore will be interacting internally with several team members, including management, sales and technical, as well as with customers and partners.  Together, these projects will contribute to the company's growth objectives.
 
 Your role will also include assisting our GDPR compliance work, ensuring our processes are up-to-date and complete.
 
