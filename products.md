@@ -11,6 +11,8 @@ breadcrumbs:
  - name: Home
    target: /
 redirect_from:
+ - /products-and-services
+ - /products-and-services/nuvla/
  - /products-and-services/nuvla/features
  - /products-and-services/nuvla/overview
  - /products-and-services/nuvla/tech-spec
@@ -18,6 +20,8 @@ redirect_from:
  - /products-and-services/nuvlabox/hardware
  - /products-and-services/nuvlabox/overview
  - /products-and-services/nuvlabox/tech-spec
+ - /products-and-services/nuvla-io/
  - /products-and-services/nuvla-io/pricing/Nuvla-io-pricing-2020-v1.1.pdf
  - /products-and-services/nuvla-io/pricing/Nuvla-io-pricing-2020-v1.pdf
+ - /products-and-services/nuvla-io/overview
 ---
