@@ -6,7 +6,8 @@ product-summary: Transport providers are facing a huge challenge. How can they i
 product-background-img: bg-hero-traffic.jpg
 product-next-text: How Nuvla works in transport
 product-next-target: overview
-vignette: usecase-aerospace.jpg
+image: usecase-transport.jpg
+vignette: usecase-transport-vignette.png
 keywords:
  - casestudy
  - case study
