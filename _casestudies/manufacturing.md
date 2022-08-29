@@ -9,9 +9,11 @@ product-next-target: overview
 image: usecase-manufacturing.jpg
 vignette: usecase-manufacturing-vignette.png
 keywords:
-  - casestudy
-  - case study
-  - casestudies
-  - case studies
-permalink: /case-studies/manufacturing
+ - casestudy
+ - case study
+ - casestudies
+ - case studies
+permalink:
+ - /case-studies/manufacturing
+ - /manufacturing
 ---
