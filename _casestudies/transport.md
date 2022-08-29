@@ -13,7 +13,7 @@ keywords:
  - case study
  - casestudies
  - case studies
-permalink:
- - /case-studies/transport
+permalink: /case-studies/transport
+redirect_from:
  - /transport
 ---

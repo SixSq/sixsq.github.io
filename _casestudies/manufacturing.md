@@ -13,7 +13,7 @@ keywords:
  - case study
  - casestudies
  - case studies
-permalink:
- - /case-studies/manufacturing
+permalink: /case-studies/manufacturing
+redirect_from:
  - /manufacturing
 ---
