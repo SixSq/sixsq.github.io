@@ -6,11 +6,14 @@ product-summary: Edge computing enables industrial manufacturers to efficiently 
 product-background-img: bg-hero-industry.jpg
 product-next-text: How Nuvla works in manufacturing
 product-next-target: overview
-vignette: usecase-infrastructure.jpg
+image: usecase-manufacturing.jpg
+vignette: usecase-manufacturing-vignette.png
 keywords:
-  - casestudy
-  - case study
-  - casestudies
-  - case studies
+ - casestudy
+ - case study
+ - casestudies
+ - case studies
 permalink: /case-studies/manufacturing
+redirect_from:
+ - /manufacturing
 ---

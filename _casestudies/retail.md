@@ -7,11 +7,14 @@ product-summary: Transform your business by deploying AI applications in stores 
 product-background-img: bg-hero-retail.jpg
 product-next-text: How Nuvla works in retail
 product-next-target: overview
-vignette: usecase-retail.jpg
+image: usecase-retail.jpg
+vignette: usecase-retail-vignette.png
 keywords:
  - casestudy
  - case study
  - casestudies
  - case studies
 permalink: /case-studies/retail
+redirect_from:
+ - /retail
 ---
