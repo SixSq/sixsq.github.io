@@ -37,7 +37,7 @@ The [AI EdgeLabs platform](https://edgelabs.ai/platform/) is embedded with a pro
 During its deployment on-premises (on the factory side), the AI EdgeLabs Sensor runs a configurable set of security checks and topology research to collect the initial context of your environment. Data collected from the sensor is analyzed by the AI EdgeLabs platform that provides a set of AI-based models that are pre-trained on the existing knowledge base of threat patterns and attack signatures. 
 
 
-![AI EdgeLabs platform](/assets/img/blog/Manufacturing scheme.png){: style="max-width: 700px" :}
+![AI EdgeLabs platform](/assets/img/blog/Manufacturing scheme.png){: style="max-width: 100%" :}
 
 Looking at the graph above, we can see the SCADA power system. The electrical distribution system consists of controllers, sensors, and operator-interface points. 
 
