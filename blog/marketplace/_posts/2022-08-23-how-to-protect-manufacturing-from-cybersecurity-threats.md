@@ -2,7 +2,7 @@
 title: How to protect manufacturing from cyber security threats
 product-title: How to protect manufacturing from cyber security threats
 image: cyber-secrurity-for-manufacturing.png
-tags: edge cloud
+tags: edge cloud security cyber-security manufacturing
 author: Inna Ushakova
 ---
 
