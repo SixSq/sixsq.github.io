@@ -1006,6 +1006,38 @@
       
   
       
+        
+          
+          {
+            "title"      : "cyber-security",
+            "head-title" : "SixSq | Blog topic | cyber security",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/cyber-security/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "manufacturing",
+            "head-title" : "SixSq | Blog topic | manufacturing",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/manufacturing/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
       
   
       
@@ -1216,7 +1248,7 @@
         "title"    : "How to protect manufacturing from cyber security threats",
         "head-title" : "SixSq | Blog | How to protect manufacturing from cyber security threats",
         "category" : "blog",
-        "tags"     : "edge, cloud",
+        "tags"     : "edge, cloud, security, cyber-security, manufacturing",
         "url"      : "/blog/marketplace/2022/08/23/how-to-protect-manufacturing-from-cybersecurity-threats.html",
         "date"     : "2022-08-23 00:00:00 +0000",
         "content": "<p>Thanks to guest author <a href=\"https://www.linkedin.com/in/innaushakova/\">Inna Ushakova</a> for sharing her valuable insights into the state of cyber security in the manufacturing industry.</p>\n\n<p>Now more than ever, cybersecurity is extremely relevant for the manufacturing industry. IBM’s X-Force Threat Intelligence Index 2022 report found that manufacturing is the most attacked industry as of 2021, receiving the brunt of 23.2% of the attacks and reaching a global average of <strong>$4.24M in data breach costs</strong>.</p>\n\n<p>The manufacturing industry lacks cybersecurity maturity, a fact that criminals exploit relentlessly. This is evidenced by the high-stakes burdens placed on supply chains wreaking havoc on the manufacturing industry, which is still recovering from losses caused by the COVID-19 pandemic.</p>\n\n<p>Instrumental to the wellbeing and healthy performance of any manufacturing company, operational technology (OT) supports core-business operations and its safety is essential to ensure sustainable growth and effective means of innovation. For that to happen, cybersecurity needs to be a key, foundational element of any company’s core strategy. High, rigorous security standards and protocols in data, software, and infrastructure coupled with AI-powered solutions allows for process agility and transparency.</p>\n\n<p>Below,  we detail one of the most high-profile cybersecurity attacks of recent years to illustrate how severe and crucial it is for manufacturing companies to take their security environment seriously.</p>\n\n<h3 id=\"manufacturing-under-threat\">Manufacturing under threat</h3>\n\n<p>The manufacturing industry is victim to ransomware, server access, BEC and data theft, distributed denial-of-service (DDoS) attacks, credential harvesting, and more.</p>\n\n<p>Next, let’s see a high profile case of an attack in action. As the result of a devastating cyberattack involving the LockerGoga ransomware, Norsk Hydro, a multinational aluminum manufacturer with operations in 40 countries, closed many of its plants and was forced to move others offline. The attack compromised the firm’s IT systems across multiple business functions, including the company’s smelting plants in Norway, Qatar, and Brazil. The total cost is estimated at <strong>$75 million</strong>.</p>\n\n<p>As exemplified by the Norsk Hydro case, cybersecurity experts assert that cyber criminals are using more ruthless methods to achieve their objectives and the proficiency of attacks is expected to advance as they continue to develop new methods for cyber attacks. For all industries with OT networks ransomware again led the charge for attack types, accounting for 36% of all attacks and echoing the overall attack trend across all industries. While the IT networks were compromised in the vast majority of these attacks, the impact carried over to victims’ operational technology in many of these instances.</p>\n\n<p>Looking at the variety of attacks and the latest cyber criminal developments, the manufacturing industry remains a high-interest target for cybercriminals looking to deploy well-crafted attacks. Cyber attacks are relatively easy for criminals to conduct and are hard to protect against using traditional security technologies.</p>\n\n<h2 id=\"how-can-an-ai-powered-solution-advance-your-edgeiot-cyber-security\">How can an AI-powered solution advance your Edge/IoT cyber security?</h2>\n\n<p>Cyber security is more important than ever before, as the attack surface area has increased due to the latest wave of digital transformation that is enhancing business agility and developing new customer experiences. When it comes to the security of Edge and IoT infrastructures, Artificial Intelligence (AI) and deep reinforcement learning are unmatched.</p>\n\n<p>The <a href=\"https://edgelabs.ai/platform/\">AI EdgeLabs platform</a> is embedded with a proprietary network telemetry and monitoring sensor that protects every layer of an Edge and IoT architecture. The AI-powered solution delivers smart means to detect anomalies that signal the presence of threats, threat intelligence software with powerful analytics tools for robust traffic inspection, and swift incident response and remediation.</p>\n\n<p>During its deployment on-premises (on the factory side), the AI EdgeLabs Sensor runs a configurable set of security checks and topology research to collect the initial context of your environment. Data collected from the sensor is analyzed by the AI EdgeLabs platform that provides a set of AI-based models that are pre-trained on the existing knowledge base of threat patterns and attack signatures.</p>\n\n<p><img src=\"/assets/img/blog/Manufacturing scheme.png\" alt=\"AI EdgeLabs platform\" style=\"max-width: 100%\" /></p>\n\n<p>Looking at the graph above, we can see the SCADA power system. The electrical distribution system consists of controllers, sensors, and operator-interface points.</p>\n\n<p>For real-time monitoring and controlling of Programmable Logic Controllers (PLCs), the system uses circuit breakers and power monitors. Data is transmitted from PLCs and other devices to a computer-based SCADA node located on each sub-station.</p>\n\n<p>One or more computers can be located on different points. The AI EdgeLabs Sensor can be implemented on each computer-based SCADA node to protect the whole system. This includes factory machines, HMIs, sensors, and end devices, protecting them from malfunctioning, data modifying, injection attacks such as SQL injection and other forms of advanced malware.</p>\n\n<p>The EdgeLabs Sensor helps:</p>\n\n<ul>\n  <li>Generate near-realtime visibility of infrastructure and application performance;</li>\n  <li>Prevent and block threat sources in real-time;</li>\n  <li>Integrate cloud-based and on-premises application performance monitoring;</li>\n  <li>Monitor SaaS applications from your users’ vantage point;</li>\n  <li>Monitor IaaS resources from your users’ vantage point.</li>\n</ul>\n\n<p>The AI EdgeLabs platform equips your security teams with multi-layered threat intelligence software, advanced network visibility, and automated remediation to protect every asset, device, server, or network element of your manufacturing environment.</p>\n\n<p>With AI EdgeLabs available in the <a href=\"https://sixsq.com/marketplace\">Nuvla Marketplace</a>, companies now have an easier way to cyber protect their edge assets. Indeed all edge devices, servers and virtual machines running the NuvleEdge software can now be protected using the AI EdgeLabs software, providing a 1-click cyber protection to all sectors of the economy concerned by edge computing. Find out more <a href=\"https://sixsq.com/news/2022/06/13/news-aiedgelabs.html\">here</a>.</p>\n"
