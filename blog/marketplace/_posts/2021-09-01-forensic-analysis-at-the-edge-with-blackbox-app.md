@@ -4,6 +4,8 @@ product-title: Forensic analysis at the edge with the blackbox app
 image: blackbox-blog-title-min.png
 tags: edge cloud
 author: Marc-Elian Bégin
+redirect_from:
+ - /blog/forensic-analysis-at-the-edge-with-blackbox-app
 ---
 
 #### Edge computing systems work in a semi-autonomous way, which is great for providing fast responses, no privacy intrusion and reduced costs from network and cloud storage. But when an incident occurs, you want to archive to the cloud as much data as possible to give you insights into what led to this incident: enter the Blackbox app.
