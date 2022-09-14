@@ -918,6 +918,22 @@
         
           
           {
+            "title"      : "In The News",
+            "head-title" : "SixSq | In The News",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "edge",
             "head-title" : "SixSq | Blog topic | edge",
             "category"   : "",
@@ -1071,6 +1087,22 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/blog/news/page/3/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "news - page 4",
+            "head-title" : "SixSq | Blog category | news   page 4",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/news/page/4/index.html",
             "date"       : "",
             "content"    : null
           },
@@ -1246,6 +1278,19 @@
         
       
   
+  
+    
+      
+      {
+        "title"    : "Kadiska joins app vendor programme",
+        "head-title" : "SixSq | News | Kadiska and SixSq deliver network performance monitoring from enterprise edge to cloud, web and SaaS applications",
+        "category" : "news",
+        "tags"     : "",
+        "url"      : "/news/2022/09/13/news-kadiska.html",
+        "date"     : "2022-09-13 00:00:00 +0000",
+        "content": "<p>SixSq, an <a href=\"https://www.ekinops.com/\">Ekinops</a> company that provides the <a href=\"https://sixsq.com/platform\">Nuvla</a> edge-to-cloud management platform, and <a href=\"https://kadiska.com/\">Kadiska</a>, the SaaS platform for digital experience monitoring, today announced a partnership that allows enterprises to instantly gain performance visibility into networks connecting their sites, clouds and business-critical web and SaaS applications.</p>\n\n<p>SD WAN, hybrid and cloud networks now account for the majority of business connections, while two-thirds of IT organizations report that existing monitoring tools are incapable of detecting and diagnosing issues across these complex, internet-based networks. The result is not only degraded application performance, but also inferior customer digital experience and reduced employee productivity.</p>\n\n<p>Until now, the sheer variety of network appliances, SD-WAN solutions and hybrid connectivity options available have prevented the deployment of network monitoring capabilities that span enterprise edge locations, private and public clouds, and highly distributed cloud-hosted applications. By integrating <a href=\"https://kadiska.com/products/net-tracer/\">Kadiska’s Net-Tracer</a> app into the SixSq Nuvla marketplace, organizations can now immediately deploy in-depth network path and performance monitoring across their entire infrastructure.</p>\n\n<p>The Net-Tracer app is a containerized agent that Nuvla can deploy on edge nodes, clouds, white boxes and SD-WAN devices, including any uCPE powered by Ekinops’ popular <a href=\"https://www.ekinops.com/products-services/products/compose/oneos6\">OneOS6</a> middleware. Once deployed, Net-Tracer continuously maps and monitors all network routes and reports performance degradations, their origin and impact. Users connect to the Kadiska platform to access analytics that correlate network, infrastructure and application performance with users’ digital experience.</p>\n\n<p><em>“Our customers need network performance monitoring, and being able to deploy such capability via an app on\nthe Nuvla marketplace will be be natural for them. This allows users to quickly identify when and how the\nnetwork impacts application performance. The combination of Kadiska’s Net-Tracer app and our zero-touch,\ncontainer-based orchestration capabilities allow us to offer a convenient solution to solve this critical challenge\nfacing IT operations and network teams,”</em> explained <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, CEO and co-founder at SixSq.</p>\n\n<p><em>“We designed Net-Tracer to fill this specific visibility gap“, added <a href=\"https://www.linkedin.com/in/gilleshuguenin/\">Gilles Huguenin</a>, CEO at Kadiska. “Its\ncloud-native implementation makes it simple to deploy across managed clouds and devices. SixSq’s vendor\nagnostic orchestration capabilities and popular marketplace was a natural fit for our solution. We look forward\nto helping enterprises gain complete control over their modern networks, deliver an amazing digital\nexperience, and fully profit from their digital platform.”</em></p>\n\n<p>The service is available via a pay-as-you-go subscription. You will find Kadiska’s Net-Tracer Application on the\nNuvla Marketplace <a href=\"https://nuvla.io/ui/apps/kadiska\">here</a>. Learn more about Kadiska’s SixSq integration in <a href=\"https://kadiska.com/network-performance-monitoring-from-enterprise-edge-to-cloud-web-and-saas-applications-with-sixsq-and-kadiska/\">this article</a>.</p>\n\n<p>References:</p>\n<p>Enterprise Management Associates (EMA) 2020<p>\n<p>NTT Global Services report and Versa 2021<p>\n</p></p></p></p>\n"
+      },
+    
   
     
       
@@ -3221,6 +3266,19 @@
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
             "content": "<p>Intelligent manufacturing monitoring.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Kadiska",
+            "head-title" : "SixSq | Nuvla marketplace | Kadiska",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>The Kadiska Net-Tracer app tracks network path and provider performance across public internet, cloud, SD WAN and private networks. It performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.</p>\n"
           },
         
       
