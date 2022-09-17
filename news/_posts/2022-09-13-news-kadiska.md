@@ -1,7 +1,7 @@
 ---
 title: Kadiska joins app vendor programme
 product-title: Kadiska and SixSq deliver network performance monitoring from enterprise edge to cloud, web and SaaS applications
-image: app-vendor-kadiska.jpg
+image: app-vendor-kadiska.png
 co-author-company: kadiska
 co-author-name: Colombe Rousseau
 co-author-email: PR@kadiska.com
