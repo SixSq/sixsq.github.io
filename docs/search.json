@@ -1279,6 +1279,19 @@
     
       
       {
+        "title"    : "Relimetrics joins app vendor programme",
+        "head-title" : "SixSq | News | Relimetric’s AI based industrial quality automation solution now available on SixSq’s Nuvla Marketplace",
+        "category" : "news",
+        "tags"     : "",
+        "url"      : "/news/2022/09/29/news-relimetrics.html",
+        "date"     : "2022-09-29 00:00:00 +0000",
+        "content": "<p>SixSq, an <a href=\"https://www.ekinops.com/\">Ekinops</a> Company, and <a href=\"https://www.relimetrics.com/\">Relimetrics</a> today announced a partnership to deliver <a href=\"https://www.relimetrics.com/applications\">ReliVision</a> via the <a href=\"/marketplace\">Nuvla Marketplace</a>. This collaboration significantly simplifies the procurement, deployment, and management of Relimetric’s ReliVision on the factory floor.</p>\n\n<p>Relimetrics helps companies transform how they design and build products by using cutting edge technologies such as computer vision, machine learning, AI and edge computing. The result is a level of quality control automation that is unmatched in the market today, which is quick, simple and cheap to configure and enable. Once in place, users take advantage of the no-code ReliVision solution to enable quality automation for their assembly.</p>\n\n<p><em>“Nuvla allows ReliVision to be offered to manufacturers using a simple pay-as-you-go model. This means customers can choose when to use ReliVision and get Nuvla to quickly deploy ReliVision modules on the shop floor, leveraging existing hardware.”</em> said <a href=\"https://www.linkedin.com/in/kemallevi/\">Kemal Levi</a>, CEO and Founder of Relimetrics.</p>\n\n<p>With Relimetrics’ ReliVision made available in the Nuvla Marketplace, companies can deploy, manage, and update their quality automation application remotely and securely. The purchasing and deployment process is fast, simple and robust, with the app deployed at scale in a few clicks via the <a href=\"/platform\">Nuvla</a> dashboard.</p>\n\n<p><em>“Helping domain matter experts like Relimetrics to scale across industries is why we created Nuvla. Once the <a href=\"/nuvlaedge\">NuvlaEdge</a> software is installed on the edge infrastructure, customers can deploy the most advanced quality automation solution for assembly lines with Relimetrics’s ReliVision”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, SixSq CEO and Co-founder.</p>\n\n<p>This announcement enriches the <a href=\"/news/2022/06/09/news-app-vendor-programme.html\">Nuvla App Vendor Programme</a>, announced earlier this year. The service is available via a pay-as-you-go subscription. You will find Relimetric’s ReliVision edge application on the Nuvla Marketplace <a href=\"https://nuvla.io/ui/apps/relimetrics\">here</a>.</p>\n"
+      },
+    
+  
+    
+      
+      {
         "title"    : "Kadiska joins app vendor programme",
         "head-title" : "SixSq | News | Kadiska and SixSq deliver network performance monitoring from enterprise edge to cloud, web and SaaS applications",
         "category" : "news",
@@ -3263,6 +3276,19 @@
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
             "content": "<p>Track network to performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Relimetrics",
+            "head-title" : "SixSq | Nuvla marketplace | Relimetrics",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>AI-based quality audit and process control made easy across use cases.</p>\n"
           },
         
       
