@@ -1,7 +1,7 @@
 ---
 layout: news
 title: News
-product-title: In The News
+product-title: In the news
 product-description: Discover the latest news and events from SixSq, our partners and customers.
 product-background-img: bg-hero-News.jpg
 breadcrumbs:
