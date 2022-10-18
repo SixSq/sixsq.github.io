@@ -1,5 +1,5 @@
 ---
-title: Open Source Inside
+title: Open source inside
 icon: icon-opensource.svg
 main-feature: false
 ---

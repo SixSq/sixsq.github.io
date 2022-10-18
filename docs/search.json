@@ -7,8 +7,8 @@
         
           
           {
-            "title"      : "Discover SixSq and our Team",
-            "head-title" : "SixSq | Discover SixSq and our Team",
+            "title"      : "Discover SixSq and our team",
+            "head-title" : "SixSq | Discover SixSq and our team",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -55,8 +55,8 @@
         
           
           {
-            "title"      : "Our Customers",
-            "head-title" : "SixSq | Our Customers",
+            "title"      : "Our customers",
+            "head-title" : "SixSq | Our customers",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -151,8 +151,8 @@
         
           
           {
-            "title"      : "Partnership Boosts Innovation",
-            "head-title" : "SixSq | Partnership Boosts Innovation",
+            "title"      : "Partnership boosts innovation",
+            "head-title" : "SixSq | Partnership boosts innovation",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -199,8 +199,8 @@
         
           
           {
-            "title"      : "Nuvla Products",
-            "head-title" : "SixSq | Nuvla | Nuvla Products",
+            "title"      : "Nuvla products",
+            "head-title" : "SixSq | Nuvla | Nuvla products",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -870,8 +870,8 @@
         
           
           {
-            "title"      : "In The News",
-            "head-title" : "SixSq | In The News",
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -886,8 +886,8 @@
         
           
           {
-            "title"      : "In The News",
-            "head-title" : "SixSq | In The News",
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -902,8 +902,8 @@
         
           
           {
-            "title"      : "In The News",
-            "head-title" : "SixSq | In The News",
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -918,8 +918,8 @@
         
           
           {
-            "title"      : "In The News",
-            "head-title" : "SixSq | In The News",
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -1275,6 +1275,19 @@
         
       
   
+  
+    
+      
+      {
+        "title"    : "Relimetrics joins app vendor programme",
+        "head-title" : "SixSq | News | Relimetric’s AI based industrial quality automation solution now available on SixSq’s Nuvla Marketplace",
+        "category" : "news",
+        "tags"     : "",
+        "url"      : "/news/2022/09/29/news-relimetrics.html",
+        "date"     : "2022-09-29 00:00:00 +0000",
+        "content": "<p>SixSq, an <a href=\"https://www.ekinops.com/\">Ekinops</a> Company, and <a href=\"https://www.relimetrics.com/\">Relimetrics</a> today announced a partnership to deliver <a href=\"https://www.relimetrics.com/applications\">ReliVision</a> via the <a href=\"/marketplace\">Nuvla Marketplace</a>. This collaboration significantly simplifies the procurement, deployment, and management of Relimetric’s ReliVision on the factory floor.</p>\n\n<p>Relimetrics helps companies transform how they design and build products by using cutting edge technologies such as computer vision, machine learning, AI and edge computing. The result is a level of quality control automation that is unmatched in the market today, which is quick, simple and cheap to configure and enable. Once in place, users take advantage of the no-code ReliVision solution to enable quality automation for their assembly.</p>\n\n<p><em>“Nuvla allows ReliVision to be offered to manufacturers using a simple pay-as-you-go model. This means customers can choose when to use ReliVision and get Nuvla to quickly deploy ReliVision modules on the shop floor, leveraging existing hardware.”</em> said <a href=\"https://www.linkedin.com/in/kemallevi/\">Kemal Levi</a>, CEO and Founder of Relimetrics.</p>\n\n<p>With Relimetrics’ ReliVision made available in the Nuvla Marketplace, companies can deploy, manage, and update their quality automation application remotely and securely. The purchasing and deployment process is fast, simple and robust, with the app deployed at scale in a few clicks via the <a href=\"/platform\">Nuvla</a> dashboard.</p>\n\n<p><em>“Helping domain matter experts like Relimetrics to scale across industries is why we created Nuvla. Once the <a href=\"/nuvlaedge\">NuvlaEdge</a> software is installed on the edge infrastructure, customers can deploy the most advanced quality automation solution for assembly lines with Relimetrics’s ReliVision”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, SixSq CEO and Co-founder.</p>\n\n<p>This announcement enriches the <a href=\"/news/2022/06/09/news-app-vendor-programme.html\">Nuvla App Vendor Programme</a>, announced earlier this year. The service is available via a pay-as-you-go subscription. You will find Relimetric’s ReliVision edge application on the Nuvla Marketplace <a href=\"https://nuvla.io/ui/apps/relimetrics\">here</a>.</p>\n"
+      },
+    
   
     
       
@@ -1985,7 +1998,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/manufacturing",
-            "content": "<p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
           },
         
       
@@ -1998,7 +2011,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/manufacturing",
-            "content": "<p>Experience improved IoT device and data security. Once powered-up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+            "content": "<p>Experience improved IoT device and data security. Once powered up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
           },
         
       
@@ -2063,7 +2076,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/transport",
-            "content": "<p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
           },
         
       
@@ -2076,7 +2089,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/case-studies/transport",
-            "content": "<p>Benefit from improved IoT device and data security. Once powered-up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
           },
         
       
@@ -2395,7 +2408,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/container-ready.html",
-            "content": "<p>Any application packaged as Docker containers, and built for your hardware platform (e.g. ARM, x86) can be deployed on a NuvlaEdge powered edge device. You can also manage multi-container apps using Docker Compose, Docker Swarm or Kubernetes. This means you can create highly available apps at the edge and in the cloud.</p>\n"
+            "content": "<p>Any application packaged as Docker containers and built for your hardware platform (e.g. ARM, x86) can be deployed on a NuvlaEdge-powered edge device. You can also manage multi-container apps using Docker Compose, Docker Swarm or Kubernetes. This means you can create highly available apps at the edge and in the cloud.</p>\n"
           },
         
       
@@ -2421,7 +2434,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/flexibility.html",
-            "content": "<p>Affordable for small and large deployments for small to large customers. Edge-to-cloud doesn’t have to be a difficult journey. NuvlaEdge software installes in minutes and can be industrialised at the factory. A perfect first step on your edge computing digital transformation journey. And you won’t need to hire a team of experts since this is a B2B as-a-sevice solution.</p>\n"
+            "content": "<p>Affordable for small and large deployments for small to large customers. Edge-to-cloud doesn’t have to be a difficult journey. NuvlaEdge software installs in minutes and can be industrialised at the factory. A perfect first step on your edge computing digital transformation journey. And you won’t need to hire a team of experts since this is a B2B as-a-service solution.</p>\n"
           },
         
       
@@ -2441,13 +2454,13 @@
         
           
           {
-            "title"    : "GPU Ready",
-            "head-title" : "SixSq | Feature | GPU Ready",
+            "title"    : "GPU-ready",
+            "head-title" : "SixSq | Feature | GPU ready",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/gpu-ready.html",
-            "content": "<p>If your edge hardware includes GPUs (e.g. NVIDIA), the NuvlaEdge software will automatically detect it and expose it to containerised apps. This means your apps can take full advantage of GPUs without the complexity of discovering specialised hardware.</p>\n"
+            "content": "<p>If your edge hardware includes GPUs (e.g. NVIDIA), NuvlaEdge software will automatically detect it and expose it to containerised apps. This means your apps can take full advantage of GPUs without the complexity of discovering specialised hardware.</p>\n"
           },
         
       
@@ -2460,33 +2473,33 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/hyperconverged.html",
-            "content": "<p>The NuvlaEdge software turns any certified x86 and ARM hardware platform into a hyperconverged system, where users can “carve” as much resources as needed for a given application. This means applications can happily run alongside each other, even on small devices, with minimum impact on each other. Via the <a href=\"/platform\">Nuvla management platform</a>, containerised applications can be dynamically deployed, monitored and updated, without needing to change the hardware.</p>\n"
+            "content": "<p>NuvlaEdge software turns any certified x86 and ARM hardware platform into a hyperconverged system, where users can “carve” as much resources as needed for a given application. This means applications can happily run alongside each other, even on small devices, with minimum impact on each other. Via the <a href=\"/platform\">Nuvla management platform</a>, containerised applications can be dynamically deployed, monitored and updated, without needing to change the hardware.</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Open Source",
-            "head-title" : "SixSq | Feature | Open Source",
+            "title"    : "Open source",
+            "head-title" : "SixSq | Feature | Open source",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/open-source.html",
-            "content": "<p>NuvlaEdge is now fully open source software, and we ensure that the entire stack, including its dependencies, is Apache 2.0 compatible. This means that we leverage the latest innovations from the thriving open source communities, but also their maturity. This also means that you have full visibility on the software you run on your infrastructure, knowing that there is no lock-in.</p>\n"
+            "content": "<p>NuvlaEdge is now fully open-source software, and we ensure that the entire stack, including its dependencies, is Apache 2.0 compatible. This means that we leverage not only the latest innovations from the thriving open-source communities, but also their maturity. This also means that you have full visibility of the software you run on your infrastructure, knowing that there is no lock-in.</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Plug-and-Play",
-            "head-title" : "SixSq | Feature | Plug and Play",
+            "title"    : "Plug-and-play",
+            "head-title" : "SixSq | Feature | Plug and play",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/plug-and-play.html",
-            "content": "<p>Once installed, NuvlaEdge is a turn-key solution. From factory settings, you plug it in, power it up and you are good to go. The automated and secured registration process ensures that each edge device is yours and uniquely configured and initialised. This can even include an optional dedicated set of credentials for Virtual Private Network (VPN) access.</p>\n"
+            "content": "<p>Once installed, NuvlaEdge is a turn-key solution. From factory settings, you plug it in, power it up and you are good to go. The automated and secured registration process ensures that each edge device is yours and uniquely configured and initialised. This can even include an optional dedicated set of credentials for virtual private network (VPN) access.</p>\n"
           },
         
       
@@ -2506,13 +2519,13 @@
         
           
           {
-            "title"    : "Remote Control",
-            "head-title" : "SixSq | Feature | Remote Control",
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Feature | Remote control",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/remote-control.html",
-            "content": "<p>Devices running the NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. It also works with intermittent connectivity, which is common in many field scenarios.</p>\n"
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. It also works with intermittent connectivity, which is common in many field scenarios.</p>\n"
           },
         
       
@@ -2525,7 +2538,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/ruggedised.html",
-            "content": "<p>Working with specialists <a href=\"#hardware\">hardware vendors</a>, you can create ruggedised platforms, for extreme weather and environments. The same applies for connectivity, including 5G and satellite. Combined with our robust software, this means your devices running the NuvlaEdge software have the best chance to survive their mission, even in harsh and semi-connected environments. And if a device is compromised, you can use Nuvla to isolate the device, while it gets investigated.</p>\n"
+            "content": "<p>Working with specialist <a href=\"#hardware\">hardware vendors</a>, you can create ruggedised platforms, for extreme weather and environments. The same applies for connectivity, including 5G and satellite. Combined with our robust software, this means your devices running NuvlaEdge software have the best chance to survive their mission, even in harsh and semi-connected environments. And if a device is compromised, you can use Nuvla to isolate the device, while it gets investigated.</p>\n"
           },
         
       
@@ -2538,7 +2551,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/security.html",
-            "content": "<p>Once powered-up, the NuvlaEdge powered device initiates a secured connection to Nuvla. Once the secured registration process is done, each NuvlaEdge is unique and assigned to a specific user account or group. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise. You can also go to the next level of security by deploying AI driven cyber defence apps from our <a href=\"/marketplace#app-vendors\">app vendors</a>.</p>\n"
+            "content": "<p>Once powered-up, the NuvlaEdge-powered device initiates a secured connection to Nuvla. Once the secured registration process is done, each NuvlaEdge is unique and assigned to a specific user account or group. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise. You can also go to the next level of security by deploying AI-driven cyber defence apps from our <a href=\"/marketplace#app-vendors\">app vendors</a>.</p>\n"
           },
         
       
@@ -2551,20 +2564,20 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/simplicity.html",
-            "content": "<p>Smart factory settings and zero config means it’s a child’s play to set up and use. You can even ship your edge hardware with minimum configuration and let a non-expert in the field register and activate the devices running the NuvlaEdge software in a simple and secure manner. Combined with its the Nuvla remote-control capabilities, this means you don’t need IT experts on-site anymore. And you can watch and manage your growing edge fleet from the comfort of your centralised <a href=\"/platform\">Nuvla user interface</a>.</p>\n"
+            "content": "<p>Smart factory settings and zero config means it’s child’s play to set up and use. You can even ship your edge hardware with minimum configuration and let a non-expert in the field register and activate the devices running NuvlaEdge software in a simple and secure manner. Combined with its the Nuvla remote-control capabilities, this means you don’t need IT experts onsite anymore. And you can watch and manage your growing edge fleet from the comfort of your centralised <a href=\"/platform\">Nuvla user interface</a>.</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Runs on any Linux Operating System",
-            "head-title" : "SixSq | Feature | Runs on any Linux Operating System",
+            "title"    : "Runs on any Linux OS",
+            "head-title" : "SixSq | Feature | Runs on any Linux OS",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/support-linux.html",
-            "content": "<p>The NuvlaEdge software runs on most Linux operating systems, as long as they support Docker. Installing NuvlaEdge takes minutes, and you can find detailed instructions on our <a href=\"https://docs.nuvla.io\">documentation website</a>. We can also help you certify your Linux based operating system for the NuvlaEdge software, <a href=\"/contact#breadcrumbs\">get in touch</a>.</p>\n"
+            "content": "<p>NuvlaEdge software runs on most Linux operating systems, as long as they support Docker. Installing NuvlaEdge takes minutes, and you can find detailed instructions on our <a href=\"https://docs.nuvla.io\">documentation website</a>. We can also help you certify your Linux-based operating system for NuvlaEdge software, so <a href=\"/contact#breadcrumbs\">get in touch</a>.</p>\n"
           },
         
       
@@ -2577,7 +2590,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/nuvlaedge/features/swiss-made.html",
-            "content": "<p>Like the Nuvla software, the NuvlaEdge software is also designed Switzerland. Working closely with our hardware and distribution partners, we guarantee that the product is developed, integrated, tested and certified according to our highest standards. While an international team, we pride ourselves in our constant quest for precision and excellence.</p>\n"
+            "content": "<p>Like the Nuvla platform, NuvlaEdge software is also designed Switzerland. Working closely with our hardware and distribution partners, we guarantee that the product is developed, integrated, tested and certified according to our highest standards. Our international team prides itself on its constant quest for precision and excellence.</p>\n"
           },
         
       
@@ -2884,7 +2897,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/multi-cloud.html",
-            "content": "<p>The Nuvla platform allows you to configure any number of Container-as-a-Service (CaaS) (e.g. Docker Swarm, Kubernetes) endpoints. This means you can mix and match public clouds, private clouds and infrastructure, as well as edge devices running the NuvlaEdge software. This enables a simple and effective edge-to-multi-cloud solution.</p>\n"
+            "content": "<p>The Nuvla platform allows you to configure any number of Container-as-a-Service (CaaS) (e.g. Docker Swarm, Kubernetes) endpoints. This means you can mix and match public clouds, private clouds and infrastructure, as well as edge devices running NuvlaEdge software. This enables a simple and effective edge-to-multi-cloud solution.</p>\n"
           },
         
       
@@ -2904,8 +2917,8 @@
         
           
           {
-            "title"    : "Open Source Inside",
-            "head-title" : "SixSq | Feature | Open Source Inside",
+            "title"    : "Open source inside",
+            "head-title" : "SixSq | Feature | Open source inside",
             "category" : "feature",
             "tags"     : "",
             "keywords" : "",
@@ -3263,6 +3276,19 @@
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
             "content": "<p>Track network to performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Relimetrics",
+            "head-title" : "SixSq | Nuvla marketplace | Relimetrics",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>AI-based quality audit and process control made easy across use cases.</p>\n"
           },
         
       
