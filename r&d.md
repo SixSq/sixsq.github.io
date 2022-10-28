@@ -2,7 +2,7 @@
 layout: rd
 title: R&amp;D
 product-title: Research and development
-product-description: SixSq participates in several European research and development activities, working with the very best innovators to keep our software and services at the cutting edge of technology.
+product-description: SixSq participates in several European and Swiss research & development activities, working with the very best innovators to keep our software and services at the cutting edge of technology.
 product-background-img: bg-hero-rd.jpg
 breadcrumbs:
  - name: Home
