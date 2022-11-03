@@ -9,7 +9,7 @@ image: logo-ICOS.png
 
 The rapid proliferation of computing and sensing device technologies coupled with the ever-growing demand for data-intensive applications at the edge and in the cloud is driving the next wave of change in computing architecture. The resulting shift in computing is centered around dynamic, intelligent and yet seamless interconnection of IoT, edge and cloud resources in one computing system, to form a continuum.
 
-The ICOS project aims to by design and implement a continuum which is extensible, open, secure, adaptable, AI-powered and technology-agnostic. The solution will be tested via 4 [use cases](https://www.icos-project.eu/use-cases):
+The ICOS project aims to design and implement a continuum which is extensible, open, secure, adaptable, AI-powered and technology-agnostic. The solution will be tested via 4 [use cases](https://www.icos-project.eu/use-cases):
 
 - In-car Advanced Infotainment and Multimedia Management system 
 - Agriculture Operational Robotic Platform 
