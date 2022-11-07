@@ -11,6 +11,7 @@ breadcrumbs:
  - name: Home
    target: /
 redirect_from:
+ - /nuvla
  - /products-and-services
  - /products-and-services/nuvla/
  - /products-and-services/nuvla/features
