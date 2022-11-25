@@ -843,54 +843,6 @@
         
           
           {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -945,6 +897,54 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -1364,6 +1364,19 @@
     
       
       {
+        "title"    : "Killer App For The Edge",
+        "head-title" : "SixSq | Blog | Where is the killer app for edge computing?",
+        "category" : "blog",
+        "tags"     : "edge, cloud, privacy, security",
+        "url"      : "/blog/marketplace/2022/11/25/killer-app-for-the-edge.html",
+        "date"     : "2022-11-25 00:00:00 +0000",
+        "content": "<p>For some time, analysts and industry experts have been heralding <a href=\"/blog/discover/2019/11/08/what-is-edge-computing.html\">edge computing</a> as the next big thing that will revolutionise the IT and telecom industries. But for industries to move, there needs to be real and meaningful benefits, achievable within reasonable investment and at an acceptable risk.  It would indeed therefore be great to identify the ‘killer app’ for edge computing – a single heroic app to unlock the full potential of this promising distributed computing paradigm, one that’s capable of fulfilling the level of world domination predicted by analysts. So where is it?</p>\n\n<p>Perhaps this is the wrong question. If we stand back, the edge is not there to run a single all-encompassing, killer app, but to enable an ecosystem of applications that allows organisations to better extract value from data near its source. And this objective is neither simple nor standard, since, like us humans, every business is different, with different goals, constraints and assets. However, edge computing will not succeed if all its implementations are bespoke. The good news is that there is an existing ecosystem that exhibits a similar need for wide and wild variety, yet is based on standardised building blocks that tech companies can provide at affordable pricing, thanks to economy of scale.</p>\n\n<p>Where is this ecosystem? I suggest looking in your pocket. The dominance of the smartphone appliance is no longer questioned today… yet what about all those apps? Your mobile device is not satisfied with a one-size-fits-all killer app, so why should your edge infrastructure be any different?</p>\n\n<h3 id=\"learning-from-the-apple-app-store\">Learning from the Apple® App Store</h3>\n\n<p>Apparently, even the mighty Steve Jobs didn’t initially foresee the rise of the App Store as a key part of the iPhone®’s success story, instead expecting web apps to be the next big thing. Apple® had to move quickly to meet developer demands, opening up the iPhone® ecosystem to allow these people to create native iOS apps and this, in turn, led to the creation of the App Store to monetise these apps and make them available to customers.</p>\n\n<h3 id=\"the-first-marketplace-for-edge-apps\">The first marketplace for edge apps</h3>\n\n<p>For edge computing to work well, businesses need a simple and scalable way to purchase apps and immediately deploy them where their data is. But of course no-one needs integration complexity, complicated contractual negotiations and operational risk.</p>\n\n<p>Here at SixSq we’re now on a similar path to Apple®, building the world’s first repository of edge apps, the Nuvla Marketplace, usefully informed by the experiences of the App Store, Google Play® and other digital distribution platforms.</p>\n\n<h3 id=\"app-vendors\">App vendors</h3>\n\n<p>Since June 2022, we’ve been fostering strong relationships with some of the best creative minds in edge computing app development through the SixSq App Vendor Programme. These specialists don’t pull any punches – their powerful apps are oriented to omnipresent AI, steely <a href=\"https://sixsq.com/news/2022/06/13/news-aiedgelabs.html\">cyber defence</a>, operational optimisation and predictive analytics to meet business challenges head on. I’m talking about reducing latency, overcoming bandwidth challenges, increasing autonomy, ensuring data sovereignty, cutting the carbon footprint and more.</p>\n\n<p>To de-risk projects and ensure future-proofed solutions, we’re all about standardised operational, technical and contractual app development within a systematic framework for an open, frictionless ecosystem.</p>\n\n<h3 id=\"the-source-of-killer-apps-for-the-edge\">The source of killer apps for the edge</h3>\n\n<p>Together this makes the <a href=\"/marketplace\">Nuvla Marketplace</a> the go-to source of business-ready apps, provided and maintained by domain experts. If you like a dubious metaphor, we at SixSq provide the Tinder app for edge computing and, as the platform operator, we also come on your date as chaperone!</p>\n\n<p>With our approach, vendors can register new apps on the Nuvla Marketplace in a few hours, while you can deploy these apps in seconds and enable your edge devices in minutes. The potential for our edge marketplace to deliver multiple killer apps is real. Of course time will tell, but the telling is already starting. Don’t wait for the killer app, the marketplace delivers a suite of readily-available apps to deliver your business outcomes.</p>\n"
+      },
+    
+  
+    
+      
+      {
         "title"    : "ICOS; Removing boundaries between IoT, Edge and Cloud",
         "head-title" : "SixSq | Blog | ICOS; building tomorrow’s Meta Operating System to remove boundaries between IoT, Edge and Cloud",
         "category" : "blog",
@@ -1397,19 +1410,6 @@
         "url"      : "/news/2022/09/13/news-kadiska.html",
         "date"     : "2022-09-13 00:00:00 +0000",
         "content": "<p>SixSq, an <a href=\"https://www.ekinops.com/\">Ekinops</a> company that provides the <a href=\"https://sixsq.com/platform\">Nuvla</a> edge-to-cloud management platform, and <a href=\"https://kadiska.com/\">Kadiska</a>, the SaaS platform for digital experience monitoring, today announced a partnership that allows enterprises to instantly gain performance visibility into networks connecting their sites, clouds and business-critical web and SaaS applications.</p>\n\n<p>SD WAN, hybrid and cloud networks now account for the majority of business connections, while two-thirds of IT organizations report that existing monitoring tools are incapable of detecting and diagnosing issues across these complex, internet-based networks. The result is not only degraded application performance, but also inferior customer digital experience and reduced employee productivity.</p>\n\n<p>Until now, the sheer variety of network appliances, SD-WAN solutions and hybrid connectivity options available have prevented the deployment of network monitoring capabilities that span enterprise edge locations, private and public clouds, and highly distributed cloud-hosted applications. By integrating <a href=\"https://kadiska.com/products/net-tracer/\">Kadiska’s Net-Tracer</a> app into the SixSq Nuvla marketplace, organizations can now immediately deploy in-depth network path and performance monitoring across their entire infrastructure.</p>\n\n<p>The Net-Tracer app is a containerized agent that Nuvla can deploy on edge nodes, clouds, white boxes and SD-WAN devices, including any uCPE powered by Ekinops’ popular <a href=\"https://www.ekinops.com/products-services/products/compose/oneos6\">OneOS6</a> middleware. Once deployed, Net-Tracer continuously maps and monitors all network routes and reports performance degradations, their origin and impact. Users connect to the Kadiska platform to access analytics that correlate network, infrastructure and application performance with users’ digital experience.</p>\n\n<p><em>“Our customers need network performance monitoring, and being able to deploy such capability via an app on\nthe Nuvla marketplace will be be natural for them. This allows users to quickly identify when and how the\nnetwork impacts application performance. The combination of Kadiska’s Net-Tracer app and our zero-touch,\ncontainer-based orchestration capabilities allow us to offer a convenient solution to solve this critical challenge\nfacing IT operations and network teams,”</em> explained <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, CEO and co-founder at SixSq.</p>\n\n<p><em>“We designed Net-Tracer to fill this specific visibility gap“, added <a href=\"https://www.linkedin.com/in/gilleshuguenin/\">Gilles Huguenin</a>, CEO at Kadiska. “Its\ncloud-native implementation makes it simple to deploy across managed clouds and devices. SixSq’s vendor\nagnostic orchestration capabilities and popular marketplace was a natural fit for our solution. We look forward\nto helping enterprises gain complete control over their modern networks, deliver an amazing digital\nexperience, and fully profit from their digital platform.”</em></p>\n\n<p>The service is available via a pay-as-you-go subscription. You will find Kadiska’s Net-Tracer Application on the\nNuvla Marketplace <a href=\"https://nuvla.io/ui/apps/kadiska\">here</a>. Learn more about Kadiska’s SixSq integration in <a href=\"https://kadiska.com/network-performance-monitoring-from-enterprise-edge-to-cloud-web-and-saas-applications-with-sixsq-and-kadiska/\">this article</a>.</p>\n\n<p>References:</p>\n<p>Enterprise Management Associates (EMA) 2020<p>\n<p>NTT Global Services report and Versa 2021<p>\n</p></p></p></p>\n"
-      },
-    
-  
-    
-      
-      {
-        "title"    : "Killer App For The Edge",
-        "head-title" : "SixSq | Blog | Where is the killer app for edge computing?",
-        "category" : "blog",
-        "tags"     : "edge, cloud, privacy, security",
-        "url"      : "/blog/marketplace/2022/09/03/killer-app-for-the-edge.html",
-        "date"     : "2022-09-03 00:00:00 +0000",
-        "content": "<p>For some time, analysts and industry experts have been heralding <a href=\"/blog/discover/2019/11/08/what-is-edge-computing.html\">edge computing</a> as the next big thing that will revolutionise the IT and telecom industries. But those industries have been looking for the motivator which will make embracing this technology worthwhile. Investing in new technology is a big decision, so when and how will they see the return? It all sounds complicated, so what is THE power engine to make the move worthwhile?  It would indeed be great to identify this ‘killer app’ for edge computing – a single heroic app to unlock the full potential of this promising distributed computing paradigm, one that’s capable of fulfilling the level of world domination predicted by analysts. So where is it?</p>\n\n<p>Perhaps this is the wrong question. If we stand back, the edge is not there to run a single all-encompassing, killer app, but to enable an ecosystem of applications that allows organisations to better extract value from data near its source. And this objective is neither simple nor standard, since, like us humans, every business is different, with different goals, constraints and assets. However, edge computing will not succeed if all its implementations are bespoke. The good news is that there is an existing ecosystem that exhibits a similar need for wide and wild variety, yet is based on standardised building blocks that tech companies can provide at affordable pricing, thanks to economy of scale.</p>\n\n<p>Where is this ecosystem? I suggest looking in your pocket. The dominance of the smartphone appliance is no longer questioned today… yet what about all those apps? Your mobile device is not satisfied with a one-size-fits-all killer app, so why should your edge infrastructure be any different?</p>\n\n<h3 id=\"learning-from-the-apple-app-store\">Learning from the Apple® App Store</h3>\n\n<p>Apparently, even the mighty Steve Jobs didn’t initially foresee the rise of the App Store as a key part of the iPhone®’s success story, instead expecting web apps to be the next big thing. Apple® had to move quickly to meet developer demands, opening up the iPhone® ecosystem to allow these people to create native iOS apps and this, in turn, led to the creation of the App Store to monetise these apps and make them available to customers.</p>\n\n<h3 id=\"the-first-marketplace-for-edge-apps\">The first marketplace for edge apps</h3>\n\n<p>For edge computing to work well, businesses need a simple and scalable way to purchase apps and immediately deploy them where their data is. But of course no-one needs integration complexity, complicated contractual negotiations and operational risk.</p>\n\n<p>Here at SixSq we’re now on a similar path to Apple®, building the world’s first repository of edge apps, the Nuvla Marketplace, usefully informed by the experiences of the App Store, Google Play® and other digital distribution platforms.</p>\n\n<h3 id=\"app-vendors\">App vendors</h3>\n\n<p>Since June 2022, we’ve been fostering strong relationships with some of the best creative minds in edge computing app development through the SixSq App Vendor Programme. These specialists don’t pull any punches – their powerful apps are oriented to omnipresent AI, steely <a href=\"https://sixsq.com/news/2022/06/13/news-aiedgelabs.html\">cyber defence</a>, operational optimisation and predictive analytics to meet business challenges head on. I’m talking about reducing latency, overcoming bandwidth challenges, increasing autonomy, ensuring data sovereignty, cutting the carbon footprint and more.</p>\n\n<p>To de-risk projects and ensure future-proofed solutions, we’re all about standardised operational, technical and contractual app development within a systematic framework for an open, frictionless ecosystem.</p>\n\n<h3 id=\"the-source-of-killer-apps-for-the-edge\">The source of killer apps for the edge</h3>\n\n<p>Together this makes the <a href=\"/marketplace\">Nuvla Marketplace</a> the go-to source of business-ready apps, provided and maintained by domain experts. If you like a dubious metaphor, we at SixSq provide the Tinder app for edge computing and, as the platform operator, we also come on your date as chaperone!</p>\n\n<p>With our approach, vendors can register new apps on the Nuvla Marketplace in a few hours, while you can deploy these apps in seconds and enable your edge devices in minutes. The potential for our edge marketplace to deliver multiple killer apps is real. Of course time will tell, but the telling is already starting. Don’t wait for the killer app, the marketplace delivers a suite of readily-available apps to deliver your business outcomes.</p>\n"
       },
     
   
@@ -1997,7 +1997,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/authors/Agathe%20Veillon.html",
-            "content": "<p>Agathe Veillon is Project Coordinator at SixSq, an Ekinops company. She manages the company’s European and Swiss Research &amp; Development activities, as well as supporting customers during Proofs of Concept, with one single objective: collaborate with the best innovators to keep our software and services at the cutting edge of technology.</p>\n\n<p>Holder of an M. Eng. from the French engineering school AgroParisTech, specialised in Biology for Health, and a Masters’ degree in Public Policy from Sciences Po Paris, she previously worked in a consultancy role dedicated to digital health projects’ management.</p>\n\n"
+            "content": "<p>Agathe Veillon is Project Coordinator at SixSq, an Ekinops company. She manages the company’s European and Swiss Research &amp; Development activities, as well as supporting customers during Proofs of Concept, with one single objective: collaborate with the best innovators to keep our software and services at the cutting edge of technology.</p>\n\n<p>Holder of an M. Eng. from the French engineering school AgroParisTech, specialised in Biology for Health, and a Masters’ degree in Public Policy from Sciences Po Paris, she previously worked in a consultancy role dedicated to digital health projects’ management.</p>\n"
           },
         
       
@@ -3196,7 +3196,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/rd/scissor.html",
-            "content": "<p>With a holistic approach, <a href=\"https://cordis.europa.eu/project/id/644425\">SCISSOR</a> designed a new generation\nSCADA security monitoring framework to allow for connected, yet\nsecure, industrial control systems.  The framework contains four\nprimary components: monitoring, control, analysis/decision, and a\nhuman-machine interface.  Cloud technologies touch all of these\ncomponents, giving the system an unprecedented level of flexibility,\ncomputing power and responsiveness.</p>\n\n<p>SixSq brought its <a href=\"/platform\">NuvlaEdge</a> concept and technology to the project.  Embedding a cloud computing platform directly into the system allowed tailored, local analysis of monitoring information.</p>\n\n<p>Use of the NuvlaEdge software also provided remote control of the computing platform.  Through the project, SixSq further enhanced the capabilities of the NuvlaEdge while improving resilience of the software for challenging real-world SCADA deployments.</p>\n\n<p><strong>Project website:</strong> <a href=\"https://cordis.europa.eu/project/id/644425\">https://cordis.europa.eu/project/id/644425</a></p>\n\n<p><strong>Twitter:</strong> <a href=\"https://twitter.com/SCISSOR_2015\">https://twitter.com/SCISSOR_2015</a></p>\n\n<p><strong>Funding</strong> SCISSOR is funded through the European Commission’s H2020\n  programme under grant agreement 644425. SixSq is supported by the Swiss State Secretariat for Education, Research and Innovation <strong><a href=\"https://www.sbfi.admin.ch/sbfi/en/home.html\">SERI</a></strong> under contract number 15.0022.</p>\n\n<p><strong>Duration:</strong> 36 Months (ended 31/12/2017)</p>\n\n<p><strong>Partners:</strong> 9 lead by <a href=\"https://www.assystem.com/en/home.html\">Assystem</a></p>\n\n<p><strong>Goal for SixSq:</strong> Bringing NuvlaEdge as platform for embedded cloud.\n  Nuvla and concepts for general integration and remote control\n  of NuvlaEdges. Nuvla was the forerunner to <a href=\"https://nuvla.io/\">Nuvla</a>.</p>\n\n"
+            "content": "<p>With a holistic approach, <a href=\"https://cordis.europa.eu/project/id/644425\">SCISSOR</a> designed a new generation\nSCADA security monitoring framework to allow for connected, yet\nsecure, industrial control systems.  The framework contains four\nprimary components: monitoring, control, analysis/decision, and a\nhuman-machine interface.  Cloud technologies touch all of these\ncomponents, giving the system an unprecedented level of flexibility,\ncomputing power and responsiveness.</p>\n\n<p>SixSq brought its <a href=\"/platform\">NuvlaEdge</a> concept and technology to the project.  Embedding a cloud computing platform directly into the system allowed tailored, local analysis of monitoring information.</p>\n\n<p>Use of the NuvlaEdge software also provided remote control of the computing platform.  Through the project, SixSq further enhanced the capabilities of the NuvlaEdge while improving resilience of the software for challenging real-world SCADA deployments.</p>\n\n<p><strong>Project website:</strong> <a href=\"https://cordis.europa.eu/project/id/644425\">https://cordis.europa.eu/project/id/644425</a></p>\n\n<p><strong>Twitter:</strong> <a href=\"https://twitter.com/SCISSOR_2015\">https://twitter.com/SCISSOR_2015</a></p>\n\n<p><strong>Funding</strong> SCISSOR is funded through the European Commission’s H2020\n  programme under grant agreement 644425. SixSq is supported by the Swiss State Secretariat for Education, Research and Innovation <strong><a href=\"https://www.sbfi.admin.ch/sbfi/en/home.html\">SERI</a></strong> under contract number 15.0022.</p>\n\n<p><strong>Duration:</strong> 36 Months (ended 31/12/2017)</p>\n\n<p><strong>Partners:</strong> 9 lead by <a href=\"https://www.assystem.com/en\">Assystem</a></p>\n\n<p><strong>Goal for SixSq:</strong> Bringing NuvlaEdge as platform for embedded cloud.\n  Nuvla and concepts for general integration and remote control\n  of NuvlaEdges. Nuvla was the forerunner to <a href=\"https://nuvla.io/\">Nuvla</a>.</p>\n\n"
           },
         
       
