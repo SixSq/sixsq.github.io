@@ -33,6 +33,6 @@ Use of the NuvlaEdge software also provided remote control of the computing plat
   of NuvlaEdges. Nuvla was the forerunner to [Nuvla](https://nuvla.io/).
 
 [web]: https://cordis.europa.eu/project/id/644425
-[assystem]: https://www.assystem.com/en/home.html
+[assystem]: https://www.assystem.com/en
 [seri]: https://www.sbfi.admin.ch/sbfi/en/home.html
 [@SCISSOR_2015]: https://twitter.com/SCISSOR_2015
