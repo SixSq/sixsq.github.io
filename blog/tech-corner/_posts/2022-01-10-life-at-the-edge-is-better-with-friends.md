@@ -52,4 +52,4 @@ Performance was also optimised, making the new NuvlaEdge v2 software the lightes
 
 The NuvlaEdge v1 ssoftware required your edge device to be running in Docker Swarm mode. Well, that’s **not the case anymore** for NuvlaEdge v2. All you need is Docker Compose for the installation, and then the NuvlaEdge v2 ssoftware will adapt itself to the underlying host environment, whether that is a standalone Docker machine, or a Swarm cluster node.
 
-What's not to like? If you want to dive into the details, take a look at our [NuvlaEdge documentation](https://docs.nuvla.io/nuvlabox/).  For a demo or more information about how the NuvlaEdge software can transform your activity at the edge, get in touch.
+What's not to like? If you want to dive into the details, take a look at our [NuvlaEdge documentation](https://docs.nuvla.io/nuvlaedge/).  For a demo or more information about how the NuvlaEdge software can transform your activity at the edge, get in touch.
