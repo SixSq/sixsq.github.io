@@ -1,7 +1,7 @@
 ---
 title: Agathe Veillon
 job-title: Project Coordinator
-photo: agathe.jpeg
+photo: agathe.png
 linkedin: https://www.linkedin.com/in/agathe-veillon-674528188/
 
 ---
