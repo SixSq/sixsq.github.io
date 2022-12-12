@@ -13,9 +13,9 @@ This EULA agreement governs your acquisition and use of the app software ("Softw
 
 Please read this EULA agreement carefully before completing the deployment and installation process and using the app software. It provides a license to use the app software and contains warranty information and liability disclaimers.
 
-If you register for a free trial of the app software, this EULA agreement will also govern that trial. By clicking "accept" during the Nuvla launch process, or installing and/or using the app software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
+If you register for a free trial of the app software, this EULA agreement will also govern that trial. By clicking "launch" during the Nuvla launch process, or installing and/or using the app software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
 
-The free trial of Nuvla does not extend to paying apps, you can therefore be invoiced for deploying paying apps during the free trial.
+During the free trial period, by default apps are not free.  However, App Vendors can elected an app to be free during the trial.  This is clearly indicated when launching an app. You can therefore be invoiced for deploying paying apps for during the free trial.
 
 If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
 
