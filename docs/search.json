@@ -1364,6 +1364,19 @@
     
       
       {
+        "title"    : "LatenceTech now available on SixSq’s Nuvla Marketplace",
+        "head-title" : "SixSq | News | LatenceTech now available on SixSq’s Nuvla Marketplace",
+        "category" : "news",
+        "tags"     : "",
+        "url"      : "/news/2023/01/12/news-latencetech.html",
+        "date"     : "2023-01-12 00:00:00 +0000",
+        "content": "<p><strong>SixSq’s Nuvla ecosystem facilitates the deployment, management and update of LatenceTech quality of service measurement solution at the edge and in the cloud</strong></p>\n\n<p>Geneva, 12 January 2023. SixSq, an <a href=\"https://www.ekinops.com/\">Ekinops</a> Company, and <a href=\"https://latencetech.com/\">LatenceTech</a> today announced a partnership to deliver LatenceTech QoS via the<a href=\"/marketplace\"> Nuvla Marketplace</a>. This collaboration will allow LatenceTech to quickly and easily market and deploy its technology to service and network providers.</p>\n\n<p>With LatenceTech available in the Nuvla Marketplace, it is now easier for companies to track, predict and deploy latency-optimized 5G and private LTE networks remotely and securely. The purchasing and deployment process is fast, simple, and robust, with the app deployed at scale in a few clicks via the Nuvla dashboard.</p>\n\n<p>SixSq’s Nuvla is a proven B2B digital platform for industrialization and automation of containerized edge applications and device management. The <a href=\"/news/2022/06/09/news-app-vendor-programme.html\">Nuvla App Vendor Program</a> gives app vendors and customers tools to interact in a seamless way, including clear pricing and contractual terms. It also provides hassle-free monetization of business applications for telcos, service providers and system integrators.</p>\n\n<p><em>“Our agreement with SixSq is an important milestone for LatenceTech as it allows our company to market our technology on a large scale on an efficient and well-established platform to our target audiences. We believe that the Nuvla platform is an excellent fit for our technology and business model. We are confident that this partnership between SixSq and LatenceTech will be mutually beneficial, and that it will allow our future customers to benefit from the high value-added advantages of our technology in a simple and quick manner,”</em> said <a href=\"https://www.linkedin.com/in/benoitgendron/\">Benoit Gendron</a>, President and CEO of LatenceTech.</p>\n\n<p><em>“This partnership with LatenceTech fills an important gap in the ability for service providers to monetize 5G. Now users can accurately and easily measure SLA compliance, something that is paramount when selling high quality services, without taking risks. And all this is a few clicks away using Nuvla”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, SixSq CEO and Co-founder.</p>\n\n<p>The service is available via a pay-as-you-go subscription. You will find LatenceTech on the Nuvla Marketplace <a href=\"https://nuvla.io/ui/apps/latencetech\">here</a>.</p>\n\n"
+      },
+    
+  
+    
+      
+      {
         "title"    : "Killer App For The Edge",
         "head-title" : "SixSq | Blog | Where is the killer app for edge computing?",
         "category" : "blog",
@@ -3439,6 +3452,19 @@
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
             "content": "<p>Track network to performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "LatenceTech",
+            "head-title" : "SixSq | Nuvla marketplace | LatenceTech",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>Monitor and predict network low latency in real-time. Track, predict and evaluate latency-optimized 5G and Private LTE Networks in support of time-critical innovations.</p>\n"
           },
         
       
