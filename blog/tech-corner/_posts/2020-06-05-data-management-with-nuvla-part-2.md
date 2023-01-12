@@ -44,7 +44,7 @@ As we will be working here with S3, we need to tell Nuvla the S3 endpoint and cr
 
 To add the S3 endpoint and credentials, use the **Infrastructures** and **Credentials** tabs in Nuvla.
 
-For more details see our documentation on management of [Infrastructure Services in Nuvla](https://docs.nuvla.io/nuvla/infrastructures).
+For more details see our documentation on management of [Infrastructure Services in Nuvla](https://docs.nuvla.io/nuvla/user-guide/infrastructures/).
 
 Here it's how you can do this with our [Python API library](https://github.com/nuvla/python-library).
 
