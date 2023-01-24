@@ -6,15 +6,16 @@ vignette: clojure-developer-vignette.png
 
 ### Description
 
-SixSq is building the most advanced edge-to-cloud B2B SaaS platform: [Nuvla](https://nuvla.io). With the acquisition of SixSq by Ekinops, we are growing quickly. We are looking for software developers wanting to join a multi-cultural and international team. As a software developer you will contribute to the overall objective of the company, which is to disrupt the IT industry with an open, agile, simple and efficient platform. The platform also includes a marketplace of business applications targeting the far edge in a range of sectors such as retail, manufacturing, transport, telecoms and energy. In time, since we sell as a team, you will also be asked to support sales efforts via creative demonstrations and technical discussions with customers and prospects.
+SixSq is building the most advanced edge-to-cloud B2B SaaS platform: [Nuvla](https://nuvla.io). With the acquisition of SixSq by Ekinops, we are growing quickly. We are looking for software developers wanting to join a multi-cultural and international team. As a software developer you will contribute to the overall objective of the company, which is to disrupt the IT industry with an open, agile, simple and efficient platform. The platform also includes a marketplace of business applications targeting the far edge in a range of sectors such as retail, manufacturing, transport, telecoms and energy.
 
 Nuvla is mostly built using the functional language Clojure and the web ui Clojurescript. We therefore are looking for developers with experience in functional languages or willing to learn this amazing paradigm and join a great community. The solution also leverages Elasticsearch, Zookeeper and Kafka. And our operations target public cloud infrastructures and Kubernetes as the container orchestration engine.
 
-The core team is based in Geneva, in beautiful Switzerland. Remote working is possible, however you must be living in or around Switzerland, with the ability to come to Geneva from time to time. As the company operates using mature agile methodologies, experience or interest in agile development is required, since this is how we think and do things.
+The core team is based in Geneva, in beautiful Switzerland. Remote working is possible, however you must be living in or around Switzerland, with the ability to come to Geneva from 2-4 times per year. As the company operates using mature agile methodologies, experience or interest in agile development is required, since this is how we think and do things.
 
 Expect to be given time and space to learn before jumping right in to developing production code for Nuvla. As an agile team, we expect each developer to be able to contribute to feature definition, architecture, design, implementation, testing and operations support. Also, you will be expected to share and present your work to your peers, Nuvla Tech Lead, Scrum Master and Product Owner for feedback and guidance.
 
-Since we continue to operate as a scale-up, with the backing of a publicly listed company, you will have the opportunity to thrive in our fast moving, and exciting work environment.
+Since we continue to operate as a scale-up, with the backing of a publicly listed company, you will have the opportunity to thrive in our fast moving, and exciting work environment. This could include, if you are interested in participating to the sales effort, creating stimulating demonstrations and take part in technical discussions with customers and prospects.
+
 
 ### Tasks and Activities
 
@@ -38,7 +39,6 @@ As a clojure software developer you will need the following skills:
 - Ability to communicate effectively with internal teams, partners and customers
 - Experience or interest in agile methodologies (e.g. Scrum, Kanban, DevOps)
 - Experience in integration with Elasticsearch, other NoSQL databases, Kafka or Zookeeper
-- Good experience of Linux (Nuvla runs on Ubuntu)
 - Experience with Rest APIs
 
 #### Nice to have
@@ -48,6 +48,7 @@ As a clojure software developer you will need the following skills:
 - Experience with micro-service architecture (Nuvla is a set of Docker images orchestrated using Kubernetes)
 - Experience with contribution to development of SaaS type solution
 - Experience in Python and its eco-system
+- Good experience of Linux (Nuvla runs on Ubuntu)
 - Knowledge of service operations in cloud environments - e.g. Exoscale, AWS, Azure, GCE
 - Experience in working in an open source environment
 - Experience in contributing to open source projects

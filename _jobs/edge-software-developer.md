@@ -1,6 +1,6 @@
 ---
 product-title: Edge Software Developer
-product-description: The edge software developer will a team using Python and the latest container technology, such as Docker and Kubernetes, to further develop the NuvlaEdge software, which turns any edge device into a smart and connected device, managed by the Nuvla.io service.
+product-description: The edge software developer will join a team using Python and the latest container technology, such as Docker and Kubernetes, to further develop the NuvlaEdge software, which turns any edge device into a smart and connected device, managed by the Nuvla.io service.
 vignette: edge-software-developer-vignette.png
 ---
 

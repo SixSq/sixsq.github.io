@@ -19,10 +19,10 @@ Since we continue to operate as a scale-up, with the backing of a publicly liste
 
 #### The responsibilities will include:
 
-- support R&D projects use SixSq technology to address their objectives, including building edge and edge-to-cloud solutions
-- help capturing new requirements from R&D projects for the SixSq software agile development process, in collaboration with the SixSq Product Owner
-- test and integration activities of SixSq software with project partners
-- attend regular technical progress meetings, reporting on the work performed, and liaising between external technical teams and the SixSq team
+- Support R&D projects using SixSq technology to address their objectives, including building edge and edge-to-cloud solutions
+- Help capturing new requirements from R&D projects for the SixSq software agile development process, in collaboration with the SixSq Product Owner
+- Test and integration activities of SixSq software with project partners
+- Attend regular technical progress meetings, reporting on the work performed, and liaising between external technical teams and the SixSq team
 - Investigate and provide feedback on new technologies in edge computing.
 
 
@@ -35,7 +35,7 @@ We are looking for candidates with the following skills and experience:
 
 - Knowledge of edge computing, machine learning and data engineering
 - Previous experience in documenting engineering projects and knowledge of software development life-cycle 
-- Experience in working on European or projects or in European markets 
+- Experience in working on European projects or in European markets 
 - Good technical writing and communication skills 
 - Highly organised with the ability to juggle multiple projects simultaneously
 - Attention to detail, problem solving and decision making skills
