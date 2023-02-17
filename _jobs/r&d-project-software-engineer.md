@@ -1,16 +1,18 @@
 ---
-product-title: R&D Project Software Engineer
+product-title: R&D Project Software Engineer (Junior)
 product-description: The R&amp;D project software engineer will support research projects (e.g. Horizon Europe), maintaining SixSq at the cutting edge of software development in the field of edge and cloud computing, and this in tight collaboration with the rest of the SixSq team.
 vignette: project-engineer-vignette.png
 ---
 
 ### Description
 
-SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  Following the acquisition of SixSq by Ekinops, we are growing quickly. We are looking for a R&D project software engineer who wants to join a multi-cultural and international team.  As a R&D project software engineer you will support research projects (e.g. Horizon Europe), ensuring the SixSq contribution to these projects is delivered in time and at the right level of quality, in tight collaboration with the rest of the SixSq team. This is an excellent opportunity to be involved in several exciting projects and deliver great value to customers and partners, ensuring SixSq remains at the cutting edge of software development. You therefore will be interacting internally with several team members, including the project coordination team and the SixSq DevOps team.
+SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  Following the acquisition of SixSq by Ekinops, we are growing quickly. We are looking for a R&D project software engineer with hands-on software development experience who wants to join a multi-cultural and international team.  As a R&D project software engineer you will support research projects (e.g. Horizon Europe), ensuring the SixSq contribution to these projects is delivered in time and at the right level of quality, in tight collaboration with both the SixSq project coordination and DevOps teams.
+
+This is an excellent opportunity to be involved in several exciting projects and deliver great value to customers and partners, ensuring SixSq remains at the cutting edge of software development. You therefore will be interacting internally with several team members, including the project coordination team and the SixSq DevOps team.
 
 The core team is based in Geneva, in beautiful Switzerland. Remote working is possible in Switzerland, as well as from neighbouring France, Germany and Italy. In this case, regular trips to Geneva will be expected. As the company operates using mature agile methodologies, experience or interest in an agile way of working is required, since this is how we think and do things.
 
-Expect to be given time and space to learn about our processes and current projects before jumping right into project work. As R&D project software engineer, we also expect you to be able to right technical notes and deliverables, pulling inputs from different technical team members.
+Expect to be given time and space to learn about our processes and current projects before jumping right into project work. As R&D project software engineer, we expect you to take part in the support and development activities resulting from R&D projects’ requirements, but also to be able to write technical notes and deliverables, pulling inputs from different technical team members.
 
 Since we continue to operate as a scale-up, with the backing of a publicly listed company, you will have the opportunity to thrive in our fast moving, and exciting work environment.
 
@@ -21,8 +23,8 @@ Since we continue to operate as a scale-up, with the backing of a publicly liste
 
 - Support R&D projects using SixSq technology to address their objectives, including building edge and edge-to-cloud solutions
 - Help capturing new requirements from R&D projects for the SixSq software agile development process, in collaboration with the SixSq Product Owner
-- Test and integration activities of SixSq software with project partners
-- Attend regular technical progress meetings, reporting on the work performed, and liaising between external technical teams and the SixSq team
+- Participate in test and integration activities of SixSq software with project partners
+- Attend regular project and internal technical progress meetings, reporting on the work performed, and liaising between external technical teams and the SixSq team
 - Investigate and provide feedback on new technologies in edge computing.
 
 
@@ -33,18 +35,18 @@ We are looking for candidates with the following skills and experience:
 
 #### Mandatory
 
-- Knowledge of edge computing, machine learning and data engineering
-- Previous experience in documenting engineering projects and knowledge of software development life-cycle 
-- Experience in working on European projects or in European markets 
-- Good technical writing and communication skills 
+- Knowledge of software development life-cycle
+- Previous hands-on software development skills (e.g., with Python)
+- Attention to detail and good problem solving skills
+- Previous experience in documenting engineering projects
+- Good technical writing and communication skills
 - Highly organised with the ability to juggle multiple projects simultaneously
-- Attention to detail, problem solving and decision making skills
 
 #### Nice to have
 
-- Fluent in French
-- Experience in European or international research projects
-
+- Experience with container orchestration technologies (Docker or Kubernetes)
+- Knowledge of edge computing, machine learning or data engineering
+- Experience in working on European projects or in European markets
 
 ### Education
 
