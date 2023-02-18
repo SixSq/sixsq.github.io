@@ -9,6 +9,7 @@ product-background-img: bg-hero-home.jpg
 vignette: bg-hero-home-vignette.png
 straddle: true
 they-trust-us: false
+extra-top-content: stl_badge.html
 redirect_from:
  - /developer/personae.html
 ---

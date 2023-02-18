@@ -12,6 +12,9 @@
                 {% if page.product-next-text %}                
                 <a class="btn btn-link" role="button" href="#{{ page.product-next-target }}">{{ page.product-next-text }}</a>
                 {% endif %}
+                {% if page.extra-top-content %}
+                  {% include {{ page.extra-top-content }} %}
+                {% endif %}
             </div>
             {% if page.without-trial == true %}
             {% else %}
