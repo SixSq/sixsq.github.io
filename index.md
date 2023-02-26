@@ -13,4 +13,3 @@ extra-top-content: stl_badge.html
 redirect_from:
  - /developer/personae.html
 ---
- 
