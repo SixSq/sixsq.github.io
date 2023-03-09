@@ -843,6 +843,54 @@
         
           
           {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -897,54 +945,6 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -2407,19 +2407,6 @@
             "keywords" : "",
             "url"      : "/jobs/edge-software-developer.html",
             "content": "<p>The edge software developer will join the dev team and contribute to the NuvlaEdge software solution. Able to run on any ARM or x86 hardware architectures, the NuvlaEdge software turns any edge device into a smart and connected device, managed by the Nuvla.io service. Using the latest Docker and container orchestration engines (e.g. Docker Swarm and Kubernetes), this highly available software is at the core of SixSq quest to disrupt the IT industry.</p>\n\n<h3 id=\"description\">Description</h3>\n\n<p>SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  With the recent acquisition of SixSq by Ekinops, we are fast growing. We are looking for software developers, wanting to join a multi-cultural and international team.  As a software developer you will contribute to the overall objective of the company, which is to disrupt the IT industry with an open, agile, simple and efficient platform. The platform also includes a marketplace of business applications targeting the far edge in a range of sectors such as retail, manufacturing, transport, telecoms and energy.  In time, since we sell as a team, you will also be asked to support sales efforts via creative demonstrations and technical discussions with customers and prospects.</p>\n\n<p>To communicate with Nuvla.io, edge devices run the NuvlaEdge software.  Packaged as micro-services (e.g. Docker, DockerSwarm or Kubernetes), NuvlaEdge provides the local environment that allows Nuvla.io to manage fleets of edge devices, as well as the life-cycle of business apps running at the edge.</p>\n\n<p>The core team is based in Geneva, in beautiful Switzerland. Remote working is possible, however you must be living in or around Switzerland, with the ability to come to Geneva from time to time. As the company operates using mature agile methodologies, experience or interest in agile development is required, since this is how we think and do things.</p>\n\n<p>Expect to be given time and space to learn before jumping right in developing production code for NuvlaEdge. As an agile team, we expect each developer to be able to contribute to feature definition, architecture, design, implementation, testing and operations support.  Also, expect to be presenting sharing your work to your pears, NuvleEdge Tech Lead, Scrum Master and Product Owner for feedback and guidance.</p>\n\n<p>Since we continue to operate as a scale-up, with the backing of a publicly listed company, you will have the opportunity to thrive in our fast moving, and exciting work environment.</p>\n\n<h3 id=\"tasks-and-activities\">Tasks and Activities</h3>\n\n<p>The responsibilities will include:</p>\n\n<ul>\n  <li>production software development including designing solutions, writing code, testing code, automating test and deployment</li>\n  <li>delivery of software components working in collaboration with the rest of the team and integrated into our CI/CD pipeline</li>\n  <li>involvement in R&amp;D projects, both in Switzerland and other European countries</li>\n  <li>supporting the overall sales effort of the company, with pre-sales activities such as Q&amp;A sessions, demonstrations and working with sales people to help them, when necessary, in their customer conversations.</li>\n</ul>\n\n<h3 id=\"skills-and-experience\">Skills and Experience</h3>\n\n<p>We are looking for candidates with the following skills and experience:</p>\n\n<p><strong>Mandatory</strong></p>\n\n<ul>\n  <li>3-5 years experience as software developer</li>\n  <li>Excellent Python skills</li>\n  <li>Experience in developing production code</li>\n  <li>Able to enunciate simple designs from high-level user story requirements, alone and in a small team</li>\n  <li>Demonstrated experience in working in a multi-cultural environment</li>\n  <li>Ability to communicate effectively with internal teams, partners and customers</li>\n  <li>Experience or interest in agile methodologies (e.g. Scrum, Kanban, DevOps)</li>\n  <li>Experience in Docker and/or Kubernetes</li>\n  <li>Experience of a shell scripting language (e.g. bash)</li>\n  <li>Good knowledge of Linux (NuvlaEdge micro-services are often based on Ubuntu)</li>\n</ul>\n\n<p><strong>Nice to have</strong></p>\n\n<ul>\n  <li>Experience with micro-service architecture (NuvlaEdge is a set of Docker images orchestrated using DockerSwarm or Kubernetes)</li>\n  <li>Experience with embedded system development</li>\n  <li>Knowledge of service operations in cloud environments - e.g. Exoscale, AWS, Azure, GCE</li>\n  <li>Experience in working in an open source environment</li>\n  <li>Experience in contributing to open source projects</li>\n  <li>Experience with GitHub and its eco-system</li>\n  <li>Functional language programming experience (e.g. Clojure/Clojurescript, Scala, Haskell)</li>\n  <li>Understanding and experience of OpenVPN</li>\n</ul>\n\n<p><strong>Education</strong></p>\n\n<p>University Degree or equivalent in a technical discipline and/or in-work experience.</p>\n\n<p><strong>Language skills</strong></p>\n\n<p>SixSq operates in English and French. All official documentation is written in English.</p>\n\n<ul>\n  <li>Fluent spoken and written English</li>\n  <li>French fluency would be an advantage</li>\n</ul>\n\n<h2 id=\"additional-information\">Additional information</h2>\n\n<p>The candidate must be a Swiss or European citizen. Possession of a Swiss work permit would be an advantage.</p>\n\n<p>Travel within Europe for short periods should be expected, as part of our involvement in European research projects and customer support work.</p>\n\n<h3 id=\"location\">Location</h3>\n\n<p>Switzerland. The main SixSq office is in Geneva. Home working is possible, with regular presence at the Geneva office expected.</p>\n\n<h3 id=\"starting-date\">Starting Date</h3>\n\n<p>As soon as possible.</p>\n\n<h3 id=\"benefits\">Benefits</h3>\n\n<ul>\n  <li>Competitive salary</li>\n  <li>Chance to be part of a knowledgable, high-achieving and fun team</li>\n  <li>An international work atmosphere</li>\n  <li>The chance to be part of a rapidly growing scale up and the next success story</li>\n  <li>Intensive training on the core technologies and processes of SixSq.</li>\n</ul>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Marketing And Communications Manager",
-            "head-title" : "SixSq | Job | Marketing Manager",
-            "category" : "job",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/jobs/marketing-and-communications-manager.html",
-            "content": "<h3 id=\"description\">Description</h3>\n\n<p>SixSq is building the most advanced edge-to-cloud B2B SaaS platform: Nuvla.io.  Following the recent acquisition of SixSq by Ekinops, we are growing quickly.</p>\n\n<p>The Marketing and Communications Manager will provide planning, content creation, messaging development, and campaign execution, while coordinating the necessary resources to ensure the SixSq marketing messages are effectively delivered in a timely and consistent manner to its internal and external audiences (e.g. prospects, clients, partners).</p>\n\n<p>The primary focus of the role will be on developing the marketing and communications tools and programs that position the company’s products, anticipate customer needs, objections, and requests. The company communicates in the English language in a primarily direct sales B2B environment. The role will require constant interactions with the SixSq management and sales teams.</p>\n\n<p>The core team is based in Geneva, in beautiful Switzerland. While remote working is possible from time to time, the successful candidate is expected to be located in the Geneva region. As the company operates using mature agile methodologies, experience or interest in an agile way of working is required, since this is how we think and do things.</p>\n\n<p>Expect to be given time and space to learn about our products and services portfolio.  While SixSq operates as a start-up, we belong to Ekinops and therefore regular interactions will take place with the Ekinops marketing and communications team in Paris.  This will ensure our marketing and communications strategy and collateral is in sync with Ekinops’s telecommunication and service provider market.</p>\n\n<h3 id=\"tasks-and-activities\">Tasks and Activities</h3>\n\n<h4 id=\"the-responsibilities-will-include\">The responsibilities will include:</h4>\n\n<p>The Marketing and Communications Manager will be a major contributor to the performance of the company. As well as being a significant content contributor, he/she will also interact and work with other teams in SixSq and Ekinops to ensure delivery across the following areas:</p>\n\n<ul>\n  <li>Collateral development (e.g. white papers, solution briefs, datasheets, videos, animations)</li>\n  <li>Digital and print media production and management</li>\n  <li>List management and outbound mailing including lead management and management of lead generation consultants</li>\n  <li>Internal and external campaign initiation and execution including analysis of campaign effectiveness and strategy recommendations for increased future effectiveness</li>\n  <li>Content development, including the public website (https://sixsq.com), newsletters (i.e. general and users), ‘An Edge Conversation’ youtube channel, LinkedIn posts strategy and execution, as well as working with internal and external writers/editors as needed</li>\n  <li>Direct outside agencies and vendors, including design agencies, freelance writers or designers, print/production vendors</li>\n  <li>Ensure brand and messaging consistency</li>\n  <li>Organise and support outbound activities, including conferences with booths design and creation, as well as event generation and preparation.</li>\n</ul>\n\n<h3 id=\"skills-and-experience\">Skills and Experience</h3>\n\n<p>We are looking for candidates with the following skills and experience:</p>\n\n<h4 id=\"mandatory\">Mandatory</h4>\n\n<ul>\n  <li>Demonstrated creative mind in a start-up environment</li>\n  <li>Fluency in spoken and written English</li>\n  <li>Excellent command of web tools, social media and SEO</li>\n  <li>Good coordination skills between different projects</li>\n  <li>Demonstrated experience in working in a multi-cultural environment</li>\n  <li>Ability to communicate effectively with internal teams, partners and customers</li>\n  <li>Interest in agile way of working</li>\n  <li>Minimum 2-year experience in marketing and communications</li>\n</ul>\n\n<h4 id=\"nice-to-have\">Nice to have</h4>\n\n<ul>\n  <li>Fluent in French</li>\n  <li>Knowledge of GDPR</li>\n  <li>Experience in European or international projects</li>\n  <li>Simple web design</li>\n  <li>Mac environment and tools</li>\n</ul>\n\n<h3 id=\"education\">Education</h3>\n\n<p>University Degree and/or equivalent in-work experience.</p>\n\n<h3 id=\"language-skills\">Language skills</h3>\n\n<p>SixSq operates in English and French. All official documentation is written in English.</p>\n\n<ul>\n  <li>Fluent spoken and written English</li>\n  <li>French fluency would be an advantage</li>\n</ul>\n\n<h2 id=\"additional-information\">Additional information</h2>\n\n<p>The candidate must be a Swiss or European citizen. Possession of a Swiss work permit would be an advantage.</p>\n\n<p>Travel within Europe for short periods should be expected, to coordinate our marketing and communications activities with Ekinops (Paris) and events.</p>\n\n<h3 id=\"location\">Location</h3>\n\n<p>Geneva, Switzerland. Home working is possible, with regular presence at the Geneva office expected.</p>\n\n<h3 id=\"starting-date\">Starting Date</h3>\n\n<p>As soon as possible.</p>\n\n<h3 id=\"benefits\">Benefits</h3>\n\n<ul>\n  <li>Competitive salary</li>\n  <li>Chance to be part of a knowledgable, high-achieving and fun team</li>\n  <li>An international work atmosphere</li>\n  <li>The chance to be part of a rapidly growing scale up and the next success story</li>\n  <li>Intensive training on the SixSq products and services portfolio and processes of SixSq.</li>\n</ul>\n\n<h3 id=\"selection-process\">Selection Process</h3>\n\n<p>Interested? Apply now by sending your CV and motivation letter <strong>ASAP</strong> to <a href=\"mailto:jobs@sixsq.com?subject=job%20application\">jobs@sixsq.com</a>.</p>\n\n<p>Or know someone who could do this? Share this position with a them.</p>\n"
           },
         
       
