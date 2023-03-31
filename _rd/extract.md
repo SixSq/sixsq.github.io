@@ -3,17 +3,19 @@ layout: rd-article
 title: EXTRACT
 product-title: EXTRACT
 head-title: EXTRACT; A distributed data-mining software platform for extreme data across the compute continuum
-image: bg-hero-rd.jpg
+image: logo-extract.png
 ---
 	
 
 Data has become one of our key resources, driving digital transformation in various fields. Even though the specialised data-mining processes are constantly being improved to provide more accurate analyses, mining data with “extreme” characteristics (real-time, huge quantity, security, etc.) is a challenge still to be faced.
 
-Here’s what the EXTRACT Consortium aims to develop: through an efficient and secure platform, EXTRACT will integrate cutting-edge computing technologies combined with an AI framework, to create data-mining workflows able to generate high-quality knowledge.
+Here’s what the [EXTRACT](https://extract-project.eu/) Consortium aims to develop: through an efficient and secure platform, EXTRACT will integrate cutting-edge computing technologies combined with an AI framework, to create data-mining workflows able to generate high-quality knowledge.
 
 EXTRACT will rely on two promising real-life use cases to validate its work:
 -	A Personalized Evacuation Route service integrating data from European positioning systems, 5G localization signals and smart city IoT sensors to handle crisis management in Venice, in case of flooding.
 -	Transient Astrophysics with an array pathfinder, in particular the real-time assessment of solar activity, processing data from 2000 radio-telescopes.
+
+Follow the project on [LinkedIn](https://www.linkedin.com/company/extract-eu-project/) or [Twitter](https://twitter.com/EXTRACT_EU_proj) to get the latest news.
 
 **Duration**
 
