@@ -7,9 +7,10 @@ redirect_from:
   - /terms/general-terms
   - /terms/tou
   - /terms/tos
+show-as-card: false
 ---
 
-[History](https://github.com/SixSq/nuvla-io.github.com/commits/main/_terms/legal-general-terms-and-conditions.md)
+[History](https://github.com/SixSq/sixsq.github.io/commits/main/_legal/legal-general-terms-and-conditions-v1.md)
 
 **1\.	Subject**
 
@@ -192,4 +193,4 @@ Any claims relating to the interpretation and/or execution of these ToS shall be
 
 Claims should be addressed to [claims@sixsq.com](mailto:claims@sixsq.com).
 
-Note: these terms derive from the [original](https://github.com/Cocolabs-SAS/MarketplaceTermsOfUse){:target="_blank"} work of [Antoine Dufrane](https://www.linkedin.com/in/antoine-dufrane-b77b4629/){:target="_blank"}. 
+Note: these terms derive from the [original](https://github.com/Cocolabs-SAS/MarketplaceTermsOfUse){:target="_blank"} work of [Antoine Dufrane](https://www.linkedin.com/in/antoine-dufrane-b77b4629/){:target="_blank"}.
