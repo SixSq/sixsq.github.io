@@ -14,7 +14,9 @@
             <div id="products" class="anchor-position"></div>
             <div class="row row-col-feature row-col-feature-logo">
             {% for legal in site.legal %}
-              {% include legal-card.html %}
+              {% if legal.show-as-card != false %}
+                {% include legal-card.html %}
+              {% endif %}
             {% endfor %}
             </div>
         </div>
