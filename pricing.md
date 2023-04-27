@@ -4,6 +4,7 @@ title: Pricing
 product-title: Pay-as-you-go simple pricing
 product-description: Only pay for active resources. No commitment required.
 product-background-img: bg-hero-pricing.jpg
+pricing-file: Nuvla-io-pricing-2023-v1.0.pdf
 breadcrumbs:
  - name: Home
    target: /
