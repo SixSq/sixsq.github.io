@@ -82,6 +82,18 @@ ol, ul {
 .section-article ol, .section-article ul {
   padding-left: 1rem; }
 
+.section-legal .warning {
+  color: #ed2b2b; }
+.section-legal strong {
+  font-weight: 500; }
+.section-legal ol, .section-legal ul {
+  padding-left: 1.5rem;
+  list-style-type: lower-alpha;
+  marker: black; }
+  .section-legal ol li::marker, .section-legal ul li::marker {
+    font-weight: 300;
+    color: rgba(0, 1, 5, 0.6); }
+
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
     .section-article ol, .section-article ul {
