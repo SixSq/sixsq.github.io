@@ -114,6 +114,25 @@ ol, ul {
 .section-article ol, .section-article ul {
     padding-left: 1rem;
 }
+
+.section-legal {
+    .warning {
+        color: $red-100;
+    }
+    strong {
+        font-weight: 500;      
+    }
+    ol, ul {
+        padding-left: 1.5rem;
+        list-style-type: lower-alpha;
+        marker: black;
+        li::marker{
+            font-weight: 300;
+            color: $black-60;
+        }
+    }
+}
+
 @media not all and (min-resolution:.001dpcm) {
      @supports (-webkit-appearance:none) {
        .section-article ol, .section-article ul {
@@ -121,11 +140,13 @@ ol, ul {
        }
      }
 }
+
 @media (min-width: 992px){
-.img-right-wrapper{
-  text-align: right;
+    .img-right-wrapper{
+      text-align: right;
+    }
 }
-}
+
 img{
   max-width: 100%;
 }
