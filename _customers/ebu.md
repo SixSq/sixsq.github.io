@@ -9,4 +9,4 @@ testimonial-jobtitle: Program Manager
 top: true
 ---
 
-The European Broadcasting Union (EBU) is the world’s leading alliance of public service media (PSM). Our Members operate nearly 2,000 television, radio and online channels and services, and offer a wealth of content across other platforms. Together they reach an audience of more than one billion people around the world, broadcasting in more than 160 languages. We operate Eurovision and Euroradio services.
+The European Broadcasting Union (EBU) is the world’s leading alliance of public service media (PSM). Their Members operate nearly 2,000 television, radio and online channels and services, and offer a wealth of content across other platforms. They operate Eurovision and Euroradio services.
