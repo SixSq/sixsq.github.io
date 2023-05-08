@@ -16,7 +16,7 @@ redirect_from:
 
 The previous generic EULA is available [here](/legal/generic-apps-license-v1).
 
-# Nuvla Apps Standard End-Usere License Agreement
+# Nuvla Apps Standard End-User License Agreement
 
 ## IMPORTANT NOTICE
 
