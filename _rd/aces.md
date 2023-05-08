@@ -3,7 +3,7 @@ layout: rd-article
 title: ACES
 product-title: ACES
 head-title: ACES; Autopoietic Cognitive Edge-cloud Services
-image: bg-hero-rd.jpg
+image: logo-aces.svg
 ---
 	
 The amount and capabilities of connected edge devices are growing, and with them the amount of data exchanged. This growth increases the need for cloud services at the edge (e.g. edge services). Implementing these edge services makes it more challenging for cloud computing architectures at the edge, especially in terms of reliability, security, and AI transparency. 
