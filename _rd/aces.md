@@ -12,6 +12,9 @@ ACES aims to develop an intelligent edge-to-cloud framework, capable of managing
 
 This framework will be tested by three use cases related to the Greek energy grid, which will demonstrate how the framework can increase efficiency and reduce impact on the environment.  The use cases will demand a system which can support highly decentralised computing, deliver the ability to take autonomous decisions, and also reduce the cost of edge-to--cloud management.  
 
+**Project website**
+
+[aces-edge.eu](https://www.aces-edge.eu/)
 
 **Duration**
 

@@ -17,6 +17,10 @@ EXTRACT will rely on two promising real-life use cases to validate its work:
 
 Follow the project on [LinkedIn](https://www.linkedin.com/company/extract-eu-project/) or [Twitter](https://twitter.com/EXTRACT_EU_proj) to get the latest news.
 
+**Project website**
+
+[extract-project](https://extract-project.eu/)
+
 **Duration**
 
 1 January 2023 to 31 December 2025.
