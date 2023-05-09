@@ -1,6 +1,6 @@
 ---
-title: Pushing the edge-to-cloud continuum with Horion Europe
-product-title: Pushing the edge-to-cloud continuum with Horion Europe
+title: Pushing the edge-to-cloud continuum with Horizon Europe
+product-title: Pushing the edge-to-cloud continuum with Horizon Europe
 image: horizon-europe.jpeg
 ---
 
