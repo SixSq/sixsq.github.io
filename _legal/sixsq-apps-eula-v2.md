@@ -8,11 +8,6 @@ show-as-card: false
 
 [History](https://github.com/SixSq/sixsq.github.io/commits/main/_legal/sixsq-apps-eula-v2.md)
 
-##### Note: SixSq updated the SixSq Nuvla Apps End-User License Agreement (EULA) on 27 April 2023. This new EULA applies to all published apps by SixSq as vendor from this date.  Customers running these apps have two weeks to review the new EULA before it automatically applies. Therefore, from the 11 May 2023, all running apps published by SixSq as vendor will be governed by this updated agreement. In the meantime, customers are invited to carefully review the agreement, if you are using an app published under this EULA. If you don't want to be bound by this new agreement, you must terminate all deployments of these apps.  We are of course available if you have any questions regarding this new EULA.
-{: class="warning" }
-
-The previous SixSq EULA is available [here](/legal/sixsq-apps-license-v1).
-
 # SixSq End-User License Agreement (EULA) 
 
 ### IMPORTANT NOTICE

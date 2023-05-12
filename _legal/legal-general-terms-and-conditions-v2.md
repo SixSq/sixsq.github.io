@@ -12,11 +12,6 @@ redirect_from:
 
 [History](https://github.com/SixSq/sixsq.github.io/commits/main/_legal/legal-general-terms-and-conditions-v2.md)
 
-##### Note: SixSq updated the Nuvla Terms & Conditions (terms) on 27 April 2023. These new terms apply to all accounts created from this date.  Existing users have two weeks to review these new terms before they automatically apply. Therefore, from the 11 May 2023, all accounts will be governed by these new terms. In the meantime, existing users are invited to carefully review the terms. If you don't want to be bound by these new terms, you may contact us to deactivate your Nuvla account.  We are of course available if you have any questions regarding these new terms.
-{: class="warning" }
-
-The previous Terms and Conditions are available [here](/legal/legal-general-terms-and-conditions-v1).
-
 # Nuvla Terms and Conditions
 
 Thanks for using Nuvla! These general terms and conditions (Terms) cover your use and access to our website, content and Services (as defined below). Our Privacy Policy explains how we collect and use your information. Please read both documents carefully and make sure you understand them. If you do not understand or do not accept any part of these Terms or our Privacy Policy, you must not use the Services or access the Website.
