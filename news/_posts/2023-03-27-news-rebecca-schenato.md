@@ -2,7 +2,7 @@
 title: Introducing our new Marketing & Communications Manager
 product-title: Introducing our new Marketing & Communications Manager
 image: rebecca-schenato.jpg
-co-author-name: Rebecca Scheano 
+co-author-name: Rebecca Schenato 
 co-author-email: rebecca.schenato@sixsq.com
 co-author-title: Marketing & Communications Manager
 
