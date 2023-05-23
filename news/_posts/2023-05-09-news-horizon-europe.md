@@ -1,7 +1,7 @@
 ---
 title: Pushing the edge-to-cloud continuum with Horizon Europe
 product-title: Pushing the edge-to-cloud continuum with Horizon Europe
-image: horizon-europe.jpeg
+image: horizon-europe.png
 ---
 
 SixSq is proud to be part of 3 new [Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_ADIcfTzwAg6q5_ZHWG0WnKO7fayNUFoOvu3MwVWQpcmCYv8T1gAZUyyJdcrLizxfHPxbq) projects, thanks to funding from the Swiss government agency [SEFRI](https://www.sbfi.admin.ch/sbfi/en/home.html), which supports Swiss participation in the EU Framework Programme. The projects will give the team the opportunity of working with the very best innovators in Europe to keep SixSq software and services at the cutting edge of technology. All of the 3-year projects focus on computer architecture in the edge-to-cloud space and will be tested via concrete use cases across a wide range of sectors. 

@@ -1,7 +1,7 @@
 ---
 title: SixSq announces updates to the Nuvla platform and marketplace legal framework for improved business enablement
 product-title: SixSq announces updates to the Nuvla platform and marketplace legal framework for improved business enablement
-image: bg-hero-legal-nuvla-tc.png
+image: legal-nuvla-tc.png
 co-author-company: ekinops
 ---
 
