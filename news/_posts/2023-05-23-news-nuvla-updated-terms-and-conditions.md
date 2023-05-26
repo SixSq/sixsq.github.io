@@ -5,7 +5,7 @@ image: legal-nuvla-tc.png
 co-author-company: ekinops
 ---
 
-**Geneva, May 23rd, 2023 - SixSq SA, an Ekinops comoany**, today announced important updates to the legal framework for the Nuvla platform and marketplace, provided by its subsidiary SixSq SA.
+**Geneva, May 23rd, 2023 - SixSq SA, an Ekinops company**, today announced important updates to the legal framework for the Nuvla platform and marketplace, provided by its subsidiary SixSq SA.
 
 
 [Nuvla](https://sixsq.com/platform) is a proven B2B SaaS digital platform and marketplace for industrialization and automation of containerized edge applications and device management. Nuvla enables the deployment of these applications on the Ekinops [OneAccess](https://www.ekinops.com/products-services/products/oneaccess) branded customer premise equipment (CPE), as well as a large range of certified hardware platforms. The Nuvla marketplace contains a growing number of ready-made apps, provided by domain matter experts (aka app vendors). These apps can be automatically deployed in 1-click to any Nuvla-enabled edges, eliminating human error and improving quality. Furthermore, users can register their own apps, creating a private app store, mixing in commercially available apps from the marketplace.
