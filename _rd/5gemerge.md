@@ -41,3 +41,7 @@ A consortium of 20 companies from six European countries will collaborate on dev
 - TNO
 - Varnish Software
 - ViaSat Antenna Systems
+
+**Project website**
+
+[5G-EMERGE](https://www.5g-emerge.com/)

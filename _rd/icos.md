@@ -34,7 +34,6 @@ A consortium of 19 companies will collaborate on developing the distributed edge
 - [Fundingbox Accelerator](https://fundingbox.com/)
 - [Zettascale](https://www.zettascale.tech/)
 - [PSNC](https://www.psnc.pl/)
-- [Red Hat](https://www.redhat.com/en)
 - [Engineering](https://www.eng.it/en/)
 - [University of Athens](https://en.uoa.gr/)
 - [Suite5](https://www.suite5.eu/)
