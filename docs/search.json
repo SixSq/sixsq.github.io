@@ -863,54 +863,6 @@
         
           
           {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -965,6 +917,54 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
