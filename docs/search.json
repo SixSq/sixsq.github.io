@@ -3670,6 +3670,19 @@
           },
         
       
+        
+          
+          {
+            "title"    : "Varnish Software",
+            "head-title" : "SixSq | Nuvla marketplace | Varnish Software",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs.</p>\n"
+          },
+        
+      
     
   
   {}
