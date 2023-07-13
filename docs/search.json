@@ -23,8 +23,8 @@
         
           
           {
-            "title"      : "Case Studies",
-            "head-title" : "SixSq | Case Studies",
+            "title"      : "Industries",
+            "head-title" : "SixSq | Industries",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "casestudy, case study, casestudies, case studies, use cases, usecases",
@@ -2159,7 +2159,7 @@
           
           {
             "title"    : "Manufacturing",
-            "head-title" : "SixSq | Case study | Manufacturing",
+            "head-title" : "SixSq | Industry | Manufacturing",
             "category" : "casestudy",
             "tags"     : "",
             "keywords" : "casestudy, case study, casestudies, case studies",
@@ -2185,7 +2185,7 @@
           
           {
             "title"    : "Transport",
-            "head-title" : "SixSq | Case study | Transport",
+            "head-title" : "SixSq | Industry | Transport",
             "category" : "casestudy",
             "tags"     : "",
             "keywords" : "casestudy, case study, casestudies, case studies",
