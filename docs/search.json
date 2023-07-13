@@ -863,6 +863,54 @@
         
           
           {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -917,54 +965,6 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -2135,6 +2135,19 @@
             "keywords" : "",
             "url"      : "/authors/Marc-Elian%20B%C3%A9gin.html",
             "content": "<p>Marc-Elian Bégin is CEO and co-founder of SixSq, now an Ekinops company. Founded in 2007, SixSq helps customers build edge-to-cloud solutions to deliver real and tangible benefits to society. Marc-Elian holds a B.Eng. in Mechanical Engineering from Ecole Polytechnique of Montreal, specialising in Aerospace. Marc-Elian has worked with the Canadian and European Space Agencies, as well as CERN, on distributed software systems, grid, cloud and edge computing projects, at scale.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Rebecca Schenato",
+            "head-title" : "SixSq | Blog Author | Rebecca Schenato",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/authors/Rebecca%20Schenato.html",
+            "content": "<p>Rebecca Schenato is the marketing and communications manager at SixSq, an Ekinops company. Rebecca is engaged in strategically supporting the company’s growth and market positioning while translating the company’s business objectives into actionable marketing strategies.</p>\n\n<p>With a Master’s degree in media and business, and experience in marketing, business development, international relations and strategic positioning, she has worked in the edge computing, health, finance, IoT, and security fields supporting companies’ growth while establishing a strong presence on the market.</p>\n"
           },
         
       
