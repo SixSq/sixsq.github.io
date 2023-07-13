@@ -148,12 +148,12 @@ defaults:
       path: ""
       type: casestudies
     values:
-      product-name: Case study
+      product-name: Industry
       category: casestudy
       breadcrumbs:
        - name: Home
          target: /
-       - name: Case Studies
+       - name: Industries
          target: /case-studies
   -
     scope:

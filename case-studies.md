@@ -1,9 +1,8 @@
 ---
 layout: case-studies
-product-title: Case Studies
-product-description: Find out how our products and services are making a real difference for our customers.
+product-title: Industries
+product-description: Find out how our products and services are making a real difference in your industry.
 product-background-img: bg-hero-pricing.jpg
-product-next-text: Take a look
 product-next-target: case-studies
 breadcrumbs:
  - name: Home
