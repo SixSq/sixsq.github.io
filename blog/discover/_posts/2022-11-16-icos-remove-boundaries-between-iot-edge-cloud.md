@@ -1,7 +1,7 @@
 ---
 title: ICOS; Removing boundaries between IoT, Edge and Cloud 
 product-title: ICOS; building tomorrow’s Meta-Operating System to remove boundaries between IoT, Edge and Cloud 
-image: logo-ICOS.png
+image: featured-icos.png
 tags: edge cloud iot
 author: Agathe Veillon
 ---
