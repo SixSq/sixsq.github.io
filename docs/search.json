@@ -863,54 +863,6 @@
         
           
           {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -965,6 +917,54 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -1416,6 +1416,9 @@
             "content"    : null
           },
         
+      
+  
+      
       
   
       
@@ -2526,6 +2529,19 @@
     
   
     
+      
+        
+          
+          {
+            "title"    : "Sales Director",
+            "head-title" : "SixSq | Job | Sales Director",
+            "category" : "job",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/jobs/sales.html",
+            "content": "<p>The Sales Director is a customer trusted advisor, who leads the design and execution of SixSq’s customer engagement and negotiation strategy, selling the right SixSq Edge-to-Cloud solution to ensure every deal leads to customer success, is compliant and profitable for SixSq.</p>\n\n<h3 id=\"the-role\">The Role</h3>\n\n<ul>\n  <li>Identify and open strategic accounts.</li>\n  <li>Meet or exceed agreed sales targets on selected sectors and geographies.</li>\n  <li>Land on time Annual Recurring Revenue generation, by overseeing the deals from identification to close.</li>\n  <li>Share best practices and learnings with the rest of the SixSq team, including sales executives.</li>\n</ul>\n\n<h3 id=\"what-to-expect\">What to expect</h3>\n\n<ul>\n  <li>You will be based in Europe, either in Paris, Brussels or our head office in Geneva.</li>\n  <li>You will report directly to the company CEO.</li>\n  <li>Your financial package will include fixed and variable elements.</li>\n  <li>You will receive full training on Nuvla.io products and services.</li>\n</ul>\n\n<h3 id=\"what-we-are-looking-for\">What we are looking for</h3>\n\n<ul>\n  <li>Seasoned sales director, an executive with both “Door opener and a Deal closer” capabilities.</li>\n  <li>Executive who practises “customer outcome based selling” principles, with customer success at heart, understand your customers’ mission, goals, motivations, and strategies.</li>\n  <li>Strategic, long-term thinker able to identify trends, risks and opportunities.</li>\n  <li>Bring contacts in order to open strategic accounts in sectors such as: retail, manufacturing, transportation, logistics and/or utility/energy.</li>\n  <li>Team player and collaborative - high performing individualists will not be successful. Comfortable speaking at all organisational levels, from the CxO to the procurement / purchasing teams.</li>\n  <li>Positive attitude and a passion for working with customers and partners.</li>\n  <li>Demonstrated experience in selling software, IoT and cloud based services.</li>\n</ul>\n\n<p>Further qualifications and experience will be considered. If you can bring something else that you believe is relevant, don’t be shy.</p>\n\n<h3 id=\"minimum-qualifications\">Minimum Qualifications</h3>\n\n<p>Minimum requirements include:</p>\n\n<ul>\n  <li>Technical background: engineering or natural sciences (mathematics, physics) studies</li>\n  <li>10+ years track record in sales and negotiation, preferably in software sales.</li>\n  <li>Experience in start-up and scale-up environments</li>\n  <li>Familiarity with IoT, Edge and Cloud technologies, and their opportunities &amp; challenges.</li>\n  <li>Fluency in English, French and German. Other languages are an asset.</li>\n</ul>\n\n<p>Equivalent qualifications will be considered.  Be creative!</p>\n"
+          },
+        
       
     
   
