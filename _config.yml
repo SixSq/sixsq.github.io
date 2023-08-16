@@ -248,6 +248,12 @@ defaults:
       type: casestudies-benefits
     values:
       permalink: /case-studies/transport
+  -
+    scope:
+      path: "*/logistics"
+      type: casestudies-benefits
+    values:
+      permalink: /case-studies/logistics
 
 
 # Build settings
