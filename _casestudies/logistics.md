@@ -1,10 +1,9 @@
 ---
 layout: logistics
-product-title: Logistics
-product-description: Learn how Nuvla enables intelligent asset tracking, payment systems and AI automation in the public transport sector.
-product-summary: Transport providers are facing a huge challenge. How can they improve customer experience, respond to sustainable development goals, increase efficiency and reduce costs?
+product-title: Logistics &amp; Shipping
+product-description: Learn how Nuvla.io enables edge computing to improve speed & accuracy of warehouse operations while ensuring safety and respecting privacy
 product-background-img: bg-hero-traffic.jpg
-product-next-text: How Nuvla works in logistics
+product-next-text: How Nuvla works in logistics &amp; shipping
 product-next-target: overview
 image: usecase-transport.jpg
 vignette: usecase-transport-vignette.png

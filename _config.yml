@@ -68,6 +68,8 @@ collections:
     output: true
   casestudies-benefits:
     output: false
+  casestudies-tackle:
+    output: false
   jobs:
     output: true
   authors:
@@ -230,30 +232,54 @@ defaults:
     values:
       category: Nuvla-marketplace
       permalink: /marketplace#app-vendors
-  -
-    scope:
-      path: "*/manufacturing"
-      type: casestudies-benefits
-    values:
-      permalink: /case-studies/manufacturing
-  -
-    scope:
-      path: "*/retail"
-      type: casestudies-benefits
-    values:
-      permalink: /case-studies/retail
-  -
-    scope:
-      path: "*/transport"
-      type: casestudies-benefits
-    values:
-      permalink: /case-studies/transport
-  -
-    scope:
-      path: "*/logistics"
-      type: casestudies-benefits
-    values:
-      permalink: /case-studies/logistics
+  # -
+  #   scope:
+  #     path: "*/manufacturing"
+  #     type: casestudies-benefits
+  #   values:
+  #     permalink: /case-studies/manufacturing
+  # -
+  #   scope:
+  #     path: "*/retail"
+  #     type: casestudies-benefits
+  #   values:
+  #     permalink: /case-studies/retail
+  # -
+  #   scope:
+  #     path: "*/transport"
+  #     type: casestudies-benefits
+  #   values:
+  #     permalink: /case-studies/transport
+  # -
+  #   scope:
+  #     path: "*/logistics"
+  #     type: casestudies-benefits
+  #   values:
+  #     permalink: /case-studies/logistics
+  # -
+  #   scope:
+  #     path: "*/manufacturing"
+  #     type: casestudies-tackle
+  #   values:
+  #     permalink: /case-studies/manufacturing
+  # -
+  #   scope:
+  #     path: "*/retail"
+  #     type: casestudies-tackle
+  #   values:
+  #     permalink: /case-studies/retail
+  # -
+  #   scope:
+  #     path: "*/transport"
+  #     type: casestudies-tackle
+  #   values:
+  #     permalink: /case-studies/transport
+  # -
+  #   scope:
+  #     path: "*/logistics"
+  #     type: casestudies-tackle
+  #   values:
+  #     permalink: /case-studies/logistics
 
 
 # Build settings

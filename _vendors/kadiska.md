@@ -2,7 +2,7 @@
 title: Kadiska
 logo: logo-kadiska.png
 nuvla_url: https://nuvla.io/ui/apps/kadiska
-sectors: network monitoring, manufacturing, retail, enterprise, telco
+sectors: network monitoring, manufacturing, retail, enterprise, telco, logistics &amp; shipping
 top: true
 ---
 

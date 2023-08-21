@@ -18,6 +18,7 @@
             </div>
         </div>
     </div>
+
     <div class="container section" style="padding-top: 0;">
             <div class="container">
                 <div class="row">
@@ -42,25 +43,134 @@
         </div>
     </div>
 
-
-    <div class="container bg-primary section-primary-box section-limited-width" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
-        <div id="overview" class="anchor-position"></div>
-        <div class="row">
-            <div class="col-lg-5 primary-box-title">
-                <h2 class="text-light">Discover how Nuvla enables transport at the edge as a service</h2>
-                <p class="text-light text-big">Public transport operators have to support intelligent devices spread across hundreds of locations in their network. On- and off-board payment systems, safety monitoring, sensors and information displays all form part of the IT infrastructure that has to be checked and updated, often manually, resulting in inefficient use of IT resources and lack of central control.</p>
-            </div>
-            <div class="col-lg-7 primary-box-text">
-                <p class="text-light">By installing SixSq’s NuvlaEdge software on intelligent devices at stops, stations and in vehicles, operators gain control over the devices and the apps deployed there. <br></p>
-                <p class="text-light">Using the Nuvla platform, the operator has reliable visibility over devices and applications. Users are alerted when a device is offline and can manage the whole lifecycle of the applications, including remote updates. Additional apps can be deployed without the need for onsite visits.<br></p>
-                <p class="text-light">Transport operators gain a future-proof, scalable solution with limitless possibilities for service innovation.<br></p> 
-				<p class="text-light">Thanks to the&nbsp;<a href="/platform">Nuvla</a> edge-management platform, all team members, from management to tech experts, have an overview of the fleet of edge devices and applications via the user-friendly Nuvla platform dashboard.<br></p>
+    <div class="container-fluid">
+        <div class="container section text-center">
+            <div id="features" class="anchor-position"></div>
+            <h2>Nuvla.io in Logistics &amp; Shipping<br></h2>
+            <div class="row row-col-feature">
+                {% for post in site.casestudies-tackle %}
+                  {% if post.category == 'logistics' %}
+                    {% include feature-color.html %}
+                  {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
+
+    <div class="container-fluid bg-gray">
+    <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+        <div id="app-vendors" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center text-light">Nuvla.io Marketplace<br></h2>
+                <p class="text-light subtitle">Nuvla.io offers a variety of existing ready-to-use apps by expert app vendors. Here are examples for logistics &amp; shipping.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 0;">
+        <div class="row row-col-feature row-col-feature-logo">
+          {% assign vendors_with_sector =  site.vendors | where_exp:"item", "item.sectors contains 'logistics &amp; shipping'" %}
+
+          {% for vendor in vendors_with_sector %}
+            {% include vendor-card.html %}
+          {% endfor %}
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container section">
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>More apps available<br></strong></p>
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p class="text-big text-dark"><strong>See all apps<br></strong></p>
+                      <p>You can choose from apps in the marketplace, or bring your own or third party apps to create your own specific bouquet of apps.<br></p>
+                      <a class="btn btn-primary" role="button" href="https://nuvla.io">See all Nuvla.io apps</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
     <div class="container section section-limited-width">
         <div class="row">
-            <div class="col-lg-10 offset-lg-1"><img src="/assets/img/casestudy/transport-diagram.png"></div>
+            <div class="col-lg-10 offset-lg-1"><img src="/assets/img/casestudy/logistics-diagram.png"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-gray">
+      <div class="container bg-primary section section-limited-width" style="margin-top: 20px; background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <h2 class="text-light"><strong>Nuvla.io Benefits​</strong></h2>
+                  <p class="text-light subtitle">Create your own powerful edge-to-cloud solution and unlock all the value in your data.</p>
+              </div>
+              <div class="col-md-12 check-list light-text-list">
+                <ul>
+                  <li>
+                    <div>
+                    <h3>Modular and flexible solution</h3>
+                    <p>With cutting edge computing vision, analytics, reporting, dashboarding and insights, you get a modular solution, with no lock-in, taking advantage of an open eco-system.</p>
+                  </div>
+                  </li>
+                  <li>
+                    <h3>Reduce costs and carbon emissions</h3>
+                    <p>You can deploy on a wide range of existing and new hardware, including cameras and sensors without the need of purchasing new assets.</p>
+                  </li>
+                  <li>
+                    <h3>No prior technical knowledge required</h3>
+                    <p>Edge computing usually requires technical knowledge, training, and specialised personnel. Nuvla.io takes this complexity away, keeping you focused on your business.</p>
+                  </li>
+                  <li>
+                    <h3>Avoiding lock-ins</h3>
+                    <p>With Nuvla.io it is not only possible to integrate existing apps and freely use any of the application choices available on the platform, but it is also possible to upload or create your own solution in total freedom, and without user lock-ins.</p>
+                  </li>
+                  <li>
+                    <h3>Easily scales on wide range of sites</h3>
+                    <p>You get an open, low network dependent solution, based on standards.</p>
+                  </li>
+                  <li>
+                    <h3>Acceptable by workers and unions, yet improving health and safety</h3>
+                    <p>You get by design a solution respectful of the privacy sphere or workers and the public.</p>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section">
+          <h2 class="section-heading">Logistics &amp; Shipping in a nutshell<br></h2>
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>Read about...<br></strong></p>
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p class="text-big text-dark"><strong>1-pager<br></strong></p>
+                      <p>Read our 1-pager synthesising how the logistics &amp; shipping industry can take advantage of edge computing with Nuvla.io.<br></p>
+                      <a class="btn btn-primary" role="button" href="/download/pricing/{{ page.pricing-file }}">Download 1-pager</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-gray">
+        <div class="container section">
+            <h2 class="text-center">Blogs &amp; News<br></h2>
+            <p class="text-big text-center"><strong>Read more about logistics &amp; shipping<br></strong></p>
+            <div class="row row-col-feature row-col-activities">
+                {% assign posts_with_sector =  site.posts | where_exp:"item", "item.sectors contains 'logistics &amp; shipping'" %}
+
+                {% for post in posts_with_sector limit:3 %}
+                    {% include news-or-blog-card.html show-type = true %}
+                {% endfor %}
+            </div>
+            <div class="text-center"><a class="btn btn-primary mt-4 mb-5" role="button" href="/resources">All news, blog and more</a></div>
         </div>
     </div>
 

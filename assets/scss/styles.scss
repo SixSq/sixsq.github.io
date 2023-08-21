@@ -111,6 +111,30 @@ ol, ul {
     padding-left: 0.8rem;
 }
 
+.check-list {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: block;
+    background-image: url(/assets/img/icon-circle-check-solid.svg);
+    background-repeat: no-repeat; 
+    background-position: left center;
+    background-size: 40px;
+    margin-left: min(80px, 10%);
+    padding-left: min(80px, 10%);
+    margin-right: min(80px, 10%);
+    padding-right: min(80px, 10%);
+    padding-top: 5px;
+  }
+}
+
+.light-text-list * {
+  color: #fff;
+}
+
 .section-article ol, .section-article ul {
     padding-left: 1rem;
 }
@@ -311,27 +335,45 @@ margin: -0.5rem auto .5rem auto;
 }
 
 .row.row-col-feature.row-col-price > div > div.shadow {
-padding: 3rem 0 2rem 0;
-position: relative;
+  padding: 3rem 0 2rem 0;
+  position: relative;
 }
+
+.row.row-col-feature > div > div.shadow.no-border {
+  padding: 0 !important;
+  border-top: none !important;
+}
+
+.row.row-col-feature > div > div.shadow.no-border > .full-width {
+  padding: 3rem 0 2rem 0;
+  position: relative;
+}
+
+.row.row-col-feature > div > div.shadow.no-border > .text {
+  padding: 1.5rem 1.5rem 1.0rem 1.5rem;
+}
+
 .row-col-price .price-name {
 padding: 0 2.5rem 0 2.5rem;
 }
+
 .row-col-price .price-name img.price-plus{
   margin: -17px 0 0 -15px;
     position: absolute;
 }
+
 @media (min-width: 992px){
-.row-col-price .price-name {
-min-height: 15.5rem;
-}
+  .row-col-price .price-name {
+    min-height: 15.5rem;
+  }
 }
 
 @media (max-width: 991px){
-.row-col-price .price-name img.price-plus{
-  margin: -16px 0 0 -15px;
+  .row-col-price .price-name img.price-plus{
+    margin: -16px 0 0 -15px;
+  }
 }
-}
+
 .row-col-price .price-name p.price-label{
 font-size: 1.5rem;
 line-height: 1.5rem;
