@@ -3,7 +3,7 @@ title: 4 ways edge computing can help you achieve sustainable development goals
 product-title: 4 ways edge computing can help you achieve sustainable development goals
 image: SDG.png
 tags: edge cloud smart_cities sustainability
-sectors: retail, airport, harbour, smart city, logistics &amp; shipping
+sectors: retail, airport, harbour, smart city
 author: Rebecca Schenato
 ---
 

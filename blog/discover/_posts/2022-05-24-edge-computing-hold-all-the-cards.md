@@ -3,6 +3,7 @@ title: Privacy intrusion
 product-title: Privacy intrusion&colon; hold all the cards with edge computing 
 image: hold-all-the-cards.jpg
 tags: edge cloud privacy security
+sectors: retail, airport, harbour, smart city, logistics &amp; shipping
 author: Marc-Elian Bégin
 ---
 

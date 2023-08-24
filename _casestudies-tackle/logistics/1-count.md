@@ -5,4 +5,4 @@ category: logistics
 background-color: FD0011
 ---
 
-Identify and count moving and stationary assets
+Identify &amp; count moving &amp; stationary assets
