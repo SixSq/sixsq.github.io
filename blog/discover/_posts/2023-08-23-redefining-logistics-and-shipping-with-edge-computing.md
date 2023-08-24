@@ -1,6 +1,6 @@
 ---
 title: Redefining logistics and shipping with edge computing
-product-title: Redefining logistics and shipping; harnessing the power of edge computing for real-tine insights and anonymous processing
+product-title: Redefining logistics and shipping; harnessing the power of edge computing for real-time insights and anonymous processing
 image: logistics-blog.png
 tags: edge logistics shipping anonymity
 author: Rebecca Schenato
