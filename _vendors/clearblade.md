@@ -6,4 +6,4 @@ top: true
 sectors: railway, industry 4.0, transportation, logistics &amp; shipping
 ---
 
-Intelligent asset-tracking solution.
+No code intelligent solution for monitoring &amp; tracking assets, with analysis, alerts &amp; dashboarding. 

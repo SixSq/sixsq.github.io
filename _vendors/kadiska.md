@@ -6,4 +6,4 @@ sectors: network monitoring, manufacturing, retail, enterprise, telco, logistics
 top: true
 ---
 
-Track network to performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.
+End-to-end network monitoring to track, identify &amp; diagnose performance degradations.
