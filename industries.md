@@ -1,5 +1,5 @@
 ---
-layout: case-studies
+layout: industries
 product-title: Industries
 product-description: Find out how our products and services are making a real difference in your industry.
 product-background-img: bg-hero-pricing.jpg
@@ -38,4 +38,5 @@ keywords:
   - case studies
   - use cases
   - usecases
+  - industries
 ---

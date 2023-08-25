@@ -40,14 +40,14 @@ excerpt_separator: <!--more-->
 
 # Search exclude
 exclude_urls:
-  - /blog/casestudies/index.html
+  - /blog/industries/index.html
   - /blog/feature/index.html
   - /blog/hardware/index.html
   - /blog/job/index.html
   - /blog/news/index.html
   - /blog/nuvla-marketplace/index.html
   - /blog/partner/index.html
-  - /blog/tag/casestudies/index.html
+  - /blog/tag/industries/index.html
   - /404.html
 
 
@@ -64,11 +64,11 @@ collections:
     output: false
   platform:
     output: false
-  casestudies:
+  industries:
     output: true
-  casestudies-benefits:
+  industries-benefits:
     output: false
-  casestudies-tackle:
+  industries-tackle:
     output: false
   jobs:
     output: true
@@ -148,10 +148,10 @@ defaults:
   -
     scope:
       path: ""
-      type: casestudies
+      type: industries
     values:
       product-name: Industry
-      category: casestudy
+      category: industry
       breadcrumbs:
        - name: Home
          target: /
@@ -232,54 +232,6 @@ defaults:
     values:
       category: Nuvla-marketplace
       permalink: /marketplace#app-vendors
-  # -
-  #   scope:
-  #     path: "*/manufacturing"
-  #     type: casestudies-benefits
-  #   values:
-  #     permalink: /case-studies/manufacturing
-  # -
-  #   scope:
-  #     path: "*/retail"
-  #     type: casestudies-benefits
-  #   values:
-  #     permalink: /case-studies/retail
-  # -
-  #   scope:
-  #     path: "*/transport"
-  #     type: casestudies-benefits
-  #   values:
-  #     permalink: /case-studies/transport
-  # -
-  #   scope:
-  #     path: "*/logistics"
-  #     type: casestudies-benefits
-  #   values:
-  #     permalink: /case-studies/logistics
-  # -
-  #   scope:
-  #     path: "*/manufacturing"
-  #     type: casestudies-tackle
-  #   values:
-  #     permalink: /case-studies/manufacturing
-  # -
-  #   scope:
-  #     path: "*/retail"
-  #     type: casestudies-tackle
-  #   values:
-  #     permalink: /case-studies/retail
-  # -
-  #   scope:
-  #     path: "*/transport"
-  #     type: casestudies-tackle
-  #   values:
-  #     permalink: /case-studies/transport
-  # -
-  #   scope:
-  #     path: "*/logistics"
-  #     type: casestudies-tackle
-  #   values:
-  #     permalink: /case-studies/logistics
 
 
 # Build settings

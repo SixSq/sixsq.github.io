@@ -33,7 +33,7 @@ If you answered yes to one or more of these, there’s a good chance your compan
 
 Organisations in every sector are already using or thinking about using edge computing. The list really is endless, but here are some easily recognised applications:
 
-- [Retail stores](/case-studies/retail)
+- [Retail stores](/industries/retail)
 - Factory floors
 - Smart cities – air quality, traffic monitoring, dynamic lighting
 - Cruise ship management

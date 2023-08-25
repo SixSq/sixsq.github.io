@@ -5,13 +5,15 @@ product-description: Learn how Nuvla.io enables edge computing to improve speed 
 product-background-img: bg-hero-logistics.png
 product-next-text: How Nuvla works in logistics &amp; shipping
 product-next-target: overview
-image: usecase-transport.jpg
-vignette: usecase-transport-vignette.png
+image: industry-transport.jpg
+vignette: industry-transport-vignette.png
 keywords:
  - casestudy
  - case study
  - casestudies
  - case studies
+ - industry
+ - industries
 permalink: /industries/logistics
 redirect_from:
  - /logistics
