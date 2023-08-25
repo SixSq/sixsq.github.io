@@ -14,7 +14,8 @@ keywords:
  - case study
  - casestudies
  - case studies
-permalink: /case-studies/retail
+permalink: /industries/retail
 redirect_from:
  - /retail
+ - /case-studies/retail
 ---

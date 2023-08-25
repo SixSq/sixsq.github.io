@@ -156,7 +156,7 @@ defaults:
        - name: Home
          target: /
        - name: Industries
-         target: /case-studies
+         target: /industries
   -
     scope:
       path: ""

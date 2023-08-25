@@ -12,8 +12,9 @@ keywords:
  - case study
  - casestudies
  - case studies
-permalink: /case-studies/logistics
+permalink: /industries/logistics
 redirect_from:
  - /logistics
  - /shipping
+ - /case-studies/logistics
 ---

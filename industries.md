@@ -3,7 +3,7 @@ layout: case-studies
 product-title: Industries
 product-description: Find out how our products and services are making a real difference in your industry.
 product-background-img: bg-hero-pricing.jpg
-product-next-target: case-studies
+product-next-target: industries
 breadcrumbs:
  - name: Home
    target: /
