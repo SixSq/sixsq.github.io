@@ -7,4 +7,4 @@ sectors: railway, industry 4.0, transportation, logistics &amp; shipping
 for_logistics: Asset tracking, with local rule engine and no or low code configuration.
 ---
 
-Intelligent asset-tracking solution.
+No code intelligent solution for monitoring &amp; tracking assets, with analysis, alerts &amp; dashboarding. 

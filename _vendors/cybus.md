@@ -6,4 +6,4 @@ top: true
 sectors: industry 4.0, IIoT, manufacturing, robotics
 ---
 
-Intelligent manufacturing monitoring.
+Intelligent monitoring enables industrial manufacturers to connect &amp; automate production.
