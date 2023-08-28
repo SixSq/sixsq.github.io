@@ -72,7 +72,10 @@
           {% assign vendors_with_sector =  site.vendors | where_exp:"item", "item.sectors contains 'logistics &amp; shipping'" %}
 
           {% for vendor in vendors_with_sector %}
-            {% include vendor-card.html %}
+            {% capture card-content %}
+              {{ vendor.for_logistics }}
+            {% endcapture %}
+            {% include app-bouquet-card.html content=card-content %}
           {% endfor %}
         </div>
     </div>
