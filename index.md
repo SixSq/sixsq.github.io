@@ -2,7 +2,7 @@
 layout: home
 title: Home
 product-title: Unleash the power of edge computing with Nuvla.io
-product-description: We accelerate the deployment of apps  at the edge, reducing risk, removing management complexity and giving you full control over data.
+product-description: This B2B SaaS edge-to-cloud management platform accelerates the deployment of apps  at the edge, reducing risk, removing management complexity and delivering full control over data.
 product-next-text: Discover our solutions
 product-next-target: solutions
 product-background-img: bg-hero-home.jpg
