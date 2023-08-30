@@ -1,9 +1,9 @@
 ---
 layout: products
 title: Products
-product-name: Nuvla
-product-title: Nuvla products
-product-description: The Nuvla ecosystem is a set of powerful products and services designed to work together in a seamless manner.
+product-name: Nuvla.io
+product-title: Enabling your edge, as a service
+product-description: The safe, easy-to-use hardware-agnostic, cloud-neutral and container native ecosystem that will revolutionise your edge implementation.
 product-next-text: Discover the full product family
 product-next-target: overview
 product-background-img: bg-hero-product.png
