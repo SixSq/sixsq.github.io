@@ -23,22 +23,6 @@
         
           
           {
-            "title"      : "Industries",
-            "head-title" : "SixSq | Industries",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "casestudy, case study, casestudies, case studies, use cases, usecases",
-            "url"        : "/case-studies.html",
-            "date"       : "",
-            "content"    : "\n"
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "We&#39;re here to help!",
             "head-title" : "SixSq | We're here to help!",
             "category"   : "",
@@ -77,6 +61,22 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/",
+            "date"       : "",
+            "content"    : "\n"
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Industries",
+            "head-title" : "SixSq | Industries",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "casestudy, case study, casestudies, case studies, use cases, usecases, industries",
+            "url"        : "/industries.html",
             "date"       : "",
             "content"    : "\n"
           },
@@ -199,8 +199,8 @@
         
           
           {
-            "title"      : "Nuvla products",
-            "head-title" : "SixSq | Nuvla | Nuvla products",
+            "title"      : "Enabling your edge, as a service",
+            "head-title" : "SixSq | Nuvla.io | Enabling your edge, as a service",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -261,6 +261,36 @@
             "date"       : "",
             "content"    : ""
           },
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
         
       
   
@@ -1406,12 +1436,28 @@
         
           
           {
-            "title"      : "casestudy",
-            "head-title" : "SixSq | Blog category | casestudy",
+            "title"      : "industry",
+            "head-title" : "SixSq | Blog category | industry",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
-            "url"        : "/blog/casestudy/index.html",
+            "url"        : "/blog/industry/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "logistics",
+            "head-title" : "SixSq | Blog category | logistics",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/logistics/index.html",
             "date"       : "",
             "content"    : null
           },
@@ -1502,7 +1548,7 @@
         "tags"     : "edge, cloud, smart_cities, sustainability",
         "url"      : "/blog/discover/2023/07/19/edge-computing-and-sustainable-development-goals.html",
         "date"     : "2023-07-19 00:00:00 +0000",
-        "content": "<p>In recent years, the urgency to address pressing global challenges has led to increased attention on the <a href=\"https://sdgs.un.org/goals\">United Nations’ Sustainable Development Goals</a> (SDGs). Technological innovations such as <a href=\"/blog/discover/2019/11/08/what-is-edge-computing.html\">edge computing</a> have emerged as promising tools to drive sustainable development. However, it is crucial for businesses to embrace edge computing with a genuine commitment to sustainability.</p>\n\n<h3 id=\"but-first-what-is-edge-computing\">But first… what is edge computing?</h3>\n\n<p>Edge computing refers to the decentralized approach of processing and storing data closer to its source, at the network’s edge, rather than relying solely on centralized cloud servers. Edge computing complements cloud computing by extending its capabilities to the edge of the network, enabling faster processing, <strong>reduced latency</strong>, and enhanced data privacy. Together, edge and cloud computing create a powerful and comprehensive infrastructure that supports a wide range of applications and delivers a seamless user experience. Moreover, edge computing enables <strong>data sovereignty</strong> and business autonomy by processing and storing data locally, reducing reliance on centralized servers. This decentralized approach empowers organizations to maintain control over their data while benefiting from real-time insights and low-latency processing.</p>\n\n<h3 id=\"and-what-are-the-sustainable-development-goals-sdgs\">And what are the Sustainable Development Goals (SDGs)?</h3>\n\n<p>The <a href=\"(https://sdgs.un.org/goals)\">Sustainable Development Goals</a> (SDGs), comprise a set of 17 interconnected objectives established by the United Nations in 2015. The SDGs serve as a universal call to action that addresses a wide range of critical global challenges and which provide a comprehensive framework to create a sustainable and equitable future.</p>\n\n<h4 id=\"here-are-4-sdgs-where-edge-computing-can-make-an-impact\">Here are 4 SDGs where edge computing can make an impact</h4>\n\n<h3 id=\"sdg-7-affordable-and-clean-energy\">SDG 7: Affordable and Clean Energy</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal7\">SDG7</a> aims to ensure universal access to affordable, reliable, sustainable, and modern energy sources. Edge computing can play a pivotal role by optimizing energy consumption and enabling more efficient energy distribution. By processing data at the edge, energy management systems can minimize wasteful energy practices, identify energy-saving opportunities, and facilitate the integration of renewable energy sources into the power grid.</p>\n\n<h3 id=\"sdg-9-industry-innovation-and-infrastructure\">SDG 9: Industry, Innovation, and Infrastructure</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal9\">SDG9</a> seeks to drive economic growth and improve the overall well-being of societies. Edge computing supports this advancement by enabling real-time monitoring, predictive maintenance, and intelligent automation in various sectors. Edge computing also facilitates the deployment of smart infrastructure, enhancing the efficiency and reliability of transportation systems, energy grids, and public services.</p>\n\n<h3 id=\"sdg-11-sustainable-cities-and-communities\">SDG 11: Sustainable Cities and Communities</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal11\">SDG11</a> aims at making cities inclusive, safe, resilient, and sustainable by improving urban planning, ensuring access to basic services, and promoting sustainable practices for housing, transportation, and infrastructure. Edge computing contributes to this by enabling smart city solutions. Real-time data processing at the edge allows for efficient traffic management, waste management, and urban planning. By utilizing edge analytics, cities can optimize resource allocation, reduce congestion, and minimize environmental impact, leading to improved quality of life for residents.</p>\n\n<h3 id=\"sdg-13-climate-action\">SDG 13: Climate Action</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal13\">SDG13</a> addresses the urgent need for climate action. Edge computing can support this goal by allowing precise climate monitoring. By processing data locally, organizations can reduce the need for large-scale data transfers, which often results in increased energy consumption and carbon emissions. Additionally, edge-enabled environmental monitoring systems can provide accurate and timely data on climate indicators, aiding in climate modeling, disaster response, and the development of sustainable policies.</p>\n\n<h3 id=\"responsible-implementation-of-edge-computing\">Responsible Implementation of Edge Computing</h3>\n\n<p>To avoid being guilty of greenwashing and to ensure meaningful contributions to SDG achievements, companies must approach edge computing with a responsible mindset. Consider the following:</p>\n\n<ul>\n  <li>\n    <p><strong>Holistic Sustainability Strategy</strong><br />\nCompanies should adopt a holistic sustainability strategy that aligns with their core values and business objectives. Edge computing should be integrated into this strategy as a means to drive sustainable development, rather than as a superficial marketing tool.</p>\n  </li>\n  <li>\n    <p><strong>Energy Efficiency and Renewable Resources</strong><br />\nCompanies should prioritize energy-efficient hardware and infrastructure for edge computing deployments. Utilizing renewable energy sources to power edge computing systems can further reduce environmental impact and contribute to the clean energy transition.</p>\n  </li>\n  <li>\n    <p><strong>Lifecycle Assessment</strong><br />\nPerforming a thorough lifecycle assessment of edge computing infrastructure is essential. This assessment should consider the environmental impact of manufacturing, deployment, operation, and end-of-life disposal of edge devices, promoting responsible consumption and production.</p>\n  </li>\n  <li>\n    <p><strong>Collaboration and Knowledge Sharing</strong><br />\nBusinesses should actively participate in collaborative initiatives, industry partnerships, and knowledge-sharing platforms focused on sustainable edge computing practices. Sharing best practices, lessons learned, and research findings can foster innovation and collective progress.</p>\n  </li>\n</ul>\n\n<p>Edge computing holds tremendous potential to support companies in their journey towards achievement of SDGs. By leveraging the benefits of edge computing while maintaining a responsible and genuine commitment to sustainability, businesses can drive positive change in energy efficiency, industry innovation, sustainable cities, and climate action. Embracing edge computing with a responsible mindset ensures that companies will make a tangible impact on global sustainability goals, contributing to a sustainable future.</p>\n\n<p>As SixSq, we provide a diverse bouquet of applications in a unique edge-based <a href=\"/marketplace\">marketplace</a> that serves a multitude of industries and sectors. We aim to provide future-proof solutions that support redeployment of existing <a href=\"/nuvlaedge#hardware\">hardware</a> and efficient use of resources. To deep dive into more tangible elements linked to your business, visit our <a href=\"/case-studies\">webpage</a> or reach out to learn how we can support your sustainable transition and innovative problem solving via edge computing.</p>\n"
+        "content": "<p>In recent years, the urgency to address pressing global challenges has led to increased attention on the <a href=\"https://sdgs.un.org/goals\">United Nations’ Sustainable Development Goals</a> (SDGs). Technological innovations such as <a href=\"/blog/discover/2019/11/08/what-is-edge-computing.html\">edge computing</a> have emerged as promising tools to drive sustainable development. However, it is crucial for businesses to embrace edge computing with a genuine commitment to sustainability.</p>\n\n<h3 id=\"but-first-what-is-edge-computing\">But first… what is edge computing?</h3>\n\n<p>Edge computing refers to the decentralized approach of processing and storing data closer to its source, at the network’s edge, rather than relying solely on centralized cloud servers. Edge computing complements cloud computing by extending its capabilities to the edge of the network, enabling faster processing, <strong>reduced latency</strong>, and enhanced data privacy. Together, edge and cloud computing create a powerful and comprehensive infrastructure that supports a wide range of applications and delivers a seamless user experience. Moreover, edge computing enables <strong>data sovereignty</strong> and business autonomy by processing and storing data locally, reducing reliance on centralized servers. This decentralized approach empowers organizations to maintain control over their data while benefiting from real-time insights and low-latency processing.</p>\n\n<h3 id=\"and-what-are-the-sustainable-development-goals-sdgs\">And what are the Sustainable Development Goals (SDGs)?</h3>\n\n<p>The <a href=\"(https://sdgs.un.org/goals)\">Sustainable Development Goals</a> (SDGs), comprise a set of 17 interconnected objectives established by the United Nations in 2015. The SDGs serve as a universal call to action that addresses a wide range of critical global challenges and which provide a comprehensive framework to create a sustainable and equitable future.</p>\n\n<h4 id=\"here-are-4-sdgs-where-edge-computing-can-make-an-impact\">Here are 4 SDGs where edge computing can make an impact</h4>\n\n<h3 id=\"sdg-7-affordable-and-clean-energy\">SDG 7: Affordable and Clean Energy</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal7\">SDG7</a> aims to ensure universal access to affordable, reliable, sustainable, and modern energy sources. Edge computing can play a pivotal role by optimizing energy consumption and enabling more efficient energy distribution. By processing data at the edge, energy management systems can minimize wasteful energy practices, identify energy-saving opportunities, and facilitate the integration of renewable energy sources into the power grid.</p>\n\n<h3 id=\"sdg-9-industry-innovation-and-infrastructure\">SDG 9: Industry, Innovation, and Infrastructure</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal9\">SDG9</a> seeks to drive economic growth and improve the overall well-being of societies. Edge computing supports this advancement by enabling real-time monitoring, predictive maintenance, and intelligent automation in various sectors. Edge computing also facilitates the deployment of smart infrastructure, enhancing the efficiency and reliability of transportation systems, energy grids, and public services.</p>\n\n<h3 id=\"sdg-11-sustainable-cities-and-communities\">SDG 11: Sustainable Cities and Communities</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal11\">SDG11</a> aims at making cities inclusive, safe, resilient, and sustainable by improving urban planning, ensuring access to basic services, and promoting sustainable practices for housing, transportation, and infrastructure. Edge computing contributes to this by enabling smart city solutions. Real-time data processing at the edge allows for efficient traffic management, waste management, and urban planning. By utilizing edge analytics, cities can optimize resource allocation, reduce congestion, and minimize environmental impact, leading to improved quality of life for residents.</p>\n\n<h3 id=\"sdg-13-climate-action\">SDG 13: Climate Action</h3>\n\n<p><a href=\"https://sdgs.un.org/goals/goal13\">SDG13</a> addresses the urgent need for climate action. Edge computing can support this goal by allowing precise climate monitoring. By processing data locally, organizations can reduce the need for large-scale data transfers, which often results in increased energy consumption and carbon emissions. Additionally, edge-enabled environmental monitoring systems can provide accurate and timely data on climate indicators, aiding in climate modeling, disaster response, and the development of sustainable policies.</p>\n\n<h3 id=\"responsible-implementation-of-edge-computing\">Responsible Implementation of Edge Computing</h3>\n\n<p>To avoid being guilty of greenwashing and to ensure meaningful contributions to SDG achievements, companies must approach edge computing with a responsible mindset. Consider the following:</p>\n\n<ul>\n  <li>\n    <p><strong>Holistic Sustainability Strategy</strong><br />\nCompanies should adopt a holistic sustainability strategy that aligns with their core values and business objectives. Edge computing should be integrated into this strategy as a means to drive sustainable development, rather than as a superficial marketing tool.</p>\n  </li>\n  <li>\n    <p><strong>Energy Efficiency and Renewable Resources</strong><br />\nCompanies should prioritize energy-efficient hardware and infrastructure for edge computing deployments. Utilizing renewable energy sources to power edge computing systems can further reduce environmental impact and contribute to the clean energy transition.</p>\n  </li>\n  <li>\n    <p><strong>Lifecycle Assessment</strong><br />\nPerforming a thorough lifecycle assessment of edge computing infrastructure is essential. This assessment should consider the environmental impact of manufacturing, deployment, operation, and end-of-life disposal of edge devices, promoting responsible consumption and production.</p>\n  </li>\n  <li>\n    <p><strong>Collaboration and Knowledge Sharing</strong><br />\nBusinesses should actively participate in collaborative initiatives, industry partnerships, and knowledge-sharing platforms focused on sustainable edge computing practices. Sharing best practices, lessons learned, and research findings can foster innovation and collective progress.</p>\n  </li>\n</ul>\n\n<p>Edge computing holds tremendous potential to support companies in their journey towards achievement of SDGs. By leveraging the benefits of edge computing while maintaining a responsible and genuine commitment to sustainability, businesses can drive positive change in energy efficiency, industry innovation, sustainable cities, and climate action. Embracing edge computing with a responsible mindset ensures that companies will make a tangible impact on global sustainability goals, contributing to a sustainable future.</p>\n\n<p>As SixSq, we provide a diverse bouquet of applications in a unique edge-based <a href=\"/marketplace\">marketplace</a> that serves a multitude of industries and sectors. We aim to provide future-proof solutions that support redeployment of existing <a href=\"/nuvlaedge#hardware\">hardware</a> and efficient use of resources. To deep dive into more tangible elements linked to your business, visit our <a href=\"/industries\">webpage</a> or reach out to learn how we can support your sustainable transition and innovative problem solving via edge computing.</p>\n"
       },
     
   
@@ -1788,7 +1834,7 @@
         "tags"     : "edge, cloud",
         "url"      : "/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html",
         "date"     : "2022-05-03 00:00:00 +0000",
-        "content": "<h4 id=\"would-your-company-benefit-from-an-edge-computing-solution-4-quick-questions-to-consider\">Would your company benefit from an edge computing solution? 4 quick questions to consider.</h4>\n\n<p>It seems everyone is taking a closer look at <a href=\"/blog/discover/2019/11/08/what-is-edge-computing\">edge computing</a>. Enterprise infrastructure is evolving with more cloud, more devices and more data processing requirements at the edge. It’s inevitable that the global market will see massive growth – there are strong indications of more than 5x expansion over the next 5 years.</p>\n\n<h2 id=\"what-is-edge-computing\">What is edge computing?</h2>\n\n<p>This method of computing brings computation closer to where it’s needed. Instead of sending raw data to the cloud or a data centre for processing, edge computing provides data processing power at the edge of a network – in other words, near where the data is produced and collected. The act of processing data at the edge is sometimes referred to as near-data processing.</p>\n\n<p>Edge computing is a response to the explosion of data produced by “things” in Internet of Things (IoT) applications, as well as sensors, still and high-definition video cameras, actuators and other new digital sources.</p>\n\n<p>Edge computing is not merely the provision of a standard gateway. It delivers intelligence in the form of specialist hardware and software: edge hardware, sensors and actuators, one or more apps, and a <a href=\"https://nuvla.io\">management platform</a>.</p>\n\n<h2 id=\"who-needs-it\">Who needs it?</h2>\n\n<p>There are four great questions to reveal whether your organisation needs edge computing:</p>\n\n<ol>\n  <li>Does my company need to act in near-real time on data generated by sensors?</li>\n  <li>Do we generate data that’s too big to transfer economically and sensibly to the cloud?</li>\n  <li>Is the internet link between the digital sources and the cloud unreliable or jittery?</li>\n  <li>Does my company have a privacy or security issue when transferring or processing data in the public/private cloud</li>\n</ol>\n\n<p>If you answered yes to one or more of these, there’s a good chance your company needs edge computing.</p>\n\n<h2 id=\"who-is-using-it-already\">Who is using it already?</h2>\n\n<p>Organisations in every sector are already using or thinking about using edge computing. The list really is endless, but here are some easily recognised applications:</p>\n\n<ul>\n  <li><a href=\"/case-studies/retail\">Retail stores</a></li>\n  <li>Factory floors</li>\n  <li>Smart cities – air quality, traffic monitoring, dynamic lighting</li>\n  <li>Cruise ship management</li>\n  <li>Robotics applications</li>\n  <li>IoT applications</li>\n  <li>Big data science applications</li>\n  <li>Outpost deployments</li>\n  <li>Field offices</li>\n  <li>Emergency relief infrastructures</li>\n</ul>\n\n<h2 id=\"can-we-help\">Can we help?</h2>\n\n<p>At SixSq, we have experience with these and many other use cases. So please get in touch if you’d like help in assessing the potential benefits of edge computing for your organisation.</p>\n\n<p>We are strong proponents of open source and open systems for edge computing. This means you can count on our honest advice.</p>\n"
+        "content": "<h4 id=\"would-your-company-benefit-from-an-edge-computing-solution-4-quick-questions-to-consider\">Would your company benefit from an edge computing solution? 4 quick questions to consider.</h4>\n\n<p>It seems everyone is taking a closer look at <a href=\"/blog/discover/2019/11/08/what-is-edge-computing\">edge computing</a>. Enterprise infrastructure is evolving with more cloud, more devices and more data processing requirements at the edge. It’s inevitable that the global market will see massive growth – there are strong indications of more than 5x expansion over the next 5 years.</p>\n\n<h2 id=\"what-is-edge-computing\">What is edge computing?</h2>\n\n<p>This method of computing brings computation closer to where it’s needed. Instead of sending raw data to the cloud or a data centre for processing, edge computing provides data processing power at the edge of a network – in other words, near where the data is produced and collected. The act of processing data at the edge is sometimes referred to as near-data processing.</p>\n\n<p>Edge computing is a response to the explosion of data produced by “things” in Internet of Things (IoT) applications, as well as sensors, still and high-definition video cameras, actuators and other new digital sources.</p>\n\n<p>Edge computing is not merely the provision of a standard gateway. It delivers intelligence in the form of specialist hardware and software: edge hardware, sensors and actuators, one or more apps, and a <a href=\"https://nuvla.io\">management platform</a>.</p>\n\n<h2 id=\"who-needs-it\">Who needs it?</h2>\n\n<p>There are four great questions to reveal whether your organisation needs edge computing:</p>\n\n<ol>\n  <li>Does my company need to act in near-real time on data generated by sensors?</li>\n  <li>Do we generate data that’s too big to transfer economically and sensibly to the cloud?</li>\n  <li>Is the internet link between the digital sources and the cloud unreliable or jittery?</li>\n  <li>Does my company have a privacy or security issue when transferring or processing data in the public/private cloud</li>\n</ol>\n\n<p>If you answered yes to one or more of these, there’s a good chance your company needs edge computing.</p>\n\n<h2 id=\"who-is-using-it-already\">Who is using it already?</h2>\n\n<p>Organisations in every sector are already using or thinking about using edge computing. The list really is endless, but here are some easily recognised applications:</p>\n\n<ul>\n  <li><a href=\"/industries/retail\">Retail stores</a></li>\n  <li>Factory floors</li>\n  <li>Smart cities – air quality, traffic monitoring, dynamic lighting</li>\n  <li>Cruise ship management</li>\n  <li>Robotics applications</li>\n  <li>IoT applications</li>\n  <li>Big data science applications</li>\n  <li>Outpost deployments</li>\n  <li>Field offices</li>\n  <li>Emergency relief infrastructures</li>\n</ul>\n\n<h2 id=\"can-we-help\">Can we help?</h2>\n\n<p>At SixSq, we have experience with these and many other use cases. So please get in touch if you’d like help in assessing the potential benefits of edge computing for your organisation.</p>\n\n<p>We are strong proponents of open source and open systems for edge computing. This means you can count on our honest advice.</p>\n"
       },
     
   
@@ -2126,7 +2172,7 @@
         "tags"     : "",
         "url"      : "/news/2019/09/24/news-monthey.html",
         "date"     : "2019-09-24 00:00:00 +0000",
-        "content": "<p>The city of Monthey wants to live up to its European Energy Award and has its sights set on the European Energy Award® GOLD. It therefore has stiff targets with regards to <strong>sustainable development</strong>, which are made harder to achieve because of significant population growth in the region. This makes the success of their projects related to energy efficiency, mobility issues and traffic management even more critical. One of its key projects is <strong>Smart Monthey</strong> which has put in place an adaptive lighting system. With approximately 2,050 luminaires installed on the territory of Monthey, innovative solutions like this are fundamental to the achievement of targets for energy savings and cost reduction.</p>\n\n<p><strong>The Background</strong></p>\n\n<p>Between 2015 and 2017, mercury vapour luminaires in Monthey were replaced by LEDs and equipped with a remote management system based on <a href=\"https://www.schreder.com/en/product-technical-control-system/owlet-iot\">Owlet</a>, a solution for optimising energy consumption developed by <a href=\"https://ch.schreder.com/fr\">Schréder Swiss SA</a>. Smart lighting is made possible through the use of sensors detecting presence of traffic on the roads. This provides the right light at the right time. The luminaires can be further leveraged by the installation of sensors to carry out tasks such as counting vehicles and measuring noise pollution, etc. Anonymised data derived from these sensors can be used to inform the city’s decision making on mobility and other issues.</p>\n\n<p><strong>The Smart Solution</strong></p>\n\n<p>Within the framework of the <a href=\"https://www.cityzen.ch/\">CityZen</a> association, partners Schréder Swiss and SixSq were chosen to deploy the VolumLight® solution for Smart Monthey. VolumLight® allows the control of lighting according to the volume of traffic in real time. In addition to providing optimal lighting and safety conditions, VolumLight produces valuable traffic data. This is made possible by SixSq’s <a href=\"/casestudies/overview\">Nuvla</a> solution, an open-source <a href=\"/blog/discover/2019/11/08/what-is-edge-computing\">edge computing</a> platform for scalable smart city solutions.</p>\n\n<p>Pre-processed and anonymised on the edge, the data is analysed, then represented and communicated to the various stakeholders (decision makers, associations, citizens …) via a series of interactive maps and dashboards within ArcGIS Online, the geospatial platform developed by <a href=\"https://www.esri.com/en-us/home\">Esri</a>.</p>\n\n<p>Energy savings of <strong>over 30%</strong> are expected by the end of the project.</p>\n\n<p><strong>About Schréder</strong></p>\n\n<p>Schréder is a worldwide leader in intelligent outdoor lighting solutions. The company, founded in 1907, is present in over 70 countries spanning 5 continents. Our tradition of engineering means we have been at the forefront of innovation throughout our history. The latest wave of urbanism means city centres are becoming more vital than ever: connectivity is crucial. Experts in lightability™, we propose lighting infrastructure that will play a pivotal role in building Smart Cities and future communication networks.</p>\n\n<p><strong>About CityZen</strong></p>\n\n<p>The CityZen initiative brings together Swiss companies with expertise in the field of Smart Cities and acts as a centre of competence for cities and communes which need advice on the concept, integration and realisation of Smart City projects. Thanks to the expertise of SixSq and the other members of the initiative, CityZen covers all the issues which are key to any Smart City strategy: mobility, parking, energy, waste management, security and data management.</p>\n"
+        "content": "<p>The city of Monthey wants to live up to its European Energy Award and has its sights set on the European Energy Award® GOLD. It therefore has stiff targets with regards to <strong>sustainable development</strong>, which are made harder to achieve because of significant population growth in the region. This makes the success of their projects related to energy efficiency, mobility issues and traffic management even more critical. One of its key projects is <strong>Smart Monthey</strong> which has put in place an adaptive lighting system. With approximately 2,050 luminaires installed on the territory of Monthey, innovative solutions like this are fundamental to the achievement of targets for energy savings and cost reduction.</p>\n\n<p><strong>The Background</strong></p>\n\n<p>Between 2015 and 2017, mercury vapour luminaires in Monthey were replaced by LEDs and equipped with a remote management system based on <a href=\"https://www.schreder.com/en/product-technical-control-system/owlet-iot\">Owlet</a>, a solution for optimising energy consumption developed by <a href=\"https://ch.schreder.com/fr\">Schréder Swiss SA</a>. Smart lighting is made possible through the use of sensors detecting presence of traffic on the roads. This provides the right light at the right time. The luminaires can be further leveraged by the installation of sensors to carry out tasks such as counting vehicles and measuring noise pollution, etc. Anonymised data derived from these sensors can be used to inform the city’s decision making on mobility and other issues.</p>\n\n<p><strong>The Smart Solution</strong></p>\n\n<p>Within the framework of the <a href=\"https://www.cityzen.ch/\">CityZen</a> association, partners Schréder Swiss and SixSq were chosen to deploy the VolumLight® solution for Smart Monthey. VolumLight® allows the control of lighting according to the volume of traffic in real time. In addition to providing optimal lighting and safety conditions, VolumLight produces valuable traffic data. This is made possible by SixSq’s <a href=\"/industries/overview\">Nuvla</a> solution, an open-source <a href=\"/blog/discover/2019/11/08/what-is-edge-computing\">edge computing</a> platform for scalable smart city solutions.</p>\n\n<p>Pre-processed and anonymised on the edge, the data is analysed, then represented and communicated to the various stakeholders (decision makers, associations, citizens …) via a series of interactive maps and dashboards within ArcGIS Online, the geospatial platform developed by <a href=\"https://www.esri.com/en-us/home\">Esri</a>.</p>\n\n<p>Energy savings of <strong>over 30%</strong> are expected by the end of the project.</p>\n\n<p><strong>About Schréder</strong></p>\n\n<p>Schréder is a worldwide leader in intelligent outdoor lighting solutions. The company, founded in 1907, is present in over 70 countries spanning 5 continents. Our tradition of engineering means we have been at the forefront of innovation throughout our history. The latest wave of urbanism means city centres are becoming more vital than ever: connectivity is crucial. Experts in lightability™, we propose lighting infrastructure that will play a pivotal role in building Smart Cities and future communication networks.</p>\n\n<p><strong>About CityZen</strong></p>\n\n<p>The CityZen initiative brings together Swiss companies with expertise in the field of Smart Cities and acts as a centre of competence for cities and communes which need advice on the concept, integration and realisation of Smart City projects. Thanks to the expertise of SixSq and the other members of the initiative, CityZen covers all the issues which are key to any Smart City strategy: mobility, parking, energy, waste management, security and data management.</p>\n"
       },
     
   
@@ -2283,170 +2329,6 @@
         
           
           {
-            "title"    : "Manufacturing",
-            "head-title" : "SixSq | Industry | Manufacturing",
-            "category" : "casestudy",
-            "tags"     : "",
-            "keywords" : "casestudy, case study, casestudies, case studies",
-            "url"      : "/case-studies/manufacturing",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Retail",
-            "head-title" : "SixSq | Case study | Retail",
-            "category" : "casestudy",
-            "tags"     : "",
-            "keywords" : "casestudy, case study, casestudies, case studies",
-            "url"      : "/case-studies/retail",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Transport",
-            "head-title" : "SixSq | Industry | Transport",
-            "category" : "casestudy",
-            "tags"     : "",
-            "keywords" : "casestudy, case study, casestudies, case studies",
-            "url"      : "/case-studies/transport",
-            "content": "\n"
-          },
-        
-      
-    
-  
-    
-      
-        
-          
-          {
-            "title"    : "Near-data processing",
-            "head-title" : "SixSq | Manufacturing | Near data processing",
-            "category" : "manufacturing",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/manufacturing",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Remote control",
-            "head-title" : "SixSq | Manufacturing | Remote control",
-            "category" : "manufacturing",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/manufacturing",
-            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Security",
-            "head-title" : "SixSq | Manufacturing | Security",
-            "category" : "manufacturing",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/manufacturing",
-            "content": "<p>Experience improved IoT device and data security. Once powered up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "In-store real-time analytics",
-            "head-title" : "SixSq | Retail | In store real time analytics",
-            "category" : "retail",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/retail",
-            "content": "<p>Retail stores need data-driven insights. Using <a href=\"/platform\">Nuvla</a> to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Near-data processing",
-            "head-title" : "SixSq | Retail | Near data processing",
-            "category" : "retail",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/retail",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Data privacy",
-            "head-title" : "SixSq | Retail | Data privacy",
-            "category" : "retail",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/retail",
-            "content": "<p>ENTERA™ is the most advanced GDPR-compliant video analytics platform in the world. It will tell you what, where, when and how visitors use your space, but never who. No personal data is stored.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Future proof",
-            "head-title" : "SixSq | Transport | Future proof",
-            "category" : "transport",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/transport",
-            "content": "<p>The Nuvla <a href=\"/platform\">platform</a> provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Based on customer settings, apps are updated regularly and customers can add, remove and swap apps at any time, with no penalties, in order to ensure they have the right apps to support their business.</p>\n\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Remote control",
-            "head-title" : "SixSq | Transport | Remote control",
-            "category" : "transport",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/transport",
-            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Security",
-            "head-title" : "SixSq | Transport | Security",
-            "category" : "transport",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/case-studies/transport",
-            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
-          },
-        
-      
-    
-  
-    
-      
-        
-          
-          {
             "title"    : "EBU",
             "head-title" : "SixSq | EBU",
             "category" : "",
@@ -2584,6 +2466,330 @@
             "keywords" : "",
             "url"      : "/customers/unige.html",
             "content": "<p>Founded in 1559, the University of Geneva enjoys worldwide recognition and ranks amongst the top 100 best universities in the world. A polyvalent institution, it fosters the emergence of inter- and multidisciplinary fields in both research and teaching.</p>\n"
+          },
+        
+      
+    
+  
+    
+      
+        
+          
+          {
+            "title"    : "Logistics",
+            "head-title" : "SixSq | Industry | Logistics &amp; Shipping",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/logistics",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Manufacturing",
+            "head-title" : "SixSq | Industry | Manufacturing",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/manufacturing",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Retail",
+            "head-title" : "SixSq | Case study | Retail",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/retail",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Transport",
+            "head-title" : "SixSq | Industry | Transport",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/transport",
+            "content": "\n"
+          },
+        
+      
+    
+  
+    
+      
+        
+          
+          {
+            "title"    : "Efficient asset tracking for process optimisation",
+            "head-title" : "SixSq | Logistics | Efficient asset tracking for process optimisation",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/logistics/efficient.html",
+            "content": "<p>Edge computing enhances asset tracking via connected edge devices and camera sensors, syncing data with inventory systems for smoother product flow, quicker searches, and fewer supply chain hiccups.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Maintaining privacy and anonymity",
+            "head-title" : "SixSq | Logistics | Maintaining privacy and anonymity",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/logistics/privacy.html",
+            "content": "<p>Edge computing ensures data privacy and identity by avoiding the transmission of sensitive infornation to central servers or the cloud. Anonymous identities are handled through unique tokens, preserving privacy.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Ensuring safety and immediate action",
+            "head-title" : "SixSq | Logistics | Ensuring safety and immediate action",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/logistics/safety-action.html",
+            "content": "<p>Improve worker safety through local data processing. By utilizing advanced analytics at the edge, safety issues, such as collisions, falls, or hazardous maneuvers, can be identified and alerts issued in real-time.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Near-data processing",
+            "head-title" : "SixSq | Manufacturing | Near data processing",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/manufacturing/near-data-processing.html",
+            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Manufacturing | Remote control",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/manufacturing/remote-access.html",
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Security",
+            "head-title" : "SixSq | Manufacturing | Security",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/manufacturing/security.html",
+            "content": "<p>Experience improved IoT device and data security. Once powered up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "In-store real-time analytics",
+            "head-title" : "SixSq | Retail | In store real time analytics",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/retail/instore-analytics.html",
+            "content": "<p>Retail stores need data-driven insights. Using <a href=\"/platform\">Nuvla</a> to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Near-data processing",
+            "head-title" : "SixSq | Retail | Near data processing",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/retail/near-data-processing.html",
+            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Data privacy",
+            "head-title" : "SixSq | Retail | Data privacy",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/retail/privacy.html",
+            "content": "<p>ENTERA™ is the most advanced GDPR-compliant video analytics platform in the world. It will tell you what, where, when and how visitors use your space, but never who. No personal data is stored.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Future proof",
+            "head-title" : "SixSq | Transport | Future proof",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/transport/future-proof.html",
+            "content": "<p>The Nuvla <a href=\"/platform\">platform</a> provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Based on customer settings, apps are updated regularly and customers can add, remove and swap apps at any time, with no penalties, in order to ensure they have the right apps to support their business.</p>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Transport | Remote control",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/transport/remote-access.html",
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Security",
+            "head-title" : "SixSq | Transport | Security",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/transport/security.html",
+            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+          },
+        
+      
+    
+  
+    
+      
+        
+          
+          {
+            "title"    : "Count",
+            "head-title" : "SixSq | Logistics | Count",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/1-count.html",
+            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Journey",
+            "head-title" : "SixSq | Logistics | Journey",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/2-journey.html",
+            "content": "<p>Track assets on their journey</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Locate",
+            "head-title" : "SixSq | Logistics | Locate",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/3-locate.html",
+            "content": "<p>Identify coordinates of assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Identify",
+            "head-title" : "SixSq | Logistics | Identify",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/4-identify.html",
+            "content": "<p>OCR labels to identify unique assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Track",
+            "head-title" : "SixSq | Logistics | Track",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/5-tracking.html",
+            "content": "<p>Product and trolley tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Everywhere",
+            "head-title" : "SixSq | Logistics | Everywhere",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/6-night-day.html",
+            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Protect",
+            "head-title" : "SixSq | Logistics | Protect",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/7-worker-protection.html",
+            "content": "<p>Worker protection in warehouse</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Clarity",
+            "head-title" : "SixSq | Logistics | Clarity",
+            "category" : "logistics",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/logistics/8-state.html",
+            "content": "<p>Distinguish loaded vs. unloaded assets</p>\n"
           },
         
       
@@ -3739,7 +3945,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
-            "content": "<p>Cyber defence driven by AI for the edge and more.</p>\n"
+            "content": "<p>A powerful and autonomous cybersecurity AI platform to protect against ongoing attacks.</p>\n"
           },
         
       
@@ -3765,7 +3971,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
-            "content": "<p>Intelligent asset-tracking solution.</p>\n"
+            "content": "<p>No code intelligent solution for monitoring &amp; tracking assets, with analysis, alerts &amp; dashboarding.</p>\n"
           },
         
       
@@ -3778,7 +3984,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
-            "content": "<p>Intelligent manufacturing monitoring.</p>\n"
+            "content": "<p>Intelligent monitoring enables industrial manufacturers to connect &amp; automate production.</p>\n"
           },
         
       
@@ -3791,7 +3997,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
-            "content": "<p>Track network to performs in-depth internet/BGP routing analysis to track, identify and diagnose performance degradations along the end-to-end network path.</p>\n"
+            "content": "<p>End-to-end network monitoring to track, identify &amp; diagnose performance degradations.</p>\n"
           },
         
       
@@ -3804,7 +4010,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
-            "content": "<p>Monitor and predict network low latency in real-time. Track, predict and evaluate latency-optimized 5G and Private LTE Networks in support of time-critical innovations.</p>\n"
+            "content": "<p>Monitor &amp; predict network low latency in real-time. Track, predict &amp; evaluate &amp; Private LTE Networks.</p>\n"
           },
         
       
