@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}    
+    {% include top-form-section-blog.html %}
+
+    <div class="container-fluid breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <!-- <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+        <div id="overview" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-light"><strong>The power of edge for logistics &amp; shipping </strong></h2>
+                <p class="text-light subtitle">Enhancing your logistics solutions with the power of edge computing has never been easier</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section" style="padding-top: 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                      <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/08BMrtTCSkU" class="video-frame" width="100%"></iframe>
+                    </div>
+                </div>
+            </div>
+    </div> -->
+
+    <div class="container-fluid bg-gray">
+        <div class="container section text-center">
+            <div id="features" class="anchor-position"></div>
+            <h2>Addressing the challenges of Telcos<br></h2>
+            <div class="row row-col-feature">
+                {% for post in site.industries-benefits %}
+                  {% if post.category == 'telco' %}
+                    {% include feature.html %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section text-center">
+            <div id="features" class="anchor-position"></div>
+            <h2>Nuvla.io in Telcos<br></h2>
+            <div class="row row-col-feature">
+                {% for post in site.industries-tackle %}
+                  {% if post.category == 'telco' %}
+                    {% include feature-color.html %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-gray">
+    <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem; margin-bottom: -8rem !important;">
+        <div id="app-vendors" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center text-light">Nuvla.io Marketplace<br></h2>
+                <p class="text-light subtitle">Mix and match to find the best solution to your needs. Select from the existing ready-to-use apps by expert app vendors, add your own or register third party apps. Here's an example of apps that can be combined to deliver results for logistics &amp; shipping. Many more combinations are possible.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 0;">
+        <div class="row row-col-feature row-col-feature-logo">
+          {% assign vendors_with_sector =  site.vendors | where_exp:"item", "item.sectors contains 'telco'" %}
+
+          {% for vendor in vendors_with_sector %}
+            {% capture card-content %}
+              {{ vendor.for_telco }}
+            {% endcapture %}
+            {% include app-bouquet-card.html content=card-content %}
+          {% endfor %}
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container section">
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>Additional apps available<br></strong></p>
+                      <img src="/assets/img/icon-logistics-worker-white.png">
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p>You have total freedom to purchase apps, create your own, or register third party apps to the Nuvla.io platform. This allows great flexibility to address your logistics goals with your own specific bouquet of apps.<br></p>
+                      <a class="btn btn-primary" role="button" href="https://nuvla.io/ui/apps" target="_blank">See all apps on Nuvla.io</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container section section-limited-width">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1"><img src="/assets/img/industry/logistics-diagram.png"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid bg-gray">
+      <div class="container bg-primary section section-limited-width" style="margin-top: 20px; background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <h2 class="text-light"><strong>Nuvla.io Benefits​</strong></h2>
+                  <p class="text-light subtitle">Create your own powerful edge-to-cloud solution and unlock all the value in your data.</p>
+              </div>
+              <div class="col-md-12 check-list light-text-list">
+                <ul>
+                  <li>
+                    <div>
+                    <h3>Modular and flexible solution</h3>
+                    <p>With cutting edge computing vision, analytics, reporting, dashboarding and insights, you get a modular solution, with no lock-in, taking advantage of an open eco-system.</p>
+                  </div>
+                  </li>
+                  <li>
+                    <h3>Reduce costs and carbon emissions</h3>
+                    <p>You can deploy on a wide range of existing and new hardware, including cameras and sensors, without the need of purchasing new assets.</p>
+                  </li>
+                  <li>
+                    <h3>No prior technical knowledge required</h3>
+                    <p>Edge computing usually requires technical knowledge, training, and specialised personnel. Nuvla.io takes this complexity away, keeping you focused on your business.</p>
+                  </li>
+                  <li>
+                    <h3>Avoiding lock-in</h3>
+                    <p>With Nuvla.io it is not only possible to integrate existing apps and freely use any of the application choices available on the platform, but it is also possible to upload or create your own solution in total freedom, and without user lock-in.</p>
+                  </li>
+                  <li>
+                    <h3>Easily scales on wide range of sites</h3>
+                    <p>You get an open, low network dependent solution, based on standards. You can scale your soution worldwide in just a few clicks.</p>
+                  </li>
+                  <li>
+                    <h3>Acceptable by workers and unions, yet improving health and safety</h3>
+                    <p>By design, you get a solution respectful of the privacy sphere of workers and the public.</p>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section">
+          <h2 class="section-heading">Logistics &amp; Shipping in a nutshell<br></h2>
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>Find out more about how you can unleash the power of edge computing for your business.<br></strong></p>
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p class="text-big text-dark"><strong>Your guide to improving operations<br></strong></p>
+                      <p>Customers using Nuvla.io reduce risk, decrease costs and remove complexity. Want to do the same for your logistics &amp; shipping business? Download our one-page guide. 
+<br></p>
+                      <div class="hs-cta-embed hs-cta-embed-131652751238" style="max-width:100%; max-height:100%; width:210px;height:244px">
+                        <link rel="stylesheet" href="https://js.hscta.com/embeddable_cta_placeholder_v1.css">
+                        <div class="hs-cta-loading-dot__container">
+                           <div class="hs-cta-loading-dot"></div>
+                           <div class="hs-cta-loading-dot"></div>
+                           <div class="hs-cta-loading-dot"></div>
+                        </div>
+                        <div class="hs-cta-embed__skeleton"></div>
+                        <picture>
+                          <source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(max-width: 480px)" />
+                          <img alt="Form CTA" loading="lazy" src="https://no-cache.hubspot.com/cta/default/475360/interactive-131652751238.png" style="height: 100%; width: 100%; object-fit: fill" onerror="this.style.display='none'" />
+                        </picture>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-gray">
+        <div class="container section">
+            <h2 class="text-center">Blogs &amp; News<br></h2>
+            <p class="text-big text-center"><strong>Find a collection of news articles and blog posts that could be of interest and further explore the power of edge computing.<br></strong></p>
+            <div class="row row-col-feature row-col-activities">
+                {% assign posts_with_sector =  site.posts | where_exp:"item", "item.sectors contains 'telco'" %}
+
+                {% for post in posts_with_sector limit:3 %}
+                    {% include news-or-blog-card.html show-type = true %}
+                {% endfor %}
+            </div>
+            <div class="text-center"><a class="btn btn-primary mt-4 mb-5" role="button" href="/resources">All news, blog and more</a></div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
