@@ -80,7 +80,7 @@ collections:
     output: true
   staff:
     output: false
-  downloads:
+  download:
     output: false
     
 
