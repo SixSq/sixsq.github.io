@@ -55,6 +55,22 @@
         
           
           {
+            "title"      : "Downloads",
+            "head-title" : "SixSq | Downloads",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/downloads.html",
+            "date"       : "",
+            "content"    : "<div class=\"container-fluid\">\n    <div class=\"container section text-center hero-narrow\">\n        <div id=\"products\" class=\"anchor-position\"></div>\n        <div class=\"row row-col-feature row-col-feature-logo\">\n          \n            <div id=\"logisitcs-1-pager\" class=\"col-lg-6\">\n    <div class=\"shadow\">\n        <img src=\"/assets/img/thumbnails/logistics-1-pager-thumbnail.png\" />\n        <h3>Logistics &amp; Shipping 1-pager</h3>\n        <p>How Nuvla.io revolutionises the Logistics &amp; Shipping industry</p>\n        <div class=\"hs-cta-embed hs-cta-embed-131652751238\" style=\"max-width:100%; max-height:100%; width:210px;height:244px\">\n  <link rel=\"stylesheet\" href=\"https://js.hscta.com/embeddable_cta_placeholder_v1.css\" />\n  <div class=\"hs-cta-loading-dot__container\">\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n  </div>\n  <div class=\"hs-cta-embed__skeleton\"></div>\n  <picture>\n    <source srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" media=\"(max-width: 480px)\" />\n    <img alt=\"Form CTA\" loading=\"lazy\" src=\"https://no-cache.hubspot.com/cta/default/475360/interactive-131652751238.png\" style=\"height: 100%; width: 100%; object-fit: fill\" onerror=\"this.style.display='none'\" />\n  </picture>\n</div>\n\n    </div>\n</div>\n\n          \n            <div id=\"telco-1-pager\" class=\"col-lg-6\">\n    <div class=\"shadow\">\n        <img src=\"/assets/img/thumbnails/telco-1-pager-thumbnail.png\" />\n        <h3>Telecoms &amp; Service Providers 1-pager</h3>\n        <p>How Nuvla.io revolutionises the Telecommunications &amp; Service Providers industry</p>\n        <div class=\"hs-cta-embed hs-cta-embed-133236941317\" style=\"max-width:100%; max-height:100%; width:350px;height:206px\">\n  <link rel=\"stylesheet\" href=\"https://js.hscta.com/embeddable_cta_placeholder_v1.css\" />\n  <div class=\"hs-cta-loading-dot__container\">\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n  </div>\n  <div class=\"hs-cta-embed__skeleton\"></div>\n  <picture>\n    <source srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" media=\"(max-width: 480px)\" />\n    <img alt=\"Form CTA\" loading=\"lazy\" src=\"https://no-cache.hubspot.com/cta/default/475360/interactive-133236941317.png\" style=\"height: 100%; width: 100%; object-fit: fill\" onerror=\"this.style.display='none'\" />\n  </picture>\n</div>\n\n    </div>\n</div>\n\n          \n          \n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-news.svg\" />\n                    <h3>Logistics </h3>\n                    <p>Discover the latest news and events from SixSq, our partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/news\" target=\"_blank\">Read news</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-blog.svg\" />\n                    <h3>Blog</h3>\n                    <p>We share in this blog our latest thoughts and what we've learned working with partners and customers.</p><a class=\"btn btn-light\" role=\"button\" href=\"/blog\" target=\"_blank\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\">\n                    <img src=\"/assets/img/icon-video.svg\" />\n                    <h3>Videos</h3>\n                    <p>See us in action&colon; talking, showing, explaining and evangelising about edge computing, cloud computing and what we do.</p><a class=\"btn btn-light\" role=\"button\" href=\"/videos\" target=\"_blank\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-6\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-documents.svg\" />\n                    <h3>Documentation</h3>\n                    <p>If you're the reading type, our documentation website is designed for you.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://docs.nuvla.io/\" target=\"_blank\">Read on</a>\n                </div>\n            </div>\n        </div>\n        <!-- <div class=\"row row-col-feature row-col-feature-logo\">\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-Webinar.svg\">\n                    <h3>Webinar</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Watch now</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-knowledge.svg\">\n                    <h3>Edge Knowledge Base</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Read articles</a>\n                </div>\n            </div>\n            <div class=\"col-lg-4\">\n                <div class=\"shadow\"><img src=\"/assets/img/icon-documents.svg\">\n                    <h3>White papers</h3>\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><a class=\"btn btn-light\" role=\"button\" href=\"https://nuvla.io/\">Learn more</a>\n                </div>\n            </div>\n        </div> -->\n    </div>\n</div>\n"
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "Unleash the power of edge computing with Nuvla.io",
             "head-title" : "SixSq | Unleash the power of edge computing with Nuvla.io",
             "category"   : "",
@@ -261,6 +277,11 @@
             "date"       : "",
             "content"    : ""
           },
+        
+      
+  
+      
+        
         
       
   
@@ -2466,6 +2487,36 @@
             "keywords" : "",
             "url"      : "/customers/unige.html",
             "content": "<p>Founded in 1559, the University of Geneva enjoys worldwide recognition and ranks amongst the top 100 best universities in the world. A polyvalent institution, it fosters the emergence of inter- and multidisciplinary fields in both research and teaching.</p>\n"
+          },
+        
+      
+    
+  
+    
+      
+        
+          
+          {
+            "title"    : "Logistics &amp;amp; Shipping 1-pager",
+            "head-title" : "SixSq | Logistics &amp; Shipping 1 pager",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/downloads/logisitcs-1-pager.html",
+            "content": "<div class=\"hs-cta-embed hs-cta-embed-131652751238\" style=\"max-width:100%; max-height:100%; width:210px;height:244px\">\n  <link rel=\"stylesheet\" href=\"https://js.hscta.com/embeddable_cta_placeholder_v1.css\" />\n  <div class=\"hs-cta-loading-dot__container\">\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n  </div>\n  <div class=\"hs-cta-embed__skeleton\"></div>\n  <picture>\n    <source srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" media=\"(max-width: 480px)\" />\n    <img alt=\"Form CTA\" loading=\"lazy\" src=\"https://no-cache.hubspot.com/cta/default/475360/interactive-131652751238.png\" style=\"height: 100%; width: 100%; object-fit: fill\" onerror=\"this.style.display='none'\" />\n  </picture>\n</div>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Telecoms &amp;amp; Service Providers 1-pager",
+            "head-title" : "SixSq | Telecoms &amp; Service Providers 1 pager",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/downloads/telco-1-pager.html",
+            "content": "<div class=\"hs-cta-embed hs-cta-embed-133236941317\" style=\"max-width:100%; max-height:100%; width:350px;height:206px\">\n  <link rel=\"stylesheet\" href=\"https://js.hscta.com/embeddable_cta_placeholder_v1.css\" />\n  <div class=\"hs-cta-loading-dot__container\">\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n     <div class=\"hs-cta-loading-dot\"></div>\n  </div>\n  <div class=\"hs-cta-embed__skeleton\"></div>\n  <picture>\n    <source srcset=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" media=\"(max-width: 480px)\" />\n    <img alt=\"Form CTA\" loading=\"lazy\" src=\"https://no-cache.hubspot.com/cta/default/475360/interactive-133236941317.png\" style=\"height: 100%; width: 100%; object-fit: fill\" onerror=\"this.style.display='none'\" />\n  </picture>\n</div>\n"
           },
         
       
