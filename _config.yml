@@ -80,6 +80,8 @@ collections:
     output: true
   staff:
     output: false
+  downloads:
+    output: false
     
 
 defaults:
