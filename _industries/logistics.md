@@ -1,10 +1,11 @@
 ---
 layout: logistics
 product-title: Logistics &amp; Shipping
-product-description: Learn how Nuvla.io enables edge computing to improve speed & accuracy of warehouse operations while ensuring safety and respecting privacy
+product-description: Learn how Nuvla.io improves speed &amp; accuracy of warehouse operations while ensuring safety &amp; respecting privacy
+product-summary: Edge computing enables efficient asset tracking for process optimisation, performance monitoring, as well as health and safety monitoring, while maintaining privacy and anonymity of the work force.
 product-background-img: bg-hero-logistics.png
 product-next-target: overview
-image: industry-transport.jpg
+image: industry-logistics.png
 vignette: industry-transport-vignette.png
 keywords:
  - casestudy
