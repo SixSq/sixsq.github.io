@@ -2,7 +2,7 @@
 layout: blog
 title: Blog
 product-title: Blog
-product-description: Read the SixSq blog to discover edge computing, dig deeper into the tech or get tips on growing your business with the Nuvla marketplace
+product-description: Read the SixSq blog to discover edge computing, dig deeper into the tech or get tips on growing your business with the Nuvla.io marketplace
 product-background-img: bg-hero-blog.jpg
 breadcrumbs:
  - name: Home
