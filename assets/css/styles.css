@@ -573,6 +573,11 @@ p.subtitle {
   background-color: #ffffff;
 }
 
+:target > .shadow {
+  box-shadow: 0 0 4rem rgba(0, 1, 5, 0.6) !important;
+  background-color: #ffffff;
+}
+
 input, .form-control {
   border-radius: 0;
   border: 1px solid rgba(0, 1, 5, 0.15);

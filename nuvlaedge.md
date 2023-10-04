@@ -24,4 +24,6 @@ nav-items:
 keywords:
  - hardware
  - specification
+redirect_from:
+ - /hardware
 ---
