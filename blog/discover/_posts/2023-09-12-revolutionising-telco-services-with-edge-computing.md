@@ -1,6 +1,6 @@
 ---
-title: Revolutionising telco services with edge computing
-product-title: Revolutionising telco services with edge computing; A new era of innovation
+title: Revolutionising enterprise telco services with edge computing
+product-title: Revolutionising enterprise telco services with edge computing; A new era of innovation
 image: telco-blog.png
 tags: edge telco 
 sectors: telco

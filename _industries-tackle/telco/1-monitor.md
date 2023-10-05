@@ -1,8 +1,8 @@
 ---
-title: Count
+title: Monitor
 icon: icon-boxes-stacked-with-magnifying-glass-white.svg
 category: telco
 background-color: FD0011
 ---
 
-Identify &amp; count moving &amp; stationary assets
+Real-time performance monitoring
