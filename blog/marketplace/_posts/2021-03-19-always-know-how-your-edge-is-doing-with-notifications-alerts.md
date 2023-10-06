@@ -3,7 +3,7 @@ title: Always know how your edge is doing with notifications and alerts
 product-title: Always know how your edge is doing with notifications and alerts
 image: hermes-min.png
 tags: edge cloud
-sectors: retail, airport, harbour, telco
+sectors: retail, airport, harbour, telco, transport, manufacturing
 author: Marc-Elian Bégin
 ---
 

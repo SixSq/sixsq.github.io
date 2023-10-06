@@ -3,7 +3,7 @@ title: Forensic analysis at the edge with the blackbox app
 product-title: Forensic analysis at the edge with the blackbox app
 image: blackbox-blog-title-min.png
 tags: edge cloud
-sectors: retail, airport, harbour, smart city, logistics &amp; shipping, telco
+sectors: retail, airport, harbour, smart city, logistics &amp; shipping, telco, transport
 author: Marc-Elian Bégin
 redirect_from:
  - /blog/forensic-analysis-at-the-edge-with-blackbox-app
