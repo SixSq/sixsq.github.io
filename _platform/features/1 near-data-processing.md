@@ -4,4 +4,4 @@ icon: icon-connectivity.svg
 main-feature: true
 ---
 
-Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.  
+Instead of moving tons of data to the cloud, take advantage of edge computing by bringing the processing to the data. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.  
