@@ -5,7 +5,7 @@ product-description: Learn how Nuvla.io enables telcos to revolutionize their of
 product-background-img: bg-hero-telco.png
 product-next-target: overview
 image: industry-transport.jpg
-vignette: industry-transport-vignette.png
+vignette: industry-telco-vignette.png
 keywords:
  - casestudy
  - case study
