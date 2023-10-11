@@ -135,8 +135,8 @@
         
           
           {
-            "title"      : "Marketplace",
-            "head-title" : "SixSq | Marketplace",
+            "title"      : "Nuvla.io Marketplace",
+            "head-title" : "SixSq | Nuvla.io Marketplace",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "app vendor, vendors, journey, customer",
@@ -184,7 +184,7 @@
           
           {
             "title"      : "B2B edge and container management platform",
-            "head-title" : "SixSq | Nuvla | B2B edge and container management platform",
+            "head-title" : "SixSq | Nuvla.io | B2B edge and container management platform",
             "category"   : "",
             "tags"       : "",
             "keywords"   : "",
@@ -3593,7 +3593,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/1%20near-data-processing.html",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
+            "content": "<p>Instead of moving tons of data to the cloud, take advantage of edge computing by bringing the processing to the data. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
           },
         
       
@@ -3606,7 +3606,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/any-hardware.html",
-            "content": "<p>Via <a href=\"nuvlaedge\">NuvlaEdge</a> software, the Nuvla platform can manage edge devices, servers and virtual machines based on both ARM and x86 <a href=\"/nuvlaedge#hardware\">hardware</a>. This means you can choose the right hardware for the right application, and yet use the same management platform to simplify operations.</p>\n"
+            "content": "<p>Via <a href=\"nuvlaedge\">NuvlaEdge</a> software, the Nuvla.io platform can manage edge devices, servers and virtual machines based on both ARM and x86 <a href=\"/nuvlaedge#hardware\">hardware</a>. This means you can choose the right hardware for your needs, yet manage everything with one management platform to simplify operations.</p>\n"
           },
         
       
@@ -3619,7 +3619,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/api.html",
-            "content": "<p>The Nuvla platform exposes a powerful REST API. This API allows developers to integrate Nuvla into third-party systems, script it and even use it as <em>Infrastructure as code (IaC)</em>. We have also put a lot of effort into the <a href=\"https://docs.nuvla.io\"> Nuvla documentation</a>. Go and explore!</p>\n"
+            "content": "<p>The Nuvla.io platform exposes a powerful REST API. This API allows developers to integrate Nuvla.io into third-party systems, script it and even use it as <em>Infrastructure as code (IaC)</em>. We have also put a lot of effort into the <a href=\"https://docs.nuvla.io\" target=\"_blank\"> Nuvla.io documentation</a>. Go and explore!</p>\n"
           },
         
       
@@ -3632,7 +3632,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/automation.html",
-            "content": "<p>Repetitive, manual deployments are costing your organisation time and money. Introducing automation reduces expenditure and gives your people more time to be creative. The Nuvla platform allows you to manage at scale apps deployed at the edge and in the cloud. Nuvla gives you a single pane of glass to monitor and manage your edge-to-cloud fleet.</p>\n"
+            "content": "<p>Repetitive, manual deployments are costing your organisation time and money. Introducing automation reduces expenditure and gives your people more time to be creative. The Nuvla.io platform allows you to manage at scale apps deployed at the edge and in the cloud. Nuvla.io gives you a single dashboard to monitor and manage your edge-to-cloud fleet.</p>\n"
           },
         
       
@@ -3645,7 +3645,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/cloud.html",
-            "content": "<p>Nuvla is cloud- and container-native. And since Docker and Kubernetes are supported by virtually all public and private clouds, this means you can use the Nuvla platform with your favourite cloud. This protects you from vendor lock-in, providing unprecedented flexibility in your choice of cloud solutions as well as edge hardware.</p>\n"
+            "content": "<p>Nuvla.io is cloud- and container-native. And since Docker and Kubernetes are supported by virtually all public and private clouds, this means you can use the Nuvla.io platform with your favourite cloud. This protects you from vendor lock-in, providing unprecedented flexibility in your choice of cloud solutions as well as edge hardware.</p>\n"
           },
         
       
@@ -3671,7 +3671,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/docker.html",
-            "content": "<p>Nuvla is container-native. Simply capture your app in the platform, including the endpoint of a Docker Registry, with credentials. The Nuvla platform will be able to deploy your app at scale. You can also take advantage of 1000s of existing Docker images, such as load balancers, databases, AI tools and more. All this from the comfort of a <em>Platform as a Service (PaaS)</em> offering and the <a href=\"/marketplace\">marketplace</a>.</p>\n"
+            "content": "<p>Nuvla.io is container-native. Simply capture your app in the platform, including the endpoint of a Docker Registry, with credentials. The Nuvla.io platform will be able to deploy your app at scale. You can also take advantage of 1000s of existing Docker images, such as load balancers, databases, AI tools and more. All this from the comfort of a <em>Platform as a Service (PaaS)</em> offering and the <a href=\"/marketplace\">marketplace</a>.</p>\n"
           },
         
       
@@ -3697,7 +3697,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/kubernetes.html",
-            "content": "<p>The Nuvla platform not only supports Docker but also Kubernetes, the de-facto standard for the orchestration of large container clusters. Simply capture your application deployment as a Kubernetes manifest in Nuvla, and use the platform to deploy your apps on any Kubernetes cluster, including your own.</p>\n"
+            "content": "<p>The Nuvla.io platform not only supports Docker but also Kubernetes, the de-facto standard for the orchestration of large container clusters. Simply capture your application deployment as a Kubernetes manifest in Nuvla.io, and use the platform to deploy your apps on any Kubernetes cluster, including your own.</p>\n"
           },
         
       
@@ -3710,7 +3710,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/multi-cloud.html",
-            "content": "<p>The Nuvla platform allows you to configure any number of Container-as-a-Service (CaaS) (e.g. Docker Swarm, Kubernetes) endpoints. This means you can mix and match public clouds, private clouds and infrastructure, as well as edge devices running NuvlaEdge software. This enables a simple and effective edge-to-multi-cloud solution.</p>\n"
+            "content": "<p>The Nuvla.io platform allows you to configure any number of Container-as-a-Service (CaaS) (e.g. Docker Swarm, Kubernetes) endpoints. This means you can mix and match public clouds, private clouds and infrastructure, as well as edge devices running NuvlaEdge software. This enables a simple and effective edge-to-multi-cloud solution.</p>\n"
           },
         
       
@@ -3723,7 +3723,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/on-premise.html",
-            "content": "<p>For large deployments, you can install the Nuvla platform within your own walls or on a public cloud. You can also benefit from professional support from SixSq. <a href=\"/contact#breadcrumb\">Get in touch</a> to discuss your needs.</p>\n"
+            "content": "<p>For large deployments, you can install the Nuvla.io platform within your own walls or on a public cloud. You can also benefit from professional support from SixSq. <a href=\"/contact#breadcrumb\">Get in touch</a> to discuss your needs.</p>\n"
           },
         
       
@@ -3736,7 +3736,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/open-source.html",
-            "content": "<p>The Nuvla platform is built leveraging open-source software and open standards. All of our dependencies are Apache 2.0-compatible. This means that we leverage not only the latest innovations from the thriving open-source communities, but also their maturity. From there, you are able to build your own edge-to-cloud journey, knowing that there’s no lock-in. Meanwhile, <a href=\"nuvlaedge\">NuvlaEdge</a> is 100% open source.</p>\n"
+            "content": "<p>The Nuvla.io platform is built leveraging open-source software and open standards. All of our dependencies are Apache 2.0-compatible. This means that we leverage not only the latest innovations from the thriving open-source communities, but also their maturity. From there, you are able to build your own edge-to-cloud journey, knowing that there’s no lock-in. Meanwhile, <a href=\"nuvlaedge\">NuvlaEdge</a> is 100% open source.</p>\n"
           },
         
       
@@ -3749,7 +3749,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/remote-access.html",
-            "content": "<p>On-demand remote secured access gives you access to your devices and applications as you need it and only when you need it. Including renewed VPN and Docker credentials at the edge, remotely, from Nuvla. With the Nuvla platform, it’s as if your edge devices were on your desk, even though they may be floating in the middle of the ocean, down a mine or embedded in an assembly line!</p>\n"
+            "content": "<p>On-demand remote secured access gives you access to your devices and applications as you need it and only when you need it. Including renewed VPN and Docker credentials at the edge, remotely, from Nuvla.io. With the Nuvla.io platform, Control your edge devices from your desk, wherever they may be in the world.</p>\n"
           },
         
       
@@ -3762,7 +3762,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/platform/features/swiss-made.html",
-            "content": "<p>The Nuvla service is operated and hosted in Switzerland. The Nuvla platform and NuvlaEdge software are also designed in Switzerland. We guarantee that our software is produced, tested, certified and operated according to our highest standards. Our international team prides itself on its constant quest for precision and excellence.</p>\n"
+            "content": "<p>The Nuvla.io service is operated and hosted in Switzerland. The Nuvla.io platform and NuvlaEdge software are also designed in Switzerland. We guarantee that our software is produced, tested, certified and operated according to our highest standards. Our international team prides itself on its constant quest for precision and excellence.</p>\n"
           },
         
       
