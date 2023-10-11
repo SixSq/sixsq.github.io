@@ -124,7 +124,7 @@ ol, ul {
     background-position: left center;
     background-size: 40px;
     margin-left: min(80px, 10%);
-    padding-left: min(80px, 10%);
+    padding-left: min(80px, 17%);
     margin-right: min(80px, 10%);
     padding-right: min(80px, 10%);
     padding-top: 5px;
@@ -566,6 +566,11 @@ border-bottom: 1px solid $black-15;
 
 .shadow:hover {
   box-shadow: 0 0 4rem $black-20!important;
+  background-color: #ffffff;
+}
+
+:target > .shadow {
+  box-shadow: 0 0 4rem $black-60!important;
   background-color: #ffffff;
 }
 

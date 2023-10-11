@@ -1,7 +1,7 @@
 ---
 layout: platform
-title: Nuvla Platform
-product-name: Nuvla
+title: Nuvla.io Platform
+product-name: Nuvla.io
 product-title: B2B edge and container management platform
 product-description: Manage any containerised application across a fleet of edge devices and container-orchestration engines.
 product-next-text: Discover the platform

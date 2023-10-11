@@ -3,7 +3,7 @@ title: ClearBlade
 logo: logo-clearblade.png
 nuvla_url: https://nuvla.io/ui/apps/clearblade
 top: true
-sectors: railway, industry 4.0, transportation, logistics &amp; shipping
+sectors: railway, industry 4.0, transportation, logistics &amp; shipping, retail, manufacturing
 for_logistics: Track containers, trolleys and carts in real-time with local rule engine, dashboard and notifications, with no or low code configuration.
 ---
 

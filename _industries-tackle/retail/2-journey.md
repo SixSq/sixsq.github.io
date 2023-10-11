@@ -1,7 +1,7 @@
 ---
 title: Journey
 icon: icon-path-white.svg
-category: telco
+category: retail
 background-color: 568139
 ---
 

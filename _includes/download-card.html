@@ -1,0 +1,8 @@
+<div id="{{ download.id | split: '/' | last }}" class="col-lg-6">
+    <div class="shadow">
+        <img src="/assets/img/thumbnails/{{ download.thumbnail }}">
+        <h3>{{ download.title }}</h3>
+        <p>{{ download.description }}</p>
+        {{ download.content }}
+    </div>
+</div>

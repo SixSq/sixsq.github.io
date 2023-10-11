@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
+    {% include header.html %}
+    {% include top-form-section.html %}
+
+    <div class="container-fluid breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+    </div>
+
+    <div class="container-fluid">
+        <div class="container section text-center hero-narrow">
+            <div id="products" class="anchor-position"></div>
+            <div class="row row-col-feature row-col-feature-logo">
+              {% for download in site.download %}
+                {% include download-card.html %}
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -569,6 +569,11 @@ border-bottom: 1px solid $black-15;
   background-color: #ffffff;
 }
 
+:target > .shadow {
+  box-shadow: 0 0 4rem $black-60!important;
+  background-color: #ffffff;
+}
+
 input, .form-control {
   border-radius: 0;
   border: 1px solid $black-15;

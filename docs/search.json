@@ -55,6 +55,22 @@
         
           
           {
+            "title"      : "Downloads",
+            "head-title" : "SixSq | Downloads",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/downloads.html",
+            "date"       : "",
+            "content"    : "\n"
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "Unleash the power of edge computing with Nuvla.io",
             "head-title" : "SixSq | Unleash the power of edge computing with Nuvla.io",
             "category"   : "",
@@ -891,6 +907,64 @@
   
       
         
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
           
           {
             "title"      : "In the news",
@@ -947,54 +1021,6 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -2466,6 +2492,88 @@
             "keywords" : "",
             "url"      : "/customers/unige.html",
             "content": "<p>Founded in 1559, the University of Geneva enjoys worldwide recognition and ranks amongst the top 100 best universities in the world. A polyvalent institution, it fosters the emergence of inter- and multidisciplinary fields in both research and teaching.</p>\n"
+          },
+        
+      
+    
+  
+    
+      
+        
+          
+          {
+            "title"    : "Nuvla.io overview 1-pager",
+            "head-title" : "SixSq | Nuvla.io overview 1 pager",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/generic-1-pager.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"27ab4cb6-3024-478e-ba27-12f054c7d2c6\"\n  });\n</script>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Logistics &amp;amp; Shipping 1-pager",
+            "head-title" : "SixSq | Logistics &amp; Shipping 1 pager",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/logistics-1-pager.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"76db1bea-127b-4d86-8339-dc1a409bafa8\"\n  });\n</script>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Nuvla.io Solution Brief for Enterprises",
+            "head-title" : "SixSq | Nuvla.io Solution Brief for Enterprises",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/solution-brief-enterprises.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"4b3b8b2f-a34e-4649-b3e6-816b5a9e23c7\"\n  });\n</script>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Nuvla.io Solution Brief for Telcos &amp;amp; Network Service Providers",
+            "head-title" : "SixSq | Nuvla.io Solution Brief for Telcos &amp; Network Service Providers",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/solution-brief-service-providers.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"2d4b7ca2-a3ac-4978-844d-ee427a476743\"\n  });\n</script>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Nuvla.io Technical Specification",
+            "head-title" : "SixSq | Nuvla.io Technical Specification",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/tech-spec.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"3f092947-4bf6-46ab-9ffd-9529d4398a99\"\n  });\n</script>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Telecoms &amp;amp; Service Providers 1-pager",
+            "head-title" : "SixSq | Telecoms &amp; Service Providers 1 pager",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/download/telco-1-pager.html",
+            "content": "<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js.hsforms.net/forms/embed/v2.js\"></script>\n\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"475360\",\n    formId: \"ab76a626-0e36-4e0d-b744-c9b997300c0f\"\n  });\n</script>\n\n"
           },
         
       

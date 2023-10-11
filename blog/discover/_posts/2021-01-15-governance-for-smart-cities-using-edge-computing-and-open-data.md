@@ -3,6 +3,7 @@ title: Governance for smart cities using edge computing and open data
 product-title: Governance for smart cities using edge computing and open data
 image: governance-min.png
 tags: edge cloud
+sectors: smart cities
 author: Marc-Elian Bégin
 ---
 

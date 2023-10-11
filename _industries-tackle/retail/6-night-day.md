@@ -1,7 +1,7 @@
 ---
 title: Everywhere
 icon: icon-day-night-white.svg
-category: telco
+category: retail
 background-color: EB292F
 ---
 

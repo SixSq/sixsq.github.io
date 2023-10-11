@@ -1,9 +1,8 @@
 ---
 layout: telco
 product-title: Telecommunication &amp; Network Service Providers
-product-description: Learn how Nuvla.io enables edge computing to improve speed & accuracy of warehouse operations while ensuring safety and respecting privacy
+product-description: Learn how Nuvla.io enables telcos to revolutionize their offering to multiple industries
 product-background-img: bg-hero-telco.png
-product-next-text: How Nuvla.io works in logistics &amp; shipping
 product-next-target: overview
 image: industry-transport.jpg
 vignette: industry-transport-vignette.png
