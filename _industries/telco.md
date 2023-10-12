@@ -4,8 +4,8 @@ product-title: Telecommunication &amp; Network Service Providers
 product-description: Learn how Nuvla.io enables telcos to revolutionize their offering to multiple industries
 product-background-img: bg-hero-telco.png
 product-next-target: overview
-image: industry-transport.jpg
-vignette: industry-transport-vignette.png
+image: industry-telco.png
+vignette: industry-telco-vignette.png
 keywords:
  - casestudy
  - case study
