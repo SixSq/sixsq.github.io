@@ -1,6 +1,6 @@
 ---
 title: Recurring revenue
-icon: icon-truck-loaded-unloaded-white.svg
+icon: icon-recurring-revenue-white.svg
 category: telco
 background-color: CA0766
 ---

@@ -5,4 +5,4 @@ category: telco
 background-color: 568139
 ---
 
-Track assets on their journey 
+Assess availability of remote services

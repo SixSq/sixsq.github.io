@@ -1,6 +1,6 @@
 ---
 title: Monitor
-icon: icon-boxes-stacked-with-magnifying-glass-white.svg
+icon: icon-monitor-white.svg
 category: telco
 background-color: FD0011
 ---

@@ -1,6 +1,6 @@
 ---
 title: Enforce privacy
-icon: icon-barcode-white.svg
+icon: icon-enforce-privacy-white.svg
 category: telco
 background-color: BF000A
 ---

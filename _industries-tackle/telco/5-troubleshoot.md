@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot
-icon: icon-forklift-thin-white.svg
+icon: icon-troubleshoot-white.svg
 category: telco
 background-color: 57CED0
 ---

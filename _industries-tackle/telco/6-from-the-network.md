@@ -1,6 +1,6 @@
 ---
 title: From the network
-icon: icon-rss-white.svg
+icon: icon-from-the-network-white.svg
 category: telco
 background-color: EB292F
 ---
