@@ -9,29 +9,30 @@
         {% include breadcrumbs.html %}
     </div>
 
-    <div class="container bg-primary section-primary-box section-limited-width" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-bottom: 0;">
+    < <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
         <div id="overview" class="anchor-position"></div>
         <div class="row">
-            <div class="col-lg-5 primary-box-title">
-                <h2 class="text-light">Discover how Nuvla.io enables manufacturing at the edge as a service</h2>
-                <p class="text-light text-big">Manufacturing companies need to monitor and understand the state of their facilities and array of machines to improve key performance indicators, such as their overall equipment effectiveness, while reducing maintenance effort and increasing production quality.</p>
-            </div>
-            <div class="col-lg-7 primary-box-text">
-                <p class="text-light">The Nuvla.io marketplace gives manufacturers access to a suite of applications designed to transform and simplify their business.<br></p>
-                <p class="text-light">With Cybus Connectware, factories establish full facility transparency in only a few weeks. The real-time production data is then directly distributed to built-in monitoring features for powerful and intuitive analysis tools, alerting and dashboarding.<br></p>
-                <p class="text-light">Adding the AI EdgeLabs cyber security platform means that the factory infrastructure is protected against ongoing attacks.<br></p> 
-				<p class="text-light">To complete the suite, manufacturers can run ClearBlade's Intelligent Assets solution to enable reliable monitoring and tracking of assets.<br></p>
-				<p class="text-light">Thanks to the Nuvla platform, companies can deploy, manage and update all of these apps remotely and securely.<br></p>
+            <div class="col-md-12 text-center">
+                <h2 class="text-light"><strong>The power of edge for manufacturing</strong></h2>
+                <p class="text-light subtitle">Enhancing your manfacturing operations with the power of edge computing has never been easier</p>
             </div>
         </div>
     </div>
-    <div class="container section section-limited-width">
-        </div>
+
+    <div class="container section" style="padding-top: 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                      <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/MlaRI3lrhrM?si=BiNT8OKPS8MO9xTH" class="video-frame" width="100%"></iframe>
+                    </div>
+                </div>
+            </div>
     </div>
+
     <div class="container-fluid bg-gray">
         <div class="container section text-center">
             <div id="features" class="anchor-position"></div>
-            <h2>Benefits of edge computing in manufacturing<br></h2>
+            <h2>Addressing the challenges of manufacturing<br></h2>
             <div class="row row-col-feature">
                 {% for post in site.industries-benefits %}
                   {% if post.category == 'manufacturing' %}
@@ -39,6 +40,148 @@
                   {% endif %}
                 {% endfor %}
             </div>
+        </div>
+    </div>
+
+   <div class="container-fluid">
+        <div class="container section text-center">
+            <div id="features" class="anchor-position"></div>
+            <h2>Nuvla.io in manufacturing<br></h2>
+            <div class="row row-col-feature">
+                {% for post in site.industries-tackle %}
+                  {% if post.category == 'manufacturing' %}
+                    {% include feature-color.html %}
+                  {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-gray">
+    <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem; margin-bottom: -8rem !important;">
+        <div id="app-vendors" class="anchor-position"></div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-center text-light">Nuvla.io Marketplace<br></h2>
+                <p class="text-light subtitle">Mix and match to find the best solution to your needs. Select from the existing ready-to-use apps by expert app vendors, add your own or register third party apps. Here's an example of apps that can be combined to deliver results for manufacturing. Many more combinations are possible.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 0;">
+        <div class="row row-col-feature row-col-feature-logo">
+          {% assign vendors_with_sector =  site.vendors | where_exp:"item", "item.sectors contains 'manufacturing'" %}
+
+          {% for vendor in vendors_with_sector %}
+            {% capture card-content %}
+              {{ vendor.for_transport }}
+            {% endcapture %}
+            {% include app-bouquet-card.html content=card-content %}
+          {% endfor %}
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container section">
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>Additional apps available<br></strong></p>
+                      <img src="/assets/img/nuvla-io-white-on-red.png">
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p>You have total freedom to purchase apps, create your own, or register third party apps to the Nuvla.io platform. This allows great flexibility to address your manufacturing goals with your own specific bouquet of apps.<br></p>
+                      <a class="btn btn-primary" role="button" href="https://nuvla.io/ui/apps" target="_blank">See all apps on Nuvla.io</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+   <!-- <div class="container section section-limited-width">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1"><img src="/assets/img/industry/transport-diagram.png"></div>
+        </div>
+    </div>-->
+    
+    <div class="container-fluid bg-gray">
+      <div class="container bg-primary section section-limited-width" style="margin-top: 20px; background: url('/assets/img/bg-wave.png') right / cover no-repeat; margin-top: 3rem;">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <h2 class="text-light"><strong>Nuvla.io Benefits​</strong></h2>
+                  <p class="text-light subtitle">Create your own powerful edge-to-cloud solution and unlock all the value in your data.</p>
+              </div>
+              <div class="col-md-12 check-list light-text-list">
+                <ul>
+                  <li>
+                    <div>
+                    <h3>Modular and flexible solution</h3>
+                    <p>With cutting edge computer vision, analytics, reporting, dashboarding and insights, you get a modular solution, with no lock-in, taking advantage of an open eco-system.</p>
+                  </div>
+                  </li>
+                  <li>
+                    <h3>Reduce costs and carbon emissions</h3>
+                    <p>You can deploy on a wide range of existing and new hardware, including cameras and sensors, without the need of purchasing new assets.</p>
+                  </li>
+                  <li>
+                    <h3>No prior technical knowledge required</h3>
+                    <p>Edge computing usually requires technical knowledge, training, and specialised personnel. Nuvla.io takes this complexity away, keeping you focused on your business.</p>
+                  </li>
+                  <li>
+                    <h3>Avoiding lock-in</h3>
+                    <p>With Nuvla.io it is not only possible to integrate existing apps and freely use any of the application choices available on the platform, but it is also possible to upload or create your own solution in total freedom, and without user lock-in.</p>
+                  </li>
+                  <li>
+                    <h3>Easily scales on wide range of sites</h3>
+                    <p>You get an open, low network dependent solution, based on standards. You can scale your soution worldwide in just a few clicks.</p>
+                  </li>
+                  <li>
+                    <h3>Acceptable by workers and unions, yet improving health and safety</h3>
+                    <p>By design, you get a solution respectful of the privacy sphere of workers and the public.</p>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!--<div class="container-fluid">
+        <div class="container section">
+          <h2 class="section-heading">Transport in a nutshell<br></h2>
+          <div class="container section-primary-box section-primary-box2 section-limited-width">
+              <div class="row shadow">
+                  <div class="col-lg-4 primary-box-title bg-primary text-center" style="background: url('/assets/img/bg-wave3.png') right / cover no-repeat; margin-top: 0;">
+                      <p class="text-big text-light"><strong>Find out more about how you can unleash the power of edge computing for your business.<br></strong></p>
+                  </div>
+                  <div class="col-lg-8 primary-box-text">
+                      <p class="text-big text-dark"><strong>Your guide to improving operations<br></strong></p>
+                      <p>Customers using Nuvla.io reduce risk, decrease costs and remove complexity. Want to do the same for your logistics &amp; shipping business? Download our one-page guide. 
+<br></p>
+					  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+					  <script>
+					    hbspt.forms.create({
+					      region: "na1",
+					      portalId: "475360",
+					      formId: "ab76a626-0e36-4e0d-b744-c9b997300c0f"
+					    });
+					  </script>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>-->
+
+    <div class="container-fluid bg-gray">
+        <div class="container section">
+            <h2 class="text-center">Blogs &amp; News<br></h2>
+            <p class="text-big text-center"><strong>Find a collection of news articles and blog posts relevant to your industry and further explore the power of edge computing.<br></strong></p>
+            <div class="row row-col-feature row-col-activities">
+                {% assign posts_with_sector =  site.posts | where_exp:"item", "item.sectors contains 'manufacturing'" %}
+
+                {% for post in posts_with_sector limit:3 %}
+                    {% include news-or-blog-card.html show-type = true %}
+                {% endfor %}
+            </div>
+            <div class="text-center"><a class="btn btn-primary mt-4 mb-5" role="button" href="/resources">All news, blog and more</a></div>
         </div>
     </div>
 

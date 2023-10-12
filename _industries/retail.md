@@ -1,8 +1,8 @@
 ---
 layout: retail
-product-name: Case study
+product-name: Industry
 product-title: Retail
-product-description: Learn how Nuvla.io enables retailers to take data-driven decisions.
+product-description: Learn how Nuvla.io delivers a future-proof way of understanding your retail infrastucture, from data to insight.
 product-summary: Transform your business by deploying AI applications in stores to understand customer behaviour. Using Nuvla to deploy and manage those apps means you can focus on your customers and leave the tech to the techies.
 product-background-img: bg-hero-retail.jpg
 product-next-target: overview

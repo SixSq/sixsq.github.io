@@ -4,4 +4,4 @@ icon: icon-marketplace-red.svg
 category: retail
 ---
 
-Retail stores need data-driven insights. Using [Nuvla](/platform) to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.
+Retail stores need data-driven insights. Using [Nuvla.io](/platform) to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.

@@ -4,5 +4,5 @@ icon: icon-governance.svg
 category: transport
 ---
 
-The Nuvla [platform](/platform) provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Based on customer settings, apps are updated regularly and customers can add, remove and swap apps at any time, with no penalties, in order to ensure they have the right apps to support their business.
+The [Nuvla.io platform](/platform) provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Apps are updated regularly and customers can add, remove and swap apps at any time to ensure they have the right apps to support their business.
 
