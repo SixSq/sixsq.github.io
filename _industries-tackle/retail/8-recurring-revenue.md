@@ -1,7 +1,7 @@
 ---
 title: Clarity
 icon: icon-truck-loaded-unloaded-white.svg
-category: retail
+category: 
 background-color: CA0766
 ---
 

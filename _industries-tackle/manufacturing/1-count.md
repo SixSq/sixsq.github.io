@@ -1,7 +1,7 @@
 ---
 title: Count
 icon: icon-boxes-stacked-with-magnifying-glass-white.svg
-category: manufacturing
+category: 
 background-color: FD0011
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Everywhere
 icon: icon-day-night-white.svg
-category: retail
+category: 
 background-color: EB292F
 ---
 

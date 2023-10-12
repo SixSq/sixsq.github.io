@@ -5,4 +5,4 @@ category: manufacturing
 background-color: F6BC24
 ---
 
-Worker protection in warehouse
+Protect workers on the factory floor

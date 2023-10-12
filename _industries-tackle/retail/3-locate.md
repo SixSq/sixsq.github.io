@@ -5,4 +5,4 @@ category: retail
 background-color: 4A579F
 ---
 
-Identify coordinates of assets
+Identify coordinates of goods

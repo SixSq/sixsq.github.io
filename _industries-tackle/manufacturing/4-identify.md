@@ -1,7 +1,7 @@
 ---
 title: Identify
 icon: icon-barcode-white.svg
-category: manufacturing
+category: 
 background-color: BF000A
 ---
 

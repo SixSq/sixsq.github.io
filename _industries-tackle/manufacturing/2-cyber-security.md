@@ -1,6 +1,6 @@
 ---
 title: Cyber security
-icon: icon-path-white.svg
+icon: icon-security-white.svg
 category: manufacturing
 background-color: 568139
 ---

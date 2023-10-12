@@ -1,7 +1,7 @@
 ---
 title: Everywhere
 icon: icon-day-night-white.svg
-category: manufacturing
+category: 
 background-color: EB292F
 ---
 

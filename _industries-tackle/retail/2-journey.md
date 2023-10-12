@@ -1,7 +1,7 @@
 ---
 title: Journey
 icon: icon-path-white.svg
-category: retail
+category: 
 background-color: 568139
 ---
 
