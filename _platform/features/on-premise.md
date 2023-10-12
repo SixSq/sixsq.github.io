@@ -4,4 +4,4 @@ icon: icon-download.svg
 main-feature: false
 ---
 
-For large deployments, you can install the Nuvla platform within your own walls or on a public cloud. You can also benefit from professional support from SixSq. [Get in touch](/contact#breadcrumb) to discuss your needs.
+For large deployments, you can install the Nuvla.io platform within your own walls or on a public cloud. You can also benefit from professional support from SixSq. [Get in touch](/contact#breadcrumb) to discuss your needs.

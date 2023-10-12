@@ -6,7 +6,7 @@ product-summary: Edge computing enables efficient asset tracking for process opt
 product-background-img: bg-hero-logistics.png
 product-next-target: overview
 image: industry-logistics.png
-vignette: industry-transport-vignette.png
+vignette: industry-logistics-vignette.png
 keywords:
  - casestudy
  - case study
