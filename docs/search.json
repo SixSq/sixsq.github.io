@@ -917,6 +917,26 @@
   
       
         
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
+        
+      
+  
+      
+        
           
           {
             "title"      : "Blog",
@@ -1564,6 +1584,22 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/blog/retail/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "telco",
+            "head-title" : "SixSq | Blog category | telco",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/telco/index.html",
             "date"       : "",
             "content"    : null
           },
@@ -2672,11 +2708,24 @@
           
           {
             "title"    : "Retail",
-            "head-title" : "SixSq | Case study | Retail",
+            "head-title" : "SixSq | Industry | Retail",
             "category" : "industry",
             "tags"     : "",
             "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
             "url"      : "/industries/retail",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Telco",
+            "head-title" : "SixSq | Industry | Telecommunication &amp; Network Service Providers",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/telco",
             "content": "\n"
           },
         
@@ -2746,7 +2795,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/manufacturing/near-data-processing.html",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
+            "content": "<p>Instead of moving all of your data to the cloud, take advantage of edge computing and bring the processing to the data. The result is  near-real time analysis, reduction in your reliance on the networks, reduced cloud costs, improved data sovereignty, improved autonomy and reduced carbon emissions.</p>\n"
           },
         
       
@@ -2759,7 +2808,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/manufacturing/remote-access.html",
-            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge-powered device is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them.</p>\n"
           },
         
       
@@ -2772,7 +2821,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/manufacturing/security.html",
-            "content": "<p>Experience improved IoT device and data security. Once powered up, each NuvlaEdge-powered device initiates a secured connection to the Nuvla platform.  Each device is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.io.  Each NuvlaEdge is unique and each device can be controlled remotely and isolated, upgraded or downgraded should any problems arise.</p>\n"
           },
         
       
@@ -2785,7 +2834,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/retail/instore-analytics.html",
-            "content": "<p>Retail stores need data-driven insights. Using <a href=\"/platform\">Nuvla</a> to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.</p>\n"
+            "content": "<p>Retail stores need data-driven insights. Using <a href=\"/platform\">Nuvla.io</a> to deploy and manage in-store software and data provides real-time anonymised behaviour analysis to give a deeper understanding of consumer behaviour.</p>\n"
           },
         
       
@@ -2798,7 +2847,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/retail/near-data-processing.html",
-            "content": "<p>Bring the processing to the data. Instead of moving tons of data to the cloud, do the sensible thing and take advantage of edge computing. This means you process your data in near-real time, reduce your reliance on the networks, reduce runaway cloud costs, improve data sovereignty, avoid privacy intrusion, improve autonomy and reduce carbon emissions.</p>\n"
+            "content": "<p>Instead of moving all of your data to the cloud, take advantage of edge computing and bring the processing to the data. The result is  near-real time analysis, reduction in your reliance on the networks, reduced cloud costs, improved data sovereignty, improved autonomy and reduced carbon emissions.</p>\n"
           },
         
       
@@ -2818,13 +2867,52 @@
         
           
           {
+            "title"    : "Digital experience",
+            "head-title" : "SixSq | Telco | Digital experience",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/telco/digital-experience.html",
+            "content": "<p>Verify availability of remote cloud services essential for business continuity such as backup systems.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Latency monitoring",
+            "head-title" : "SixSq | Telco | Latency monitoring",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/telco/latency.html",
+            "content": "<p>Monitor, predict, track and evaluate the status of latency.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Real-time performance monitoring",
+            "head-title" : "SixSq | Telco | Real time performance monitoring",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-benefits/telco/monitoring.html",
+            "content": "<p>Edge computing enables real-time and regular probing and monitoring of local infrastructure.</p>\n"
+          },
+        
+      
+        
+          
+          {
             "title"    : "Future proof",
             "head-title" : "SixSq | Transport | Future proof",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/transport/future-proof.html",
-            "content": "<p>The Nuvla <a href=\"/platform\">platform</a> provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Based on customer settings, apps are updated regularly and customers can add, remove and swap apps at any time, with no penalties, in order to ensure they have the right apps to support their business.</p>\n\n"
+            "content": "<p>The <a href=\"/platform\">Nuvla.io platform</a> provides a complete lifecycle for apps deployed by customers on their edge and cloud infrastructures. Apps are updated regularly and customers can add, remove and swap apps at any time to ensure they have the right apps to support their business.</p>\n\n"
           },
         
       
@@ -2837,7 +2925,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/transport/remote-access.html",
-            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them. This feature works on all IP connectivity, even if the NuvlaEdge is connected to the network via a private IP. As a result, systems are updated and kept uniform across the network.</p>\n"
+            "content": "<p>Devices running NuvlaEdge software are remotely controlled, using a secured connection, giving you full visibility and manageability of each edge device and the applications running inside of them.</p>\n"
           },
         
       
@@ -2850,7 +2938,7 @@
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-benefits/transport/security.html",
-            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.  Each NuvlaEdge is unique and assigned to a specific user organisation. This means that any device can be controlled remotely and isolated (quarantined), upgraded or downgraded should any problems arise.</p>\n"
+            "content": "<p>Benefit from improved IoT device and data security. Once powered up, NuvlaEdge initiates a secured connection to Nuvla.io.  Each NuvlaEdge is unique and each device can be controlled remotely and isolated, upgraded or downgraded should any problems arise.</p>\n"
           },
         
       
@@ -2957,7 +3045,423 @@
             "category" : "logistics",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/logistics/8-state.html",
+            "url"      : "/industries-tackle/logistics/8-clarity.html",
+            "content": "<p>Distinguish loaded vs. unloaded assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Count",
+            "head-title" : "SixSq | Count",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/1-count.html",
+            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Cyber security",
+            "head-title" : "SixSq | Manufacturing | Cyber security",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/2-cyber-security.html",
+            "content": "<p>Defend edge with AI-powered apps</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "High availability",
+            "head-title" : "SixSq | Manufacturing | High availability",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/3-high-availablity.html",
+            "content": "<p>24/7 monitored edge infrastructure</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Identify",
+            "head-title" : "SixSq | Identify",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/4-identify.html",
+            "content": "<p>OCR labels to identify unique assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Track",
+            "head-title" : "SixSq | Track",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/5-tracking.html",
+            "content": "<p>Product and trolley tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Everywhere",
+            "head-title" : "SixSq | Everywhere",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/6-night-day.html",
+            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Protect",
+            "head-title" : "SixSq | Manufacturing | Protect",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/7-worker-protection.html",
+            "content": "<p>Protect workers on the factory floor</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Manufacturing | Remote control",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/8-remote-control.html",
+            "content": "<p>Control and monitor your edge assets remotely</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Remote control",
+            "head-title" : "SixSq | Retail | Remote control",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/1-remote-control.html",
+            "content": "<p>Control and monitor your edge assets remotely</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Journey",
+            "head-title" : "SixSq | Journey",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/2-journey.html",
+            "content": "<p>Track assets on their journey</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Locate",
+            "head-title" : "SixSq | Retail | Locate",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/3-locate.html",
+            "content": "<p>Identify coordinates of goods</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Respect data privacy",
+            "head-title" : "SixSq | Retail | Respect data privacy",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/4-privacy.html",
+            "content": "<p>Process data locally to avoid privacy intrusion</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Track",
+            "head-title" : "SixSq | Track",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/5-tracking.html",
+            "content": "<p>Product and trolley tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Everywhere",
+            "head-title" : "SixSq | Everywhere",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/6-night-day.html",
+            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Cyber security",
+            "head-title" : "SixSq | Retail | Cyber security",
+            "category" : "retail",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/7-cyber-security.html",
+            "content": "<p>Defend edge with AI-powered apps</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Clarity",
+            "head-title" : "SixSq | Clarity",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/retail/8-recurring-revenue.html",
+            "content": "<p>Distinguish loaded vs. unloaded assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Monitor",
+            "head-title" : "SixSq | Telco | Monitor",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/1-monitor.html",
+            "content": "<p>Real-time performance monitoring</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Digital experience",
+            "head-title" : "SixSq | Telco | Digital experience",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/2-digital-experience.html",
+            "content": "<p>Assess availability of remote services</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Cyber security",
+            "head-title" : "SixSq | Telco | Cyber security",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/3-cyber-security.html",
+            "content": "<p>Defend edge with AI-powered apps</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Enforce privacy",
+            "head-title" : "SixSq | Telco | Enforce privacy",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/4-enforce-privacy.html",
+            "content": "<p>Process data locally to avoid privacy intrusion</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Troubleshoot",
+            "head-title" : "SixSq | Telco | Troubleshoot",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/5-troubleshoot.html",
+            "content": "<p>Deploy probes and troubleshooting tools</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "From the network",
+            "head-title" : "SixSq | Telco | From the network",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/6-from-the-network.html",
+            "content": "<p>Deploy added-value services seamlessly</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "High availability",
+            "head-title" : "SixSq | Telco | High availability",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/7-high-availability.html",
+            "content": "<p>24/7 monitored edge infrastructure</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Recurring revenue",
+            "head-title" : "SixSq | Telco | Recurring revenue",
+            "category" : "telco",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/telco/8-recurring-revenue.html",
+            "content": "<p>Offer high-value services without risks</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Count",
+            "head-title" : "SixSq | Transport | Count",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/1-count.html",
+            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Journey",
+            "head-title" : "SixSq | Transport | Journey",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/2-journey.html",
+            "content": "<p>Track assets on their journey</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Locate",
+            "head-title" : "SixSq | Transport | Locate",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/3-locate.html",
+            "content": "<p>Identify coordinates of assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Identify",
+            "head-title" : "SixSq | Transport | Identify",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/4-identify.html",
+            "content": "<p>OCR labels to identify unique assets</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Track",
+            "head-title" : "SixSq | Transport | Track",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/5-tracking.html",
+            "content": "<p>Product and trolley tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Everywhere",
+            "head-title" : "SixSq | Transport | Everywhere",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/6-night-day.html",
+            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Protect",
+            "head-title" : "SixSq | Transport | Protect",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/7-worker-protection.html",
+            "content": "<p>Worker protection in warehouse</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Clarity",
+            "head-title" : "SixSq | Transport | Clarity",
+            "category" : "transport",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/transport/8-state.html",
             "content": "<p>Distinguish loaded vs. unloaded assets</p>\n"
           },
         
