@@ -1,5 +1,5 @@
 ---
-title: Real-time performance monitoring
+title: Real-time monitoring
 icon: icon-remote.svg
 category: telco
 ---
