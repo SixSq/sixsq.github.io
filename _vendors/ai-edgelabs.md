@@ -2,7 +2,7 @@
 title: AI EdgeLabs
 logo: logo-ai-edgelabs.png
 nuvla_url: https://nuvla.io/ui/apps/ai-edgelabs
-sectors: manufacturing, security, retail, transportation, smart city, telco
+sectors: manufacturing, security, retail, transportation, smart city, telco, logistics &amp; shipping
 top: true
 ---
 
