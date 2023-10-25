@@ -1639,6 +1639,19 @@
     
       
       {
+        "title"    : "SixSq and CYSEC combine expertise to deliver secure edge computing solution",
+        "head-title" : "SixSq | News | SixSq and CYSEC combine expertise to deliver secure, end to end edge computing solution targeting critical infrastructure IoT market",
+        "category" : "news",
+        "tags"     : "",
+        "url"      : "/news/2023/10/16/news-sixsq-and-cysec-partnership.html",
+        "date"     : "2023-10-16 00:00:00 +0000",
+        "content": "<p><strong>Geneva, October 16th, 2023</strong> - SixSq SA, an Ekinops company, and CYSEC are thrilled to announce their partnership, combining SixSq’s expertise in providing edge computing solutions with CYSEC’s pioneering work in container security and trusted environments.</p>\n\n<p>With edge computing and cyber security taking increasingly critical roles in operating IoT environments in critical infrastructures, companies recognise the need for inclusive solutions. This partnership represents a significant step towards simplifying edge computing security, giving customers a competitive advantage in a rapidly evolving technology landscape.</p>\n\n<p>The combined solution builds on <a href=\"https://www.cysec.com/arca/\">CYSEC’s Operating System (ARCA Trusted OS)</a>, an immutable operating system with minimum attack surface and secure container orchestration. It is designed to contain system intrusions and prevent data compromise across on-premise, cloud, and edge environments. The only way to modify this operating system is by deploying containers, a widely adopted, standardised and portable software format. <a href=\"(/platform)\">Nuvla.io</a>, SixSq’s edge computing B2B platform-as-a-service, enables a controlled and predictable workflow to ensure the right containerised apps are deployed at the right time and in the right place. The platform is future-proof, container-native, cloud-neutral, and hardware-agnostic and includes a marketplace of containerised applications.</p>\n\n<p>Together, SixSq and CYSEC ensure that IoT environments for critical infrastructures can now take full advantage of the flexibility of container technologies, without compromise on security. The solution seamlessly integrates with major cloud vendors and is certified for both ARM and x86 architectures, ensuring a trusted environment while safeguarding data and intellectual property against attack propagation and confidentiality breaches.</p>\n\n<p><em>“We are excited about our partnership with CYSEC,”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, CEO and Co-founder at SixSq. <em>“By combining SixSq’s Nuvla.io platform with CYSEC’s cutting-edge container-native, secured operating system, we aim to provide unparalleled edge computing security and peace of mind for organisations operating critical infrastructures.”</em></p>\n\n<p><em>“CYSEC is thrilled to join forces with SixSq,”</em> added <a href=\"https://www.linkedin.com/in/patrick-trinkler-4416412/\">Patrick Trinkler</a>, CEO and Co-founder at CYSEC. <em>“Our joint offering will empower organizations to harness the potential of edge computing and container technology in trusted environments.”</em></p>\n\n<p>For more information about this partnership and the solutions offered by SixSq and CYSEC, please visit:</p>\n\n<p><a href=\"https://www.cysec.com/\">CYSEC</a>\n <br />\n<a href=\"https://www.cysec.com/arca/\">ARCA Trusted OS</a>\n<br />\n<a href=\"https://sixsq.com/\">SixSq.com</a>\n<br />\n<a href=\"/platform\">Nuvla.io</a></p>\n\n"
+      },
+    
+  
+    
+      
+      {
         "title"    : "Revolutionizing enterprise telco services with edge computing",
         "head-title" : "SixSq | Blog | Revolutionizing enterprise telco services with edge computing; a new era of innovation",
         "category" : "blog",
