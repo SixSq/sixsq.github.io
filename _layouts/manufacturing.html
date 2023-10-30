@@ -73,7 +73,7 @@
 
           {% for vendor in vendors_with_sector %}
             {% capture card-content %}
-              {{ vendor.for_transport }}
+              {{ vendor.for_manufacturing }}
             {% endcapture %}
             {% include app-bouquet-card.html content=card-content %}
           {% endfor %}
