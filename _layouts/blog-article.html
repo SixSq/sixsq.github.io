@@ -12,7 +12,10 @@
     <div class="container-fluid">
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
-            <img class="full-image" src="/assets/img/blog/{{ page.image }}">
+            {% if page.no-image %}
+            {% else %}
+              <img class="full-image" src="/assets/img/blog/{{ page.image }}">
+            {% endif %}
             {{ page.content }}
             {% if page.linkedin %}
                 <a class="btn btn-primary" role="button" target="_blank" href="{{ page.linkedin }}">Engage on LinkedIn</a>
