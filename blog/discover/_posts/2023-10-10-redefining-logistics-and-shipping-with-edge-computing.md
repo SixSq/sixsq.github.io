@@ -2,6 +2,8 @@
 title: Revolutionizing enterprise telco services with edge computing
 product-title: Revolutionizing enterprise telco services with edge computing; a new era of innovation
 image: telco-blog.png
+no-image: true
+product-background-img: bg-hero-telco.png
 tags: edge telco networks telecommunications 
 sectors: telco
 author: Rebecca Schenato

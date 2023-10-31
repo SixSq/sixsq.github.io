@@ -113,6 +113,7 @@ defaults:
       category: blog
       layout: blog-article
       product-name: Blog
+      product-background-img: bg-hero-blog.jpg
       location: Geneva, Switzerland
       without-trial: true
       they-trust-us: false
