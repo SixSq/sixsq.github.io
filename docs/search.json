@@ -3911,6 +3911,19 @@
         
           
           {
+            "title"    : "Kontron",
+            "head-title" : "SixSq | Hardware | Kontron",
+            "category" : "hardware",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/nuvlaedge/hardware/kontron.html",
+            "content": "<p>Kontron is a global leader in IoT/Embedded Computing Technology (ECT).</p>\n"
+          },
+        
+      
+        
+          
+          {
             "title"    : "Kunbus",
             "head-title" : "SixSq | Hardware | Kunbus",
             "category" : "hardware",
@@ -3918,6 +3931,19 @@
             "keywords" : "",
             "url"      : "/nuvlaedge/hardware/kunbus.html",
             "content": "<p>Open-source IPC based on Raspberry Pi</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Lenovo",
+            "head-title" : "SixSq | Hardware | Lenovo",
+            "category" : "hardware",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/nuvlaedge/hardware/lenovo.html",
+            "content": "<p>Lenovo’s range of globally certified ThinkEdge® gives you greater power in a smaller footprint.</p>\n"
           },
         
       
