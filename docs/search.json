@@ -3993,6 +3993,19 @@
         
           
           {
+            "title"    : "CySec",
+            "head-title" : "SixSq | Partner | CySec",
+            "category" : "partner",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/partners/cysec.html",
+            "content": "<p>CYSEC, a European data security company, based in Lausanne and Paris, provides a Confidential Computing software solution which enables companies to secure workloads execution.</p>\n"
+          },
+        
+      
+        
+          
+          {
             "title"    : "Dell",
             "head-title" : "SixSq | Partner | Dell",
             "category" : "partner",
@@ -4065,6 +4078,19 @@
             "keywords" : "",
             "url"      : "/partners/onlogic.html",
             "content": "<p>OnLogic provides advanced, flexible, highly-configurable small form factor computers.</p>\n\n<p>SixSq’s cloud neutral and container native edge management platform coupled with the wide range of products offered by OnLogic offers agile edge to cloud solutions.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Supermicro",
+            "head-title" : "SixSq | Partner | Supermicro",
+            "category" : "partner",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/partners/supermicro.html",
+            "content": "<p>Supermicro is a global technology leader committed to delivering first-to-market innovation for Enterprise, Cloud, AI, Metaverse, and 5G Telco/Edge IT Infrastructure.</p>\n"
           },
         
       
