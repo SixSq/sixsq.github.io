@@ -12,7 +12,11 @@
     <div class="container-fluid">
         <div class="container section text-center">
             <div class="row row-col-feature row-col-feature-logo">
-            {% for partner in site.partners %}
+            {% assign vendors_and_partners = site.partners %}
+            {% comment %}
+              {% assign vendors_and_partners = site.vendors | where: 'partner', true | concat: site.partners %}
+            {% endcomment %}
+            {% for partner in vendors_and_partners %}
               {% include partner-card.html %}
             {% endfor %}
             </div>

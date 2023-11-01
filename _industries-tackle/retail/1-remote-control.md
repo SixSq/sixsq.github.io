@@ -1,6 +1,6 @@
 ---
 title: Remote control
-icon: icon-troubleshoot-white.svg
+icon: icon-tower-control-thin-white.svg
 category: retail
 background-color: FD0011
 ---

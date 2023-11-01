@@ -9,6 +9,9 @@ for_transport: Protect against cyberattacks with powerful and autonomous AI plat
 for_retail: Protect against cyberattacks with powerful and autonomous AI platform.
 for_manufacturing: Protect against cyberattacks with powerful and autonomous AI platform.
 top: true
+link: https://edgelabs.ai
+company-profile: Similar to our parent company, Scalarr, our solution at its core has a straightforward vision&colon; to help protect clients against cyber criminal acts.
+partner: true
 ---
 
 A powerful and autonomous cybersecurity AI platform to protect against ongoing attacks.
