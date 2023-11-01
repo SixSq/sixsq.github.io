@@ -20,4 +20,9 @@
     <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | {{ page.title }}&body={{ url }}" title="email">
         <span>Email</span>
     </a>
+    {% if include.show-learn-more %}
+    <div style="float: right;">
+      <a class="btn btn-primary" style="margin-right: 0;" role="button" href="/contact#breadcrumbs">Learn more</a></div>
+    </div>
+    {% endif %}
 </div>

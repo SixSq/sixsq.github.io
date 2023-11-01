@@ -20,7 +20,11 @@
             {% if page.linkedin %}
                 <a class="btn btn-primary" role="button" target="_blank" href="{{ page.linkedin }}">Engage on LinkedIn</a>
             {% endif %}
-            {% include article-social.html %}
+            <div class="row">
+              <div class="col">
+                {% include article-social.html show-learn-more = true %}
+              </div>
+            </div>
         </div>
         <div class="container-fluid bg-gray">
             <div class="container section">
