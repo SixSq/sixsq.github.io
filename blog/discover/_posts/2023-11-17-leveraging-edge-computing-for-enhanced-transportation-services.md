@@ -4,7 +4,7 @@ product-title: Leveraging Edge Computing for Enhanced Transportation Services
 image: transport-blog.png
 no-image: true
 product-background-img: bg-hero-transport.png
-tags: edge transport public_transport 
+tags: edge transport public-transport 
 sectors: transport
 author: Rebecca Schenato
 ---
