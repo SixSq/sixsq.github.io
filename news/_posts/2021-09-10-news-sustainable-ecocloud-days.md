@@ -32,7 +32,7 @@ Switzerland
 
 **Discover more**
 
-[Data centers need to consider their carbon footprint](https://ecocloud.epfl.ch/2020/10/22/data-centers-need-to-consider-their-carbon-footprint/)
+[More EcoCloud events](https://ecocloud.epfl.ch/annual-event-program/)
 
 [What is Edge Computing?](/blog/discover/2019/11/08/what-is-edge-computing)
 

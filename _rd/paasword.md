@@ -22,12 +22,12 @@ components.
 
 **Duration:** 36 Months (ended December 2017) 
 
-**Partners:** 10 lead by [CAS][cas]
+**Partners:** 10 lead by [CAS](https://www.cas-software.com/)
 
 **Goal for SixSq:** Main contribution was bringing a use case for
   deployment of applications needing secure storage to the cloud.
   Integration of project software into SlipStream *Platform as a
-  Service* feature set. SlipStream was the forerunner to [Nuvla](https://nuvla.io/).
+  Service* feature set. SlipStream was the forerunner to [Nuvla.io](/platform).
 
 [web]: https://paasword.io 
 [cas]: https://www.cas.de/en/homepage.html
