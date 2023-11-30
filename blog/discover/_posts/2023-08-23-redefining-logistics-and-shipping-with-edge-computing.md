@@ -41,4 +41,4 @@ At the same time, edge computing addresses privacy concerns by processing data l
 
 In many cases, these practices require technical knowledge, training, and specialized personnel able to run such a digital ecosystem. Nuvla.io from SixSq was created for you not to worry about all this. Nuvla.io is a gateway to a world of tailored apps, in a unique edge-first [marketplace](/marketplace) that serves a multitude of industries and sectors. All backed by a team of edge experts. We dedicate our efforts to providing a simple interface and enjoyable user experience, which allows anyone to operate otherwise complex edge computing systems, and at the same time avoid technology lock-in. 
 
-To deep dive into more tangible elements linked to your needs, visit our webpage [sixsq.com](/home) and reach out to learn how we can support your logistics and shipping transition with innovative problem solving via edge computing. 
+To deep dive into more tangible elements linked to your needs, visit our webpages and [reach out](/contact) to learn how we can support your logistics and shipping transition with innovative problem solving via edge computing. 

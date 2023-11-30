@@ -15,7 +15,7 @@ Edge computing refers to the decentralized approach of processing and storing da
   
 ### And what are the Sustainable Development Goals (SDGs)?  
 
-The [Sustainable Development Goals]((https://sdgs.un.org/goals)) (SDGs), comprise a set of 17 interconnected objectives established by the United Nations in 2015. The SDGs serve as a universal call to action that addresses a wide range of critical global challenges and which provide a comprehensive framework to create a sustainable and equitable future. 
+The [Sustainable Development Goals](https://sdgs.un.org/goals) (SDGs), comprise a set of 17 interconnected objectives established by the United Nations in 2015. The SDGs serve as a universal call to action that addresses a wide range of critical global challenges and which provide a comprehensive framework to create a sustainable and equitable future. 
  
 #### Here are 4 SDGs where edge computing can make an impact
 

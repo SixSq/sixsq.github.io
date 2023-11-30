@@ -8,7 +8,7 @@ author: Marc-Elian Bégin
 
 **Edge computing, with its ability to process data near its source, delivers secure and future proof solutions, without a round trip to the cloud. In this blog post, we explore examples of how data coming from a variety of simple sensors can be combined to produce better and new smart city services.**
 
-This blog is co-authored with guest author [Glenn Meleder](https://www.linkedin.com/in/gmeleder/), CEO and Founder of [Securaxis](https://securaxis.com/).
+This blog is co-authored with guest author [Glenn Meleder](https://www.linkedin.com/in/gmeleder/).
 
 ### Smart City Challenges
 
