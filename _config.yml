@@ -93,6 +93,7 @@ defaults:
       category: news
       layout: news-article
       product-name: News
+      product-background-img: bg-hero-news.jpg
       location: Geneva, Switzerland
       author-name: Louise Merifield
       author-email: merifield@sixsq.com
