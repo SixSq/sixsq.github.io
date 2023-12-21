@@ -5,4 +5,4 @@ category: logistics
 background-color: F6BC24
 ---
 
-Worker protection in warehouse
+Worker protection in warehouses and at sea
