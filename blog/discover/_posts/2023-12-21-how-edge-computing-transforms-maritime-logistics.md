@@ -9,7 +9,7 @@ sectors: transport
 author: Rebecca Schenato
 ---
 
-Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade**. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with thw environmental, escalating costs and safety issues causing concern to operators. Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
+Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade** [^1]. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with thw environmental, escalating costs and safety issues causing concern to operators. Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
 
 ### Keeping Tabs on Containers and Codes
 
@@ -48,3 +48,5 @@ Beyond safety and efficiency, edge computing contributes to environmental sustai
 SixSq stands at the forefront of positive transformation through its innovative edge computing solutions. In fact, it plays a pivotal role in enhancing the efficiency, safety, and sustainability of the maritime industry. By integrating its robust edge computing [Nuvla.io](/platform) platform, [marketplace](/marketplace), and edge solution into maritime operations, SixSq facilitates seamless communication, real-time container tracking, and continuous monitoring of movements—establishing a proactive approach to safety. With a commitment to worker protection, SixSq's solutions enforce safety compliance and contribute to creating a secure and conducive working environment.
 
 As the maritime industry embraces the power of edge computing, we find ourselves at the beginning of a new technological era. The challenges that once seemed impossible to overcome are now met with innovative solutions, creating a safer, more efficient, and environmentally conscious maritime landscape. The waves of change are upon us, and with edge computing as our compass, the journey will be both transformative and promising. Supporting the maritime sector, SixSq is driving positive change, navigating the seas towards a safer, more efficient, and environmentally conscious future.
+
+[^1]:[Review of Maritime Transport](https://unctad.org/publication/review-maritime-transport-2021#:~:text=Maritime%20transport%20is%20the%20backbone,higher%20for%20most%20developing%20countries.) 
