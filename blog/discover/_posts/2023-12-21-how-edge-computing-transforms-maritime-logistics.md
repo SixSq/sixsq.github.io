@@ -3,7 +3,7 @@ title: Navigating the Waves of Change; How Edge Computing Transforms Maritime Lo
 product-title: Navigating the Waves of Change; How Edge Computing Transforms Maritime Logistics
 image: maritime-blog.jpg
 no-image: true
-product-background-img: bg-hero-transport.png
+product-background-img: bg-hero-maritime-logistics.png
 tags: edge logistics shipping safety
 sectors: transport
 author: Rebecca Schenato
