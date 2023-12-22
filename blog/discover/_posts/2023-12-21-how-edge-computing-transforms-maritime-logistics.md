@@ -9,7 +9,7 @@ sectors: transport
 author: Rebecca Schenato
 ---
 
-Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade**. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with environmental, cost, safety and concerns causing distress to operators.   Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
+Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade**. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with thw environmental, escalating costs and safety issues causing concern to operators. Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
 
 ### Keeping Tabs on Containers and Codes
 
@@ -17,7 +17,7 @@ In the vast expanse of the ocean, the fear of lost containers is a significant c
 
 ### Monitoring Container Movements in Real Time
 
-Containers in transit face various risks, from accidental falls to potential damage. Edge computing introduces continuous monitoring of containers, instantly alerting operators to potential hazards. This proactive approach ensures a swift response to prevent accidents, falls, or displacements safeguarding both personnel and valuable cargo.
+Containers in transit face various risks, from accidental falls to physical damage. Edge computing introduces continuous monitoring of containers, instantly alerting operators to potential hazards. This proactive approach ensures a swift response to prevent accidents, falls, or displacements, safeguarding both personnel and valuable cargo.
 
 ### Ensuring Workers’ Safety
 
@@ -37,7 +37,7 @@ Edge computing supports a sturdy approach to securing goods stored in containers
 
 ## Proactive Engine Insights
 
-Understanding the intricate dynamics of a ship's engine and its surrounding subsystems is fundamental to ensure a smooth and secure journey. Edge computing enables crews to take a proactive approach by supporting real-time monitoring and analysis of engine performance. By leveraging the power of artificial intelligence and algorithms, the engine and its associated subsystems can be protected using anomaly detection and predictive analysis. This capability can prevent failures, accidents and breakdowns, therefore enhancing overall operational efficiency, while reducing operational costs.
+Understanding the intricate dynamics of a ship's engine and its surrounding subsystems is fundamental to ensuring a smooth and secure journey. Edge computing enables crews to take a proactive approach by supporting real-time monitoring and analysis of engine performance. By leveraging the power of artificial intelligence and algorithms, the engine and its associated subsystems can be protected using anomaly detection and predictive analysis. This capability can prevent failures, accidents and breakdowns, therefore enhancing overall operational efficiency, while reducing operational costs.
 
 ## Towards a Greener Horizon
 
@@ -45,6 +45,6 @@ Beyond safety and efficiency, edge computing contributes to environmental sustai
 
 ## SixSq and its Impact in the Maritime Industry
 
-SixSq stands at the forefront of positive transformation through its innovative edge computing solutions. It in fact plays a pivotal role in enhancing the efficiency, safety, and sustainability of the maritime industry. By integrating its robust edge computing [Nuvla.io](/platform) platform, [marketplace](/marketplace), and edge solution into maritime operations, SixSq facilitates seamless communication, real-time container tracking, and continuous monitoring of movements—establishing a proactive approach to safety. With a commitment to worker protection, SixSq's solutions enforce safety compliance and contribute to creating a secure and conducive working environment.
+SixSq stands at the forefront of positive transformation through its innovative edge computing solutions. In fact, it plays a pivotal role in enhancing the efficiency, safety, and sustainability of the maritime industry. By integrating its robust edge computing [Nuvla.io](/platform) platform, [marketplace](/marketplace), and edge solution into maritime operations, SixSq facilitates seamless communication, real-time container tracking, and continuous monitoring of movements—establishing a proactive approach to safety. With a commitment to worker protection, SixSq's solutions enforce safety compliance and contribute to creating a secure and conducive working environment.
 
 As the maritime industry embraces the power of edge computing, we find ourselves at the beginning of a new technological era. The challenges that once seemed impossible to overcome are now met with innovative solutions, creating a safer, more efficient, and environmentally conscious maritime landscape. The waves of change are upon us, and with edge computing as our compass, the journey will be both transformative and promising. Supporting the maritime sector, SixSq is driving positive change, navigating the seas towards a safer, more efficient, and environmentally conscious future.
