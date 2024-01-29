@@ -5,7 +5,7 @@ product-description: Learn how Nuvla.io offers a future-proof way for manufactur
 product-summary: Automate your production processes and keep a finger on the pulse of your organisation.
 product-background-img: bg-hero-industry.jpg
 product-next-target: overview
-image: industry-manufacturing.jpg
+image: cyber-secrurity-for-manufacturing.png
 vignette: industry-manufacturing-vignette.png
 keywords:
  - casestudy
