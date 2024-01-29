@@ -2765,7 +2765,7 @@
         
           
           {
-            "title"    : "Logistics",
+            "title"    : "1 Logistics",
             "head-title" : "SixSq | Industry | Logistics &amp; Shipping",
             "category" : "industry",
             "tags"     : "",
@@ -2778,12 +2778,12 @@
         
           
           {
-            "title"    : "Manufacturing",
-            "head-title" : "SixSq | Industry | Manufacturing",
+            "title"    : "2 Telco",
+            "head-title" : "SixSq | Industry | Telcos",
             "category" : "industry",
             "tags"     : "",
             "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
-            "url"      : "/industries/manufacturing",
+            "url"      : "/industries/telco",
             "content": "\n"
           },
         
@@ -2791,7 +2791,20 @@
         
           
           {
-            "title"    : "Retail",
+            "title"    : "3 Transport",
+            "head-title" : "SixSq | Industry | Transport",
+            "category" : "industry",
+            "tags"     : "",
+            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
+            "url"      : "/industries/transport",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "4 Retail",
             "head-title" : "SixSq | Industry | Retail",
             "category" : "industry",
             "tags"     : "",
@@ -2804,25 +2817,12 @@
         
           
           {
-            "title"    : "Telco",
-            "head-title" : "SixSq | Industry | Telecommunication &amp; Network Service Providers",
+            "title"    : "5 Manufacturing",
+            "head-title" : "SixSq | Industry | Manufacturing",
             "category" : "industry",
             "tags"     : "",
             "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
-            "url"      : "/industries/telco",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Transport",
-            "head-title" : "SixSq | Industry | Transport",
-            "category" : "industry",
-            "tags"     : "",
-            "keywords" : "casestudy, case study, casestudies, case studies, industry, industries",
-            "url"      : "/industries/transport",
+            "url"      : "/industries/manufacturing",
             "content": "\n"
           },
         
