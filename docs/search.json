@@ -2794,7 +2794,7 @@
         
           
           {
-            "title"    : "1 Logistics",
+            "title"    : "logistics",
             "head-title" : "SixSq | Industry | Logistics &amp; Shipping",
             "category" : "industry",
             "tags"     : "",
@@ -2807,7 +2807,7 @@
         
           
           {
-            "title"    : "2 Telco",
+            "title"    : "telco",
             "head-title" : "SixSq | Industry | Telcos",
             "category" : "industry",
             "tags"     : "",
@@ -2820,7 +2820,7 @@
         
           
           {
-            "title"    : "3 Transport",
+            "title"    : "transport",
             "head-title" : "SixSq | Industry | Transport",
             "category" : "industry",
             "tags"     : "",
@@ -2833,7 +2833,7 @@
         
           
           {
-            "title"    : "4 Retail",
+            "title"    : "retail",
             "head-title" : "SixSq | Industry | Retail",
             "category" : "industry",
             "tags"     : "",
@@ -2846,7 +2846,7 @@
         
           
           {
-            "title"    : "5 Manufacturing",
+            "title"    : "manufacturing",
             "head-title" : "SixSq | Industry | Manufacturing",
             "category" : "industry",
             "tags"     : "",
