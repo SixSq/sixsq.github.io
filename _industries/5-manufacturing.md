@@ -1,5 +1,6 @@
 ---
 layout: manufacturing
+title: manufacturing
 product-title: Manufacturing
 product-description: Learn how Nuvla.io offers a future-proof way for manufacturers to monitor production and track assets.
 product-summary: Automate your production processes and keep a finger on the pulse of your organisation.

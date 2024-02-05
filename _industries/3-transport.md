@@ -1,5 +1,6 @@
 ---
 layout: transport
+title: transport
 product-title: Transport
 product-name: Industry
 product-description: Learn how Nuvla.io enables real-time data analysis, predictive maintenance, payment systems and AI automation in the public transport sector.

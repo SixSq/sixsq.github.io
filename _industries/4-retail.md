@@ -1,5 +1,6 @@
 ---
 layout: retail
+title: retail
 product-name: Industry
 product-title: Retail
 product-description: Learn how Nuvla.io delivers a future-proof way of understanding your retail infrastucture, from data to insight.
