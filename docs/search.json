@@ -939,54 +939,6 @@
         
           
           {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "In the news",
             "head-title" : "SixSq | In the news",
             "category"   : "",
@@ -1041,6 +993,54 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -4784,6 +4784,19 @@
             "keywords" : "",
             "url"      : "/marketplace#app-vendors",
             "content": "<p>End-to-end network monitoring to track, identify &amp; diagnose performance degradations.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Keysight",
+            "head-title" : "SixSq | Nuvla marketplace | Keysight",
+            "category" : "Nuvla-marketplace",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/marketplace#app-vendors",
+            "content": "<p>Get real-time insights to ensure your network’s health with Hawkeye from Keysight.</p>\n"
           },
         
       
