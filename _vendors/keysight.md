@@ -8,4 +8,4 @@ link: https://www.keysight.com/us/en/home.html
 company-profile: .
 partner: true
 ---
-Get the real-time insights you need to ensure your network's health with Hawkeye from Keysight.
+Get real-time insights to ensure your network's health with Hawkeye from Keysight.
