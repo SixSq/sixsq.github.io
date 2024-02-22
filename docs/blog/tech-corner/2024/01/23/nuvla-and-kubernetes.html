@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta property="og:type" content="website"/>
     
-    <meta property="og:title" content="SixSq | Blog | Where is the killer app for edge computing?"/>
-    <meta property="og:image" content="https://sixsq.com/assets/img/blog/marketplace.png"/>
-    <meta property="og:description" content="Can we identify the ‘killer app’ for edge computing?"/>
-    <meta property="og:url" content="https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html"/>
+    <meta property="og:title" content="SixSq | Blog | Nuvla and Kubernetes"/>
+    <meta property="og:image" content="https://sixsq.com/assets/img/blog/blog_nbe2a.png"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html"/>
     <!-- <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' /> -->
     
-    <title>SixSq | Blog | Where is the killer app for edge computing?</title>
+    <title>SixSq | Blog | Nuvla and Kubernetes</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJLXBYEN7C"></script>
     <script>
@@ -124,12 +124,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Where is the killer app for edge computing?</h1>
+                <h1>Nuvla and Kubernetes</h1>
                 
-                <p>Can we identify the ‘killer app’ for edge computing?</p>
-                <p>25 November 2022
+                <p></p>
+                <p>23 January 2024
                   
-                     | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
+                     | by <a href="/authors/John White">John White</a>
                      
                   </p>
                 
@@ -139,9 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <a href="/blog/tag/cloud">cloud</a>
   
-  <a href="/blog/tag/privacy">privacy</a>
-  
-  <a href="/blog/tag/security">security</a>
+  <a href="/blog/tag/kubernetes">kubernetes</a>
   
 </p>
 
@@ -169,7 +167,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Killer app for the edge</span>
+      <a href="/blog/tech-corner">
+        <span>Tech Corner</span>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item">
+        <span>Nuvla.io and kubernetes</span>
     </li>
     </li>
   </ol>
@@ -181,35 +185,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
             
-              <img class="full-image" src="/assets/img/blog/marketplace.png">
+              <img class="full-image" src="/assets/img/blog/blog_nbe2a.png">
             
-            <p>For some time, analysts and industry experts have been heralding <a href="/blog/discover/2019/11/08/what-is-edge-computing.html">edge computing</a> as the next big thing that will revolutionise the IT and telecom industries. But for industries to move, there needs to be real and meaningful benefits, achievable within reasonable investment and at an acceptable risk.  It would indeed therefore be great to identify the ‘killer app’ for edge computing – a single heroic app to unlock the full potential of this promising distributed computing paradigm, one that’s capable of fulfilling the level of world domination predicted by analysts. So where is it?</p>
+            <h1 id="nuvlaio-now-supports-deployment-via-kubernetes">Nuvla.io now supports deployment via Kubernetes</h1>
 
-<p>Perhaps this is the wrong question. If we stand back, the edge is not there to run a single all-encompassing, killer app, but to enable an ecosystem of applications that allows organisations to better extract value from data near its source. And this objective is neither simple nor standard, since, like us humans, every business is different, with different goals, constraints and assets. However, edge computing will not succeed if all its implementations are bespoke. The good news is that there is an existing ecosystem that exhibits a similar need for wide and wild variety, yet is based on standardised building blocks that tech companies can provide at affordable pricing, thanks to economy of scale.</p>
+<p>Throughout its lifetime, the NuvlaEdge software has excelled at supporting businesses and partners in various fields from humanitarian activities to smart cities, open science, earth observation, and much more. 
+With it, we have learned that the high demand for small, portable and low energy edge devices is very often incompatible with the resource-demanding nature of the target applications. 
+So in addition to Docker, NuvlaEdges can now be deployed via Kubernetes.
+Also, applications that are defined via Kubernetes manifests can be deployed to these NuvlaEdges.
+All the features and flexibility of Kubernetes are utilized behind the Nuvla.io interface.</p>
 
-<p>Where is this ecosystem? I suggest looking in your pocket. The dominance of the smartphone appliance is no longer questioned today… yet what about all those apps? Your mobile device is not satisfied with a one-size-fits-all killer app, so why should your edge infrastructure be any different?</p>
+<h2 id="installation-requirements">Installation requirements</h2>
 
-<h3 id="learning-from-the-apple-app-store">Learning from the Apple® App Store</h3>
+<p>The <a href="https://docs.nuvla.io/nuvlaedge/installation/requirements/#prerequisites-when-running-on-k8s-distribution">prerequisite</a> is for a Kubernetes flavour and <a href="https://helm.sh">Helm</a> to be installed.</p>
 
-<p>Apparently, even the mighty Steve Jobs didn’t initially foresee the rise of the App Store as a key part of the iPhone®’s success story, instead expecting web apps to be the next big thing. Apple® had to move quickly to meet developer demands, opening up the iPhone® ecosystem to allow these people to create native iOS apps and this, in turn, led to the creation of the App Store to monetise these apps and make them available to customers.</p>
+<ul>
+  <li>The <a href="https://k3s.io/">k3s</a> distribution is preferred distribution for foot print and ease of installation and configuration.</li>
+  <li>Helm is used for deploying the NuvlaEdge containers.</li>
+  <li>The documentation can be found <a href="https://docs.nuvla.io/nuvlaedge/installation/install-with-helm/">here</a>.</li>
+</ul>
 
-<h3 id="the-first-marketplace-for-edge-apps">The first marketplace for edge apps</h3>
+<h3 id="footprint">Footprint</h3>
 
-<p>For edge computing to work well, businesses need a simple and scalable way to purchase apps and immediately deploy them where their data is. But of course no-one needs integration complexity, complicated contractual negotiations and operational risk.</p>
+<p>As NuvlaEdge is designed to be run at the edge (giveaway is the name), the resource footprint of the
+underlying container orchestration engine (COE) is an important consideration.
+In this case we look for a full-feature Kubernetes installation.
+Another consideration is the ease of installation of the COE.
+Given the requirements for memory, features and installation the <a href="https://k3s.io/">k3s</a> distribution is preferred.</p>
 
-<p>Here at SixSq we’re now on a similar path to Apple®, building the world’s first repository of edge apps, the Nuvla Marketplace, usefully informed by the experiences of the App Store, Google Play® and other digital distribution platforms.</p>
+<p>The table below follows the methodology as outlined <a href="https://www.portainer.io/blog/comparing-k0s-k3s-microk8s">here</a>.</p>
 
-<h3 id="app-vendors">App vendors</h3>
+<p><img src="/assets/img/blog/kubernetes_coe_footprint.png" alt="image info" title="a title" /></p>
 
-<p>Since June 2022, we’ve been fostering strong relationships with some of the best creative minds in edge computing app development through the SixSq App Vendor Programme. These specialists don’t pull any punches – their powerful apps are oriented to omnipresent AI, steely <a href="https://sixsq.com/news/2022/06/13/news-aiedgelabs.html">cyber defence</a>, operational optimisation and predictive analytics to meet business challenges head on. I’m talking about reducing latency, overcoming bandwidth challenges, increasing autonomy, ensuring data sovereignty, cutting the carbon footprint and more.</p>
+<p>As can be seen in the table, the footprints are very similar between the COEs.
+In fact, the the total memory footprint of k3s is slightly larger than the base k8s COE.
+The one-line deployment and one-line addition of worker nodes to a cluster made k3s the
+choice for base COE for NuvlaEdge.</p>
 
-<p>To de-risk projects and ensure future-proofed solutions, we’re all about standardised operational, technical and contractual app development within a systematic framework for an open, frictionless ecosystem.</p>
+<h2 id="application-deployment">Application deployment</h2>
 
-<h3 id="the-source-of-killer-apps-for-the-edge">The source of killer apps for the edge</h3>
-
-<p>Together this makes the <a href="/marketplace">Nuvla Marketplace</a> the go-to source of business-ready apps, provided and maintained by domain experts. If you like a dubious metaphor, we at SixSq provide the Tinder app for edge computing and, as the platform operator, we also come on your date as chaperone!</p>
-
-<p>With our approach, vendors can register new apps on the Nuvla Marketplace in a few hours, while you can deploy these apps in seconds and enable your edge devices in minutes. The potential for our edge marketplace to deliver multiple killer apps is real. Of course time will tell, but the telling is already starting. Don’t wait for the killer app, the marketplace delivers a suite of readily-available apps to deliver your business outcomes.</p>
+<p>In a manner similar to the Docker NuvlaEdge case, applications can be deployed to Kubernetes NuvlaEdges.
+The base requirement is that the application is defined by a YAML Kubernetes manifest.
+The manifest may contain multiple Kubernetes “Kinds” e.g. Deployments, Jobs, Services etc.
+When an application is deployed in this fashion, the management and life-cycle on the NuvlaEdge
+node is managed by the Kubernetes COE.
+All the functionality of a NuvlaEdge, as in the Docker case, is available e.g.
+update; clone; shutdown/restart; access to log files.</p>
 
             
             <div class="row">
@@ -218,22 +239,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Killer App For The Edge&body=https://sixsq.com/blog/marketplace/2022/11/25/killer-app-for-the-edge.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Nuvla.io and Kubernetes&body=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html" title="email">
         <span>Email</span>
     </a>
     
