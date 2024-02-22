@@ -9,7 +9,7 @@ sectors: transport
 author: Rebecca Schenato
 ---
 
-Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade** [^1]. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with thw environmental, escalating costs and safety issues causing concern to operators. Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
+Maritime commerce has been widely used throughout history and has grown in importance to the point where it’s now responsible for **80% of the world’s trade** [^1]. Over the years, the maritime industry has faced multiple challenges, but arguably none greater than today, with environmental,  cost and safety issues causing concern to operators. Edge computing is able to address these challenges and emerges as an essential innovation for maritime logistics, promising to revolutionize the way we navigate the seas.
 
 ### Keeping Tabs on Containers and Codes
 
