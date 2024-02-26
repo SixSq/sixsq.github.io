@@ -14,7 +14,7 @@ blog-category: tech-corner
 author: Marc-Elian Bégin
 ---
 
-#### Implementing a successful edge computing strategy requires close cooperation between software developers and IT operations.  Adopting DevOps principles is therefore the natural way to go. In this blog, we explore how the Nuvla application management platform enables you to extend your DevOps workflow to the edge.
+#### Implementing a successful edge computing strategy requires close cooperation between software developers and IT operations.  Adopting DevOps principles is therefore the natural way to go. In this blog, we explore how the Nuvla.io application management platform enables you to extend your DevOps workflow to the edge.
 
 
 ## Benefits of DevOps 
@@ -40,13 +40,13 @@ The Continuous Integration phase consists of everything from planning to coding,
 
 Continuous Delivery/Deployment comes after that, by releasing the committed software, and in some cases, deploying it into a QA environment for validation (for example for Canary deployments). 
 
-## What does Nuvla have to do with all of this?
+## What does Nuvla.io have to do with all of this?
 
-Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla can help. To get started with Nuvla you only need to:
+Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla.io can help. To get started with Nuvla.io you only need to:
 
-- register with Nuvla and set up your environment 
-- prepare your edge device by installing the NuvlaEdge software
-- add your containerised app to Nuvla
+- [register with Nuvla.io](https://nuvla.io/ui/sign-up) and set up your environment 
+- prepare your edge device by [installing the NuvlaEdge software](https://docs.nuvla.io/nuvlaedge/installation/)
+- [add your containerised app to Nuvla.io](https://youtu.be/FkrtbYEmQqQ?si=OUxPncW-JfKzqIZe)
 
 Our [documentation](https://docs.nuvla.io/) will support you along the way. And if you hit a snag, simply reach out to us via the little blue widget on the bottom right of any of our websites.
 
@@ -54,21 +54,21 @@ Our [documentation](https://docs.nuvla.io/) will support you along the way. And 
 
 Well, DevOps without tooling would be quite complicated. You’ll easily find a plethora of tools for each step of the DevOps process: Issue Trackers and Scrum Boards for planning (like JIRA), IDEs for coding (like IntelliJ), Source Code Management systems for tracking changes (like GitHub), Continuous Testing applications for testing code changes (like Jenkins and GitHub CI), Continuous Deployment tools for automatic provisioning (like ArgoCD), etc.
 
-So, if you think about it, since Nuvla is basically an application management platform with orchestration capabilities for Docker and Kubernetes environments, why not use it for Continuous Deployment?
+So, if you think about it, since Nuvla.io is basically an application management platform with orchestration capabilities for Docker and Kubernetes environments, why not use it for Continuous Deployment?
 
 ![cicd](/assets/img/blog/nuvlacicd.png)
 
-So let’s say you plan for a new feature. An awesome one by the way. First, you develop it. Your code looks neat and tidy, so you commit it. When you commit, your continuous tests will be triggered, and they’ll run all the unit and integration tests to validate that your feature is working properly. And it is, so congrats! Upon this successful step, you will also have another action that will build and push your new code as an artefact (let’s say your final artefact is a Docker Image in Docker Hub). Finally, you want to roll out this new feature to all of your ongoing deployments (be it QA or production). So instead of doing this roll-out manually, why not simply trigger a new continuous action, that will use Nuvla’s REST API to deploy your new application (that is registered in your Nuvla App Store) into your infrastructures (also registered in Nuvla)?
+So let’s say you plan for a new feature. An awesome one by the way. First, you develop it. Your code looks neat and tidy, so you commit it. When you commit, your continuous tests will be triggered, and they’ll run all the unit and integration tests to validate that your feature is working properly. And it is, so congrats! Upon this successful step, you will also have another action that will build and push your new code as an artefact (let’s say your final artefact is a Docker Image in Docker Hub). Finally, you want to roll out this new feature to all of your ongoing deployments (be it QA or production). So instead of doing this roll-out manually, why not simply trigger a new continuous action, that will use Nuvla.io’s REST API to deploy your new application (that is registered in your Nuvla.io Marketplace) into your infrastructures (also registered in Nuvla)?
 
-This will give you transparent and infrastructure-agnostic deployments in any compute infrastructure (at the edge or in the cloud), plus you’ll be able to then operate and monitor the lifecycle of your deployments from the Nuvla platform!
+This will give you transparent and infrastructure-agnostic deployments in any compute infrastructure (at the edge or in the cloud), plus you’ll be able to then operate and monitor the lifecycle of your deployments from the Nuvla.io platform!
 
-## Example of CD using Nuvla
+## Example of CD using Nuvla.io
 
-To help you integrate Nuvla into your CI/CD pipeline, we at SixSq have built a GitHub Action that you can use to automatically deploy an app from Nuvla into an infrastructure.
+To help you integrate Nuvla.io into your CI/CD pipeline, we at SixSq have built a GitHub Action that you can use to automatically deploy an app from Nuvla.io into an infrastructure.
 
 This GitHub Action is called Nuvla Application Deployer and is available in the GitHub marketplace at [https://github.com/marketplace/actions/nuvla-application-deployer](https://github.com/marketplace/actions/nuvla-application-deployer).
 
-To use it, simply make sure your GitHub repositories has the GitHub Actions enabled. In your GitHub Actions Workflow, you can use our Nuvla Application Deployer as a job. Something like this:
+To use it, simply make sure your GitHub repositories has the GitHub Actions enabled. In your GitHub Actions Workflow, you can use our Nuvla.io Application Deployer as a job. Something like this:
 
 
 
@@ -108,4 +108,4 @@ steps.test.outputs.DEPLOYMENT_ID
 
 Now you can manage the lifecycle of your edge applications much more easily.
 
-Continuous Deployment is just one of the many benefits of using Nuvla.  There are several ways you can [dig deeper](https://nuvla.io), so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.
+Continuous Deployment is just one of the many benefits of using Nuvla.io.  There are several ways you can [dig deeper](https://nuvla.io), so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don't hesitate to get in touch.
