@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta property="og:type" content="website"/>
     
-    <meta property="og:title" content="SixSq | Blog | Data Management with Nuvla Part 3"/>
-    <meta property="og:image" content="https://sixsq.com/assets/img/blog/edge-to-cloud-big-data.png"/>
+    <meta property="og:title" content="SixSq | Blog | Nuvla.io and Kubernetes"/>
+    <meta property="og:image" content="https://sixsq.com/assets/img/blog/kubernetes-vignette.png"/>
     <meta property="og:description" content=""/>
-    <meta property="og:url" content="https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html"/>
+    <meta property="og:url" content="https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html"/>
     <!-- <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' /> -->
     
-    <title>SixSq | Blog | Data Management with Nuvla Part 3</title>
+    <title>SixSq | Blog | Nuvla.io and Kubernetes</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJLXBYEN7C"></script>
     <script>
@@ -117,19 +117,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </header>
 
-    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/blog/bg-hero-blog.jpg') center / cover;">
+    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/blog/bg-hero-kubernetes.png') center / cover;">
     <div class="container hero hero-narrow">
         <div class="row">
             <div class="col-lg-7 align-self-center hero-text">
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1>Data Management with Nuvla Part 3</h1>
+                <h1>Nuvla.io and Kubernetes</h1>
                 
                 <p></p>
-                <p>11 August 2020
+                <p>23 January 2024
                   
-                     | by <a href="/authors/Konstantin Skaburskas">Konstantin Skaburskas</a>
+                     | by <a href="/authors/John White">John White</a>
                      
                   </p>
                 
@@ -138,6 +138,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="/blog/tag/edge">edge</a>
   
   <a href="/blog/tag/cloud">cloud</a>
+  
+  <a href="/blog/tag/kubernetes">kubernetes</a>
   
 </p>
 
@@ -171,7 +173,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>Data management with nuvla part 3</span>
+        <span>Nuvla.io and kubernetes</span>
     </li>
     </li>
   </ol>
@@ -183,100 +185,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
             
-              <img class="full-image" src="/assets/img/blog/edge-to-cloud-big-data.png">
             
-            <h4 id="implementing-a-successful-edge-computing-strategy-requires-close-cooperation-between-software-developers-and-it-operations--adopting-devops-principles-is-therefore-the-natural-way-to-go-in-this-blog-we-explore-how-the-nuvla-application-management-platform-enables-you-to-extend-your-devops-workflow-to-the-edge">Implementing a successful edge computing strategy requires close cooperation between software developers and IT operations.  Adopting DevOps principles is therefore the natural way to go. In this blog, we explore how the Nuvla application management platform enables you to extend your DevOps workflow to the edge.</h4>
+            <h1 id="nuvlaio-now-supports-deployment-via-kubernetes">Nuvla.io now supports deployment via Kubernetes</h1>
 
-<h2 id="benefits-of-devops">Benefits of DevOps</h2>
+<p>One of the <a href="/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html">advantages of edge computing</a> is that you can collect, process and store data near its source, in factories, shops, warehouses, energy plants, in fact anywhere you need a better understanding of what is going on in your business or organisation. As is the nature of such locations, this often requires the use of small, portable and low energy devices.  As is the nature of business, we constantly expect better, faster and easier to use edge intelligence, including AI algorithms running at the edge, improved resource consumption and so on.</p>
 
-<p>DevOps is not a new concept. Far from it. For a little over ten years now, this endearing set of best practices has been making its way into every software development and IT operations team worthy of its name.</p>
+<p>In these situations, hardware becomes the limiting factor. Small devices cannot host the increasingly resource-demanding applications required by business, so we have to look for clever software solutions.  For that reason, SixSq’s <a href="/nuvlaedge">NuvlaEdge</a> software has been container-ready and Docker-friendly since the outset. Responding to the requirements of a wide range of customers, from fields as diverse as humanitarian work, smart cities, open science and earth observation, the SixSq team is pleased to announce that NuvlaEdges can now also be deployed via the <a href="https://kubernetes.io/">Kubernetes</a> “family”. Kubernetes brings <strong>more functionality and security</strong>, improved load balancing and resilience. Applications that are defined via Kubernetes manifest files can be deployed to NuvlaEdges. All the features and flexibility of Kubernetes are utilised behind the Nuvla.io interface, making it easier for you to deploy.</p>
 
-<p>In fact, a <a href="https://cloud.google.com/devops/state-of-devops/">DevOps report from 2019</a> studied and gathered statistics on how this set of Agile practices makes a difference between teams who adopt it and those who don’t:</p>
+<p>Now we’ll dive into the details of how you can leverage this improved deployment feature. ⬇️</p>
 
-<p><img src="/assets/img/blog/devopsstats.png" alt="devops stats" /></p>
+<h2 id="installation-requirements">Installation requirements</h2>
 
-<p>In short, teams who adopt DevOps are in general more productive, deliver more reliable products, and do all of that much faster.</p>
-
-<h2 id="continuous-integration--delivery-is-key">Continuous Integration &amp; Delivery is key</h2>
-
-<p>One of the biggest DevOps tactics is called CI/CD, which stands for Continuous Integration and Continuous Delivery/Deployment. Its purpose is to integrate a trustworthy and automated chain of testing marks into the Agile development process.</p>
-
-<p>For the sake of simplicity, let’s take the following DevOps workflow:</p>
-
-<p><img src="/assets/img/blog/devops2.jpeg" alt="devops" /></p>
-
-<p>The Continuous Integration phase consists of everything from planning to coding, building and testing (pretty much the left part of the diagram above). This is where all the automated tests are executed against every new code change, and where your software is compiled and/or built.</p>
-
-<p>Continuous Delivery/Deployment comes after that, by releasing the committed software, and in some cases, deploying it into a QA environment for validation (for example for Canary deployments).</p>
-
-<h2 id="what-does-nuvla-have-to-do-with-all-of-this">What does Nuvla have to do with all of this?</h2>
-
-<p>Being able to continuously deploy your software across a fleet of edge devices sounds ideal. However, most software houses lack the ability to consistently deploy software on edge computing infrastructures. They typically have a large backlog of updates waiting to be manually deployed. This is where Nuvla can help. To get started with Nuvla you only need to:</p>
+<p>The <a href="https://docs.nuvla.io/nuvlaedge/installation/requirements/#prerequisites-when-running-on-k8s-distribution">prerequisite</a> is for a Kubernetes flavour and <a href="https://helm.sh">Helm</a> to be installed.</p>
 
 <ul>
-  <li>register with Nuvla and set up your environment</li>
-  <li>prepare your edge device by installing the NuvlaEdge software</li>
-  <li>add your containerised app to Nuvla</li>
+  <li>The <a href="https://k3s.io/">k3s</a> distribution is preferred distribution when considering memory footprint and ease of installation and configuration.</li>
+  <li>Helm is used for deploying the NuvlaEdge containers.</li>
+  <li>The documentation can be found <a href="https://docs.nuvla.io/nuvlaedge/installation/install-with-helm/">here</a></li>
 </ul>
 
-<p>Our <a href="https://docs.nuvla.io/">documentation</a> will support you along the way. And if you hit a snag, simply reach out to us via the little blue widget on the bottom right of any of our websites.</p>
+<h3 id="footprint">Footprint</h3>
 
-<h2 id="developers-read-on-️">Developers, read on ⬇️</h2>
+<p>As NuvlaEdge is designed to be run in devices at the computing edge (giveaway is in the name), the resource footprint of the
+underlying Container Orchestration Engine (COE) is an important consideration.
+In this case we look for a full-feature Kubernetes installation.
+Another consideration is the ease of installation of the COE.
+Given the requirements for memory, features and installation the <a href="https://k3s.io/">k3s</a> distribution is preferred.</p>
 
-<p>Well, DevOps without tooling would be quite complicated. You’ll easily find a plethora of tools for each step of the DevOps process: Issue Trackers and Scrum Boards for planning (like JIRA), IDEs for coding (like IntelliJ), Source Code Management systems for tracking changes (like GitHub), Continuous Testing applications for testing code changes (like Jenkins and GitHub CI), Continuous Deployment tools for automatic provisioning (like ArgoCD), etc.</p>
+<p>The table below follows the methodology as outlined <a href="https://www.portainer.io/blog/comparing-k0s-k3s-microk8s">here</a></p>
 
-<p>So, if you think about it, since Nuvla is basically an application management platform with orchestration capabilities for Docker and Kubernetes environments, why not use it for Continuous Deployment?</p>
+<p><img src="/assets/img/blog/kubernetes_coe_footprint.png" alt="image info" title="a title" /></p>
 
-<p><img src="/assets/img/blog/nuvlacicd.png" alt="cicd" /></p>
+<p>As can be seen in the table, the memory footprints are very similar between the COEs.
+In fact, the the total memory footprint of k3s is slightly larger than the base k8s COE.
+The main factor in selecting the <a href="https://k3s.io/">k3s</a> distribution as the recommended COE for NuvlaEdge 
+is the extremely easy one-line deployment and subsequent configuration steps.</p>
 
-<p>So let’s say you plan for a new feature. An awesome one by the way. First, you develop it. Your code looks neat and tidy, so you commit it. When you commit, your continuous tests will be triggered, and they’ll run all the unit and integration tests to validate that your feature is working properly. And it is, so congrats! Upon this successful step, you will also have another action that will build and push your new code as an artefact (let’s say your final artefact is a Docker Image in Docker Hub). Finally, you want to roll out this new feature to all of your ongoing deployments (be it QA or production). So instead of doing this roll-out manually, why not simply trigger a new continuous action, that will use Nuvla’s REST API to deploy your new application (that is registered in your Nuvla App Store) into your infrastructures (also registered in Nuvla)?</p>
+<h2 id="application-deployment">Application deployment</h2>
 
-<p>This will give you transparent and infrastructure-agnostic deployments in any compute infrastructure (at the edge or in the cloud), plus you’ll be able to then operate and monitor the lifecycle of your deployments from the Nuvla platform!</p>
+<p>In a manner similar to the Docker NuvlaEdge case, applications can be deployed to Kubernetes NuvlaEdges.
+The base requirement is that the application is defined by a Kubernetes YAML manifest.
+The manifest may contain multiple Kubernetes “Kinds” e.g. Deployments, Jobs, Services etc.
+When an application is deployed in this fashion, the management and life-cycle on the NuvlaEdge
+node is managed by the Kubernetes COE.
+All the functionality of a NuvlaEdge, as in the Docker case, is available e.g.
+update; clone; shutdown/restart; access to log files.</p>
 
-<h2 id="example-of-cd-using-nuvla">Example of CD using Nuvla</h2>
+<h2 id="learn-more">Learn more</h2>
 
-<p>To help you integrate Nuvla into your CI/CD pipeline, we at SixSq have built a GitHub Action that you can use to automatically deploy an app from Nuvla into an infrastructure.</p>
+<p><a href="https://youtu.be/yqly8M_l2Cs">Video</a> on how to get started with Nuvla.io</p>
 
-<p>This GitHub Action is called Nuvla Application Deployer and is available in the GitHub marketplace at <a href="https://github.com/marketplace/actions/nuvla-application-deployer">https://github.com/marketplace/actions/nuvla-application-deployer</a>.</p>
+<p><a href="https://sixsq.com/nuvlaedge#techspecs">NuvlaEdge tech specs</a></p>
 
-<p>To use it, simply make sure your GitHub repositories has the GitHub Actions enabled. In your GitHub Actions Workflow, you can use our Nuvla Application Deployer as a job. Something like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Jobs: continuous-deployment: 
-
-runs-on: ubuntu-latest
-name: Deploy application from Nuvla steps: 
-
-- name: Deploy
-id: deploy
-uses: nuvla/nuvla-deploy-app-action@v1 with: 
-
-api-key: $ api-secret: $ module-id: 'module/&lt;uuid&gt;'
-credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&lt;uuid&gt;' 
-</code></pre></div></div>
-
-<h1 id="use-the-output">Use the output</h1>
-<ul>
-  <li>name: Get the output</li>
-</ul>
-
-<p>run: echo “The output was $”</p>
-
-<p>Looks quite straightforward, right? Just to make sure it’s all clear, let’s go through each action input:</p>
-
-<ul>
-  <li>api-key and api-secret: to manage resources in Nuvla, you need to be <a href="https://nuvla.io/ui/sign-up">registered as a user</a>. This GitHub Action will perform an operation on your behalf, so it needs a valid credential for login</li>
-  <li>module-id: you are trying to deploy an application that you, or someone else, have previously registered in Nuvla. If you click on this application, you’ll find an underlying module ID that the GitHub Action will need in order to know which app to deploy.</li>
-  <li>credential-id: Nuvla speaks with infrastructures via their secure API (Docker or Kubernetes). This means all of your infrastructures in Nuvla should have at least one Container Orchestration Engine Credential associated with it. This ID will tell GitHub Action which credential to use when deploying your app in the infrastructure. You can find this credential from the Credentials page in Nuvla.</li>
-  <li>environment: finally, this optional input lets you define environment variables for your application. Assuming your Nuvla app has been configured to accept these variables, all you need to do is to provide them to the GitHub Action, as a comma-separated string, making sure the variable names match with the ones in the corresponding Nuvla application.</li>
-</ul>
-
-<p>If the action fails, it will try to auto-clean whatever deployments have been started, otherwise, on success, it will output the ID of your deployment, which you can capture via the workflow variable:</p>
-
-<p>steps.test.outputs.DEPLOYMENT_ID</p>
-
-<p>Now you can manage the lifecycle of your edge applications much more easily.</p>
-
-<p>Continuous Deployment is just one of the many benefits of using Nuvla.  There are several ways you can dig deeper, so why not take a look then contact us if you need a helping hand? And we are always interested to hear about your experience. So don’t hesitate to get in touch.</p>
+<p><a href="https://sixsq.com/nuvlaedge#hardware">NuvlaEdge certified hardware</a></p>
 
             
             <div class="row">
@@ -285,22 +246,22 @@ credential-id: 'credential/&lt;uuid&gt;' environment: 'NUVLABOX_UUID=nuvlabox/&l
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Data Management with Nuvla Part 3&body=https://sixsq.com/blog/tech-corner/2020/08/11/data-management-with-nuvla-part-3.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Nuvla.io and Kubernetes&body=https://sixsq.com/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html" title="email">
         <span>Email</span>
     </a>
     
