@@ -1416,6 +1416,22 @@
       
   
       
+        
+          
+          {
+            "title"      : "kubernetes",
+            "head-title" : "SixSq | Blog topic | kubernetes",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/kubernetes/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
       
   
       
@@ -1699,6 +1715,19 @@
         
       
   
+  
+    
+      
+      {
+        "title"    : "Nuvla.io and Kubernetes",
+        "head-title" : "SixSq | Blog | Nuvla.io and Kubernetes",
+        "category" : "blog",
+        "tags"     : "edge, cloud, kubernetes",
+        "url"      : "/blog/tech-corner/2024/01/23/nuvla-and-kubernetes.html",
+        "date"     : "2024-01-23 00:00:00 +0000",
+        "content": "<h1 id=\"nuvlaio-now-supports-deployment-via-kubernetes\">Nuvla.io now supports deployment via Kubernetes</h1>\n\n<p>One of the <a href=\"/blog/discover/2022/05/03/4-ways-to-know-if-you-need-edge-computing.html\">advantages of edge computing</a> is that you can collect, process and store data near its source, in factories, shops, warehouses, energy plants, in fact anywhere you need a better understanding of what is going on in your business or organisation. As is the nature of such locations, this often requires the use of small, portable and low energy devices.  As is the nature of business, we constantly expect better, faster and easier to use edge intelligence, including AI algorithms running at the edge, improved resource consumption and so on.</p>\n\n<p>In these situations, hardware becomes the limiting factor. Small devices cannot host the increasingly resource-demanding applications required by business, so we have to look for clever software solutions.  For that reason, SixSq’s <a href=\"/nuvlaedge\">NuvlaEdge</a> software has been container-ready and Docker-friendly since the outset. Responding to the requirements of a wide range of customers, from fields as diverse as humanitarian work, smart cities, open science and earth observation, the SixSq team is pleased to announce that NuvlaEdges can now also be deployed via the <a href=\"https://kubernetes.io/\">Kubernetes</a> “family”. Kubernetes brings <strong>more functionality and security</strong>, improved load balancing and resilience. Applications that are defined via Kubernetes manifest files can be deployed to NuvlaEdges. All the features and flexibility of Kubernetes are utilised behind the Nuvla.io interface, making it easier for you to deploy.</p>\n\n<p>Now we’ll dive into the details of how you can leverage this improved deployment feature. ⬇️</p>\n\n<h2 id=\"installation-requirements\">Installation requirements</h2>\n\n<p>The <a href=\"https://docs.nuvla.io/nuvlaedge/installation/requirements/#prerequisites-when-running-on-k8s-distribution\">prerequisite</a> is for a Kubernetes flavour and <a href=\"https://helm.sh\">Helm</a> to be installed.</p>\n\n<ul>\n  <li>The <a href=\"https://k3s.io/\">k3s</a> distribution is preferred distribution when considering memory footprint and ease of installation and configuration.</li>\n  <li>Helm is used for deploying the NuvlaEdge containers.</li>\n  <li>The documentation can be found <a href=\"https://docs.nuvla.io/nuvlaedge/installation/install-with-helm/\">here</a></li>\n</ul>\n\n<h3 id=\"footprint\">Footprint</h3>\n\n<p>As NuvlaEdge is designed to be run in devices at the computing edge (giveaway is in the name), the resource footprint of the\nunderlying Container Orchestration Engine (COE) is an important consideration.\nIn this case we look for a full-feature Kubernetes installation.\nAnother consideration is the ease of installation of the COE.\nGiven the requirements for memory, features and installation the <a href=\"https://k3s.io/\">k3s</a> distribution is preferred.</p>\n\n<p>The table below follows the methodology as outlined <a href=\"https://www.portainer.io/blog/comparing-k0s-k3s-microk8s\">here</a></p>\n\n<p><img src=\"/assets/img/blog/kubernetes_coe_footprint.png\" alt=\"image info\" title=\"a title\" /></p>\n\n<p>As can be seen in the table, the memory footprints are very similar between the COEs.\nIn fact, the the total memory footprint of k3s is slightly larger than the base k8s COE.\nThe main factor in selecting the <a href=\"https://k3s.io/\">k3s</a> distribution as the recommended COE for NuvlaEdge \nis the extremely easy one-line deployment and subsequent configuration steps.</p>\n\n<h2 id=\"application-deployment\">Application deployment</h2>\n\n<p>In a manner similar to the Docker NuvlaEdge case, applications can be deployed to Kubernetes NuvlaEdges.\nThe base requirement is that the application is defined by a Kubernetes YAML manifest.\nThe manifest may contain multiple Kubernetes “Kinds” e.g. Deployments, Jobs, Services etc.\nWhen an application is deployed in this fashion, the management and life-cycle on the NuvlaEdge\nnode is managed by the Kubernetes COE.\nAll the functionality of a NuvlaEdge, as in the Docker case, is available e.g.\nupdate; clone; shutdown/restart; access to log files.</p>\n\n<h2 id=\"learn-more\">Learn more</h2>\n\n<p><a href=\"https://youtu.be/yqly8M_l2Cs\">Video</a> on how to get started with Nuvla.io</p>\n\n<p><a href=\"https://sixsq.com/nuvlaedge#techspecs\">NuvlaEdge tech specs</a></p>\n\n<p><a href=\"https://sixsq.com/nuvlaedge#hardware\">NuvlaEdge certified hardware</a></p>\n"
+      },
+    
   
     
       
@@ -2506,6 +2535,19 @@
             "keywords" : "",
             "url"      : "/authors/Inna%20Ushakova.html",
             "content": "<p>Inna Ushakova, CEO and co-founder of Scalarr and AI EdgeLabs, is an avid entrepreneur and an advocate of merging cybersecurity and AI expertise to achieve advanced levels of protection. Always one to face challenges head-on, Inna had a front-row seat to experience firsthand the damaging effects of fraud and cyber-attacks across industries. She then made it her mission to innovate and implement cutting-edge technologies to solve the industry’s most present security problems: mobile ad fraud and Edge/IoT vulnerabilities. Inna’s hard work paid off in 2021 when her ventures received Series A funding, allowing her to extend her security portfolio with a new product that targets the Edge cybersecurity sphere more pointedly. In 2021, Inna was recognized as Best Woman in Tech by Forbes in Ukraine.</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "John White",
+            "head-title" : "SixSq | Blog Author | John White",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/authors/John%20White.html",
+            "content": "<p>John was educated at the University of Victoria in Canada and holds a PhD in Physics focusing on LEP Standard Model measurements. He joined CERN in 1999 and acquired experience in distributed computing from 2000 to 2015 through a series of European Grid projects. Since 2015 he has worked as project manager for European computing Cloud infrastructure. In 2021 he joined Protonmail, a leading global provider, as a site infrastructure engineer, moving on to SixSq in 2023.</p>\n"
           },
         
       
