@@ -3198,104 +3198,104 @@
         
           
           {
-            "title"    : "Count",
-            "head-title" : "SixSq | Count",
+            "title"    : "Monitor",
+            "head-title" : "SixSq | Monitor",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/energy/1-count.html",
-            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
+            "url"      : "/industries-tackle/energy/1-monitor.html",
+            "content": "<p>Real-time performance monitoring</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Cyber security",
-            "head-title" : "SixSq | Energy | Cyber security",
+            "title"    : "Detect",
+            "head-title" : "SixSq | Energy | Detect",
             "category" : "energy",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/energy/2-cyber-security.html",
-            "content": "<p>Defend edge with AI-powered apps</p>\n"
+            "url"      : "/industries-tackle/energy/2-detect.html",
+            "content": "<p>Enable fluctuation detection and alerts</p>\n"
           },
         
       
         
           
           {
-            "title"    : "High availability",
-            "head-title" : "SixSq | Energy | High availability",
+            "title"    : "Statistics",
+            "head-title" : "SixSq | Energy | Statistics",
             "category" : "energy",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/energy/3-high-availablity.html",
-            "content": "<p>24/7 monitored edge infrastructure</p>\n"
+            "url"      : "/industries-tackle/energy/3-statistics.html",
+            "content": "<p>Generate usage and production statistics</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Identify",
-            "head-title" : "SixSq | Identify",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/industries-tackle/energy/4-identify.html",
-            "content": "<p>OCR labels to identify unique assets</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Track",
-            "head-title" : "SixSq | Track",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/industries-tackle/energy/5-tracking.html",
-            "content": "<p>Product and trolley tracking</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Everywhere",
-            "head-title" : "SixSq | Everywhere",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/industries-tackle/energy/6-night-day.html",
-            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Protect",
-            "head-title" : "SixSq | Energy | Protect",
+            "title"    : "Efficiency",
+            "head-title" : "SixSq | Energy | Efficiency",
             "category" : "energy",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/energy/7-worker-protection.html",
-            "content": "<p>Protect workers all across your infrastructure</p>\n"
+            "url"      : "/industries-tackle/energy/4-efficiency.html",
+            "content": "<p>Improve energy efficiency</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Remote control",
-            "head-title" : "SixSq | Energy | Remote control",
+            "title"    : "Cybersecurity",
+            "head-title" : "SixSq | Energy | Cybersecurity",
             "category" : "energy",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/energy/8-remote-control.html",
-            "content": "<p>Control and monitor your edge assets remotely</p>\n"
+            "url"      : "/industries-tackle/energy/5-cyber-security.html",
+            "content": "<p>Protect your digital ecosystem</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Video",
+            "head-title" : "SixSq | Energy | Video",
+            "category" : "energy",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/energy/6-video.html",
+            "content": "<p>Gather video analytics for safety and efficiency</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Buildings",
+            "head-title" : "SixSq | Energy | Buildings",
+            "category" : "energy",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/energy/7-buildings.html",
+            "content": "<p>Analyse occupancy and variations</p>\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Analyse",
+            "head-title" : "SixSq | Energy | Analyse",
+            "category" : "energy",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/energy/8-analyse.html",
+            "content": "<p>Provide real-time analysis on data</p>\n"
           },
         
       
@@ -3615,8 +3615,8 @@
           
           {
             "title"    : "Monitor",
-            "head-title" : "SixSq | Telco | Monitor",
-            "category" : "telco",
+            "head-title" : "SixSq | Energy | Monitor",
+            "category" : "energy",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-tackle/telco/1-monitor.html",
