@@ -1,7 +1,7 @@
 ---
 title: Monitor
-icon: icon-monitor-white.svg
-category: energy
+icon: icon-magnifying-glass-white.svg
+category: 
 background-color: FD0011
 ---
 
