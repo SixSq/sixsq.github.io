@@ -7,7 +7,7 @@ product-summary: Edge computing is critical for the transition to decentralized 
 product-background-img: bg-hero-industry.jpg
 product-next-target: overview
 image: industry-energy.jpg
-vignette: industry-manufacturing-vignette.png
+vignette: industry-energy.jpg
 keywords:
  - casestudy
  - case study
