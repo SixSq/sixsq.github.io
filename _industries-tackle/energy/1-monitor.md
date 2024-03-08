@@ -1,7 +1,7 @@
 ---
 title: Monitor
 icon: icon-magnifying-glass-white.svg
-category: 
+category: energy
 background-color: FD0011
 ---
 
