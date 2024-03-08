@@ -3199,8 +3199,8 @@
           
           {
             "title"    : "Monitor",
-            "head-title" : "SixSq | Monitor",
-            "category" : "",
+            "head-title" : "SixSq | Energy | Monitor",
+            "category" : "energy",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-tackle/energy/1-monitor.html",
@@ -3615,8 +3615,8 @@
           
           {
             "title"    : "Monitor",
-            "head-title" : "SixSq | Energy | Monitor",
-            "category" : "energy",
+            "head-title" : "SixSq | Telco | Monitor",
+            "category" : "telco",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/industries-tackle/telco/1-monitor.html",
