@@ -3,7 +3,7 @@ title: Empowering the Energy Sector
 product-title: Empowering the Energy Sector; edge computing solutions for a sustainable future
 image: industry-energy.jpg
 no-image: true
-product-background-img: bg-hero-industry.jpg
+product-background-img: bg-hero-industry.png
 tags: edge energy
 sectors: energy
 author: Rebecca Schenato
