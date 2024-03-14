@@ -1,7 +1,7 @@
 ---
 title: Monitor
 icon: icon-monitor-white.svg
-category: energy
+category: telco
 background-color: FD0011
 ---
 
