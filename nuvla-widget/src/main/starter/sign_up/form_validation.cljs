@@ -1,4 +1,4 @@
-(ns starter.sign-in.form-validation
+(ns starter.sign-up.form-validation
   (:require
     [cljs.spec.alpha :as s]
     [clojure.string :as str]
@@ -43,7 +43,12 @@
 (s/def ::user-template-email-password
   (s/keys :req-un [::email
                    ::password
-                   ::password-repeat
+                   ::first-name
+                   ::last-name]))
+
+(s/def ::user-template-email-password-full
+  (s/keys :req-un [::email
+                   ::password
                    ::first-name
                    ::last-name
                    ::street-address
@@ -60,37 +65,39 @@
       [:password-repeat :password-not-equal])))
 
 
-(def form-conf {:form-spec         ::user-template-email-password
-                :names->value      {:email           ""
-                                    :password        ""
-                                    :first-name      ""
-                                    :last-name       ""
-                                    :street-address  ""
-                                    :city            ""
-                                    :country         ""
-                                    :postal-code     ""}})
+(def form-conf {:form-spec    ::user-template-email-password
+                :names->value {:email          ""
+                               :password       ""
+                               :first-name     ""
+                               :last-name      ""
+                               :street-address ""
+                               :city           ""
+                               :country        ""
+                               :postal-code    ""}})
 
-(def spec->msg {::email          "Typo? It doesn't look like a valid email."
-                ::password       "Password must contain at least 8 characters, with one uppercase, one lowercase, one digit and one special character."})
+(def spec->msg {::email    "Typo? It doesn't look like a valid email."
+                ::password "Password must contain at least 8 characters, with one uppercase, one lowercase, one digit and one special character."})
 
 (defn form->data
   [form!]
   (let [{:keys [first-name last-name
                 coupon email password] :as form} (:names->value @form!)
-        customer (cond-> {:fullname      (str first-name " " last-name)
-                          :address       (select-keys form [:street-address
-                                                            :city
-                                                            :country
-                                                            :postal-code])
-                          :subscription? true}
-                         (not (str/blank? coupon)) (assoc :coupon coupon))]
-    {:template {:href         api-paths/EMAIL-PASSWORD-USER-TEMPLATE-HREF
-                :customer     customer
-                :email        email
-                :password     password
-                :redirect-url (str api-paths/UI-SIGN-IN-URL
-                                   "?message="
-                                   (js/encodeURI "signup-validation-success"))}}))
+        customer (when (= (:form-spec @form!) ::user-template-email-password-full)
+                   (cond-> {:fullname      (str first-name " " last-name)
+                            :address       (select-keys form [:street-address
+                                                              :city
+                                                              :country
+                                                              :postal-code])
+                            :subscription? true}
+                           (not (str/blank? coupon)) (assoc :coupon coupon)))]
+    {:template
+     (cond-> {:href         api-paths/EMAIL-PASSWORD-USER-TEMPLATE-HREF
+              :email        email
+              :password     password
+              :redirect-url (str api-paths/UI-SIGN-IN-URL
+                                 "?message="
+                                 (js/encodeURI "signup-validation-success"))}
+             customer (assoc :customer customer))}))
 
 (defn form-valid?
   [form!]
