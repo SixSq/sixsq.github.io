@@ -61,10 +61,8 @@
 
 
 (def form-conf {:form-spec         ::user-template-email-password
-                :names->validators {:password-repeat [password-repeat-check]}
                 :names->value      {:email           ""
                                     :password        ""
-                                    :password-repeat ""
                                     :first-name      ""
                                     :last-name       ""
                                     :street-address  ""
@@ -73,8 +71,7 @@
                                     :postal-code     ""}})
 
 (def spec->msg {::email          "Typo? It doesn't look like a valid email."
-                ::password       "Password must contain at least 8 characters, with one uppercase, one lowercase, one digit and one special character."
-                :password-repeat "Password has to be the same."})
+                ::password       "Password must contain at least 8 characters, with one uppercase, one lowercase, one digit and one special character."})
 
 (defn form->data
   [form!]
