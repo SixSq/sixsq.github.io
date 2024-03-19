@@ -1,7 +1,7 @@
 (ns starter.api.paths
   (:require [clojure.string :as str]))
 
-(def NUVLA_URL "https://sixsqo.localhost")
+(def NUVLA_URL "https://nuvla.io")
 
 (def SEPARATOR "/")
 
@@ -41,7 +41,7 @@
 
 (defn build-ui-url
   [page]
-  (join-url ["https://nuvla.io" #_NUVLA_URL (build-ui-path page)]))
+  (join-url [NUVLA_URL (build-ui-path page)]))
 
 (def CLOUD-ENTRY-POINT-URL (build-api-url CLOUD-ENTRY-POINT))
 
