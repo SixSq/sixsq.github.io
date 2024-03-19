@@ -8,7 +8,9 @@
   (api-helpers/add
     :user
     data
-    #()
+    #(.replace js/location (str api-paths/UI-SIGN-IN-URL
+                                "?message="
+                                (js/encodeURI "validation-email-success-msg")))
     :on-error #(let [msg (or (get (->> %
                                        ex-data
                                        :body

@@ -17,10 +17,11 @@
   (let [class-names (-> class-name
                         (str/split #" ")
                         (conj "form-control")
-                        (cond-> error (concat ["was-validated" "is-invalid"])))
+                        (cond-> error (concat ["was-validated" "is-invalid"]))
+                        (->> (str/join " ")))
         opts        (-> opts
                         (dissoc :error :as)
-                        (assoc :class-name (str/join " " class-names)))]
+                        (assoc :class-name class-names))]
     [:<>
      [as opts children]
      (when error
@@ -106,12 +107,12 @@
        (when @free-trial?
          [:<>
           [:div.col-md-8
-           [FormControl {:name        :street-address
+           [FormControl {:name          :street-address
                          :default-value (-> @form! :names->value :street-address)
-                         :placeholder "Street Address"
-                         :on-change   on-change
-                         :on-blur     on-blur
-                         :error       (field-error :street-address)}]]
+                         :placeholder   "Street Address"
+                         :on-change     on-change
+                         :on-blur       on-blur
+                         :error         (field-error :street-address)}]]
           [:div.col-md-4
            [FormControl {:name          :postal-code
                          :default-value (-> @form! :names->value :postal-code)
@@ -161,7 +162,7 @@
      {:type     "button"
       :style    {:margin 16}
       :on-click on-submit}
-     "Sign up for Nuvla"]))
+     "Sign up for Nuvla.io"]))
 
 (defn ResponseError []
   (when @response-error!
