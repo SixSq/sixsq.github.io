@@ -2,11 +2,10 @@
   (:require
     [reagent.core :as r]
     ["react-dom" :as react-dom]
-    [starter.sign-in.view :as sign-in-view]
-    [form-validator.core :as fv]))
+    [starter.sign-up.view :as sign-up-view]))
 
 (defn App []
-  [sign-in-view/SignIn])
+  [sign-up-view/SignUp])
 
 ;; start is called by init and after code reloading finishes
 (defn ^:dev/after-load start []
@@ -19,7 +18,6 @@
   ;; this is called in the index.html and must be exported
   ;; so it is available even in :advanced release builds
   (js/console.log "init")
-  (swap! fv/conf #(merge % {:atom r/atom}))
   (start))
 
 ;; this is called before any code is reloaded

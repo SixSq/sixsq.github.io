@@ -1,4 +1,4 @@
-(ns starter.sign-in.handler
+(ns starter.sign-up.handler
   (:require
     [starter.api.helpers :as api-helpers]
     [starter.api.paths :as api-paths]))
