@@ -3,7 +3,7 @@ layout: retail
 title: retail
 product-name: Industry
 product-title: Retail
-product-description: Learn how Nuvla.io delivers a future-proof way of understanding your retail infrastucture, from data to insight.
+product-description: Learn how the Nuvla.io edge-to-cloud management platform delivers a future-proof way of understanding your retail infrastucture, from data to insight.
 product-summary: A risk-free, data-driven way to improve operations, security and business continuity. 
 product-background-img: bg-hero-retail.png
 product-next-target: overview

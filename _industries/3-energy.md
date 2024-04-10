@@ -2,7 +2,7 @@
 layout: energy
 title: energy
 product-title: Energy
-product-description: Learn how Nuvla.io can drive transformation for the energy sector with flexible &amp; scalable solutions
+product-description: Learn how the Nuvla.io edge-to-cloud management platform can drive transformation for the energy sector with flexible &amp; scalable solutions
 product-summary: Edge computing is critical for the transition to decentralized energy sources. 
 product-background-img: bg-hero-industry.png
 product-next-target: overview
