@@ -4,6 +4,11 @@
   <body class="double-menu" data-bs-spy="scroll" data-bs-target="#anchor-nav-menu">
     {% include header.html %}
     {% include top-form-section.html %}
+	
+    <div class="container-fluid sticky-top breadcrumb-wrapper">
+        {% include breadcrumbs.html %}
+        {% include navbar.html %}
+    </div>
 
     <div class="container bg-primary section section-straddle" style="background: url('/assets/img/bg-wave.png') right / cover no-repeat;">
         <div class="row">
