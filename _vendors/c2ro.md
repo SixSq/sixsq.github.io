@@ -3,7 +3,7 @@ title: C2RO
 logo: logo-c2ro.png
 nuvla_url: https://nuvla.io/ui/apps/c2ro
 top: true
-sectors: retail, airport, harbour, smart city
+sectors: airport, harbour, smart city
 for_logistics: Improve health &amp; safety and worker efficiency, with GDPR-compliant video processing, which maintains privacy &amp; anonymity.
 for_retail: Find out how visitors use your space with GDPR-compliant video processing, which maintains privacy &amp; anonymity.
 link: https://c2ro.com

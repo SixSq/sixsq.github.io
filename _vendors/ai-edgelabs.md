@@ -6,7 +6,7 @@ sectors: manufacturing, security, retail, transportation, smart city, telco, log
 for_logistics: Protect against cyberattacks with powerful and autonomous AI platform.
 for_telco: Protect against cyberattacks with powerful and autonomous AI platform.
 for_transport: Protect against cyberattacks with powerful and autonomous AI platform.
-for_retail: Protect against cyberattacks with powerful and autonomous AI platform.
+for_retail: Protect against cyberattacks with powerful AI platform.
 for_manufacturing: Protect against cyberattacks with powerful and autonomous AI platform.
 for_energy: Protect against cyberattacks with powerful and autonomous AI platform.
 top: true
