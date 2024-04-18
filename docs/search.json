@@ -949,70 +949,6 @@
         
           
           {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "Blog",
             "head-title" : "SixSq | Blog",
             "category"   : "",
@@ -1067,6 +1003,70 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/blog/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/4/index.html",
             "date"       : "",
             "content"    : ""
           },
