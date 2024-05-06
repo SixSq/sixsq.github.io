@@ -123,6 +123,10 @@ ol, ul {
   padding-left: 1rem;
 }
 
+.section-article strong {
+  font-weight: 500;
+}
+
 .section-legal .warning {
   color: rgb(237, 43, 43);
 }
@@ -658,7 +662,7 @@ form {
 
 @media (max-width: 767px) {
   input, .form-control,
-.input-group > .form-control {
+  .input-group > .form-control {
     padding: 0.4rem 0.8rem;
     margin: 10px 0 !important;
     width: 100%;
@@ -804,8 +808,8 @@ form {
     margin: 0 auto;
   }
   .container.section-primary-box,
-.container.section-primary-box.section-primary-box2 .primary-box-title,
-.container.section-primary-box.section-primary-box2 .primary-box-text {
+  .container.section-primary-box.section-primary-box2 .primary-box-title,
+  .container.section-primary-box.section-primary-box2 .primary-box-text {
     padding: 3rem;
   }
   .container.section .simple-row {
