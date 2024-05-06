@@ -4,7 +4,7 @@ product-title: Enhancing AI strategies with CPE – a telco perspective
 image: telco-blog.png
 no-image: true
 product-background-img: bg-hero-telco.png
-tags: edge telco
+tags: edge telco ai
 sectors: telco
 author: Marc-Elian Bégin
 ---
