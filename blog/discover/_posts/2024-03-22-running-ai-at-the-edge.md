@@ -25,7 +25,7 @@ So, who should be on board to run your ML apps (let’s call this activity **ML 
 
 2. **The data scientists**: What do these people want? A **massive, central warehouse of well-organised, high-quality data** that’s easily queryable and downloadable. This is the liquid hydrogen essential to every rocket launch!
 
-	Over the years, I’ve talked to many data scientists working in transportation (and many other industries) here on Planet Earth. They all say the same things  _“90% of failing AI projects fail because of data-related issues,”_ _“Data is the hardest part of machine learning and the most important to get right”_ (Uber), and  _“No other activity in the machine learning lifecycle has a higher return on investment than improving the data a model has access to”_ (Gojek).
+	Over the years, I’ve talked to many data scientists working in transportation (and many other industries) here on Planet Earth. They all say very similar things  _“90% of failing AI projects fail because of data-related issues,”_ _“Data is the hardest part of machine learning and the most important to get right”_ (Uber), and  _“No other activity in the machine learning lifecycle has a higher return on investment than improving the data a model has access to”_ (Gojek).
 	
 	What else could knock your ML ops off-course? Data scientists insist high-quality data includes context – the “where, when and how” of its collection, also known as its metadata – information that must be packaged and stored alongside data wherever it travels.
 
@@ -49,7 +49,7 @@ Thinking about your data needs, edge-first allows you to use an edge-to-cloud ma
 
 Once curated, the data can be pushed to your favourite backend service. For example, Nuvla.io will deliver the data to your own servers, Amazon’s, Azure’s or Google’s. We also provide this service from Switzerland. What’s important here is your data scientists get easy and safe access to their rocket fuel!
 
-Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the Nuvla.io **Marketplace**. This allows your organisation to move fast while controlling risks.
+Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the [Nuvla.io Marketplace](/marketplace). This allows your organisation to move fast while controlling risks.
 
 ### Find out more
 
