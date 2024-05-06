@@ -1125,6 +1125,22 @@
         
           
           {
+            "title"      : "edge - page 4",
+            "head-title" : "SixSq | Blog topic | edge   page 4",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/edge/page/4/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
             "title"      : "cloud",
             "head-title" : "SixSq | Blog topic | cloud",
             "category"   : "",
@@ -1458,6 +1474,38 @@
       
   
       
+        
+          
+          {
+            "title"      : "ai",
+            "head-title" : "SixSq | Blog topic | ai",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/ai/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "machine-learning",
+            "head-title" : "SixSq | Blog topic | machine learning",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/tag/machine-learning/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
       
   
       
@@ -1598,6 +1646,22 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/blog/discover/page/2/index.html",
+            "date"       : "",
+            "content"    : null
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "discover - page 3",
+            "head-title" : "SixSq | Blog category | discover   page 3",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/discover/page/3/index.html",
             "date"       : "",
             "content"    : null
           },
@@ -1790,10 +1854,23 @@
     
       
       {
+        "title"    : "Running AI at the edge? It’s not rocket science!",
+        "head-title" : "SixSq | Blog | Running AI at the edge? It’s not rocket science!",
+        "category" : "blog",
+        "tags"     : "edge, ai, machine-learning",
+        "url"      : "/blog/discover/2024/03/22/running-ai-at-the-edge.html",
+        "date"     : "2024-03-22 00:00:00 +0000",
+        "content": "<p>Running <strong>artificial intelligence (AI)</strong> and <strong>machine learning (ML)</strong> at the edge to turn your data into actionable insights isn’t rocket science. I should know; I’ve had a hand in building rockets! But nor is it a walk in the park.</p>\n\n<p>In this blog, I’ll share my experiences of building, deploying, and operating intelligent apps (let’s call them <strong>ML apps</strong>) at the edge – in other words, in the physical world that’s outside the data centre.</p>\n\n<p>Just before take-off, a couple of basics. Your ML apps need a stable and secure infrastructure incorporating the near-edge or far-edge or both. They also need high-quality data which must be pre-processed to retain its rich context. And they must be easy to deploy, redeploy and operate.</p>\n\n<h3 id=\"whos-on-board\">Who’s on board?</h3>\n\n<p>So, who should be on board to run your ML apps (let’s call this activity <strong>ML ops</strong>)? It’s helpful to think of three groups of people – some of whom belong to your organisation and others who are partners or provide consulting services to your organisation. They are the <strong>IT team</strong>, <strong>the data scientists</strong> and <strong>the business folk</strong>.</p>\n\n<ol>\n  <li>\n    <p><strong>The IT team</strong>: What are these people up to? They’re working hard to provide a <strong>stable and secure edge-to-cloud infrastructure</strong>, needing full visibility of the edge especially if there are physical and/or cyber risks. If something goes wrong, these people need to know immediately.</p>\n\n    <p>These techies like to select ML apps according to their intended purpose. If a new ML app will be critical to local business processes, the IT team picks one capable of functioning locally at the edge (it delivers business continuity). If the new ML app will be used for overall management, monitoring or trending analysis, the team picks one that can communicate with the wider world to provide an overview (it delivers business availability).</p>\n  </li>\n  <li>\n    <p><strong>The data scientists</strong>: What do these people want? A <strong>massive, central warehouse of well-organised, high-quality data</strong> that’s easily queryable and downloadable. This is the liquid hydrogen essential to every rocket launch!</p>\n\n    <p>Over the years, I’ve talked to many data scientists working in transportation (and many other industries) here on Planet Earth. They all say the same things  <em>“90% of failing AI projects fail because of data-related issues,”</em> <em>“Data is the hardest part of machine learning and the most important to get right”</em> (Uber), and  <em>“No other activity in the machine learning lifecycle has a higher return on investment than improving the data a model has access to”</em> (Gojek).</p>\n\n    <p>What else could knock your ML ops off-course? Data scientists insist high-quality data includes context – the “where, when and how” of its collection, also known as its metadata – information that must be packaged and stored alongside data wherever it travels.</p>\n  </li>\n  <li>\n    <p><strong>The business folk</strong>: These people make significant demands: they want <strong>fluid deployment and operation of ML apps</strong>. They want everything immediately and want to make changes almost daily – whatever it takes to solve business problems and remain agile in a competitive market.</p>\n\n    <p>Needing to deploy new ML apps all the time can bring business folk into conflict with the  IT team. In most business cases, there’s not a single app vendor or creator capable of fulfilling all requirements, so the business team wants the freedom to compose its own bouquet of apps, from different sources – a risk for the IT team who are tasked with minimising ML ops costs and maintaining clear T&amp;Cs, SLAs, support services, pricing and more. This also introduces more work. Training and deploying each new ML app is not one-shot task because the physical world changes and evolves, so ML app models require regular re-training, from regularly updated data, and regular re-deployment.</p>\n  </li>\n</ol>\n\n<h3 id=\"which-launch-pad\">Which launch pad?</h3>\n\n<p>Whoever takes the decision about how to run AI at the edge, it’s important to keep in mind the varying needs of the IT team, data scientists and business folk.</p>\n\n<p>Hyperscalers such as Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform (GCP) are attracting attention right now, so one of these might seem the right choice. But hyperscale providers have a cloud-first business model. This means they focus on selling cloud storage and compute resources and giving access to tools for data exploration as well as AI and ML model training.</p>\n\n<p>The triumvirate rocket crew would do better with an edge-first solution. Only this puts them all in full control of their data processing chain – from data capture, crunching and training, right back to inference (aka running the model on fresh data). And only an edge-first solution can deliver the required level of maturity, control and flexibility.</p>\n\n<h3 id=\"why-edge-first\">Why edge-first?</h3>\n\n<p>Thinking about the infrastructure level, edge-first allows you to adopt container technology at the edge. Your IT team will be able to re-use, re-purpose and modernise many existing infrastructures, knowledge and processes. Edge-first also allows you to operate different types and generations of assets and devices at the edge in a coherent way. You can manage them with secure and intelligent edge computing software like our hardware-agnostic, container-native NuvlaEdge software.</p>\n\n<p>Thinking about your data needs, edge-first allows you to use an edge-to-cloud management platform, such as our B2B SaaS <a href=\"/platform\">Nuvla.io,</a> to accelerate app deployment at the edge, reducing risk, removing management complexity and delivering full control over data. For companies operating in a regulated industry, there’s an on-premises version of Nuvla.io.</p>\n\n<p>Once curated, the data can be pushed to your favourite backend service. For example, Nuvla.io will deliver the data to your own servers, Amazon’s, Azure’s or Google’s. We also provide this service from Switzerland. What’s important here is your data scientists get easy and safe access to their rocket fuel!</p>\n\n<p>Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the Nuvla.io Marketplace. This allows your organisation to move fast while controlling risks.</p>\n\n<h3 id=\"find-out-more\">Find out more</h3>\n\n<p>By reading this far, I hope you now agree running AI at the edge isn’t rocket science! There’s a lot to consider but there’s no need to journey alone. Before lift-off, please <a href=\"/contact\">get in touch</a> to discuss your specific needs.</p>\n\n"
+      },
+    
+  
+    
+      
+      {
         "title"    : "Enhancing AI strategies with CPE – a telco perspective",
         "head-title" : "SixSq | Blog | Enhancing AI strategies with CPE – a telco perspective",
         "category" : "blog",
-        "tags"     : "edge, telco",
+        "tags"     : "edge, telco, ai",
         "url"      : "/blog/discover/2024/03/22/enhancing-AI-strategies-with-CPE-telco-perspective.html",
         "date"     : "2024-03-22 00:00:00 +0000",
         "content": "<p>If I tell you the internal temperature of a specific outdoor telecom cabinet has been reported as 55⁰C (131⁰F) multiple times, would that concern you? Do you think <strong>urgent intervention</strong> is required? If it’s midsummer and the cabinet is located on the French Riviera, probably not. But if these temperature readings are collected around midnight from a cabinet at the top of the Matterhorn, certainly yes!</p>\n\n<h3 id=\"data-context-is-crucial\">Data context is crucial</h3>\n\n<p>The issue here is context. Fundamental to your own understanding is not just having an abundance of high-quality data (although this is essential) but also knowing the context of this data – the <strong>“where”</strong>, <strong>“when”</strong> and <strong>“how”</strong> of the information. It’s fundamental to artificial intelligence (AI) systems too. Having both high volumes and full context achieves data that is actionable and trustworthy for AI analysis.</p>\n\n<h3 id=\"the-underlying-challenge\">The underlying challenge</h3>\n\n<p>There’s an underlying challenge to this. AI and machine learning (ML) training typically takes place in cloud or data center environments; this is because training makes heavy computational and storage demands. However, by the time data arrives in the cloud or data center, its context may have been lost (the AI system can’t tell its French Riviera from its Matterhorn) and typically it is too late to rebuild this context.</p>\n\n<p>This has a negative impact on data quality and prevents effective comparison and exploitation of the data, especially over time. Fortunately, there’s now an innovative solution to this challenge.</p>\n\n<h3 id=\"the-role-of-customer-premises-equipment-cpe\">The role of customer-premises equipment (CPE)</h3>\n\n<p>Today’s <strong>customer-premises equipment (CPE) can run sophisticated software</strong> to facilitate data collection, using AI/ML or traditional methods, at the edge along with highly secure data transmission to the cloud or data center for training purposes. Once trained, models can be deployed at the edge, Before transmission, performing AI/ML analyses on this local, real-time data – the network edge is the optimal place for AI/ML systems to render decisions (inference), gathering all the context that’s required.</p>\n\n<p>Enabled by over-the-air deployment capabilities, software-enabled CPE can become a set of pivotal assets for implementing AI/ML strategies at the network edge.</p>\n\n<h6 id=\"for-any-telecom-organization-seeking-ai-strategy-enhancement--particularly-for-geographically-dispersed-companies--this-represents-a-huge-opportunity-each-organization-can-use-existing-cpe-investments-and-infrastructure-to-advance-its-ai-strategy\">For any telecom organization seeking AI strategy enhancement – particularly for geographically dispersed companies – this represents a huge opportunity. Each organization can use existing CPE investments and infrastructure to advance its AI strategy.</h6>\n\n<h3 id=\"introducing-a-comprehensive-solution\">Introducing a comprehensive solution</h3>\n\n<p>The <a href=\"/platform\">Nuvla.io </a> platform, developed by SixSq and a part of <a href=\"https://www.ekinops.com/\">Ekinops</a>, offers an all-encompassing solution for managing CPE. This platform supports local data processing, enables secure data transfer and integrates data science tools, featuring:</p>\n\n<ul>\n  <li>\n    <p>Data lakes: Simplified management of unstructured data using cloud object storage, with a metadata catalog for easy navigation</p>\n  </li>\n  <li>\n    <p>Data warehouses: Efficient handling of structured data through time-series databases and metadata catalogs, making data easy to use for AI training</p>\n  </li>\n  <li>\n    <p>Edge data retrieval: Leverages standard equipment for data capture and processing, enabling both cloud storage and edge computing</p>\n  </li>\n  <li>\n    <p>Contextual integrity: Guarantees data integrity and provenance, essential for reliable AI-driven insights</p>\n  </li>\n  <li>\n    <p>Edge AI inference: performing AI/ML analysis at the edge, near the source of, and where decisions matter</p>\n  </li>\n</ul>\n\n<p>To maximize flexibility and foster innovation, the Nuvla.io platform supports a diverse array of applications: open source, proprietary and custom. This ensures seamless integration into the ecosystem without the need for extensive app redevelopment.</p>\n\n<p>Embedded in <a href=\"https://www.ekinops.com/products-services/products/oneaccess/ucpe\">Ekinops’ next-gen CPE</a>, Nuvla.io kickstarts a robust AI/ML strategy for businesses.</p>\n\n<h3 id=\"practical-application-at-the-edge\">Practical application at the edge</h3>\n\n<p>There are many ways in which CPE-powered AI strategies can enhance edge computing capabilities.</p>\n\n<p>An important example is in telecom operations. Utilizing SNMP probes, the telecom organization can collect extensive data on <strong>CPE performance and system health</strong> and use this to train AI support agents to provide proactive customer support and optimize customer service levels. Once these virtual agents are trained and deployed on CPE, there’s no further need to transmit data to the cloud. Instead, data is analyzed locally and, only when required, the operator can receive summaries and alerts.</p>\n\n<p>Similarly, thinking about <strong>energy management</strong>, the telecom organization can gather essential data by measuring power consumption or inferring it through temperature metrics. It can use this to devise strategies, also with and for its customers, that reduce energy usage, underlining the value of local data processing and analysis.</p>\n\n<p>Another application is <strong>utility monitoring</strong>, using the example of electric grid monitoring. Deployment of sensors connected to CPE facilitates the regular transmission of critical data, enabling advanced strategies like anomaly detection and predictive maintenance.</p>\n\n<h6 id=\"these-examples-illustrate-how-a-telecom-organization-can-benefit-directly-from-edge-ai-while-also-enabling-its-customers-to-benefit-too\">These examples illustrate how a telecom organization can benefit directly from edge AI while also enabling its customers to benefit too.</h6>\n\n<p>From structured data collection to analyzing unstructured data sourced from video and audio feeds, the possibilities are vast. With this readily accessible solution, the organization can improve product and service quality, reduce defects and malfunctions, improve energy efficiency and lower CO2 emissions, make better use of human capital and much more.</p>\n\n<h3 id=\"a-final-thought\">A final thought</h3>\n\n<p>Delivering edge AI through existing CPE investments and infrastructure is a readily accessible solution for each telecom organization. <strong>With high-quality data collection and processing at the network edge, this can unlock valuable insights, streamline operations and deliver competitive advantage.</strong> Ekinops’ CPE solutions, powered by the Nuvla.io platform, provide an orchestrated data ecosystem to foster AI success at the edge of every organization.</p>\n\n<p>This post was first published on the <a href=\"https://www.edgeir.com/enhancing-ai-strategies-with-cpe-a-telco-perspective-20240228\">EdgeIR</a> website.</p>\n"
