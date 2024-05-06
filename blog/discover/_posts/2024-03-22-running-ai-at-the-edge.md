@@ -49,7 +49,7 @@ Thinking about your data needs, edge-first allows you to use an edge-to-cloud ma
 
 Once curated, the data can be pushed to your favourite backend service. For example, Nuvla.io will deliver the data to your own servers, Amazon’s, Azure’s or Google’s. We also provide this service from Switzerland. What’s important here is your data scientists get easy and safe access to their rocket fuel!
 
-Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the Nuvla.io Marketplace. This allows your organisation to move fast while controlling risks.
+Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the Nuvla.io **Marketplace**. This allows your organisation to move fast while controlling risks.
 
 ### Find out more
 
