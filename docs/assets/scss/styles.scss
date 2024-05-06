@@ -139,6 +139,12 @@ ol, ul {
     padding-left: 1rem;
 }
 
+.section-article {
+    strong {
+        font-weight: 500;      
+    }
+}
+  
 .section-legal {
     .warning {
         color: $red-100;
