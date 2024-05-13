@@ -2,6 +2,7 @@
 title: Running AI at the edge? It’s not rocket science!
 product-title: Running AI at the edge? It’s not rocket science!
 image: ai.png
+vignette: ai-vignette.png
 no-image: true
 product-background-img: bg-hero-ai.png
 tags: edge ai machine-learning
