@@ -8,6 +8,8 @@ product-background-img: bg-hero-ai.png
 tags: edge ai machine-learning
 sectors: 
 author: Marc-Elian Bégin
+redirect_from:
+ - /blog/discover/2024/03/22/running-ai-at-the-edge.html
 ---
 
 Running **artificial intelligence (AI)** and **machine learning (ML)** at the edge to turn your data into actionable insights isn’t rocket science. I should know; I’ve had a hand in building rockets! But nor is it a walk in the park.
