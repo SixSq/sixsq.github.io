@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta property="og:type" content="website"/>
     
-    <meta property="og:title" content="SixSq | Blog | What makes a smart city even smarter? Shared edge infrastructure"/>
-    <meta property="og:image" content="https://sixsq.com/assets/img/blog/shared_infrastructure.png"/>
+    <meta property="og:title" content="SixSq | Blog | Running AI at the edge? It’s not rocket science!"/>
+    <meta property="og:image" content="https://sixsq.com/assets/img/blog/ai-vignette.png"/>
     <meta property="og:description" content=""/>
-    <meta property="og:url" content="https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html"/>
+    <meta property="og:url" content="https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html"/>
     <!-- <meta property='og:image:width' content='1200' />
     <meta property='og:image:height' content='627' /> -->
     
-    <title>SixSq | Blog | What makes a smart city even smarter? Shared edge infrastructure</title>
+    <title>SixSq | Blog | Running AI at the edge? It’s not rocket science!</title>
     <!-- Google tag (gtag.js) for analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJLXBYEN7C"></script>
     <script>
@@ -124,17 +124,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </header>
 
-    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/blog/bg-hero-blog.jpg') center / cover;">
+    <div class="container-fluid hero-wrapper" style="background: linear-gradient(white 4%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 30%), url('/assets/img/blog/bg-hero-ai.png') center / cover;">
     <div class="container hero hero-narrow">
         <div class="row">
             <div class="col-lg-7 align-self-center hero-text">
                 
                 <p class="text-primary text-big">Blog</p>
                 
-                <h1></h1>
+                <h1>Running AI at the edge? It’s not rocket science!</h1>
                 
                 <p></p>
-                <p>17 May 2022
+                <p>13 May 2024
                   
                      | by <a href="/authors/Marc-Elian Bégin">Marc-Elian Bégin</a>
                      
@@ -144,7 +144,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   <a href="/blog/tag/edge">edge</a>
   
-  <a href="/blog/tag/cloud">cloud</a>
+  <a href="/blog/tag/ai">ai</a>
+  
+  <a href="/blog/tag/machine-learning">machine-learning</a>
   
 </p>
 
@@ -172,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </li>
     
     <li class="breadcrumb-item">
-        <span>What makes a smart city even smarter? shared edge infrastructure</span>
+        <span>Running ai at the edge? it’s not rocket science!</span>
     </li>
     </li>
   </ol>
@@ -184,45 +186,58 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container section section-article">
             <div id="blog" class="anchor-position"></div>
             
-              <img class="full-image" src="/assets/img/blog/shared_infrastructure.png">
             
-            <h4 id="create-a-future-proof-solution-for-your-smart-city-by-implementing-a-shared-infrastructure">Create a future-proof solution for your smart city by implementing a shared infrastructure</h4>
+            <p>Running <strong>artificial intelligence (AI)</strong> and <strong>machine learning (ML)</strong> at the edge to turn your data into actionable insights isn’t rocket science. I should know; I’ve had a hand in building rockets! But nor is it a walk in the park.</p>
 
-<p>You can find many, many smart cities that share a common architecture. They have one or many sensors producing data. And this data needs to be processed in real time to provide insights, either to take action or to predict trends.</p>
+<p>In this blog, I’ll share my experiences of building, deploying, and operating intelligent apps (let’s call them <strong>ML apps</strong>) at the edge – in other words, in the physical world that’s outside the data centre.</p>
 
-<p>Let me introduce you to the fascinating work we’re doing in the Swiss city of Geneva, partnering <a href="https://www.hesge.ch/hepia/">HEPIA</a>, Geneva’s university of landscape, engineering and architecture, and HEG, the city’s school of business administration. In the context of the <a href="https://www.hesge.ch/hepia/recherche-developpement/projets-recherche/en-cours/medina">MEDInA</a> project, we’re using a machine learning app to measure sound so we can monitor and categorise traffic. We’re also using cameras and more machine learning from <a href="https://www.hesge.ch/heg/">HEG</a> to understand traffic lanes. Combined, this provides valuable real-time insights into traffic flow and helps to control street lighting to provide safer streets while saving energy.</p>
+<p>Just before take-off, a couple of basics. Your ML apps need a stable and secure infrastructure incorporating the near-edge or far-edge or both. They also need high-quality data which must be pre-processed to retain its rich context. And they must be easy to deploy, redeploy and operate.</p>
 
-<p>Another example comes from the gorgeous Italian <a href="https://www.cittametropolitana.fi.it/">City of Florence</a> where, in the context of the <a href="https://elastic-project.eu/">ELASTIC</a> project, with partners such as <a href="https://www.thalesgroup.com/en/markets/transport">Thales</a> providing smart sensors for transportation, <a href="https://www.bsc.es/">Barcelona Supercomputing Center</a>, <a href="https://informationcatalyst.com/">ICE</a> and <a href="https://www.ikerlan.es/en/">Ikerlan</a>, we are providing a range of new services on the city’s tram network. One of these services is predictive maintenance – we use laser scanners on the rails to monitor rail profile degradation to predict the need for maintenance operations. Another is synchronisation of traffic intersections to favour public transport traffic while minimising impact on all other traffic. And a third is providing proactive driver assistance with real-time emergency alerts in case of intrusion onto the tram path.</p>
+<h3 id="whos-on-board">Who’s on board?</h3>
 
-<h2 id="but-what-are-the-really-smart-cities-doing">But what are the really smart cities doing?</h2>
-
-<p>The really smart cities do more than share a common architecture. The also share edge infrastructure.</p>
-
-<p>Their IT architectural anatomy includes:</p>
+<p>So, who should be on board to run your ML apps (let’s call this activity <strong>ML ops</strong>)? It’s helpful to think of three groups of people – some of whom belong to your organisation and others who are partners or provide consulting services to your organisation. They are the <strong>IT team</strong>, <strong>the data scientists</strong> and <strong>the business folk</strong>.</p>
 
 <ol>
-  <li>Sensors</li>
-  <li>Processing unit (an edge device)</li>
-  <li>Communication (to enable edge-to-cloud and/or edge-to-edge)</li>
-  <li>Cloud (to aggregate information)</li>
-  <li>And of course apps or algorithms (to process data and take actions)</li>
+  <li>
+    <p><strong>The IT team</strong>: What are these people up to? They’re working hard to provide a <strong>stable and secure edge-to-cloud infrastructure</strong>, needing full visibility of the edge especially if there are physical and/or cyber risks. If something goes wrong, these people need to know immediately.</p>
+
+    <p>These techies like to select ML apps according to their intended purpose. If a new ML app will be critical to local business processes, the IT team picks one capable of functioning locally at the edge (it delivers business continuity). If the new ML app will be used for overall management, monitoring or trending analysis, the team picks one that can communicate with the wider world to provide an overview (it delivers business availability).</p>
+  </li>
+  <li>
+    <p><strong>The data scientists</strong>: What do these people want? A <strong>massive, central warehouse of well-organised, high-quality data</strong> that’s easily queryable and downloadable. This is the liquid hydrogen essential to every rocket launch!</p>
+
+    <p>Over the years, I’ve talked to many data scientists working in transportation (and many other industries) here on Planet Earth. They all say very similar things  <em>“90% of failing AI projects fail because of data-related issues,”</em> <em>“Data is the hardest part of machine learning and the most important to get right”</em> (Uber), and  <em>“No other activity in the machine learning lifecycle has a higher return on investment than improving the data a model has access to”</em> (Gojek).</p>
+
+    <p>What else could knock your ML ops off-course? Data scientists insist high-quality data includes context – the “where, when and how” of its collection, also known as its metadata – information that must be packaged and stored alongside data wherever it travels.</p>
+  </li>
+  <li>
+    <p><strong>The business folk</strong>: These people make significant demands: they want <strong>fluid deployment and operation of ML apps</strong>. They want everything immediately and want to make changes almost daily – whatever it takes to solve business problems and remain agile in a competitive market.</p>
+
+    <p>Needing to deploy new ML apps all the time can bring business folk into conflict with the  IT team. In most business cases, there’s not a single app vendor or creator capable of fulfilling all requirements, so the business team wants the freedom to compose its own bouquet of apps, from different sources – a risk for the IT team who are tasked with minimising ML ops costs and maintaining clear T&amp;Cs, SLAs, support services, pricing and more. This also introduces more work. Training and deploying each new ML app is not one-shot task because the physical world changes and evolves, so ML app models require regular re-training, from regularly updated data, and regular re-deployment.</p>
+  </li>
 </ol>
 
-<p>It is extremely wasteful to replicate this architecture for each and every use case – all the applications mentioned above plus many more, such as measuring air quality and monitoring temperature and sound pollution.</p>
+<h3 id="which-launch-pad">Which launch pad?</h3>
 
-<p>Think of the energy consumed in manufacturing all this redundant hardware… and the energy needed to power it. And what if new use cases come along that require mixing or fusing different data (say, audio and video to identify the source of traffic accidents or noisy or polluting vehicles)? If everything is built in silos, interoperability is much harder, and with independent systems there can be no cost sharing and only limited economies of scale to improve the ROI.</p>
+<p>Whoever takes the decision about how to run AI at the edge, it’s important to keep in mind the varying needs of the IT team, data scientists and business folk.</p>
 
-<h2 id="sharing-edge-infrastructure-to-take-actions-in-real-time">Sharing edge infrastructure to take actions in real time</h2>
-<p>Instead, what makes much more sense is to use a shared edge infrastructure. This means that sensors are connected to a multi-tenant edge computing unit, able to host several apps or algorithms, connected to a range of sensors. It also means the unit can create many insights which enable the city to take actions in real time.</p>
+<p>Hyperscalers such as Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform (GCP) are attracting attention right now, so one of these might seem the right choice. But hyperscale providers have a cloud-first business model. This means they focus on selling cloud storage and compute resources and giving access to tools for data exploration as well as AI and ML model training.</p>
 
-<p>Further, once smart city operators are able to remotely control this architecture it becomes much more future proof. Updates, upgrades and even new use cases can be deployed with minimal, if any, intrusion into the smart city physical infrastructure.</p>
+<p>The triumvirate rocket crew would do better with an edge-first solution. Only this puts them all in full control of their data processing chain – from data capture, crunching and training, right back to inference (aka running the model on fresh data). And only an edge-first solution can deliver the required level of maturity, control and flexibility.</p>
 
-<h2 id="intelligent-infrastructure--common-sense">Intelligent Infrastructure = common sense</h2>
-<p>In North America, people are starting to describe this type of shared edge infrastructure for smart cities as ‘Intelligent Infrastructure’. I call it common sense, since cities must evolve quickly to provide citizens with the level of services they require.</p>
+<h3 id="why-edge-first">Why edge-first?</h3>
 
-<p>The climate emergency is also accelerating the need for such architecture, since public transport systems must become more inclusive, delivering a greater sense of security along with higher performance. Understanding the impact of inescapable rising temperatures is also essential and, for this, situational awareness and behaviour trend analysis are key. As discussed in previous blogs, only edge computing is capable of doing all this while also protecting citizen privacy.</p>
+<p>Thinking about the infrastructure level, edge-first allows you to adopt container technology at the edge. Your IT team will be able to re-use, re-purpose and modernise many existing infrastructures, knowledge and processes. Edge-first also allows you to operate different types and generations of assets and devices at the edge in a coherent way. You can manage them with secure and intelligent edge computing software like our hardware-agnostic, container-native NuvlaEdge software.</p>
 
-<p>We at SixSq have the technology and a growing ecosystem to address these challenges. Get in touch if you want to better understand what benefits a shared edge infrastructure can bring to your community. .</p>
+<p>Thinking about your data needs, edge-first allows you to use an edge-to-cloud management platform, such as our B2B SaaS <a href="/platform">Nuvla.io,</a> to accelerate app deployment at the edge, reducing risk, removing management complexity and delivering full control over data. For companies operating in a regulated industry, there’s an on-premises version of Nuvla.io.</p>
+
+<p>Once curated, the data can be pushed to your favourite backend service. For example, Nuvla.io will deliver the data to your own servers, Amazon’s, Azure’s or Google’s. We also provide this service from Switzerland. What’s important here is your data scientists get easy and safe access to their rocket fuel!</p>
+
+<p>Thinking about ML app deployment and operation, an edge-first management platform is likely to support apps from multiple vendors and third parties. Our Nuvla.io platform certainly does, while also providing an excellent selection of ML apps and app bundles in the <a href="/marketplace">Nuvla.io Marketplace</a>. This allows your organisation to move fast while controlling risks.</p>
+
+<h3 id="find-out-more">Find out more</h3>
+
+<p>By reading this far, I hope you now agree running AI at the edge isn’t rocket science! There’s a lot to consider but there’s no need to journey alone. Before lift-off, please <a href="/contact">get in touch</a> to discuss your specific needs.</p>
 
 
             
@@ -232,22 +247,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p class="title-seperation-2 text-dark"><strong>Share this article</strong></p>
 <div class="post-sharing blog_sharing">
   
-    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html','Facebook Share','width=600,height=400')">
+    <a class="share_facebook" href="javascript:;" title="facebook" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html','Facebook Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html','Twitter Share','width=600,height=400')">
+    <a class="share_twitter" href="javascript:;" title="twitter" target="popup" onclick="window.open('https://twitter.com/home?status=4 ways to know if you need edge computing+https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html','Twitter Share','width=600,height=400')">
         <span>Twitter</span>
     </a>
-    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
+    <a class="share_pinterest" href="javascript:;" title="pinterest" target="popup" onclick="window.open('https://www.pinterest.com/pin/create/button/?url=https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html&amp;media=https://f.hubspotusercontent10.net/hubfs/475360/shutterstock_735559831.jpg&amp;description=4 ways to know if you need edge computing','Pinterest Share','width=600,height=400')">
         <span>Facebook</span>
     </a>
-    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html','Google+ Share','width=600,height=400')">
+    <a class="share_google" href="javascript:;" title="google+" target="popup" onclick="window.open('https://plus.google.com/share?url=https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html','Google+ Share','width=600,height=400')">
         <span>Google+</span>
     </a>
-    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html','LinkedIn Share','width=600,height=400')">
+    <a class="share_linkedin" href="javascript:;" title="linkedin" target="popup" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html','LinkedIn Share','width=600,height=400')">
         <span>LinkedIn</span>
     </a>
-    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | What makes a smart city even smarter? Shared edge infrastructure&body=https://sixsq.com/blog/discover/2022/05/17/shared-edge-infrastruture.html" title="email">
+    <a class="share_email" href="mailto:?subject=Interesting read: SixSq Blog | Running AI at the edge? It’s not rocket science!&body=https://sixsq.com/blog/discover/2024/05/13/running-ai-at-the-edge.html" title="email">
         <span>Email</span>
     </a>
     
