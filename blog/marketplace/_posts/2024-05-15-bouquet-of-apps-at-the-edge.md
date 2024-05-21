@@ -2,7 +2,7 @@
 product-title: A bouquet of apps at the edge? You’re welcome! 
 product-description: A bouquet of apps at the edge? You’re welcome! 
 image: bouquet.png
-vignette: ai-vignette.png
+vignette: bouquet-vignette.png
 no-image: true
 product-background-img: bg-hero-bouquet.png
 tags: edge cloud marketplace ai ml
