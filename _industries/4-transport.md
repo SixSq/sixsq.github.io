@@ -1,9 +1,9 @@
 ---
 layout: transport
 title: transport
-product-title: Transport
+product-title: Passenger transport
 product-name: Industry
-product-description: Learn how the Nuvla.io edge-to-cloud management platform enables real-time data analysis, predictive maintenance, payment systems &amp; AI automation in the public transport sector.
+product-description: Learn how the Nuvla.io edge-to-cloud management platform enables real-time data analysis, predictive maintenance, payment systems &amp; AI automation in the passenger transport sector.
 product-summary: Leverage data to optimise operations, improve planning and tighten security. 
 product-background-img: bg-hero-transport.png
 product-next-target: overview
