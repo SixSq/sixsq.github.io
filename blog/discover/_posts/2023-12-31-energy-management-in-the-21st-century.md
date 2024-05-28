@@ -46,7 +46,7 @@ KTH Royal Institute of Technology is an international technical university, span
 
 The Geneva communes of [Meyrin](https://www.meyrin.ch/fr) and [Chêne-Bougeries](https://www.chene-bougeries.ch/accueil/) act as microgrid infrastructure providers, working in close collaboration with the project.
 
-SWARM is a Eureka [Eurostars](https://www.eurekanetwork.org/countries/united-kingdom/eurostars/) project, co-funded by the [Innosuisse](https://www.innosuisse.ch/inno/en/home.html) Swiss Innovation Agency and the European Union.
+SWARM is a Eureka [Eurostars](https://eurekanetwork.org/programmes/eurostars/) project, co-funded by the [Innosuisse](https://www.innosuisse.ch/inno/en/home.html) Swiss Innovation Agency and the European Union.
 
 #### Learn more
 

@@ -10,7 +10,7 @@ co-author-mobile: +49 151 59 107099
 
 ---
 
-SixSq, an [Ekinops](https://www.ekinops.com/) Company, and [Relimetrics](https://www.relimetrics.com/) today announced a partnership to deliver [ReliVision](https://www.relimetrics.com/applications) via the [Nuvla Marketplace](/marketplace). This collaboration significantly simplifies the procurement, deployment, and management of Relimetric’s ReliVision on the factory floor.
+SixSq, an [Ekinops](https://www.ekinops.com/) Company, and [Relimetrics](https://www.relimetrics.com/) today announced a partnership to deliver [ReliVision](https://www.relimetrics.com/applications-relimetrics) via the [Nuvla Marketplace](/marketplace). This collaboration significantly simplifies the procurement, deployment, and management of Relimetric’s ReliVision on the factory floor.
 
 Relimetrics helps companies transform how they design and build products by using cutting edge technologies such as computer vision, machine learning, AI and edge computing. The result is a level of quality control automation that is unmatched in the market today, which is quick, simple and cheap to configure and enable. Once in place, users take advantage of the no-code ReliVision solution to enable quality automation for their assembly.
 
