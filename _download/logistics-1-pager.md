@@ -1,6 +1,6 @@
 ---
 title: Logistics &amp; Shipping 1-pager
-description: How Nuvla.io revolutionises the Logistics &amp; Shipping industry with simple apps respecting workers a providing insights
+description: How Nuvla.io can improve speed & accuracy of operations while ensuring safety & respecting privacy.
 thumbnail: logistics-1-pager-thumbnail.png
 ---
 

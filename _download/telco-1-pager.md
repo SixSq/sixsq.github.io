@@ -1,6 +1,6 @@
 ---
 title: Telecoms &amp; Service Providers 1-pager
-description: How Nuvla.io revolutionises the Telecommunications &amp; Service Providers industry 
+description: How Nuvla.io enables telecommunications &amp; service providers to revolutionise their offering to multiple industries
 thumbnail: telco-1-pager-thumbnail.png
 ---
 

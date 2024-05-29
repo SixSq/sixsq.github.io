@@ -1,7 +1,7 @@
 ---
 title: Nuvla.io Marketplace App Catalogue
 description: Discover all the apps available for deployment via Nuvla.io, delivered by expert app vendors
-thumbnail: generic-1-pager-thumbnail.png
+thumbnail: app-catalogue-thumbnail.png
 ---
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
