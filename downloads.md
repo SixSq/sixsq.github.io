@@ -2,7 +2,7 @@
 layout: downloads
 title: Downloads
 product-title: Downloads
-product-description: Download documents, 1-pagers, technical specifications and more.
+product-description: Download 1-pagers, solution briefs, technical specifications and more.
 product-background-img: bg-hero-Resources.jpg
 breadcrumbs:
  - name: Home
