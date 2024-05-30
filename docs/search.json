@@ -3656,64 +3656,64 @@
         
           
           {
-            "title"    : "Count",
-            "head-title" : "SixSq | Count",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/1-count.html",
-            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Cyber security",
-            "head-title" : "SixSq | Manufacturing | Cyber security",
+            "title"    : "Monitor",
+            "head-title" : "SixSq | Manufacturing | Monitor",
             "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/2-cyber-security.html",
-            "content": "<p>Defend edge with AI-powered apps</p>\n"
+            "url"      : "/industries-tackle/manufacturing/1-monitor.html",
+            "content": "<p>Monitor real-time performance</p>\n"
           },
         
       
         
           
           {
-            "title"    : "High availability",
-            "head-title" : "SixSq | Manufacturing | High availability",
+            "title"    : "Detect",
+            "head-title" : "SixSq | Manufacturing | Detect",
             "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/3-high-availablity.html",
-            "content": "<p>24/7 monitored edge infrastructure</p>\n"
+            "url"      : "/industries-tackle/manufacturing/2-detect.html",
+            "content": "<p>Enable detection and alerts</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Identify",
-            "head-title" : "SixSq | Identify",
-            "category" : "",
+            "title"    : "Statistics",
+            "head-title" : "SixSq | Manufacturing | Statistics",
+            "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/4-identify.html",
-            "content": "<p>OCR labels to identify unique assets</p>\n"
+            "url"      : "/industries-tackle/manufacturing/3-statistics.html",
+            "content": "<p>Generate usage and production statistics</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Track",
-            "head-title" : "SixSq | Track",
-            "category" : "",
+            "title"    : "Continuity",
+            "head-title" : "SixSq | Manufacturing | Continuity",
+            "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/5-tracking.html",
+            "url"      : "/industries-tackle/manufacturing/4-continuity.html",
+            "content": "<p>Enables business continuity</p>\n\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Cybersecurity",
+            "head-title" : "SixSq | Manufacturing | Cybersecurity",
+            "category" : "manufacturing",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/industries-tackle/manufacturing/5-cybersecurity.html",
             "content": "<p>Product and trolley tracking</p>\n"
           },
         
@@ -3721,39 +3721,39 @@
         
           
           {
-            "title"    : "Everywhere",
-            "head-title" : "SixSq | Everywhere",
-            "category" : "",
+            "title"    : "Video",
+            "head-title" : "SixSq | Manufacturing | Video",
+            "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/6-night-day.html",
-            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+            "url"      : "/industries-tackle/manufacturing/6-video.html",
+            "content": "<p>Gather video analytics for safety and efficiency</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Protect",
-            "head-title" : "SixSq | Manufacturing | Protect",
+            "title"    : "Downtime",
+            "head-title" : "SixSq | Manufacturing | Downtime",
             "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/7-worker-protection.html",
-            "content": "<p>Protect workers on the factory floor</p>\n"
+            "url"      : "/industries-tackle/manufacturing/7-downtime.html",
+            "content": "<p>Minimise factory floor downtime</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Remote control",
-            "head-title" : "SixSq | Manufacturing | Remote control",
+            "title"    : "Analyse",
+            "head-title" : "SixSq | Manufacturing | Analyse",
             "category" : "manufacturing",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/manufacturing/8-remote-control.html",
-            "content": "<p>Control and monitor your edge assets remotely</p>\n"
+            "url"      : "/industries-tackle/manufacturing/8-analyse.html",
+            "content": "<p>Provide real time analysis on data</p>\n\n"
           },
         
       
@@ -3968,104 +3968,104 @@
         
           
           {
-            "title"    : "Count",
-            "head-title" : "SixSq | Transport | Count",
+            "title"    : "Cockpit",
+            "head-title" : "SixSq | Transport | Cockpit",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/1-count.html",
-            "content": "<p>Identify &amp; count moving &amp; stationary assets</p>\n"
+            "url"      : "/industries-tackle/transport/1-cockpit.html",
+            "content": "<p>Create data fusion for an inclusive overview</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Journey",
-            "head-title" : "SixSq | Transport | Journey",
+            "title"    : "Detect",
+            "head-title" : "SixSq | Transport | Detect",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/2-journey.html",
-            "content": "<p>Track assets on their journey</p>\n"
+            "url"      : "/industries-tackle/transport/2-detect.html",
+            "content": "<p>Enable issue detection and subsequent alerts</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Locate",
-            "head-title" : "SixSq | Transport | Locate",
+            "title"    : "Statistics",
+            "head-title" : "SixSq | Transport | Statistics",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/3-locate.html",
-            "content": "<p>Identify coordinates of assets</p>\n"
+            "url"      : "/industries-tackle/transport/3-statistics.html",
+            "content": "<p>Produce GDPR-compliant statistics</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Identify",
-            "head-title" : "SixSq | Transport | Identify",
+            "title"    : "Accounting",
+            "head-title" : "SixSq | Transport | Accounting",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/4-identify.html",
-            "content": "<p>OCR labels to identify unique assets</p>\n"
+            "url"      : "/industries-tackle/transport/4-accounting.html",
+            "content": "<p>Simplify financial processes</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Track",
-            "head-title" : "SixSq | Transport | Track",
+            "title"    : "Cybersecurity",
+            "head-title" : "SixSq | Transport | Cybersecurity",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/5-tracking.html",
-            "content": "<p>Product and trolley tracking</p>\n"
+            "url"      : "/industries-tackle/transport/5-cybersecurity.html",
+            "content": "<p>Protect your digital ecosystem</p>\n"
           },
         
       
         
           
           {
-            "title"    : "Everywhere",
-            "head-title" : "SixSq | Transport | Everywhere",
+            "title"    : "Video",
+            "head-title" : "SixSq | Transport | Video",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/6-night-day.html",
-            "content": "<p>Indoor-Outdoor and Day-Night tracking</p>\n"
+            "url"      : "/industries-tackle/transport/6-video.html",
+            "content": "<p>Gather video analytics for safety and efficiency</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Protect",
-            "head-title" : "SixSq | Transport | Protect",
+            "title"    : "Data",
+            "head-title" : "SixSq | Transport | Data",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/7-worker-protection.html",
-            "content": "<p>Worker protection in warehouse</p>\n"
+            "url"      : "/industries-tackle/transport/7-data.html",
+            "content": "<p>Get insightful data on location &amp; occupancy</p>\n\n"
           },
         
       
         
           
           {
-            "title"    : "Clarity",
-            "head-title" : "SixSq | Transport | Clarity",
+            "title"    : "Media",
+            "head-title" : "SixSq | Transport | Media",
             "category" : "transport",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/industries-tackle/transport/8-state.html",
-            "content": "<p>Distinguish loaded vs. unloaded assets</p>\n"
+            "url"      : "/industries-tackle/transport/8-media.html",
+            "content": "<p>Provide on board entertainment &amp; ads</p>\n\n"
           },
         
       
