@@ -3,7 +3,7 @@ title: Transforming retail with edge computing
 product-title: Transforming Retail; How edge computing reshapes operations, enhances security and fuels business continuity
 image: retail-blog.jpg
 no-image: true
-product-background-img: bg-hero-maritime-logistics.png
+product-background-img: bg-hero-retail.png
 tags: edge retail
 sectors: retail
 author: Rebecca Schenato
