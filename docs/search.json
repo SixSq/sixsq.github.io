@@ -5123,12 +5123,25 @@
         
           
           {
+            "title"    : "Tech. Lead + Scrum Master",
+            "head-title" : "SixSq | Tech. Lead + Scrum Master",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/staff/1-skaburskas.html",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
             "title"    : "Senior Software Engineer",
             "head-title" : "SixSq | Senior Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/basbous.html",
+            "url"      : "/staff/2-basbous.html",
             "content": "\n"
           },
         
@@ -5136,51 +5149,12 @@
         
           
           {
-            "title"    : "CEO, Co-Founder",
-            "head-title" : "SixSq | CEO, Co Founder",
+            "title"    : "Senior Software Engineer",
+            "head-title" : "SixSq | Senior Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/begin.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Edge Software Developer",
-            "head-title" : "SixSq | Edge Software Developer",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/bhanja.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Sales Executive",
-            "head-title" : "SixSq | Sales Executive",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/d'herbomez.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Glboal Sales Director",
-            "head-title" : "SixSq | Glboal Sales Director",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/defer.html",
+            "url"      : "/staff/3-schaub.html",
             "content": "\n"
           },
         
@@ -5193,20 +5167,7 @@
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/emonet.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Operations Manager, Co-Founder",
-            "head-title" : "SixSq | Operations Manager, Co Founder",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/merifield.html",
+            "url"      : "/staff/4-emonet.html",
             "content": "\n"
           },
         
@@ -5219,59 +5180,7 @@
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/penas.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Software Developer",
-            "head-title" : "SixSq | Software Developer",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/pirpinia.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Senior Software Engineer",
-            "head-title" : "SixSq | Senior Software Engineer",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/schaub.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Marketing &amp;amp; Communications Manager",
-            "head-title" : "SixSq | Marketing &amp; Communications Manager",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/schenato.html",
-            "content": "\n"
-          },
-        
-      
-        
-          
-          {
-            "title"    : "Tech. Lead + Scrum Master",
-            "head-title" : "SixSq | Tech. Lead + Scrum Master",
-            "category" : "",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/staff/skaburskas.html",
+            "url"      : "/staff/5-penas.html",
             "content": "\n"
           },
         
@@ -5284,7 +5193,7 @@
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/veillon.html",
+            "url"      : "/staff/6-veillon.html",
             "content": "\n"
           },
         
@@ -5292,12 +5201,12 @@
         
           
           {
-            "title"    : "R&amp;D Project Software Engineer",
-            "head-title" : "SixSq | R&D Project Software Engineer",
+            "title"    : "Glboal Sales Director",
+            "head-title" : "SixSq | Glboal Sales Director",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/white.html",
+            "url"      : "/staff/7-defer.html",
             "content": "\n"
           },
         
