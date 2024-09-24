@@ -25,7 +25,7 @@ Our edge-to-cloud management platform, [Nuvla.io](/platform) is designed to supp
  
 ### Putting a smile on your face 
  
-And we’ve thought of all those little details in advance. It’s our way of making sure your IT team can minimise ML ops costs while maintaining clear [T&Cs](https://sixsq.com/legal/legal-general-terms-and-conditions-v2.html), SLAs, support services, [pricing](https://sixsq.com/pricing) and more.  
+And we’ve thought of all those little details in advance. It’s our way of making sure your IT team can minimise ML ops costs while maintaining clear [T&Cs](https://sixsq.com/legal/legal-general-terms-and-conditions-v2.html), SLAs, support services, pricing and more.  
  
 ### Let’s talk today 
  
