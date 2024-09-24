@@ -373,3 +373,5 @@ autopages:
     slugify:
       mode: 'default'   # :tag is slugified.
       case: false
+
+log_level: warn

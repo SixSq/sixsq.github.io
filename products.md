@@ -22,7 +22,5 @@ redirect_from:
  - /products-and-services/nuvlabox/overview
  - /products-and-services/nuvlabox/tech-spec
  - /products-and-services/nuvla-io/
- - /products-and-services/nuvla-io/pricing/Nuvla-io-pricing-2020-v1.1.pdf
- - /products-and-services/nuvla-io/pricing/Nuvla-io-pricing-2020-v1.pdf
  - /products-and-services/nuvla-io/overview
 ---

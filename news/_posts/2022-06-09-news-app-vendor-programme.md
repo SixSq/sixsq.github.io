@@ -21,7 +21,7 @@ SixSq’s Nuvla is a proven B2B digital platform for industrialisation and autom
 Delivering simplified go-to-market for App Vendors
 _“Using the Nuvla Marketplace and App Vendor Programme we can springboard customers into adopting and deploying meaningful edge computing with minimum risk and a positive ROI,”_ said [Marc-Elian Bégin](https://www.linkedin.com/in/mebster/), SixSq CEO and Co-founder. “Both vendors and customers benefit from unprecedented agility, flexibility and scalability, with minimum complexity and without compromise on security.”
 
-The App Vendor Programme gives app vendors and customers tools to interact in a seamless way, including clear [pricing](/pricing) and contractual terms. It also provides hassle-free monetisation of business applications for telcos, service providers and system integrators.
+The App Vendor Programme gives app vendors and customers tools to interact in a seamless way, including clear pricing and contractual terms. It also provides hassle-free monetisation of business applications for telcos, service providers and system integrators.
 
 App vendors can now more quickly reach their customers and at the same time benefit from a simple mechanism to deliver regular software updates. Customers can purchase their apps in a secure manner, at scale, using Nuvla.
 
