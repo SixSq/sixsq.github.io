@@ -199,22 +199,6 @@
         
           
           {
-            "title"      : "Pay-as-you-go simple pricing",
-            "head-title" : "SixSq | Pay as you go simple pricing",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "price, cost, stripe, sla",
-            "url"        : "/pricing.html",
-            "date"       : "",
-            "content"    : "\n"
-          },
-        
-      
-  
-      
-        
-          
-          {
             "title"      : "Enabling your edge, as a service",
             "head-title" : "SixSq | Nuvla.io | Enabling your edge, as a service",
             "category"   : "",
@@ -942,11 +926,65 @@
   
       
         
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
         
       
   
       
         
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "Blog",
+            "head-title" : "SixSq | Blog",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/blog/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
         
       
   
@@ -1008,70 +1046,6 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "Blog",
-            "head-title" : "SixSq | Blog",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/blog/4/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -1939,7 +1913,7 @@
         "tags"     : "edge, cloud, marketplace, ai, ml",
         "url"      : "/blog/marketplace/2024/05/15/bouquet-of-apps-at-the-edge.html",
         "date"     : "2024-05-15 00:00:00 +0000",
-        "content": "<p>Why settle for something less than exquisite when you’re running <a href=\"/blog/discover/2024/03/22/running-ai-at-the-edge.html\">artificial intelligence (AI) at the edge</a>? We think you deserve a beautiful bouquet of hand-picked machine-learning (ML) apps.</p>\n\n<h3 id=\"everythings-coming-up-roses\">Everything’s coming up roses</h3>\n\n<p>If a single vendor says they can provide a complete scope of ML apps, be very sceptical. Both AI in general and the ML sector specifically are moving at an incredible pace – beautiful apps are appearing every day but never just in one place.</p>\n\n<h3 id=\"fastening-it-all-together\">Fastening it all together</h3>\n\n<p>What’s required is a way to bring it all together. At SixSq, we believe an ecosystem is the best way to do this, presenting you with a complete and future-proof solution.</p>\n\n<h3 id=\"arranging-everything-attractively\">Arranging everything attractively</h3>\n\n<p>Our edge-to-cloud management platform, <a href=\"/platform\">Nuvla.io</a> is designed to support app bouquets. You are free to arrange your selection in an attractive bundle, picking ML apps from our <a href=\"/marketplace\">Nuvla.io Marketplace</a> and from third party vendors, as well as using your own.</p>\n\n<h3 id=\"putting-a-smile-on-your-face\">Putting a smile on your face</h3>\n\n<p>And we’ve thought of all those little details in advance. It’s our way of making sure your IT team can minimise ML ops costs while maintaining clear <a href=\"https://sixsq.com/legal/legal-general-terms-and-conditions-v2.html\">T&amp;Cs</a>, SLAs, support services, and more.</p>\n\n<h3 id=\"lets-talk-today\">Let’s talk today</h3>\n\n<p>Don’t be a stranger. We’ve got a mountain of experience to share. Let’s run AI at the edge together!</p>\n\n<p>Get in touch.</p>\n\n"
+        "content": "<p>Why settle for something less than exquisite when you’re running <a href=\"/blog/discover/2024/03/22/running-ai-at-the-edge.html\">artificial intelligence (AI) at the edge</a>? We think you deserve a beautiful bouquet of hand-picked machine-learning (ML) apps.</p>\n\n<h3 id=\"everythings-coming-up-roses\">Everything’s coming up roses</h3>\n\n<p>If a single vendor says they can provide a complete scope of ML apps, be very sceptical. Both AI in general and the ML sector specifically are moving at an incredible pace – beautiful apps are appearing every day but never just in one place.</p>\n\n<h3 id=\"fastening-it-all-together\">Fastening it all together</h3>\n\n<p>What’s required is a way to bring it all together. At SixSq, we believe an ecosystem is the best way to do this, presenting you with a complete and future-proof solution.</p>\n\n<h3 id=\"arranging-everything-attractively\">Arranging everything attractively</h3>\n\n<p>Our edge-to-cloud management platform, <a href=\"/platform\">Nuvla.io</a> is designed to support app bouquets. You are free to arrange your selection in an attractive bundle, picking ML apps from our <a href=\"/marketplace\">Nuvla.io Marketplace</a> and from third party vendors, as well as using your own.</p>\n\n<h3 id=\"putting-a-smile-on-your-face\">Putting a smile on your face</h3>\n\n<p>And we’ve thought of all those little details in advance. It’s our way of making sure your IT team can minimise ML ops costs while maintaining clear <a href=\"https://sixsq.com/legal/legal-general-terms-and-conditions-v2.html\">T&amp;Cs</a>, SLAs, support services, <a href=\"https://sixsq.com/pricing\">pricing</a> and more.</p>\n\n<h3 id=\"lets-talk-today\">Let’s talk today</h3>\n\n<p>Don’t be a stranger. We’ve got a mountain of experience to share. Let’s run AI at the edge together!</p>\n\n<p>Get in touch.</p>\n\n"
       },
     
   
@@ -2316,7 +2290,7 @@
         "tags"     : "",
         "url"      : "/news/2022/06/09/news-app-vendor-programme.html",
         "date"     : "2022-06-09 00:00:00 +0000",
-        "content": "<p>Building on the success of <a href=\"https://nuvla.io/\">Nuvla</a> B2B SaaS, edge solution experts SixSq SA, an <a href=\"https://www.ekinops.com/\">Ekinops</a> company, today announced the launch of the <strong>Nuvla App Vendor Programme to accelerate the delivery and monetisation of edge computing applications.</strong>\n<br /></p>\n\n<p>Nuvla App Vendor Programme enables:\n<br />\n• Unprecedented agility, flexibility and scalability for app vendors and customers, without compromise on security\n<br />\n• Accelerated adoption of meaningful edge computing with minimum risk and a positive ROI for enterprise\n<br />\n• Simplified edge computing go-to-market at scale for app vendors\n<br /></p>\n\n<p>SixSq’s Nuvla is a proven B2B digital platform for industrialisation and automation of containerised edge applications and device management.</p>\n\n<p>Delivering simplified go-to-market for App Vendors\n<em>“Using the Nuvla Marketplace and App Vendor Programme we can springboard customers into adopting and deploying meaningful edge computing with minimum risk and a positive ROI,”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, SixSq CEO and Co-founder. “Both vendors and customers benefit from unprecedented agility, flexibility and scalability, with minimum complexity and without compromise on security.”</p>\n\n<p>The App Vendor Programme gives app vendors and customers tools to interact in a seamless way, including clear <a href=\"/pricing\">pricing</a> and contractual terms. It also provides hassle-free monetisation of business applications for telcos, service providers and system integrators.</p>\n\n<p>App vendors can now more quickly reach their customers and at the same time benefit from a simple mechanism to deliver regular software updates. Customers can purchase their apps in a secure manner, at scale, using Nuvla.</p>\n\n<p>Serving all sectors with Edge Apps for Business\nThe App Vendor Programme launches with selected innovative leaders in their fields. The first vendors bring turnkey apps in the following sectors:</p>\n\n<p>• Logistics and railway\n<br />\n• Manufacturing and machine monitoring\n<br />\n• Next generation GDPR compliant people and crowd tracking solution\n<br />\n• Cyberattack detection driven from AI analysis\n<br />\n• Smart city audio based real-time analysis using AI</p>\n\n<p>App vendors wishing to join the App Vendor Programme are invited to get in touch with the SixSq team.</p>\n"
+        "content": "<p>Building on the success of <a href=\"https://nuvla.io/\">Nuvla</a> B2B SaaS, edge solution experts SixSq SA, an <a href=\"https://www.ekinops.com/\">Ekinops</a> company, today announced the launch of the <strong>Nuvla App Vendor Programme to accelerate the delivery and monetisation of edge computing applications.</strong>\n<br /></p>\n\n<p>Nuvla App Vendor Programme enables:\n<br />\n• Unprecedented agility, flexibility and scalability for app vendors and customers, without compromise on security\n<br />\n• Accelerated adoption of meaningful edge computing with minimum risk and a positive ROI for enterprise\n<br />\n• Simplified edge computing go-to-market at scale for app vendors\n<br /></p>\n\n<p>SixSq’s Nuvla is a proven B2B digital platform for industrialisation and automation of containerised edge applications and device management.</p>\n\n<p>Delivering simplified go-to-market for App Vendors\n<em>“Using the Nuvla Marketplace and App Vendor Programme we can springboard customers into adopting and deploying meaningful edge computing with minimum risk and a positive ROI,”</em> said <a href=\"https://www.linkedin.com/in/mebster/\">Marc-Elian Bégin</a>, SixSq CEO and Co-founder. “Both vendors and customers benefit from unprecedented agility, flexibility and scalability, with minimum complexity and without compromise on security.”</p>\n\n<p>The App Vendor Programme gives app vendors and customers tools to interact in a seamless way, including clear pricing and contractual terms. It also provides hassle-free monetisation of business applications for telcos, service providers and system integrators.</p>\n\n<p>App vendors can now more quickly reach their customers and at the same time benefit from a simple mechanism to deliver regular software updates. Customers can purchase their apps in a secure manner, at scale, using Nuvla.</p>\n\n<p>Serving all sectors with Edge Apps for Business\nThe App Vendor Programme launches with selected innovative leaders in their fields. The first vendors bring turnkey apps in the following sectors:</p>\n\n<p>• Logistics and railway\n<br />\n• Manufacturing and machine monitoring\n<br />\n• Next generation GDPR compliant people and crowd tracking solution\n<br />\n• Cyberattack detection driven from AI analysis\n<br />\n• Smart city audio based real-time analysis using AI</p>\n\n<p>App vendors wishing to join the App Vendor Programme are invited to get in touch with the SixSq team.</p>\n"
       },
     
   
@@ -4292,19 +4266,6 @@
           },
         
       
-        
-          
-          {
-            "title"    : "Simple pricing",
-            "head-title" : "SixSq | Feature | Simple pricing",
-            "category" : "feature",
-            "tags"     : "",
-            "keywords" : "",
-            "url"      : "/marketplace/features/pricing.html",
-            "content": "<p>The Nuvla marketplace <a href=\"/pricing\">pricing</a> scheme is simple and transparent. The app vendor <a href=\"#vendor-journey\">sets the price</a>. The usage is metered by the day and invoiced monthly. SixSq takes a fee and pays the vendor the remaining amount on payment by the customer. The metering starts only after 24 hours, giving the customer time to explore and validate the purchase.</p>\n"
-          },
-        
-      
     
   
     
@@ -5201,12 +5162,25 @@
         
           
           {
-            "title"    : "Glboal Sales Director",
-            "head-title" : "SixSq | Glboal Sales Director",
+            "title"    : "Global Sales Director",
+            "head-title" : "SixSq | Global Sales Director",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
             "url"      : "/staff/7-defer.html",
+            "content": "\n"
+          },
+        
+      
+        
+          
+          {
+            "title"    : "Software Engineer",
+            "head-title" : "SixSq | Software Engineer",
+            "category" : "",
+            "tags"     : "",
+            "keywords" : "",
+            "url"      : "/staff/8-bellucci.html",
             "content": "\n"
           },
         
