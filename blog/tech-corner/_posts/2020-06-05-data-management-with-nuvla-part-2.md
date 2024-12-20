@@ -136,4 +136,4 @@ In the next blog post on this topic, we will cover in details data-records.
 
 While, as you could already see, tags on data-object gives a sense of meta-data that can be used for object identification, data-record is specifically designed to be your object's meta-data store. After that we will demonstrate how to start your container application on a set of data using Nuvla's data-set. We will finish by describing how all this works in the GNSS Big Data project, where Nuvla is at the heart of the distributed platform for GNSS data collection and processing at the Edge and in the Cloud.
 
-Follow us on [LinkedIn](https://www.linkedin.com/company/sixsq/) or [Twitter](https://twitter.com/sixsq) to make sure don't miss when the next blog is published!
+Follow us on [LinkedIn](https://www.linkedin.com/company/ekinops/) or [Twitter](https://twitter.com/sixsq) to make sure don't miss when the next blog is published!
