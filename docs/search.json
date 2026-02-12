@@ -926,65 +926,6 @@
   
       
         
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/2/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/3/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
-        
-      
-  
-      
-        
-          
-          {
-            "title"      : "In the news",
-            "head-title" : "SixSq | In the news",
-            "category"   : "",
-            "tags"       : "",
-            "keywords"   : "",
-            "url"        : "/news/4/index.html",
-            "date"       : "",
-            "content"    : ""
-          },
         
       
   
@@ -1046,6 +987,70 @@
             "tags"       : "",
             "keywords"   : "",
             "url"        : "/blog/4/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/2/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/3/index.html",
+            "date"       : "",
+            "content"    : ""
+          },
+        
+      
+  
+      
+        
+          
+          {
+            "title"      : "In the news",
+            "head-title" : "SixSq | In the news",
+            "category"   : "",
+            "tags"       : "",
+            "keywords"   : "",
+            "url"        : "/news/4/index.html",
             "date"       : "",
             "content"    : ""
           },
@@ -5068,12 +5073,12 @@
         
           
           {
-            "title"    : "Tech. Lead + Scrum Master",
-            "head-title" : "SixSq | Tech. Lead + Scrum Master",
+            "title"    : "R&amp;D Manager &amp; Senior Software Engineer",
+            "head-title" : "SixSq | R&D Manager & Senior Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/1-skaburskas.html",
+            "url"      : "/staff/1-schaub.html",
             "content": "\n"
           },
         
@@ -5081,12 +5086,12 @@
         
           
           {
-            "title"    : "Senior Software Engineer",
-            "head-title" : "SixSq | Senior Software Engineer",
+            "title"    : "Project Manager",
+            "head-title" : "SixSq | Project Manager",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/2-basbous.html",
+            "url"      : "/staff/2-veillon.html",
             "content": "\n"
           },
         
@@ -5094,12 +5099,12 @@
         
           
           {
-            "title"    : "Senior Software Engineer",
-            "head-title" : "SixSq | Senior Software Engineer",
+            "title"    : "Senior R&amp;D Software Engineer",
+            "head-title" : "SixSq | Senior R&D Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/3-schaub.html",
+            "url"      : "/staff/3-alessandro.html",
             "content": "\n"
           },
         
@@ -5107,12 +5112,12 @@
         
           
           {
-            "title"    : "Edge Software Developer",
-            "head-title" : "SixSq | Edge Software Developer",
+            "title"    : "Senior R&amp;D Software Engineer",
+            "head-title" : "SixSq | Senior R&D Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/4-penas.html",
+            "url"      : "/staff/4-victor.html",
             "content": "\n"
           },
         
@@ -5120,12 +5125,12 @@
         
           
           {
-            "title"    : "Project Coordinator",
-            "head-title" : "SixSq | Project Coordinator",
+            "title"    : "Junior R&amp;D Software Engineer",
+            "head-title" : "SixSq | Junior R&D Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/5-veillon.html",
+            "url"      : "/staff/5-nuno.html",
             "content": "\n"
           },
         
@@ -5133,12 +5138,12 @@
         
           
           {
-            "title"    : "Software Engineer",
-            "head-title" : "SixSq | Software Engineer",
+            "title"    : "Senior R&amp;D Software Engineer",
+            "head-title" : "SixSq | Senior R&D Software Engineer",
             "category" : "",
             "tags"     : "",
             "keywords" : "",
-            "url"      : "/staff/6-bellucci.html",
+            "url"      : "/staff/6-anthony.html",
             "content": "\n"
           },
         
